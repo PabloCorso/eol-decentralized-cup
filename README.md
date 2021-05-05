@@ -26,7 +26,7 @@ Example:
 <table><thead><tr><th>Level</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>Total</th><th>Average</th><th>Rank</th><th>Top</th></tr></thead><tbody><tr><td>Lvl 1</td><td>3:50</td><td>3:60</td><td>3:90</td><td>3:90</td><td>3:90</td><td>60:59:59</td><td>61:10:59</td><td>15:17:64</td><td>11:00</td><td>3</td></tr><tr><td>Lvl 2</td><td>10:00</td><td>10:50</td><td>11:00</td><td></td><td></td><td></td><td>31:50</td><td>10:50</td><td>20:50</td><td>2</td></tr><tr><td>Lvl 
 3</td><td>21:00</td><td></td><td></td><td></td><td></td><td></td><td>21:00</td><td>21:00</td><td>21:00</td><td>1</td></tr></tbody></table>
 
-In this example, the `Lvl 3` is the top ranked level even though it only has 1 finish (1 PR). The `Lvl 1` is last in 3rd position, even though it is the level with most PRs including the longest PR by far. This is because the long spam PR and shadow PRs are not counted to the average and rank.
+In this example, the `Lvl 3` is the top ranked level even though it only has 1 finish (1 PR). The `Lvl 1` is last in 3rd position, even though it is the level with most PRs including the longest PR by far. This is because the shadow PRs are not counted in the calculations, plus the long spam PR is finally ignored since it's above the average.
 
 ## Spam
 
