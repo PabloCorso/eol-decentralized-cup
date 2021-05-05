@@ -57,7 +57,7 @@ Example:
 
 In this example, the `Lvl 3` is the top ranked level even though it only has 1 finish (1 PR). The `Lvl 1` is last in 3rd position, even though it is the level with most PRs including the longest PR by far. This is because the shadow PRs are not counted in the calculations, plus the long spam PR is finally ignored since it's above the average.
 
-## Spam
+## Spam levels
 
 Someone can spam 100 levels in one day. 
 
@@ -68,7 +68,7 @@ Possible solutions:
 Players start with 50 points, uploading a level to the cup costs 25 points.
 If your level ends up in the top X, you get 50 points for it (double the investment).
 
-## Technical limitations
+## Technical or necessary limitations
 
 Currently the cup would need some considerate manual orchestration. This management will be centralized as opposed to the cup levels on which anyone can collaborate with. This centralized person or group of persons will be the cup admins.
 
