@@ -20,7 +20,7 @@ The cup is inspired in decentralized systems in which something is accomplished 
 3. Only the 5 top ranked levels will count in the results.
     1. Since levels can be added at any moment there could be too many levels to play, so only a small selection will count for the final results.
     2. This selection is done by ranking the levels, once the cup finished, only the top 5 ranked levels will be taken into account.
-    3. The levels ranking will ideally be updated everytime a new level is added to the cup and every time a kuksi makes a new PR.
+    3. The levels ranking will ideally be updated every time a new level is added to the cup and every time a kuksi makes a new PR.
     4. The ranking will be always visible to everyone, so players can decide in which levels to invest their time.
     6. The ranking for each level is calculated as:
         1. `Rank = Total unique PRs - sum of PRs above the total average ` 
