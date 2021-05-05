@@ -11,9 +11,9 @@ If there are 100 levels uploaded, no one will be able to hoyla every level.
 
 Possible solutions:
 #### Only top X most finished levels count in the result.
-Rank levels in a descending order by counting the number of kuskis that finished it. This rank should be updated regularly and it should be visible to everyone. Once the cup finshes, the ranking freezes and the results are calculated for the top X levels.
+Rank levels in a descending order by counting the number of kuskis that finished it. This rank should be updated regularly and it should be visible to everyone. Once the cup ends, the ranking freezes and the results are calculated for the top X levels.
 
-A problem with this approach is that it will favor trivial, easy and short levels over complex levels that are harder or longer to finish. This is not straight forward to avoid without manually censoring unwanted types of levels.  
+A problem with this approach is that it will favor trivial, easy and short levels over complex levels that are harder or longer to finish. This doesn't seem to be straightforward to avoid without manually censoring unwanted types of levels.  
 
 #### Only top X levels count in the result, using PRs ranking.
 Rank levels in a descending order, with the following calculation per level:
@@ -41,7 +41,7 @@ If your level ends up in the top X, you get 50 points for it (double the investm
 
 ## Technical limitations
 
-Currently the cup would need some considerate manual orchestration. This managing will be centralized as opposed to the cup levels on which anyone can collaborate with. This centralized person or group or persons will be the cup admins.
+Currently the cup would need some considerate manual orchestration. This management will be centralized as opposed to the cup levels on which anyone can collaborate with. This centralized person or group or persons will be the cup admins.
 
 The cup must be managed by the admins in elma.online or somewhere else. The duration must be set from the beginning.
 
