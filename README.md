@@ -52,6 +52,6 @@ As in a normal cup:
 - Accepted levels must be manually renamed in sequential order by an admin and uploaded to the cup.
 - Levels must be hidden at EOL.
 - Only PRs finished online are counted into the result.
-- May or may not require uploading PR replays.
+- Optionally the cup could require uploading PR replays. This could be annoying to the players depending on how things play out.
 
 
