@@ -17,9 +17,9 @@ A problem with this approach is that it will favor trivial, easy and short level
 
 #### Only top X levels count in the result, using PRs ranking.
 Rank levels in a descending order, with the following calculation per level:
-- Sum all unique PRs on the level, meaning that shadow PRs count only once. This is to avoid trivial levels where usually many players have shadow wrs (e.g. Tutor1.lev).
+- Sum all unique PRs on the level, meaning that shadow PRs count only once. This is to avoid favoring trivial levels where usually many players have shadow PR (e.g. Tutor1.lev).
 - Calculate the average PR.
-- Remove all PRs that are over this average. This is to avoid long spam PRs (e.g. someone has a PR of 60 minutes in a 3 seconds level).
+- Remove all PRs that are over this average. This is to avoid favoring long spam PRs (e.g. someone has a PR of 60 minutes in a 3 seconds level).
 
 Example: 
 
