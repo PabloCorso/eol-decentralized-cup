@@ -1,0 +1,23 @@
+{
+  "name": "eol-decentralized-cup",
+  "version": "1.0.0",
+  "description": "A cup in which, for the duration of it, any player can upload any kind of levels to it with as minimum limitations as possible.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PabloCorso/eol-decentralized-cup.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PabloCorso/eol-decentralized-cup/issues"
+  },
+  "homepage": "https://github.com/PabloCorso/eol-decentralized-cup#readme",
+  "dependencies": {
+    "node": "^16.0.0"
+  }
+}
