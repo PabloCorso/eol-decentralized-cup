@@ -15,7 +15,7 @@ The cup is inspired in decentralized systems in which something is accomplished 
     2. Once a level is validated it is added as a new ongoing event.
         1. Events can be added at any moment and all have the same deadline as the cup.
         2. Level designers can (and probably should) play their own levels.
-        3. The name follows the usual sequential pattern e.g. Des1Cxxx.lev | D1Cupxxx.lev.
+        3. The name follows the usual sequential pattern e.g. "Des1Cxxx.lev" or "D1Cupxxx.lev".
         4. Levels and PRs are hidden online.
 3. Only the 5 top ranked levels will count in the results.
     1. Since levels can be added at any moment there could be too many levels to play, so only a small selection will count for the final results.
@@ -26,7 +26,7 @@ The cup is inspired in decentralized systems in which something is accomplished 
         1. `Rank = Total unique PRs - sum of PRs above the total average ` 
         2. Total unique PRs refers to the sum of all PRs without counting shadow PRs.
         3. Above average PRs is calculated as the total sum of PRs that are above the average of the total unique PRs.
-        4. This ranking is set to avoid favoring trivial or too short levels over complex and posibly more creative levels. Shadow PRs are a sign of trivial levels, like for example in Tutor1.lev. Removing times above average from the equation helps filtering possible "spam" PRs, for example an 1 hour PR in a 10 seconds level.
+        4. This ranking is set to avoid favoring trivial or too short levels over complex and posibly more creative levels. Shadow PRs are a sign of trivial levels, like for example in "Tutor1.lev". Removing times above average from the equation helps filtering possible "spam" PRs, for example an 1 hour PR in a 10 seconds level.
 4. End of the cup.
     1. All events finish alogn the cup deadline and only times finished online are taken into account. 
     2. The levels ranking freezes, and the final top 5 levels are revealed.
