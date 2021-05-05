@@ -66,7 +66,8 @@ Possible solutions:
 #### Limit the number of levels a player can upload per week.
 #### Upload fee.
 Players start with 50 points, uploading a level to the cup costs 25 points.
-If your level ends up in the top X, you get 50 points for it (double the investment).
+If your level ends up in the top X, you get 50 points for it (double the investment). 
+A rule like this could incentivise players to submit levels, but also to think twice before submitting.
 
 ## Technical or necessary limitations
 
@@ -82,5 +83,3 @@ As in a normal cup:
 - Levels must be hidden at EOL.
 - Only PRs finished online are counted into the result.
 - Optionally the cup could require uploading PR replays. This could be annoying to the players depending on how things play out.
-
-
