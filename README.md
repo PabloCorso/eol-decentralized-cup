@@ -28,8 +28,9 @@ The cup is inspired in decentralized systems in which something is accomplished 
         3. Above average PRs are calculated as the total sum of PRs that are above the average of the total unique PRs.
         4. This ranking is set to avoid favoring trivial or too short levels over complex and posibly more creative levels. Shadow PRs are a sign of trivial levels, like for example in "Tutor1.lev". Removing times above average from the equation helps filtering possible "spam" PRs, for example an 1 hour PR in a 10 seconds level.
 4. End of the cup.
-    1. All events finish alogn the cup deadline and only times finished online are taken into account. 
+    1. All events finish along the cup deadline and only times finished online are taken into account. 
     2. The levels ranking freezes, and the final top 5 levels are revealed.
+    3. For this top 5 levels, the player points are calculated as in normal cups, without any skips.
 
 # Potential issues and solutions
 
