@@ -11,8 +11,7 @@ The cup is inspired in decentralized systems in which something is accomplished 
 2. Any player can submit levels at any moment, to be added as events to the cup.
     1. Submitted levels are first validated. Basic valid criteria:
         1. Levels must be new and valid to EOL.
-        2. The bike cannot start touching the ground with the head.
-        3. The level must be finishable, but cannot be finishable in 0 seconds.
+        2. The level must be finishable, but cannot be finishable in 0 seconds.
     2. Once a level is validated it is added as a new ongoing event.
         1. Events can be added at any moment and all have the same deadline as the cup.
         2. Level designers can (and probably should) play their own levels.
