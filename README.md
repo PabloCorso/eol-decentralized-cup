@@ -25,7 +25,7 @@ The cup is inspired in decentralized systems in which something is accomplished 
     6. The ranking for each level is calculated as:
         1. `Rank = Total unique PRs - sum of PRs above the total average ` 
         2. Total unique PRs refers to the sum of all PRs without counting shadow PRs.
-        3. Above average PRs is calculated as the total sum of PRs that are above the average of the total unique PRs.
+        3. Above average PRs are calculated as the total sum of PRs that are above the average of the total unique PRs.
         4. This ranking is set to avoid favoring trivial or too short levels over complex and posibly more creative levels. Shadow PRs are a sign of trivial levels, like for example in "Tutor1.lev". Removing times above average from the equation helps filtering possible "spam" PRs, for example an 1 hour PR in a 10 seconds level.
 4. End of the cup.
     1. All events finish alogn the cup deadline and only times finished online are taken into account. 
