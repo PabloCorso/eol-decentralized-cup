@@ -3,7 +3,36 @@ A cup in which, for the duration of it, any player can upload any kind of levels
 
 The cup is inspired in decentralized systems in which something is accomplished without a central authority and with as little censorship as possible. In this case, anyone should be able to upload levels to the cup with as little censorship or limitations as possible, although because of technical limitations we certainly would need a central authority to do some minimum validations and managing of the online cup (e.g. manually checking that levels are freshly new).
 
-# Potential issues
+## Potential rules set example
+
+1. Start of the cup.
+    1. The cup is started with a set deadline, date and time.
+    2. Initially there are no events.
+2. Any player can submit levels.
+    1. Submitted levels are first validated. Basic valid criteria:
+        1. Levels must be new to EOL.
+        2. Level must be valid to EOL.
+        3. Bike cannot be touching the head at start.
+    2. Once a level is validated it is added as a new ongoing event.
+        1. Events can be added at any moment and all have the same deadline as the cup.
+        2. Level designers can (and probably should) play their own levels.
+        3. The name follows the usual sequential pattern e.g. Des1Cxxx.lev | D1Cupxxx.lev.
+        4. Levels and PRs are hidden online.
+3. Only the 5 top ranked levels will count in the results.
+    1. Since levels can be added at any moment there could be too many levels to play, so only a small selection will count for the final results.
+    2. This selection is done by ranking the levels, once the cup finished, only the top 5 ranked levels will be taken into account.
+    3. The levels ranking will ideally be updated everytime a new level is added to the cup and every time a kuksi makes a new PR.
+    4. The ranking will be always visible to everyone, so players can decide in which levels to invest their time.
+    6. The ranking for each level is calculated as:
+        1. `Rank = Total unique PRs - sum of PRs above the total average ` 
+        2. Total unique PRs refers to the sum of all PRs without counting shadow PRs.
+        3. Above average PRs is calculated as the total sum of PRs that are above the average of the total unique PRs.
+        4. This ranking is set to avoid favoring trivial or too short levels over complex and posibly more creative levels. Shadow PRs are a sign of trivial levels, like for example in Tutor1.lev. Removing times above average from the equation helps filtering possible "spam" PRs, for example an 1 hour PR in a 10 seconds level.
+4. End of the cup.
+    1. All events finish alogn the cup deadline and only times finished online are taken into account. 
+    2. The levels ranking freezes, and the final top 5 levels are revealed.
+
+# Potential issues and solutions
 
 ## Too many levels to play
 
