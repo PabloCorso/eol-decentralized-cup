@@ -49,7 +49,9 @@ The levels ranking should be visible to everyone all the time and updated regula
 
 As in a normal cup:
 - Only freshly new levels are accepted, this must be validated manually.
+- Accepted levels must be manually renamed in sequential order by an admin and uploaded to the cup.
 - Levels must be hidden at EOL.
 - Only PRs finished online are counted into the result.
 - May or may not require uploading PR replays.
+
 
