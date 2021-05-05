@@ -17,9 +17,9 @@ A problem with this approach is that it will favor trivial, easy and short level
 
 #### Only top X levels count in the result, using PRs ranking.
 Rank levels in a descending order, with the following calculation per level:
-- Sum all unique PRs on the level, meaning that shadow PRs count only once. This is to avoid favoring trivial levels where usually many players have shadow PRs (e.g. Tutor1.lev).
-- Calculate the average PR.
-- Remove all PRs that are over this average. This is to avoid favoring long spam PRs (e.g. someone has a PR of 60 minutes in a 3 seconds level).
+- Sum all unique PRs on the level, meaning that shadow PRs count only once. This is to avoid favoring trivial levels where usually many players have the same PRs (e.g. Tutor1.lev).
+- Calculate the average PR and remove all PRs that are over this average. This is to avoid favoring long spam PRs (e.g. someone has a PR of 60 minutes in a 3 seconds level).
+- Calculate the level total rank by summing all the remaining PRs.
 
 Example: 
 
@@ -41,9 +41,9 @@ If your level ends up in the top X, you get 50 points for it (double the investm
 
 ## Technical limitations
 
-Currently the cup would need some considerate manual orchestration. This management will be centralized as opposed to the cup levels on which anyone can collaborate with. This centralized person or group or persons will be the cup admins.
+Currently the cup would need some considerate manual orchestration. This management will be centralized as opposed to the cup levels on which anyone can collaborate with. This centralized person or group of persons will be the cup admins.
 
-The cup must be managed by the admins in elma.online or somewhere else. The duration must be set from the beginning.
+The cup must be managed by the admins in elma.online and/or somewhere else. The duration must be set from the beginning.
 
 The levels ranking should be visible to everyone all the time and updated regularly by the admins.
 
