@@ -16,7 +16,7 @@ The cup is inspired in decentralized systems in which something is accomplished 
         1. Events can be added at any moment and all have the same deadline as the cup.
         2. Level designers can (and probably should) play their own levels.
         3. The name follows the usual sequential pattern e.g. "Des1Cxxx.lev" or "D1Cupxxx.lev".
-        4. Levels and PRs are hidden online.
+        4. At EOL, times and players are hidden.
 3. Only the 5 top ranked levels will count in the results.
     1. Since levels can be added at any moment there could be too many levels to play, so only a small selection will count for the final results.
     2. This selection is done by ranking the levels, once the cup finished, only the top 5 ranked levels will be taken into account.
