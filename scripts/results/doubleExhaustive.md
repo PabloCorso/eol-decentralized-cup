@@ -312,6 +312,12 @@
   <tbody>
     <tr>
       <td>Tutor1</td>
+      <td>10:96</td>
+      <td>12:42</td>
+      <td><strike>23:49</strike>
+      </td>
+      <td><strike>23:89</strike>
+      </td>
       <td>03:66</td>
       <td>03:71</td>
       <td>03:71</td>
@@ -585,14 +591,6 @@
       <td>06:27</td>
       <td>06:41</td>
       <td>06:47</td>
-      <td><strike>10:96</strike>
-      </td>
-      <td><strike>12:42</strike>
-      </td>
-      <td><strike>23:49</strike>
-      </td>
-      <td><strike>23:89</strike>
-      </td>
       <td></td>
       <td></td>
       <td></td>
@@ -616,8 +614,8 @@
       <td></td>
       <td></td>
       <td></td>
-      <td>7:05:96</td>
-      <td>6:18:58</td>
+      <td>7:09:75</td>
+      <td>6:22:37</td>
       <td>3</td>
     </tr>
     <tr>
@@ -922,8 +920,8 @@
       <td>14:40</td>
       <td>14:40</td>
       <td>14:40</td>
-      <td>10:54:55</td>
-      <td>10:54:55</td>
+      <td>11:19:44</td>
+      <td>11:19:44</td>
       <td>2</td>
     </tr>
     <tr>
@@ -1161,8 +1159,7 @@
       <td>4:16:57</td>
       <td>4:16:75</td>
       <td>4:17:38</td>
-      <td><strike>4:19:50</strike>
-      </td>
+      <td>4:19:50</td>
       <td>4:19:40</td>
       <td><strike>4:20:62</strike>
       </td>
@@ -1294,8 +1291,8 @@
       </td>
       <td><strike>5:40:60</strike>
       </td>
-      <td>1066:38:99</td>
-      <td>743:47:60</td>
+      <td>1072:11:76</td>
+      <td>748:00:80</td>
       <td>1</td>
     </tr>
   </tbody>

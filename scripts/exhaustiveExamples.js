@@ -1,7 +1,6 @@
 const fetch = require("node-fetch");
 const { printResult } = require("./utils/print");
 const { writeFile } = require("./utils/write");
-const { centisecondsToPr } = require("./utils/pr");
 const levelsRankDouble = require("./levelsRankDouble");
 
 const fetchJson = async (url) => {
@@ -14,8 +13,7 @@ const getPrsFromOnlineLevel = async (levelId, { max } = { max: 300 }) => {
   const bestTimes = await fetchJson(
     `https://api.elma.online/api/besttime/${levelId}/${max}/0`
   );
-  const shorterTimesData = bestTimes.slice(0, max);
-  const prs = shorterTimesData.map((item) => centisecondsToPr(item.Time));
+  const prs = bestTimes.slice(0, max).map((item) => item.Time);
   return { name: level.LevelName, prs };
 };
 
@@ -27,6 +25,7 @@ const runExample = async () => {
     levelsData.push(prs);
   }
 
+  console.log(levelsData);
   const result = printResult("Rank double", levelsRankDouble(levelsData), {
     pretty: true,
   });

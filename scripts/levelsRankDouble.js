@@ -7,11 +7,10 @@ const {
   TableData,
   Strike,
 } = require("./utils/elements");
-const { prToCentiseconds, centisecondsToPr } = require("./utils/pr");
+const { centisecondsToPr } = require("./utils/pr");
 
 const getTable = (levels) => {
-  const descendingOrderByRank = (a, b) =>
-    prToCentiseconds(b.rank) - prToCentiseconds(a.rank);
+  const descendingOrderByRank = (a, b) => b.rank - a.rank;
 
   const rankedLevels = [...levels].sort(descendingOrderByRank);
 
@@ -43,21 +42,22 @@ const getTable = (levels) => {
     let count = 0;
     const prs = [];
     while (count < maxPrsCount) {
-      const prData = level.prs[count] || "";
+      const prData = level.prs[count] || 0;
       prs.push(prData);
       count += 1;
     }
 
-    const bestTime = prToCentiseconds(prs[0]);
+    const bestTime = prs[0];
     const prsData = prs
       .map((pr) => {
-        const isOverDouble = prToCentiseconds(pr) > bestTime * 2;
-        const text = isOverDouble ? Strike(pr) : pr;
+        const prText = pr ? centisecondsToPr(pr) : "";
+        const isOverDouble = pr > bestTime * 2;
+        const text = isOverDouble ? Strike(prText) : prText;
         return TableData(text);
       })
       .join("");
-    const totalData = TableData(level.prsTotal);
-    const rankData = TableData(level.rank);
+    const totalData = TableData(centisecondsToPr(level.prsTotal));
+    const rankData = TableData(centisecondsToPr(level.rank));
 
     const levelTop =
       rankedLevels.findIndex((item) => item.name === level.name) + 1;
@@ -72,17 +72,16 @@ const getTable = (levels) => {
 };
 
 const getPrsSum = (prs) => {
-  let totalCentiseconds = 0;
+  let total = 0;
   for (const pr of prs) {
-    totalCentiseconds += prToCentiseconds(pr);
+    total += pr;
   }
 
-  return centisecondsToPr(totalCentiseconds);
+  return total;
 };
 
 const calculatePrsRank = ({ prs, bestPr }) => {
-  const lessOrEqualThanDoubleBestPr = (pr) =>
-    prToCentiseconds(pr) <= prToCentiseconds(bestPr) * 2;
+  const lessOrEqualThanDoubleBestPr = (pr) => pr <= bestPr * 2;
   const filteredPrs = prs.filter(lessOrEqualThanDoubleBestPr);
   return getPrsSum(filteredPrs);
 };
@@ -99,10 +98,9 @@ const getUniqueValuesFromArray = (values) => {
 };
 
 const getUniqueSortedPrs = (prs) => {
-  const centiPrs = prs.map(prToCentiseconds);
-  const orderedCentiPrs = centiPrs.sort();
-  const uniqueCentiPrs = getUniqueValuesFromArray(orderedCentiPrs);
-  return uniqueCentiPrs.map(centisecondsToPr);
+  const orderedPrs = prs.sort();
+  const uniquePrs = getUniqueValuesFromArray(orderedPrs);
+  return uniquePrs;
 };
 
 const levelsRankDouble = (levelsData) => {
