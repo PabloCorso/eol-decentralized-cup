@@ -103,21 +103,22 @@ const printSummary = (levels) => {
     const levelTop = i + 1;
     const topData = TableData(levelTop);
 
-    const prsCount = TableData(level.prs.length);
+    const prsCount = level.prs.length;
+    const prsCountData = TableData(prsCount);
     const bestTimeData = TableData(centisecondsToPr(level.prs[0]));
 
     const uniqueTimes = level.uniquePrs.length;
     const uniqueTimesData = TableData(uniqueTimes);
     const lazyTimes = level.prs.filter((pr) => pr > level.prs[0] * 2).length;
     const lazyTimesData = TableData(lazyTimes);
-    const removedTimesData = TableData(lazyTimes + uniqueTimes);
+    const removedTimesData = TableData(lazyTimes + prsCount - uniqueTimes);
 
     rows.push(
       TableRow(
         [
           topData,
           nameData,
-          prsCount,
+          prsCountData,
           uniqueTimesData,
           bestTimeData,
           rankData,
