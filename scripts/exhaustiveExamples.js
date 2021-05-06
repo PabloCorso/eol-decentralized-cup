@@ -28,7 +28,7 @@ const runExample = async () => {
   const result = printResult("Rank double", levelsRankDouble(levelsData), {
     pretty: true,
   });
-  writeFile("scripts/results/doubleExhaustive.html", result);
+  writeFile("scripts/results/doubleExhaustive.md", result);
 };
 
 runExample();
