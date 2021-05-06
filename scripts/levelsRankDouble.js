@@ -51,9 +51,8 @@ const getTable = (levels) => {
     const prsData = prs
       .map((pr) => {
         const isOverDouble = prToCentiseconds(pr) > bestTime * 2;
-        return TableData(pr, {
-          className: isOverDouble ? "doubles-best-time" : "",
-        });
+        const text = isOverDouble ? `~~${pr}~~` : pr;
+        return TableData(text);
       })
       .join("");
     const totalData = TableData(level.prsTotal);

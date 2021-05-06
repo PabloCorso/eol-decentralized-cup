@@ -8,7 +8,7 @@ const TableHeader = (children) => `<th>${children}</th>`;
 
 const TableBody = (children) => `<tbody>${children}</tbody>`;
 
-const TableData = (children) => `<td style="color:red;">${children}</td>`;
+const TableData = (children) => `<td>${children}</td>`;
 
 module.exports = {
   Table,
