@@ -10,6 +10,8 @@ const TableBody = (children) => `<tbody>${children}</tbody>`;
 
 const TableData = (children) => `<td>${children}</td>`;
 
+const Strike = (children) => `<strike>${children}</strike>`;
+
 module.exports = {
   Table,
   TableHead,
@@ -17,4 +19,5 @@ module.exports = {
   TableRow,
   TableBody,
   TableData,
+  Strike,
 };

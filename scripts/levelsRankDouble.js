@@ -5,6 +5,7 @@ const {
   TableHeader,
   TableBody,
   TableData,
+  Strike,
 } = require("./utils/elements");
 const { prToCentiseconds, centisecondsToPr } = require("./utils/pr");
 
@@ -51,7 +52,7 @@ const getTable = (levels) => {
     const prsData = prs
       .map((pr) => {
         const isOverDouble = prToCentiseconds(pr) > bestTime * 2;
-        const text = isOverDouble ? `~~${pr}~~` : pr;
+        const text = isOverDouble ? Strike(pr) : pr;
         return TableData(text);
       })
       .join("");
