@@ -19,8 +19,19 @@ const getPrsFromOnlineLevel = async (levelId, { max } = { max: 300 }) => {
 };
 
 const runExample = async () => {
-  //tutor1, warmpup, labpro, pob1000, rambo101, pipo, smibu90
-  const levelIds = [163, 2, 156, 359892, 2599, 1697, 690];
+  const levelIds = [
+    163, // Tutor1
+    2, // WarmUp
+    156, // LabPro
+    359892, // Pob1000
+    2599, // Rambo101
+    1697, // Pipo001
+    690, // Smibu80
+    331252, // TTC101
+    237824, // WCup601
+    371127, // WCup701
+    483457, // CPC101
+  ];
   const levelsData = [];
   for (const levelId of levelIds) {
     const prs = await getPrsFromOnlineLevel(levelId);
