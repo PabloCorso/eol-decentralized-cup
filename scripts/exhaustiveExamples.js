@@ -20,10 +20,12 @@ const getPrsFromOnlineLevel = async (levelId, { max } = { max: 300 }) => {
 };
 
 const runExample = async () => {
-  const prs1 = await getPrsFromOnlineLevel(163);
-  const prs2 = await getPrsFromOnlineLevel(2);
-
-  const levelsData = [prs1, prs2];
+  const levelIds = [163, 2, 156];
+  const levelsData = [];
+  for (const levelId of levelIds) {
+    const prs = await getPrsFromOnlineLevel(levelId);
+    levelsData.push(prs);
+  }
 
   const result = printResult("Rank double", levelsRankDouble(levelsData), {
     pretty: true,
@@ -32,5 +34,3 @@ const runExample = async () => {
 };
 
 runExample();
-
-// console.log(html.prettyPrint(htmlResult, { indent_size: 2 }));
