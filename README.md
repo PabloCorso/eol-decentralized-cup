@@ -45,6 +45,8 @@ Rank levels in a descending order by counting the number of kuskis that finished
 
 A problem with this approach is that it will favor trivial, easy and short levels over complex levels that are harder or longer to finish. This doesn't seem to be straightforward to avoid without manually censoring unwanted types of levels.  
 
+To fix this we could require a minimum number of PRs for the level to start ranking in the list. For example, new levels must obtain 10 finishes by different kuskis to be added to the ranking.
+
 #### Only top X levels count in the result, using PRs ranking.
 Rank levels in a descending order, with the following calculation per level:
 - Sum all unique PRs on the level, meaning that shadow PRs count only once. This is to avoid favoring trivial levels where usually many players have the same PRs (e.g. Tutor1.lev).
@@ -59,6 +61,16 @@ Example:
 In this example, the `Lvl 3` is the top ranked level even though it only has 1 finish (1 PR). The `Lvl 1` is last in 3rd position, even though it is the level with most PRs including the longest PR by far. This is because the shadow PRs are not counted in the calculations, plus the long spam PR is finally ignored since it's above the average.
 
 This approach favors longer levels over short ones. The problem is that ff someone were to submit a really long level (like a 60 min level) right before the cup ends, and be the only one to finish it, that kuski will secure a 1st position without competitors in that event.
+
+#### PRs ranking, fix for favoring longest levels.
+
+Rank levels in a descending order, with the following calculation per level:
+- Sum all unique PRs on the level but substract all PRs that are above 2 times the best time. For example, if the best time is 10 seconds, times above 20 seconds are ignored in the calculation.
+- Rank by descending order and take only the top X levels for the result.
+
+Example:
+
+<table><thead><tr><th>Level</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>Total</th><th>Rank</th><th>Top</th></tr></thead><tbody><tr><td>Lvl 1</td><td>3:50</td><td>3:60</td><td>3:90</td><td>3:90</td><td>3:90</td><td>60:59:59</td><td>61:10:59</td><td>11:00</td><td>3</td></tr><tr><td>Lvl 2</td><td>10:00</td><td>10:50</td><td>11:00</td><td></td><td></td><td></td><td>31:50</td><td>31:50</td><td>1</td></tr><tr><td>Lvl 3</td><td>21:00</td><td></td><td></td><td></td><td></td><td></td><td>21:00</td><td>21:00</td><td>2</td></tr></tbody></table>
 
 ## Spam levels
 
