@@ -27,6 +27,7 @@ The cup is inspired in decentralized systems in which something is accomplished 
         2. Total unique PRs refers to the sum of all PRs without counting shadow PRs.
         3. Above average PRs are calculated as the total sum of PRs that are above the average of the total unique PRs.
         4. This ranking is set to avoid favoring trivial or too short levels over complex and posibly more creative levels. Shadow PRs are a sign of trivial levels, like for example in "Tutor1.lev". Removing times above average from the equation helps filtering possible "spam" PRs, for example an 1 hour PR in a 10 seconds level.
+    7. Levels are ranked in a descending order by their rank number, this rank number is not shared, only their position on the ranking.
 4. End of the cup.
     1. All events finish along the cup deadline and only times finished online are taken into account. 
     2. The levels ranking freezes, and the final top 5 levels are revealed.
