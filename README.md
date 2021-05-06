@@ -58,6 +58,8 @@ Example:
 
 In this example, the `Lvl 3` is the top ranked level even though it only has 1 finish (1 PR). The `Lvl 1` is last in 3rd position, even though it is the level with most PRs including the longest PR by far. This is because the shadow PRs are not counted in the calculations, plus the long spam PR is finally ignored since it's above the average.
 
+This approach favors longer levels over short ones. The problem is that ff someone were to submit a really long level (like a 60 min level) right before the cup ends, and be the only one to finish it, that kuski will secure a 1st position without competitors in that event.
+
 ## Spam levels
 
 Someone can spam 100 levels in one day. 
