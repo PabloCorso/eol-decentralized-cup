@@ -585,10 +585,10 @@
       <td>06:27</td>
       <td>06:41</td>
       <td>06:47</td>
-      <td>10:96</td>
-      <td>12:42</td>
-      <td>23:49</td>
-      <td>23:89</td>
+      <td class="doubles-best-time">10:96</td>
+      <td class="doubles-best-time">12:42</td>
+      <td class="doubles-best-time">23:49</td>
+      <td class="doubles-best-time">23:89</td>
       <td></td>
       <td></td>
       <td></td>
@@ -1157,76 +1157,77 @@
       <td>4:16:57</td>
       <td>4:16:75</td>
       <td>4:17:38</td>
-      <td>4:19:50</td>
+      <td class="doubles-best-time">4:19:50</td>
       <td>4:19:40</td>
-      <td>4:20:62</td>
-      <td>4:22:77</td>
-      <td>4:24:60</td>
-      <td>4:26:30</td>
-      <td>4:27:30</td>
-      <td>4:28:43</td>
-      <td>4:30:10</td>
-      <td>4:30:45</td>
-      <td>4:30:70</td>
-      <td>4:30:92</td>
-      <td>4:33:79</td>
-      <td>4:34:85</td>
-      <td>4:38:62</td>
-      <td>4:40:32</td>
-      <td>4:40:39</td>
-      <td>4:41:10</td>
-      <td>4:42:00</td>
-      <td>4:42:30</td>
-      <td>4:43:12</td>
-      <td>4:43:58</td>
-      <td>4:44:21</td>
-      <td>4:47:73</td>
-      <td>4:48:10</td>
-      <td>4:50:86</td>
-      <td>4:51:32</td>
-      <td>4:51:44</td>
-      <td>4:52:82</td>
-      <td>4:54:29</td>
-      <td>4:54:32</td>
-      <td>4:54:91</td>
-      <td>4:55:39</td>
-      <td>4:55:53</td>
-      <td>4:55:55</td>
-      <td>4:56:32</td>
-      <td>4:58:47</td>
-      <td>4:59:41</td>
-      <td>4:59:92</td>
-      <td>5:00:87</td>
-      <td>5:04:51</td>
-      <td>5:04:54</td>
-      <td>5:05:20</td>
-      <td>5:07:18</td>
-      <td>5:08:40</td>
-      <td>5:09:19</td>
-      <td>5:10:40</td>
-      <td>5:10:75</td>
-      <td>5:11:84</td>
-      <td>5:13:98</td>
-      <td>5:15:40</td>
-      <td>5:15:79</td>
-      <td>5:16:18</td>
-      <td>5:20:27</td>
-      <td>5:21:71</td>
-      <td>5:23:39</td>
-      <td>5:23:49</td>
-      <td>5:27:66</td>
-      <td>5:32:62</td>
-      <td>5:33:68</td>
-      <td>5:35:54</td>
-      <td>5:37:72</td>
-      <td>5:38:20</td>
-      <td>5:40:60</td>
-      <td>5:40:13</td>
-      <td>5:40:34</td>
-      <td>5:40:60</td>
+      <td class="doubles-best-time">4:20:62</td>
+      <td class="doubles-best-time">4:22:77</td>
+      <td class="doubles-best-time">4:24:60</td>
+      <td class="doubles-best-time">4:26:30</td>
+      <td class="doubles-best-time">4:27:30</td>
+      <td class="doubles-best-time">4:28:43</td>
+      <td class="doubles-best-time">4:30:10</td>
+      <td class="doubles-best-time">4:30:45</td>
+      <td class="doubles-best-time">4:30:70</td>
+      <td class="doubles-best-time">4:30:92</td>
+      <td class="doubles-best-time">4:33:79</td>
+      <td class="doubles-best-time">4:34:85</td>
+      <td class="doubles-best-time">4:38:62</td>
+      <td class="doubles-best-time">4:40:32</td>
+      <td class="doubles-best-time">4:40:39</td>
+      <td class="doubles-best-time">4:41:10</td>
+      <td class="doubles-best-time">4:42:00</td>
+      <td class="doubles-best-time">4:42:30</td>
+      <td class="doubles-best-time">4:43:12</td>
+      <td class="doubles-best-time">4:43:58</td>
+      <td class="doubles-best-time">4:44:21</td>
+      <td class="doubles-best-time">4:47:73</td>
+      <td class="doubles-best-time">4:48:10</td>
+      <td class="doubles-best-time">4:50:86</td>
+      <td class="doubles-best-time">4:51:32</td>
+      <td class="doubles-best-time">4:51:44</td>
+      <td class="doubles-best-time">4:52:82</td>
+      <td class="doubles-best-time">4:54:29</td>
+      <td class="doubles-best-time">4:54:32</td>
+      <td class="doubles-best-time">4:54:91</td>
+      <td class="doubles-best-time">4:55:39</td>
+      <td class="doubles-best-time">4:55:53</td>
+      <td class="doubles-best-time">4:55:55</td>
+      <td class="doubles-best-time">4:56:32</td>
+      <td class="doubles-best-time">4:58:47</td>
+      <td class="doubles-best-time">4:59:41</td>
+      <td class="doubles-best-time">4:59:92</td>
+      <td class="doubles-best-time">5:00:87</td>
+      <td class="doubles-best-time">5:04:51</td>
+      <td class="doubles-best-time">5:04:54</td>
+      <td class="doubles-best-time">5:05:20</td>
+      <td class="doubles-best-time">5:07:18</td>
+      <td class="doubles-best-time">5:08:40</td>
+      <td class="doubles-best-time">5:09:19</td>
+      <td class="doubles-best-time">5:10:40</td>
+      <td class="doubles-best-time">5:10:75</td>
+      <td class="doubles-best-time">5:11:84</td>
+      <td class="doubles-best-time">5:13:98</td>
+      <td class="doubles-best-time">5:15:40</td>
+      <td class="doubles-best-time">5:15:79</td>
+      <td class="doubles-best-time">5:16:18</td>
+      <td class="doubles-best-time">5:20:27</td>
+      <td class="doubles-best-time">5:21:71</td>
+      <td class="doubles-best-time">5:23:39</td>
+      <td class="doubles-best-time">5:23:49</td>
+      <td class="doubles-best-time">5:27:66</td>
+      <td class="doubles-best-time">5:32:62</td>
+      <td class="doubles-best-time">5:33:68</td>
+      <td class="doubles-best-time">5:35:54</td>
+      <td class="doubles-best-time">5:37:72</td>
+      <td class="doubles-best-time">5:38:20</td>
+      <td class="doubles-best-time">5:40:60</td>
+      <td class="doubles-best-time">5:40:13</td>
+      <td class="doubles-best-time">5:40:34</td>
+      <td class="doubles-best-time">5:40:60</td>
       <td>1066:38:99</td>
       <td>743:47:60</td>
       <td>1</td>
     </tr>
   </tbody>
 </table>
+ <style>.doubles-best-time { color: red; }</style>

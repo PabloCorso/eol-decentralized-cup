@@ -30,7 +30,10 @@ const runExample = async () => {
   const result = printResult("Rank double", levelsRankDouble(levelsData), {
     pretty: true,
   });
-  writeFile("scripts/results/doubleExhaustive.md", result);
+  writeFile(
+    "scripts/results/doubleExhaustive.md",
+    `${result} <style>.doubles-best-time { color: red; }</style>`
+  );
 };
 
 runExample();

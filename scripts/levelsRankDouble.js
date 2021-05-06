@@ -47,7 +47,15 @@ const getTable = (levels) => {
       count += 1;
     }
 
-    const prsData = prs.map(TableData).join("");
+    const bestTime = prToCentiseconds(prs[0]);
+    const prsData = prs
+      .map((pr) => {
+        const isOverDouble = prToCentiseconds(pr) > bestTime * 2;
+        return TableData(pr, {
+          className: isOverDouble ? "doubles-best-time" : "",
+        });
+      })
+      .join("");
     const totalData = TableData(level.prsTotal);
     const rankData = TableData(level.rank);
 

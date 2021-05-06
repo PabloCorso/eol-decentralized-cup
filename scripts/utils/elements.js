@@ -8,7 +8,10 @@ const TableHeader = (children) => `<th>${children}</th>`;
 
 const TableBody = (children) => `<tbody>${children}</tbody>`;
 
-const TableData = (children) => `<td>${children}</td>`;
+const TableData = (children, { className } = { className: "" }) =>
+  className
+    ? `<td class="${className}">${children}</td>`
+    : `<td>${children}</td>`;
 
 module.exports = {
   Table,
