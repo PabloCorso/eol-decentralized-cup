@@ -12,6 +12,8 @@ const TableData = (children) => `<td>${children}</td>`;
 
 const Strike = (children) => `<strike>${children}</strike>`;
 
+const Link = ({ children, href }) => `<a href="${href}">${children}</a>`;
+
 module.exports = {
   Table,
   TableHead,
@@ -20,4 +22,5 @@ module.exports = {
   TableBody,
   TableData,
   Strike,
+  Link,
 };

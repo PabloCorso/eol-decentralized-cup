@@ -6,16 +6,17 @@ const {
   TableBody,
   TableData,
   Strike,
+  Link,
 } = require("./utils/elements");
 const { centisecondsToPr } = require("./utils/pr");
 
-const getTable = (levels) => {
+const printTable = (levels) => {
   const descendingOrderByRank = (a, b) => b.rank - a.rank;
 
   const rankedLevels = [...levels].sort(descendingOrderByRank);
 
   let maxPrsCount = 0;
-  for (const level of levels) {
+  for (const level of rankedLevels) {
     if (level.prs.length > maxPrsCount) {
       maxPrsCount = level.prs.length;
     }
@@ -28,17 +29,19 @@ const getTable = (levels) => {
 
   const headers = TableRow(
     [
-      TableHeader("Level"),
-      ...prsHeaders,
-      TableHeader("Total"),
-      TableHeader("Rank"),
       TableHeader("Top"),
+      TableHeader("Level"),
+      TableHeader("Rank"),
+      TableHeader("Total sum"),
+      ...prsHeaders,
     ].join("")
   );
 
   const rows = [];
-  for (const level of levels) {
-    const nameData = TableData(level.name);
+  for (let i = 0; i < rankedLevels.length; i++) {
+    const level = rankedLevels[i];
+    const nameData = TableData(Link({ children: level.name, href: level.url }));
+
     let count = 0;
     const prs = [];
     while (count < maxPrsCount) {
@@ -59,12 +62,63 @@ const getTable = (levels) => {
     const totalData = TableData(centisecondsToPr(level.prsTotal));
     const rankData = TableData(centisecondsToPr(level.rank));
 
-    const levelTop =
-      rankedLevels.findIndex((item) => item.name === level.name) + 1;
+    const levelTop = i + 1;
     const topData = TableData(levelTop);
 
     rows.push(
-      TableRow([nameData, prsData, totalData, rankData, topData].join(""))
+      TableRow([topData, nameData, rankData, totalData, prsData].join(""))
+    );
+  }
+
+  return Table([TableHead(headers), TableBody(rows.join(""))].join(""));
+};
+
+const printSummary = (levels) => {
+  const descendingOrderByRank = (a, b) => b.rank - a.rank;
+
+  const rankedLevels = [...levels].sort(descendingOrderByRank);
+
+  const headers = TableRow(
+    [
+      TableHeader("Top"),
+      TableHeader("Level"),
+      TableHeader("PRs count"),
+      TableHeader("Best time"),
+      TableHeader("Times removed"),
+      TableHeader("Rank"),
+      TableHeader("Total sum"),
+    ].join("")
+  );
+
+  const rows = [];
+  for (let i = 0; i < rankedLevels.length; i++) {
+    const level = rankedLevels[i];
+
+    const nameData = TableData(Link({ children: level.name, href: level.url }));
+    const totalData = TableData(centisecondsToPr(level.prsTotal));
+    const rankData = TableData(centisecondsToPr(level.rank));
+
+    const levelTop = i + 1;
+    const topData = TableData(levelTop);
+
+    const prsCount = TableData(level.prs.length);
+    const bestTimeData = TableData(centisecondsToPr(level.prs[0]));
+    const timesRemovedData = TableData(
+      level.prs.filter((pr) => pr > level.prs[0] * 2).length
+    );
+
+    rows.push(
+      TableRow(
+        [
+          topData,
+          nameData,
+          prsCount,
+          bestTimeData,
+          timesRemovedData,
+          rankData,
+          totalData,
+        ].join("")
+      )
     );
   }
 
@@ -98,7 +152,7 @@ const getUniqueValuesFromArray = (values) => {
 };
 
 const getUniqueSortedPrs = (prs) => {
-  const orderedPrs = prs.sort();
+  const orderedPrs = prs.sort((a, b) => a - b);
   const uniquePrs = getUniqueValuesFromArray(orderedPrs);
   return uniquePrs;
 };
@@ -113,7 +167,9 @@ const levelsRankDouble = (levelsData) => {
     resultLevels.push({ ...level, prsTotal, rank });
   }
 
-  return getTable(resultLevels);
+  return resultLevels;
 };
 
 module.exports = levelsRankDouble;
+module.exports.printTable = printTable;
+module.exports.printSummary = printSummary;

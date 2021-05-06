@@ -1,5 +1,5 @@
 const fetch = require("node-fetch");
-const { printResult } = require("./utils/print");
+const { printResult, prettyPrint } = require("./utils/print");
 const { writeFile } = require("./utils/write");
 const levelsRankDouble = require("./levelsRankDouble");
 
@@ -14,19 +14,29 @@ const getPrsFromOnlineLevel = async (levelId, { max } = { max: 300 }) => {
     `https://api.elma.online/api/besttime/${levelId}/${max}/0`
   );
   const prs = bestTimes.slice(0, max).map((item) => item.Time);
-  return { name: level.LevelName, prs };
+  const url = `https://elma.online/levels/${levelId}`;
+  return { name: level.LevelName, prs, url };
 };
 
 const runExample = async () => {
-  const levelIds = [163, 2, 156];
+  //tutor1, warmpup, labpro, pob1000, rambo101, pipo, smibu90
+  const levelIds = [163, 2, 156, 359892, 2599, 1697, 690];
   const levelsData = [];
   for (const levelId of levelIds) {
     const prs = await getPrsFromOnlineLevel(levelId);
     levelsData.push(prs);
   }
 
-  console.log(levelsData);
-  const result = printResult("Rank double", levelsRankDouble(levelsData), {
+  const rankedLevels = levelsRankDouble(levelsData);
+  const tableResult = levelsRankDouble.printTable(rankedLevels);
+  const summary = levelsRankDouble.printSummary(rankedLevels);
+
+  const content = `### Summary
+  ${prettyPrint(summary)}
+
+  ### Full times data
+  ${prettyPrint(tableResult)}`;
+  const result = printResult("Rank double", content, {
     pretty: true,
   });
   writeFile("scripts/results/doubleExhaustive.md", result);
