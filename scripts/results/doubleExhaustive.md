@@ -3,7 +3,7 @@
 <table>
   <thead>
     <tr>
-      <th>Level</th>
+      <th class="text-purple">Level</th>
       <th>1</th>
       <th>2</th>
       <th>3</th>
