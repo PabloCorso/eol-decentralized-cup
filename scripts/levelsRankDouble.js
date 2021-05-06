@@ -83,10 +83,12 @@ const printSummary = (levels) => {
       TableHeader("Top"),
       TableHeader("Level"),
       TableHeader("PRs count"),
+      TableHeader("Unique PRs"),
       TableHeader("Best time"),
-      TableHeader("Times removed"),
       TableHeader("Rank"),
       TableHeader("Total sum"),
+      TableHeader("Times > 2x"),
+      TableHeader("Removed times"),
     ].join("")
   );
 
@@ -103,9 +105,12 @@ const printSummary = (levels) => {
 
     const prsCount = TableData(level.prs.length);
     const bestTimeData = TableData(centisecondsToPr(level.prs[0]));
-    const timesRemovedData = TableData(
-      level.prs.filter((pr) => pr > level.prs[0] * 2).length
-    );
+
+    const uniqueTimes = level.uniquePrs.length;
+    const uniqueTimesData = TableData(uniqueTimes);
+    const lazyTimes = level.prs.filter((pr) => pr > level.prs[0] * 2).length;
+    const lazyTimesData = TableData(lazyTimes);
+    const removedTimesData = TableData(lazyTimes + uniqueTimes);
 
     rows.push(
       TableRow(
@@ -113,10 +118,12 @@ const printSummary = (levels) => {
           topData,
           nameData,
           prsCount,
+          uniqueTimesData,
           bestTimeData,
-          timesRemovedData,
           rankData,
           totalData,
+          lazyTimesData,
+          removedTimesData,
         ].join("")
       )
     );
@@ -164,7 +171,7 @@ const levelsRankDouble = (levelsData) => {
     const prsTotal = getPrsSum(uniquePrs);
     const rank = calculatePrsRank({ prs: uniquePrs, bestPr: uniquePrs[0] });
 
-    resultLevels.push({ ...level, prsTotal, rank });
+    resultLevels.push({ ...level, prsTotal, rank, uniquePrs });
   }
 
   return resultLevels;
