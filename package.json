@@ -4,7 +4,8 @@
   "description": "A cup in which, for the duration of it, any player can upload any kind of levels to it with as minimum limitations as possible.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node scripts",
+    "exhaustive": "node scripts/exhaustiveExamples.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,7 @@
   "homepage": "https://github.com/PabloCorso/eol-decentralized-cup#readme",
   "dependencies": {
     "html": "1.0.0",
-    "node": "^16.0.0"
+    "node": "^16.0.0",
+    "node-fetch": "2.6.1"
   }
 }
