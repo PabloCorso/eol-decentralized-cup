@@ -9,12 +9,12 @@ const fetchJson = async (url) => {
   return response.json();
 };
 
-const getPrsFromOnlineLevel = async (levelId) => {
+const getPrsFromOnlineLevel = async (levelId, { max } = { max: 300 }) => {
   const level = await fetchJson(`https://api.elma.online/api/level/${levelId}`);
   const bestTimes = await fetchJson(
-    `https://api.elma.online/api/besttime/${levelId}/1000/0`
+    `https://api.elma.online/api/besttime/${levelId}/${max}/0`
   );
-  const shorterTimesData = bestTimes.slice(0, 1000);
+  const shorterTimesData = bestTimes.slice(0, max);
   const prs = shorterTimesData.map((item) => centisecondsToPr(item.Time));
   return { name: level.LevelName, prs };
 };
