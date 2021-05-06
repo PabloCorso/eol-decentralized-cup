@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/PabloCorso/eol-decentralized-cup#readme",
   "dependencies": {
+    "html": "1.0.0",
     "node": "^16.0.0"
   }
 }
