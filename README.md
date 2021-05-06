@@ -23,10 +23,8 @@ The cup is inspired in decentralized systems in which something is accomplished 
     3. The levels ranking will ideally be updated every time a new level is added to the cup and every time a kuksi makes a new PR.
     4. The ranking will be always visible to everyone, so players can decide in which levels to invest their time.
     6. The ranking for each level is calculated as:
-        1. `Rank = Total unique PRs - sum of PRs above the total average ` 
-        2. Total unique PRs refers to the sum of all PRs without counting shadow PRs.
-        3. Above average PRs are calculated as the total sum of PRs that are above the average of the total unique PRs.
-        4. This ranking is set to avoid favoring trivial or too short levels over complex and posibly more creative levels. Shadow PRs are a sign of trivial levels, like for example in "Tutor1.lev". Removing times above average from the equation helps filtering possible "spam" PRs, for example an 1 hour PR in a 10 seconds level.
+        1. The sum  of unique PRs except the times that are above 2 times the best time`
+        2. This ranking is set to avoid favoring trivial or too short levels over complex and posibly more creative levels. Shadow PRs are a sign of trivial levels, like for example in "Tutor1.lev". Removing times above 2 times the best time from the equation helps filtering possible "spam" PRs, for example an 1 hour PR in a 10 seconds level.
     7. Levels are ranked in a descending order by their rank number, this rank number is not shared, only their position on the ranking.
 4. End of the cup.
     1. All events finish along the cup deadline and only times finished online are taken into account. 
