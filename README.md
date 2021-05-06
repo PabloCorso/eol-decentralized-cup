@@ -72,6 +72,8 @@ Example:
 
 <table><thead><tr><th>Level</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>Total</th><th>Rank</th><th>Top</th></tr></thead><tbody><tr><td>Lvl 1</td><td>3:50</td><td>3:60</td><td>3:90</td><td>3:90</td><td>3:90</td><td>60:59:59</td><td>61:10:59</td><td>11:00</td><td>3</td></tr><tr><td>Lvl 2</td><td>10:00</td><td>10:50</td><td>11:00</td><td></td><td></td><td></td><td>31:50</td><td>31:50</td><td>1</td></tr><tr><td>Lvl 3</td><td>21:00</td><td></td><td></td><td></td><td></td><td></td><td>21:00</td><td>21:00</td><td>2</td></tr></tbody></table>
 
+Here the trivial short level gets the lowest rank again. But the longest level is not in the first position anymore like in the previous example. Only 1 finish was not enough to win over a half long level with more finishes.
+
 ## Spam levels
 
 Someone can spam 100 levels in one day. 
