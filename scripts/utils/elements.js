@@ -14,6 +14,26 @@ const Strike = (children) => `<strike>${children}</strike>`;
 
 const Link = ({ children, href }) => `<a href="${href}">${children}</a>`;
 
+const DataTable = ({ columns, rows }) => {
+  let bodyRows = "";
+  for (let i = 0; i < rows.length; i++) {
+    let rowsData = "";
+    const row = rows[i];
+    for (let j = 0; j < columns.length; j++) {
+      const field = columns[j].field;
+      const data = row[field];
+      rowsData += TableData(data);
+    }
+
+    bodyRows += TableRow(rowsData);
+  }
+
+  const headers = columns.map((column) => TableHeader(column.header)).join("");
+  const head = TableHead(headers);
+  const body = TableBody(bodyRows);
+  return Table([head, body].join(""));
+};
+
 module.exports = {
   Table,
   TableHead,
@@ -23,4 +43,5 @@ module.exports = {
   TableData,
   Strike,
   Link,
+  DataTable,
 };

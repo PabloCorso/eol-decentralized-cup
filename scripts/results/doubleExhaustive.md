@@ -1,30 +1,28 @@
 <!-- Rank double -->
   
 
-  ### Summary with all finishes
+  ## Summary with all finishes
   This takes into account all times finished from all kuskis. Max. 10.000 results per level. 
   Rank is equal to the sum of all unique non shadow times that are under 2 times the best time.
   <table>
   <thead>
-    <tr>
-      <th>Top</th>
-      <th>Level</th>
-      <th>Best time</th>
-      <th>Times count</th>
-      <th>Unique times</th>
-      <th>Shadow times</th>
-      <th>Times > 2xWR</th>
-      <th>Removed times</th>
-      <th>Rank</th>
-      <th>Total sum</th>
-    </tr>
+    <th>Top</th>
+    <th>Level</th>
+    <th>Best time</th>
+    <th>Times count</th>
+    <th>Unique times</th>
+    <th>Shadow times</th>
+    <th>Times > 2x WR</th>
+    <th>Removed times</th>
+    <th>Rank</th>
+    <th>Total sum</th>
   </thead>
   <tbody>
     <tr>
       <td>1</td>
       <td><a href="https://elma.online/levels/156">QWQUU035</a>
       </td>
-      <td>2:09:73</td>
+      <td>12973</td>
       <td>2168</td>
       <td>1875</td>
       <td>293</td>
@@ -37,7 +35,7 @@
       <td>2</td>
       <td><a href="https://elma.online/levels/690">Smibu80</a>
       </td>
-      <td>42:11:11</td>
+      <td>253111</td>
       <td>16</td>
       <td>16</td>
       <td>0</td>
@@ -50,7 +48,7 @@
       <td>3</td>
       <td><a href="https://elma.online/levels/371127">WCup701</a>
       </td>
-      <td>21:77</td>
+      <td>2177</td>
       <td>7336</td>
       <td>920</td>
       <td>6416</td>
@@ -63,7 +61,7 @@
       <td>4</td>
       <td><a href="https://elma.online/levels/1697">Pipo001</a>
       </td>
-      <td>27:51</td>
+      <td>2751</td>
       <td>312</td>
       <td>271</td>
       <td>41</td>
@@ -76,7 +74,7 @@
       <td>5</td>
       <td><a href="https://elma.online/levels/359892">Pob1000</a>
       </td>
-      <td>5:58:62</td>
+      <td>35862</td>
       <td>19</td>
       <td>19</td>
       <td>0</td>
@@ -89,7 +87,7 @@
       <td>6</td>
       <td><a href="https://elma.online/levels/237824">WCup601</a>
       </td>
-      <td>13:93</td>
+      <td>1393</td>
       <td>10000</td>
       <td>304</td>
       <td>9696</td>
@@ -102,7 +100,7 @@
       <td>7</td>
       <td><a href="https://elma.online/levels/331252">TTC101</a>
       </td>
-      <td>14:10</td>
+      <td>1410</td>
       <td>2129</td>
       <td>250</td>
       <td>1879</td>
@@ -115,7 +113,7 @@
       <td>8</td>
       <td><a href="https://elma.online/levels/163">Tutor1</a>
       </td>
-      <td>03:66</td>
+      <td>366</td>
       <td>4830</td>
       <td>210</td>
       <td>4620</td>
@@ -128,7 +126,7 @@
       <td>9</td>
       <td><a href="https://elma.online/levels/483457">CPC100</a>
       </td>
-      <td>14:49</td>
+      <td>1449</td>
       <td>48</td>
       <td>45</td>
       <td>3</td>
@@ -141,7 +139,7 @@
       <td>10</td>
       <td><a href="https://elma.online/levels/2599">Rambo101</a>
       </td>
-      <td>49:27</td>
+      <td>4927</td>
       <td>9</td>
       <td>9</td>
       <td>0</td>
@@ -154,7 +152,7 @@
       <td>11</td>
       <td><a href="https://elma.online/levels/2">QWQUU001</a>
       </td>
-      <td>13:79</td>
+      <td>1379</td>
       <td>10000</td>
       <td>29</td>
       <td>9971</td>
@@ -165,31 +163,29 @@
     </tr>
   </tbody>
 </table>
-
+  <br/>
   
-  ### Summary with only PRs
+  ## Summary with only PRs
   This takes into account only best times (PRs) from each kuskis. Rank is equal to the sum of all unique non shadow best times that are under 2 times the best time.
   <table>
   <thead>
-    <tr>
-      <th>Top</th>
-      <th>Level</th>
-      <th>Best time</th>
-      <th>Times count</th>
-      <th>Unique times</th>
-      <th>Shadow times</th>
-      <th>Times > 2xWR</th>
-      <th>Removed times</th>
-      <th>Rank</th>
-      <th>Total sum</th>
-    </tr>
+    <th>Top</th>
+    <th>Level</th>
+    <th>Best time</th>
+    <th>Times count</th>
+    <th>Unique times</th>
+    <th>Shadow times</th>
+    <th>Times > 2x WR</th>
+    <th>Removed times</th>
+    <th>Rank</th>
+    <th>Total sum</th>
   </thead>
   <tbody>
     <tr>
       <td>1</td>
       <td><a href="https://elma.online/levels/156">QWQUU035</a>
       </td>
-      <td>2:09:73</td>
+      <td>12973</td>
       <td>352</td>
       <td>350</td>
       <td>2</td>
@@ -202,7 +198,7 @@
       <td>2</td>
       <td><a href="https://elma.online/levels/690">Smibu80</a>
       </td>
-      <td>42:11:11</td>
+      <td>253111</td>
       <td>14</td>
       <td>14</td>
       <td>0</td>
@@ -215,7 +211,7 @@
       <td>3</td>
       <td><a href="https://elma.online/levels/2">QWQUU001</a>
       </td>
-      <td>13:79</td>
+      <td>1379</td>
       <td>1766</td>
       <td>878</td>
       <td>888</td>
@@ -228,7 +224,7 @@
       <td>4</td>
       <td><a href="https://elma.online/levels/359892">Pob1000</a>
       </td>
-      <td>5:58:62</td>
+      <td>35862</td>
       <td>14</td>
       <td>14</td>
       <td>0</td>
@@ -241,7 +237,7 @@
       <td>5</td>
       <td><a href="https://elma.online/levels/371127">WCup701</a>
       </td>
-      <td>21:77</td>
+      <td>2177</td>
       <td>153</td>
       <td>132</td>
       <td>21</td>
@@ -254,7 +250,7 @@
       <td>6</td>
       <td><a href="https://elma.online/levels/237824">WCup601</a>
       </td>
-      <td>13:93</td>
+      <td>1393</td>
       <td>257</td>
       <td>204</td>
       <td>53</td>
@@ -267,7 +263,7 @@
       <td>7</td>
       <td><a href="https://elma.online/levels/1697">Pipo001</a>
       </td>
-      <td>27:51</td>
+      <td>2751</td>
       <td>68</td>
       <td>66</td>
       <td>2</td>
@@ -280,7 +276,7 @@
       <td>8</td>
       <td><a href="https://elma.online/levels/331252">TTC101</a>
       </td>
-      <td>14:10</td>
+      <td>1410</td>
       <td>62</td>
       <td>47</td>
       <td>15</td>
@@ -293,7 +289,7 @@
       <td>9</td>
       <td><a href="https://elma.online/levels/163">Tutor1</a>
       </td>
-      <td>03:66</td>
+      <td>366</td>
       <td>277</td>
       <td>87</td>
       <td>190</td>
@@ -306,7 +302,7 @@
       <td>10</td>
       <td><a href="https://elma.online/levels/2599">Rambo101</a>
       </td>
-      <td>49:27</td>
+      <td>4927</td>
       <td>5</td>
       <td>5</td>
       <td>0</td>
@@ -319,7 +315,7 @@
       <td>11</td>
       <td><a href="https://elma.online/levels/483457">CPC100</a>
       </td>
-      <td>14:49</td>
+      <td>1449</td>
       <td>14</td>
       <td>14</td>
       <td>0</td>
@@ -330,8 +326,8 @@
     </tr>
   </tbody>
 </table>
+  <br/>
   
-
   ### Full times data with only PRs
   <table>
   <thead>

@@ -53,11 +53,8 @@ const updateData = async () => {
       max: 10000,
     });
 
-    // Ignore internals
-    // if (levelId > 160) {
     levelsDataBestTimes.push(levelWithPrs);
     levelDataAllTimes.push(levelWithAllTimes);
-    // }
   }
 
   writeFile(bestTimesFile, JSON.stringify(levelsDataBestTimes));
@@ -77,17 +74,17 @@ const runExample = async () => {
   const summaryAllTimes = levelsRankDouble.printSummary(rankedLevelsAllTimes);
 
   const content = `
-  ### Summary with all finishes
+  ## Summary with all finishes
   This takes into account all times finished from all kuskis. Max. 10.000 results per level. 
   Rank is equal to the sum of all unique non shadow times that are under 2 times the best time.
   ${prettyPrint(summaryAllTimes)}
-
+  <br/>
   
-  ### Summary with only PRs
+  ## Summary with only PRs
   This takes into account only best times (PRs) from each kuskis. Rank is equal to the sum of all unique non shadow best times that are under 2 times the best time.
   ${prettyPrint(summary)}
+  <br/>
   
-
   ### Full times data with only PRs
   ${prettyPrint(tableResult)}`;
   const result = printResult("Rank double", content, {

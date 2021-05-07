@@ -7,6 +7,7 @@ const {
   TableData,
   Strike,
   Link,
+  DataTable,
 } = require("./utils/elements");
 const { centisecondsToPr } = require("./utils/pr");
 
@@ -78,68 +79,45 @@ const printSummary = (levels) => {
 
   const rankedLevels = [...levels].sort(descendingOrderByRank);
 
-  const headers = TableRow(
-    [
-      TableHeader("Top"),
-      TableHeader("Level"),
-      TableHeader("Best time"),
-      TableHeader("Times count"),
-      TableHeader("Unique times"),
-      TableHeader("Shadow times"),
-      TableHeader("Times > 2xWR"),
-      TableHeader("Removed times"),
-      TableHeader("Rank"),
-      TableHeader("Total sum"),
-    ].join("")
-  );
+  const columns = [
+    { field: "top", header: "Top" },
+    { field: "level", header: "Level" },
+    { field: "wr", header: "Best time" },
+    { field: "times", header: "Times count" },
+    { field: "unique", header: "Unique times" },
+    { field: "shadow", header: "Shadow times" },
+    { field: "2x", header: "Times > 2x WR" },
+    { field: "removed", header: "Removed times" },
+    { field: "rank", header: "Rank" },
+    { field: "total", header: "Total sum" },
+  ];
 
   const rows = [];
   for (let i = 0; i < rankedLevels.length; i++) {
     const level = rankedLevels[i];
 
-    const nameData = TableData(Link({ children: level.name, href: level.url }));
-    const totalData = TableData(centisecondsToPr(level.timesTotal));
-    const rankData = TableData(centisecondsToPr(level.rank));
-
-    const levelTop = i + 1;
-    const topData = TableData(levelTop);
-
+    const top = i + 1;
     const timesCount = level.times.length;
-    const timesCountData = TableData(timesCount);
-
     const bestTime = level.times[0];
-    const bestTimeData = TableData(centisecondsToPr(bestTime));
-
     const uniqueTimes = level.uniqueTimes.length;
-    const uniqueTimesData = TableData(uniqueTimes);
-
     const shadowTimes = timesCount - uniqueTimes;
-    const shadowTimesData = TableData(shadowTimes);
-
     const timesTwiceBest = level.times.filter((pr) => pr > bestTime * 2).length;
-    const timesTwiceBestData = TableData(timesTwiceBest);
 
-    const removedTimesData = TableData(timesTwiceBest + shadowTimes);
-
-    rows.push(
-      TableRow(
-        [
-          topData,
-          nameData,
-          bestTimeData,
-          timesCountData,
-          uniqueTimesData,
-          shadowTimesData,
-          timesTwiceBestData,
-          removedTimesData,
-          rankData,
-          totalData,
-        ].join("")
-      )
-    );
+    rows.push({
+      top,
+      level: Link({ children: level.name, href: level.url }),
+      wr: bestTime,
+      times: timesCount,
+      unique: uniqueTimes,
+      shadow: shadowTimes,
+      "2x": timesTwiceBest,
+      removed: timesTwiceBest + shadowTimes,
+      rank: centisecondsToPr(level.rank),
+      total: centisecondsToPr(level.timesTotal),
+    });
   }
 
-  return Table([TableHead(headers), TableBody(rows.join(""))].join(""));
+  return DataTable({ columns, rows });
 };
 
 const getTimesTotal = (times) => {
