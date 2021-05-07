@@ -71,7 +71,7 @@ const runExample = async () => {
   const levelsDataAllTimes = await readFile(allTimesFile);
 
   const rankedLevels = levelsRankDouble(JSON.parse(levelsData));
-  const tableResult = levelsRankDouble.printTable(rankedLevels);
+  // const tableResult = levelsRankDouble.printTable(rankedLevels);
   const summary = levelsRankDouble.printSummary(rankedLevels);
 
   const rankedLevelsAllTimes = levelsRankDouble(JSON.parse(levelsDataAllTimes));
@@ -87,11 +87,7 @@ const runExample = async () => {
   
   ## Summary with only PRs
   This takes into account only best times (PRs) from each kuskis. Rank is equal to the sum of all unique non shadow best times that are under 2 times the best time.
-  ${prettyPrint(summary)}
-  <br/>
-  
-  ### Full times data with only PRs
-  ${prettyPrint(tableResult)}`;
+  ${prettyPrint(summary)}`;
   const result = printResult("Rank double", content, {
     pretty: true,
   });
