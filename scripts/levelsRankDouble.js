@@ -82,13 +82,13 @@ const printSummary = (levels) => {
     [
       TableHeader("Top"),
       TableHeader("Level"),
+      TableHeader("Best time"),
       TableHeader("Times count"),
       TableHeader("Unique times"),
-      TableHeader("Best time"),
+      TableHeader("Times > 2x"),
+      TableHeader("Shadow times"),
       TableHeader("Rank"),
       TableHeader("Total sum"),
-      TableHeader("Times > 2x"),
-      TableHeader("Removed times"),
     ].join("")
   );
 
@@ -104,29 +104,29 @@ const printSummary = (levels) => {
     const topData = TableData(levelTop);
 
     const prsCount = level.prs.length;
-    const prsCountData = TableData(prsCount);
+    const timesCountData = TableData(prsCount);
 
     const bestTime = level.prs[0];
     const bestTimeData = TableData(centisecondsToPr(bestTime));
 
     const uniqueTimes = level.uniquePrs.length;
     const uniqueTimesData = TableData(uniqueTimes);
-    const lazyTimes = level.prs.filter((pr) => pr > bestTime * 2).length;
-    const lazyTimesData = TableData(lazyTimes);
-    const removedTimesData = TableData(lazyTimes + prsCount - uniqueTimes);
+    const shadowTimes = level.prs.filter((pr) => pr > bestTime * 2).length;
+    const shadowTimesData = TableData(shadowTimes);
+    const removedTimesData = TableData(shadowTimes + prsCount - uniqueTimes);
 
     rows.push(
       TableRow(
         [
           topData,
           nameData,
-          prsCountData,
-          uniqueTimesData,
           bestTimeData,
+          timesCountData,
+          uniqueTimesData,
+          shadowTimesData,
+          removedTimesData,
           rankData,
           totalData,
-          lazyTimesData,
-          removedTimesData,
         ].join("")
       )
     );
@@ -171,7 +171,7 @@ const levelsRankDouble = (levelsData) => {
   const resultLevels = [];
   for (const level of levelsData) {
     const uniquePrs = getUniqueSortedPrs(level.prs);
-    const prsTotal = getPrsSum(uniquePrs);
+    const prsTotal = getPrsSum(level.prs);
     const rank = calculatePrsRank({ prs: uniquePrs, bestPr: uniquePrs[0] });
 
     resultLevels.push({ ...level, prsTotal, rank, uniquePrs });

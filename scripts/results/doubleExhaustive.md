@@ -8,13 +8,13 @@
     <tr>
       <th>Top</th>
       <th>Level</th>
+      <th>Best time</th>
       <th>Times count</th>
       <th>Unique times</th>
-      <th>Best time</th>
+      <th>Times > 2x</th>
+      <th>Shadow times</th>
       <th>Rank</th>
       <th>Total sum</th>
-      <th>Times > 2x</th>
-      <th>Removed times</th>
     </tr>
   </thead>
   <tbody>
@@ -22,109 +22,109 @@
       <td>1</td>
       <td><a href="https://elma.online/levels/690">Smibu80</a>
       </td>
-      <td>16</td>
-      <td>16</td>
       <td>42:11:11</td>
-      <td>780:50:23</td>
-      <td>780:50:23</td>
+      <td>16</td>
+      <td>16</td>
       <td>0</td>
       <td>0</td>
+      <td>780:50:23</td>
+      <td>780:50:23</td>
     </tr>
     <tr>
       <td>2</td>
       <td><a href="https://elma.online/levels/1697">Pipo001</a>
       </td>
+      <td>27:51</td>
       <td>300</td>
       <td>259</td>
-      <td>27:51</td>
-      <td>147:18:51</td>
-      <td>147:18:51</td>
       <td>0</td>
       <td>41</td>
+      <td>147:18:51</td>
+      <td>170:09:35</td>
     </tr>
     <tr>
       <td>3</td>
       <td><a href="https://elma.online/levels/359892">Pob1000</a>
       </td>
-      <td>19</td>
-      <td>19</td>
       <td>5:58:62</td>
-      <td>134:47:94</td>
-      <td>134:47:94</td>
+      <td>19</td>
+      <td>19</td>
       <td>0</td>
       <td>0</td>
+      <td>134:47:94</td>
+      <td>134:47:94</td>
     </tr>
     <tr>
       <td>4</td>
       <td><a href="https://elma.online/levels/371127">WCup701</a>
       </td>
+      <td>21:77</td>
       <td>300</td>
       <td>175</td>
-      <td>21:77</td>
-      <td>69:07:50</td>
-      <td>69:07:50</td>
       <td>0</td>
       <td>125</td>
+      <td>69:07:50</td>
+      <td>119:14:24</td>
     </tr>
     <tr>
       <td>5</td>
       <td><a href="https://elma.online/levels/483457">CPC100</a>
       </td>
+      <td>14:49</td>
       <td>48</td>
       <td>45</td>
-      <td>14:49</td>
-      <td>12:16:45</td>
-      <td>12:16:45</td>
       <td>0</td>
       <td>3</td>
+      <td>12:16:45</td>
+      <td>13:03:32</td>
     </tr>
     <tr>
       <td>6</td>
       <td><a href="https://elma.online/levels/237824">WCup601</a>
       </td>
+      <td>13:93</td>
       <td>300</td>
       <td>46</td>
-      <td>13:93</td>
-      <td>10:55:54</td>
-      <td>10:55:54</td>
       <td>0</td>
       <td>254</td>
+      <td>10:55:54</td>
+      <td>71:44:37</td>
     </tr>
     <tr>
       <td>7</td>
       <td><a href="https://elma.online/levels/2599">Rambo101</a>
       </td>
-      <td>9</td>
-      <td>9</td>
       <td>49:27</td>
-      <td>9:59:19</td>
-      <td>9:59:19</td>
+      <td>9</td>
+      <td>9</td>
       <td>0</td>
       <td>0</td>
+      <td>9:59:19</td>
+      <td>9:59:19</td>
     </tr>
     <tr>
       <td>8</td>
       <td><a href="https://elma.online/levels/331252">TTC101</a>
       </td>
+      <td>14:10</td>
       <td>300</td>
       <td>35</td>
-      <td>14:10</td>
-      <td>8:20:39</td>
-      <td>8:20:39</td>
       <td>0</td>
       <td>265</td>
+      <td>8:20:39</td>
+      <td>71:52:94</td>
     </tr>
     <tr>
       <td>9</td>
       <td><a href="https://elma.online/levels/163">Tutor1</a>
       </td>
+      <td>03:66</td>
       <td>300</td>
       <td>8</td>
-      <td>03:66</td>
-      <td>29:69</td>
-      <td>29:69</td>
       <td>0</td>
       <td>292</td>
+      <td>29:69</td>
+      <td>18:40:26</td>
     </tr>
   </tbody>
 </table>
@@ -136,13 +136,13 @@
     <tr>
       <th>Top</th>
       <th>Level</th>
+      <th>Best time</th>
       <th>Times count</th>
       <th>Unique times</th>
-      <th>Best time</th>
+      <th>Times > 2x</th>
+      <th>Shadow times</th>
       <th>Rank</th>
       <th>Total sum</th>
-      <th>Times > 2x</th>
-      <th>Removed times</th>
     </tr>
   </thead>
   <tbody>
@@ -150,109 +150,109 @@
       <td>1</td>
       <td><a href="https://elma.online/levels/690">Smibu80</a>
       </td>
-      <td>14</td>
-      <td>14</td>
       <td>42:11:11</td>
-      <td>684:29:21</td>
-      <td>684:29:21</td>
+      <td>14</td>
+      <td>14</td>
       <td>0</td>
       <td>0</td>
+      <td>684:29:21</td>
+      <td>684:29:21</td>
     </tr>
     <tr>
       <td>2</td>
       <td><a href="https://elma.online/levels/359892">Pob1000</a>
       </td>
-      <td>14</td>
-      <td>14</td>
       <td>5:58:62</td>
-      <td>101:08:15</td>
-      <td>101:08:15</td>
+      <td>14</td>
+      <td>14</td>
       <td>0</td>
       <td>0</td>
+      <td>101:08:15</td>
+      <td>101:08:15</td>
     </tr>
     <tr>
       <td>3</td>
       <td><a href="https://elma.online/levels/371127">WCup701</a>
       </td>
+      <td>21:77</td>
       <td>153</td>
       <td>132</td>
-      <td>21:77</td>
-      <td>57:09:16</td>
-      <td>59:19:33</td>
       <td>2</td>
       <td>23</td>
+      <td>57:09:16</td>
+      <td>68:16:12</td>
     </tr>
     <tr>
       <td>4</td>
       <td><a href="https://elma.online/levels/237824">WCup601</a>
       </td>
+      <td>13:93</td>
       <td>257</td>
       <td>204</td>
-      <td>13:93</td>
-      <td>56:29:37</td>
-      <td>57:58:56</td>
       <td>3</td>
       <td>56</td>
+      <td>56:29:37</td>
+      <td>71:57:80</td>
     </tr>
     <tr>
       <td>5</td>
       <td><a href="https://elma.online/levels/1697">Pipo001</a>
       </td>
+      <td>27:51</td>
       <td>68</td>
       <td>66</td>
-      <td>27:51</td>
-      <td>38:19:20</td>
-      <td>38:19:20</td>
       <td>0</td>
       <td>2</td>
+      <td>38:19:20</td>
+      <td>39:23:21</td>
     </tr>
     <tr>
       <td>6</td>
       <td><a href="https://elma.online/levels/331252">TTC101</a>
       </td>
+      <td>14:10</td>
       <td>62</td>
       <td>47</td>
-      <td>14:10</td>
-      <td>11:42:50</td>
-      <td>11:42:50</td>
       <td>0</td>
       <td>15</td>
+      <td>11:42:50</td>
+      <td>15:19:57</td>
     </tr>
     <tr>
       <td>7</td>
       <td><a href="https://elma.online/levels/163">Tutor1</a>
       </td>
+      <td>03:66</td>
       <td>277</td>
       <td>87</td>
-      <td>03:66</td>
-      <td>5:58:99</td>
-      <td>7:09:75</td>
       <td>4</td>
       <td>194</td>
+      <td>5:58:99</td>
+      <td>19:22:96</td>
     </tr>
     <tr>
       <td>8</td>
       <td><a href="https://elma.online/levels/2599">Rambo101</a>
       </td>
-      <td>5</td>
-      <td>5</td>
       <td>49:27</td>
-      <td>4:51:76</td>
-      <td>4:51:76</td>
+      <td>5</td>
+      <td>5</td>
       <td>0</td>
       <td>0</td>
+      <td>4:51:76</td>
+      <td>4:51:76</td>
     </tr>
     <tr>
       <td>9</td>
       <td><a href="https://elma.online/levels/483457">CPC100</a>
       </td>
-      <td>14</td>
-      <td>14</td>
       <td>14:49</td>
-      <td>3:53:29</td>
-      <td>3:53:29</td>
+      <td>14</td>
+      <td>14</td>
       <td>0</td>
       <td>0</td>
+      <td>3:53:29</td>
+      <td>3:53:29</td>
     </tr>
   </tbody>
 </table>
@@ -1118,7 +1118,7 @@
       <td><a href="https://elma.online/levels/371127">WCup701</a>
       </td>
       <td>57:09:16</td>
-      <td>59:19:33</td>
+      <td>68:16:12</td>
       <td>21:77</td>
       <td>22:50</td>
       <td>22:11</td>
@@ -1404,7 +1404,7 @@
       <td><a href="https://elma.online/levels/237824">WCup601</a>
       </td>
       <td>56:29:37</td>
-      <td>57:58:56</td>
+      <td>71:57:80</td>
       <td>13:93</td>
       <td>13:94</td>
       <td>13:95</td>
@@ -1691,7 +1691,7 @@
       <td><a href="https://elma.online/levels/1697">Pipo001</a>
       </td>
       <td>38:19:20</td>
-      <td>38:19:20</td>
+      <td>39:23:21</td>
       <td>27:51</td>
       <td>27:87</td>
       <td>28:79</td>
@@ -1975,7 +1975,7 @@
       <td><a href="https://elma.online/levels/331252">TTC101</a>
       </td>
       <td>11:42:50</td>
-      <td>11:42:50</td>
+      <td>15:19:57</td>
       <td>14:10</td>
       <td>14:13</td>
       <td>14:24</td>
@@ -2259,7 +2259,7 @@
       <td><a href="https://elma.online/levels/163">Tutor1</a>
       </td>
       <td>5:58:99</td>
-      <td>7:09:75</td>
+      <td>19:22:96</td>
       <td>03:66</td>
       <td>03:71</td>
       <td>03:71</td>
