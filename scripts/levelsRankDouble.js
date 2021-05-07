@@ -105,11 +105,13 @@ const printSummary = (levels) => {
 
     const prsCount = level.prs.length;
     const prsCountData = TableData(prsCount);
-    const bestTimeData = TableData(centisecondsToPr(level.prs[0]));
+
+    const bestTime = level.prs[0];
+    const bestTimeData = TableData(centisecondsToPr(bestTime));
 
     const uniqueTimes = level.uniquePrs.length;
     const uniqueTimesData = TableData(uniqueTimes);
-    const lazyTimes = level.prs.filter((pr) => pr > level.prs[0] * 2).length;
+    const lazyTimes = level.prs.filter((pr) => pr > bestTime * 2).length;
     const lazyTimesData = TableData(lazyTimes);
     const removedTimesData = TableData(lazyTimes + prsCount - uniqueTimes);
 

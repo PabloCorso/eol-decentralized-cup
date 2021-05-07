@@ -1,13 +1,17 @@
 const fs = require("fs");
 
-const writeFile = (path, data) => {
-  fs.writeFile(path, data, function (err) {
-    if (err) {
-      return console.log(err);
-    }
+const writeFile = async (path, data) => {
+  try {
+    await fs.promises.writeFile(path, data);
+  } catch (error) {
+    console.log(`write file error > ${error}`);
+  }
 
-    console.log(`write file > ${path}`);
-  });
+  console.log(`write file > ${path}`);
 };
 
-module.exports = { writeFile };
+const readFile = async (path) => {
+  return fs.promises.readFile(path);
+};
+
+module.exports = { writeFile, readFile };

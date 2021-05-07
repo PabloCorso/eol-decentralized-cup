@@ -1,6 +1,6 @@
 const fetch = require("node-fetch");
 const { printResult, prettyPrint } = require("./utils/print");
-const { writeFile } = require("./utils/write");
+const { writeFile, readFile } = require("./utils/write");
 const levelsRankDouble = require("./levelsRankDouble");
 
 const fetchJson = async (url) => {
@@ -18,7 +18,20 @@ const getPrsFromOnlineLevel = async (levelId, { max } = { max: 300 }) => {
   return { name: level.LevelName, prs, url };
 };
 
-const runExample = async () => {
+const getAllTimesFromOnlineLevel = async (levelId, { max } = { max: 300 }) => {
+  const level = await fetchJson(`https://api.elma.online/api/level/${levelId}`);
+  const times = await fetchJson(
+    `https://api.elma.online/api/allfinished/${levelId}/`
+  );
+  const prs = times.slice(0, max).map((item) => item.Time);
+  const url = `https://elma.online/levels/${levelId}`;
+  return { name: level.LevelName, prs, url };
+};
+
+const bestTimesFile = "scripts/results/bestTimes.json";
+const allTimesFile = "scripts/results/allTimes.json";
+
+const updateData = async () => {
   const levelIds = [
     163, // Tutor1
     2, // WarmUp
@@ -32,20 +45,43 @@ const runExample = async () => {
     371127, // WCup701
     483457, // CPC101
   ];
-  const levelsData = [];
+  const levelsDataBestTimes = [];
+  const levelDataAllTimes = [];
   for (const levelId of levelIds) {
-    const prs = await getPrsFromOnlineLevel(levelId);
-    levelsData.push(prs);
+    const levelWithPrs = await getPrsFromOnlineLevel(levelId);
+    const levelWithAllTimes = await getAllTimesFromOnlineLevel(levelId);
+
+    // Ignore internals
+    if (levelId > 160) {
+      levelsDataBestTimes.push(levelWithPrs);
+      levelDataAllTimes.push(levelWithAllTimes);
+    }
   }
 
-  const rankedLevels = levelsRankDouble(levelsData);
+  writeFile(bestTimesFile, JSON.stringify(levelsDataBestTimes));
+  writeFile(allTimesFile, JSON.stringify(levelDataAllTimes));
+};
+
+const runExample = async () => {
+  const levelsData = await readFile(bestTimesFile);
+  const levelsDataAllTimes = await readFile(allTimesFile);
+
+  const rankedLevels = levelsRankDouble(JSON.parse(levelsData));
   const tableResult = levelsRankDouble.printTable(rankedLevels);
   const summary = levelsRankDouble.printSummary(rankedLevels);
 
-  const content = `### Summary
-  ${prettyPrint(summary)}
+  const rankedLevelsAllTimes = levelsRankDouble(JSON.parse(levelsDataAllTimes));
+  // const tableResult = levelsRankDouble.printTable(rankedLevelsAllTimes);
+  const summaryAllTimes = levelsRankDouble.printSummary(rankedLevelsAllTimes);
 
-  ### Full times data
+  const content = `
+  ### Summary with all finishes
+  This takes into account all times finished from all kuskis.
+  ${prettyPrint(summaryAllTimes)}
+  ### Summary with only PRs
+  This takes into account only best times (PRs) from each kuskis.
+  ${prettyPrint(summary)}
+  ### Full times data with only PRs
   ${prettyPrint(tableResult)}`;
   const result = printResult("Rank double", content, {
     pretty: true,
@@ -54,3 +90,4 @@ const runExample = async () => {
 };
 
 runExample();
+// updateData();

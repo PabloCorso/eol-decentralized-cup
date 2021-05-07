@@ -1,6 +1,8 @@
 <!-- Rank double -->
   
-### Summary
+
+  ### Summary with all finishes
+  This takes into account all times finished from all kuskis.
   <table>
   <thead>
     <tr>
@@ -18,18 +20,133 @@
   <tbody>
     <tr>
       <td>1</td>
-      <td><a href="https://elma.online/levels/156">QWQUU035</a>
+      <td><a href="https://elma.online/levels/690">Smibu80</a>
       </td>
-      <td>300</td>
-      <td>299</td>
-      <td>2:09:73</td>
-      <td>748:00:80</td>
-      <td>1072:11:76</td>
-      <td>65</td>
-      <td>66</td>
+      <td>16</td>
+      <td>16</td>
+      <td>42:11:11</td>
+      <td>780:50:23</td>
+      <td>780:50:23</td>
+      <td>0</td>
+      <td>0</td>
     </tr>
     <tr>
       <td>2</td>
+      <td><a href="https://elma.online/levels/1697">Pipo001</a>
+      </td>
+      <td>300</td>
+      <td>259</td>
+      <td>27:51</td>
+      <td>147:18:51</td>
+      <td>147:18:51</td>
+      <td>0</td>
+      <td>41</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td><a href="https://elma.online/levels/359892">Pob1000</a>
+      </td>
+      <td>19</td>
+      <td>19</td>
+      <td>5:58:62</td>
+      <td>134:47:94</td>
+      <td>134:47:94</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td><a href="https://elma.online/levels/371127">WCup701</a>
+      </td>
+      <td>300</td>
+      <td>175</td>
+      <td>21:77</td>
+      <td>69:07:50</td>
+      <td>69:07:50</td>
+      <td>0</td>
+      <td>125</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td><a href="https://elma.online/levels/483457">CPC100</a>
+      </td>
+      <td>48</td>
+      <td>45</td>
+      <td>14:49</td>
+      <td>12:16:45</td>
+      <td>12:16:45</td>
+      <td>0</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td><a href="https://elma.online/levels/237824">WCup601</a>
+      </td>
+      <td>300</td>
+      <td>46</td>
+      <td>13:93</td>
+      <td>10:55:54</td>
+      <td>10:55:54</td>
+      <td>0</td>
+      <td>254</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td><a href="https://elma.online/levels/2599">Rambo101</a>
+      </td>
+      <td>9</td>
+      <td>9</td>
+      <td>49:27</td>
+      <td>9:59:19</td>
+      <td>9:59:19</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td><a href="https://elma.online/levels/331252">TTC101</a>
+      </td>
+      <td>300</td>
+      <td>35</td>
+      <td>14:10</td>
+      <td>8:20:39</td>
+      <td>8:20:39</td>
+      <td>0</td>
+      <td>265</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td><a href="https://elma.online/levels/163">Tutor1</a>
+      </td>
+      <td>300</td>
+      <td>8</td>
+      <td>03:66</td>
+      <td>29:69</td>
+      <td>29:69</td>
+      <td>0</td>
+      <td>292</td>
+    </tr>
+  </tbody>
+</table>
+  ### Summary with only PRs
+  This takes into account only best times (PRs) from each kuskis.
+  <table>
+  <thead>
+    <tr>
+      <th>Top</th>
+      <th>Level</th>
+      <th>PRs count</th>
+      <th>Unique PRs</th>
+      <th>Best time</th>
+      <th>Rank</th>
+      <th>Total sum</th>
+      <th>Times > 2x</th>
+      <th>Removed times</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
       <td><a href="https://elma.online/levels/690">Smibu80</a>
       </td>
       <td>14</td>
@@ -41,7 +158,7 @@
       <td>0</td>
     </tr>
     <tr>
-      <td>3</td>
+      <td>2</td>
       <td><a href="https://elma.online/levels/359892">Pob1000</a>
       </td>
       <td>14</td>
@@ -53,7 +170,7 @@
       <td>0</td>
     </tr>
     <tr>
-      <td>4</td>
+      <td>3</td>
       <td><a href="https://elma.online/levels/371127">WCup701</a>
       </td>
       <td>153</td>
@@ -65,7 +182,7 @@
       <td>23</td>
     </tr>
     <tr>
-      <td>5</td>
+      <td>4</td>
       <td><a href="https://elma.online/levels/237824">WCup601</a>
       </td>
       <td>257</td>
@@ -77,7 +194,7 @@
       <td>56</td>
     </tr>
     <tr>
-      <td>6</td>
+      <td>5</td>
       <td><a href="https://elma.online/levels/1697">Pipo001</a>
       </td>
       <td>68</td>
@@ -89,7 +206,7 @@
       <td>2</td>
     </tr>
     <tr>
-      <td>7</td>
+      <td>6</td>
       <td><a href="https://elma.online/levels/331252">TTC101</a>
       </td>
       <td>62</td>
@@ -101,19 +218,7 @@
       <td>15</td>
     </tr>
     <tr>
-      <td>8</td>
-      <td><a href="https://elma.online/levels/2">QWQUU001</a>
-      </td>
-      <td>300</td>
-      <td>48</td>
-      <td>13:79</td>
-      <td>11:19:44</td>
-      <td>11:19:44</td>
-      <td>0</td>
-      <td>252</td>
-    </tr>
-    <tr>
-      <td>9</td>
+      <td>7</td>
       <td><a href="https://elma.online/levels/163">Tutor1</a>
       </td>
       <td>277</td>
@@ -125,7 +230,7 @@
       <td>194</td>
     </tr>
     <tr>
-      <td>10</td>
+      <td>8</td>
       <td><a href="https://elma.online/levels/2599">Rambo101</a>
       </td>
       <td>5</td>
@@ -137,7 +242,7 @@
       <td>0</td>
     </tr>
     <tr>
-      <td>11</td>
+      <td>9</td>
       <td><a href="https://elma.online/levels/483457">CPC100</a>
       </td>
       <td>14</td>
@@ -150,8 +255,7 @@
     </tr>
   </tbody>
 </table>
-
-  ### Full times data
+  ### Full times data with only PRs
   <table>
   <thead>
     <tr>
@@ -436,406 +540,11 @@
       <th>275</th>
       <th>276</th>
       <th>277</th>
-      <th>278</th>
-      <th>279</th>
-      <th>280</th>
-      <th>281</th>
-      <th>282</th>
-      <th>283</th>
-      <th>284</th>
-      <th>285</th>
-      <th>286</th>
-      <th>287</th>
-      <th>288</th>
-      <th>289</th>
-      <th>290</th>
-      <th>291</th>
-      <th>292</th>
-      <th>293</th>
-      <th>294</th>
-      <th>295</th>
-      <th>296</th>
-      <th>297</th>
-      <th>298</th>
-      <th>299</th>
-      <th>300</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>1</td>
-      <td><a href="https://elma.online/levels/156">QWQUU035</a>
-      </td>
-      <td>748:00:80</td>
-      <td>1072:11:76</td>
-      <td>2:09:73</td>
-      <td>2:11:60</td>
-      <td>2:11:62</td>
-      <td>2:12:52</td>
-      <td>2:13:88</td>
-      <td>2:13:94</td>
-      <td>2:14:43</td>
-      <td>2:15:42</td>
-      <td>2:15:92</td>
-      <td>2:16:10</td>
-      <td>2:17:11</td>
-      <td>2:17:25</td>
-      <td>2:17:61</td>
-      <td>2:17:81</td>
-      <td>2:18:30</td>
-      <td>2:18:57</td>
-      <td>2:19:25</td>
-      <td>2:19:50</td>
-      <td>2:19:69</td>
-      <td>2:19:90</td>
-      <td>2:20:73</td>
-      <td>2:21:30</td>
-      <td>2:21:32</td>
-      <td>2:21:34</td>
-      <td>2:22:20</td>
-      <td>2:22:56</td>
-      <td>2:22:57</td>
-      <td>2:22:94</td>
-      <td>2:23:60</td>
-      <td>2:23:26</td>
-      <td>2:23:34</td>
-      <td>2:23:40</td>
-      <td>2:24:70</td>
-      <td>2:24:42</td>
-      <td>2:25:35</td>
-      <td>2:25:67</td>
-      <td>2:25:67</td>
-      <td>2:25:78</td>
-      <td>2:26:41</td>
-      <td>2:26:70</td>
-      <td>2:26:89</td>
-      <td>2:27:54</td>
-      <td>2:28:35</td>
-      <td>2:28:59</td>
-      <td>2:28:72</td>
-      <td>2:29:49</td>
-      <td>2:29:64</td>
-      <td>2:29:84</td>
-      <td>2:29:98</td>
-      <td>2:30:70</td>
-      <td>2:30:68</td>
-      <td>2:30:90</td>
-      <td>2:31:46</td>
-      <td>2:31:69</td>
-      <td>2:31:94</td>
-      <td>2:32:23</td>
-      <td>2:32:33</td>
-      <td>2:32:48</td>
-      <td>2:32:63</td>
-      <td>2:32:72</td>
-      <td>2:32:83</td>
-      <td>2:32:96</td>
-      <td>2:35:60</td>
-      <td>2:36:26</td>
-      <td>2:36:53</td>
-      <td>2:37:66</td>
-      <td>2:37:71</td>
-      <td>2:38:31</td>
-      <td>2:38:53</td>
-      <td>2:38:65</td>
-      <td>2:38:75</td>
-      <td>2:39:00</td>
-      <td>2:39:10</td>
-      <td>2:39:21</td>
-      <td>2:39:38</td>
-      <td>2:40:20</td>
-      <td>2:40:22</td>
-      <td>2:40:72</td>
-      <td>2:41:47</td>
-      <td>2:41:63</td>
-      <td>2:45:15</td>
-      <td>2:45:44</td>
-      <td>2:45:70</td>
-      <td>2:46:43</td>
-      <td>2:46:62</td>
-      <td>2:47:13</td>
-      <td>2:47:29</td>
-      <td>2:47:55</td>
-      <td>2:48:66</td>
-      <td>2:50:75</td>
-      <td>2:51:40</td>
-      <td>2:51:70</td>
-      <td>2:51:86</td>
-      <td>2:51:89</td>
-      <td>2:52:78</td>
-      <td>2:53:15</td>
-      <td>2:53:81</td>
-      <td>2:55:85</td>
-      <td>3:00:53</td>
-      <td>3:00:93</td>
-      <td>3:06:73</td>
-      <td>3:11:43</td>
-      <td>3:13:80</td>
-      <td>3:14:26</td>
-      <td>3:15:70</td>
-      <td>3:15:33</td>
-      <td>3:16:15</td>
-      <td>3:16:58</td>
-      <td>3:18:38</td>
-      <td>3:18:68</td>
-      <td>3:18:80</td>
-      <td>3:18:95</td>
-      <td>3:19:00</td>
-      <td>3:19:15</td>
-      <td>3:19:96</td>
-      <td>3:19:98</td>
-      <td>3:20:12</td>
-      <td>3:20:41</td>
-      <td>3:20:83</td>
-      <td>3:21:68</td>
-      <td>3:22:63</td>
-      <td>3:22:88</td>
-      <td>3:23:36</td>
-      <td>3:23:47</td>
-      <td>3:23:69</td>
-      <td>3:23:70</td>
-      <td>3:23:80</td>
-      <td>3:23:83</td>
-      <td>3:24:63</td>
-      <td>3:24:91</td>
-      <td>3:24:94</td>
-      <td>3:25:24</td>
-      <td>3:25:29</td>
-      <td>3:26:17</td>
-      <td>3:26:18</td>
-      <td>3:26:29</td>
-      <td>3:27:37</td>
-      <td>3:27:77</td>
-      <td>3:28:18</td>
-      <td>3:28:68</td>
-      <td>3:28:99</td>
-      <td>3:29:51</td>
-      <td>3:29:86</td>
-      <td>3:30:38</td>
-      <td>3:30:44</td>
-      <td>3:31:52</td>
-      <td>3:31:58</td>
-      <td>3:31:82</td>
-      <td>3:32:47</td>
-      <td>3:32:86</td>
-      <td>3:34:20</td>
-      <td>3:34:47</td>
-      <td>3:34:82</td>
-      <td>3:35:10</td>
-      <td>3:35:11</td>
-      <td>3:35:88</td>
-      <td>3:35:93</td>
-      <td>3:36:67</td>
-      <td>3:36:74</td>
-      <td>3:36:84</td>
-      <td>3:37:40</td>
-      <td>3:37:16</td>
-      <td>3:37:20</td>
-      <td>3:37:49</td>
-      <td>3:37:67</td>
-      <td>3:38:00</td>
-      <td>3:38:10</td>
-      <td>3:38:40</td>
-      <td>3:39:45</td>
-      <td>3:40:96</td>
-      <td>3:41:36</td>
-      <td>3:41:50</td>
-      <td>3:41:51</td>
-      <td>3:41:75</td>
-      <td>3:41:98</td>
-      <td>3:42:33</td>
-      <td>3:42:65</td>
-      <td>3:43:42</td>
-      <td>3:43:47</td>
-      <td>3:44:79</td>
-      <td>3:44:91</td>
-      <td>3:44:92</td>
-      <td>3:44:98</td>
-      <td>3:45:53</td>
-      <td>3:45:60</td>
-      <td>3:45:95</td>
-      <td>3:46:98</td>
-      <td>3:47:26</td>
-      <td>3:47:32</td>
-      <td>3:47:53</td>
-      <td>3:47:66</td>
-      <td>3:48:34</td>
-      <td>3:48:37</td>
-      <td>3:49:10</td>
-      <td>3:49:20</td>
-      <td>3:49:67</td>
-      <td>3:49:78</td>
-      <td>3:50:60</td>
-      <td>3:51:23</td>
-      <td>3:52:19</td>
-      <td>3:52:63</td>
-      <td>3:52:65</td>
-      <td>3:52:72</td>
-      <td>3:54:43</td>
-      <td>3:54:60</td>
-      <td>3:54:75</td>
-      <td>3:54:76</td>
-      <td>3:55:72</td>
-      <td>3:55:73</td>
-      <td>3:56:79</td>
-      <td>3:58:13</td>
-      <td>3:58:22</td>
-      <td>3:59:37</td>
-      <td>4:00:19</td>
-      <td>4:02:00</td>
-      <td>4:03:38</td>
-      <td>4:03:43</td>
-      <td>4:03:80</td>
-      <td>4:07:72</td>
-      <td>4:08:64</td>
-      <td>4:08:80</td>
-      <td>4:08:93</td>
-      <td>4:09:80</td>
-      <td>4:09:34</td>
-      <td>4:09:43</td>
-      <td>4:10:80</td>
-      <td>4:11:53</td>
-      <td>4:13:00</td>
-      <td>4:15:68</td>
-      <td>4:16:28</td>
-      <td>4:16:57</td>
-      <td>4:16:75</td>
-      <td>4:17:38</td>
-      <td>4:19:50</td>
-      <td>4:19:40</td>
-      <td><strike>4:20:62</strike>
-      </td>
-      <td><strike>4:22:77</strike>
-      </td>
-      <td><strike>4:24:60</strike>
-      </td>
-      <td><strike>4:26:30</strike>
-      </td>
-      <td><strike>4:27:30</strike>
-      </td>
-      <td><strike>4:28:43</strike>
-      </td>
-      <td><strike>4:30:10</strike>
-      </td>
-      <td><strike>4:30:45</strike>
-      </td>
-      <td><strike>4:30:70</strike>
-      </td>
-      <td><strike>4:30:92</strike>
-      </td>
-      <td><strike>4:33:79</strike>
-      </td>
-      <td><strike>4:34:85</strike>
-      </td>
-      <td><strike>4:38:62</strike>
-      </td>
-      <td><strike>4:40:32</strike>
-      </td>
-      <td><strike>4:40:39</strike>
-      </td>
-      <td><strike>4:41:10</strike>
-      </td>
-      <td><strike>4:42:00</strike>
-      </td>
-      <td><strike>4:42:30</strike>
-      </td>
-      <td><strike>4:43:12</strike>
-      </td>
-      <td><strike>4:43:58</strike>
-      </td>
-      <td><strike>4:44:21</strike>
-      </td>
-      <td><strike>4:47:73</strike>
-      </td>
-      <td><strike>4:48:10</strike>
-      </td>
-      <td><strike>4:50:86</strike>
-      </td>
-      <td><strike>4:51:32</strike>
-      </td>
-      <td><strike>4:51:44</strike>
-      </td>
-      <td><strike>4:52:82</strike>
-      </td>
-      <td><strike>4:54:29</strike>
-      </td>
-      <td><strike>4:54:32</strike>
-      </td>
-      <td><strike>4:54:91</strike>
-      </td>
-      <td><strike>4:55:39</strike>
-      </td>
-      <td><strike>4:55:53</strike>
-      </td>
-      <td><strike>4:55:55</strike>
-      </td>
-      <td><strike>4:56:32</strike>
-      </td>
-      <td><strike>4:58:47</strike>
-      </td>
-      <td><strike>4:59:41</strike>
-      </td>
-      <td><strike>4:59:92</strike>
-      </td>
-      <td><strike>5:00:87</strike>
-      </td>
-      <td><strike>5:04:51</strike>
-      </td>
-      <td><strike>5:04:54</strike>
-      </td>
-      <td><strike>5:05:20</strike>
-      </td>
-      <td><strike>5:07:18</strike>
-      </td>
-      <td><strike>5:08:40</strike>
-      </td>
-      <td><strike>5:09:19</strike>
-      </td>
-      <td><strike>5:10:40</strike>
-      </td>
-      <td><strike>5:10:75</strike>
-      </td>
-      <td><strike>5:11:84</strike>
-      </td>
-      <td><strike>5:13:98</strike>
-      </td>
-      <td><strike>5:15:40</strike>
-      </td>
-      <td><strike>5:15:79</strike>
-      </td>
-      <td><strike>5:16:18</strike>
-      </td>
-      <td><strike>5:20:27</strike>
-      </td>
-      <td><strike>5:21:71</strike>
-      </td>
-      <td><strike>5:23:39</strike>
-      </td>
-      <td><strike>5:23:49</strike>
-      </td>
-      <td><strike>5:27:66</strike>
-      </td>
-      <td><strike>5:32:62</strike>
-      </td>
-      <td><strike>5:33:68</strike>
-      </td>
-      <td><strike>5:35:54</strike>
-      </td>
-      <td><strike>5:37:72</strike>
-      </td>
-      <td><strike>5:38:20</strike>
-      </td>
-      <td><strike>5:40:60</strike>
-      </td>
-      <td><strike>5:40:13</strike>
-      </td>
-      <td><strike>5:40:34</strike>
-      </td>
-      <td><strike>5:40:60</strike>
-      </td>
-    </tr>
-    <tr>
-      <td>2</td>
       <td><a href="https://elma.online/levels/690">Smibu80</a>
       </td>
       <td>684:29:21</td>
@@ -1117,32 +826,9 @@
       <td></td>
       <td></td>
       <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
     </tr>
     <tr>
-      <td>3</td>
+      <td>2</td>
       <td><a href="https://elma.online/levels/359892">Pob1000</a>
       </td>
       <td>101:08:15</td>
@@ -1424,32 +1110,9 @@
       <td></td>
       <td></td>
       <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
     </tr>
     <tr>
-      <td>4</td>
+      <td>3</td>
       <td><a href="https://elma.online/levels/371127">WCup701</a>
       </td>
       <td>57:09:16</td>
@@ -1733,32 +1396,9 @@
       <td></td>
       <td></td>
       <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
     </tr>
     <tr>
-      <td>5</td>
+      <td>4</td>
       <td><a href="https://elma.online/levels/237824">WCup601</a>
       </td>
       <td>56:29:37</td>
@@ -2043,32 +1683,9 @@
       <td></td>
       <td></td>
       <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
     </tr>
     <tr>
-      <td>6</td>
+      <td>5</td>
       <td><a href="https://elma.online/levels/1697">Pipo001</a>
       </td>
       <td>38:19:20</td>
@@ -2350,32 +1967,9 @@
       <td></td>
       <td></td>
       <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
     </tr>
     <tr>
-      <td>7</td>
+      <td>6</td>
       <td><a href="https://elma.online/levels/331252">TTC101</a>
       </td>
       <td>11:42:50</td>
@@ -2657,339 +2251,9 @@
       <td></td>
       <td></td>
       <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
     </tr>
     <tr>
-      <td>8</td>
-      <td><a href="https://elma.online/levels/2">QWQUU001</a>
-      </td>
-      <td>11:19:44</td>
-      <td>11:19:44</td>
-      <td>13:79</td>
-      <td>13:86</td>
-      <td>13:91</td>
-      <td>13:93</td>
-      <td>13:93</td>
-      <td>13:94</td>
-      <td>13:95</td>
-      <td>13:95</td>
-      <td>13:96</td>
-      <td>13:97</td>
-      <td>13:97</td>
-      <td>13:99</td>
-      <td>14:00</td>
-      <td>14:10</td>
-      <td>14:10</td>
-      <td>14:30</td>
-      <td>14:30</td>
-      <td>14:50</td>
-      <td>14:50</td>
-      <td>14:50</td>
-      <td>14:60</td>
-      <td>14:60</td>
-      <td>14:60</td>
-      <td>14:70</td>
-      <td>14:70</td>
-      <td>14:70</td>
-      <td>14:70</td>
-      <td>14:70</td>
-      <td>14:70</td>
-      <td>14:70</td>
-      <td>14:70</td>
-      <td>14:80</td>
-      <td>14:80</td>
-      <td>14:80</td>
-      <td>14:80</td>
-      <td>14:80</td>
-      <td>14:80</td>
-      <td>14:80</td>
-      <td>14:80</td>
-      <td>14:90</td>
-      <td>14:90</td>
-      <td>14:90</td>
-      <td>14:90</td>
-      <td>14:10</td>
-      <td>14:10</td>
-      <td>14:10</td>
-      <td>14:10</td>
-      <td>14:10</td>
-      <td>14:11</td>
-      <td>14:11</td>
-      <td>14:11</td>
-      <td>14:11</td>
-      <td>14:11</td>
-      <td>14:11</td>
-      <td>14:11</td>
-      <td>14:11</td>
-      <td>14:12</td>
-      <td>14:12</td>
-      <td>14:12</td>
-      <td>14:12</td>
-      <td>14:12</td>
-      <td>14:12</td>
-      <td>14:12</td>
-      <td>14:12</td>
-      <td>14:13</td>
-      <td>14:13</td>
-      <td>14:13</td>
-      <td>14:13</td>
-      <td>14:13</td>
-      <td>14:13</td>
-      <td>14:13</td>
-      <td>14:14</td>
-      <td>14:14</td>
-      <td>14:14</td>
-      <td>14:14</td>
-      <td>14:14</td>
-      <td>14:14</td>
-      <td>14:15</td>
-      <td>14:15</td>
-      <td>14:15</td>
-      <td>14:15</td>
-      <td>14:15</td>
-      <td>14:15</td>
-      <td>14:15</td>
-      <td>14:16</td>
-      <td>14:16</td>
-      <td>14:16</td>
-      <td>14:16</td>
-      <td>14:16</td>
-      <td>14:16</td>
-      <td>14:16</td>
-      <td>14:16</td>
-      <td>14:16</td>
-      <td>14:17</td>
-      <td>14:17</td>
-      <td>14:17</td>
-      <td>14:17</td>
-      <td>14:17</td>
-      <td>14:17</td>
-      <td>14:18</td>
-      <td>14:18</td>
-      <td>14:18</td>
-      <td>14:18</td>
-      <td>14:18</td>
-      <td>14:19</td>
-      <td>14:19</td>
-      <td>14:19</td>
-      <td>14:19</td>
-      <td>14:19</td>
-      <td>14:19</td>
-      <td>14:20</td>
-      <td>14:20</td>
-      <td>14:20</td>
-      <td>14:21</td>
-      <td>14:21</td>
-      <td>14:21</td>
-      <td>14:21</td>
-      <td>14:21</td>
-      <td>14:21</td>
-      <td>14:21</td>
-      <td>14:21</td>
-      <td>14:22</td>
-      <td>14:22</td>
-      <td>14:22</td>
-      <td>14:22</td>
-      <td>14:22</td>
-      <td>14:22</td>
-      <td>14:22</td>
-      <td>14:22</td>
-      <td>14:22</td>
-      <td>14:23</td>
-      <td>14:23</td>
-      <td>14:23</td>
-      <td>14:23</td>
-      <td>14:23</td>
-      <td>14:23</td>
-      <td>14:23</td>
-      <td>14:23</td>
-      <td>14:24</td>
-      <td>14:24</td>
-      <td>14:24</td>
-      <td>14:24</td>
-      <td>14:24</td>
-      <td>14:24</td>
-      <td>14:24</td>
-      <td>14:24</td>
-      <td>14:24</td>
-      <td>14:25</td>
-      <td>14:25</td>
-      <td>14:25</td>
-      <td>14:25</td>
-      <td>14:25</td>
-      <td>14:25</td>
-      <td>14:25</td>
-      <td>14:25</td>
-      <td>14:25</td>
-      <td>14:26</td>
-      <td>14:26</td>
-      <td>14:26</td>
-      <td>14:26</td>
-      <td>14:26</td>
-      <td>14:26</td>
-      <td>14:26</td>
-      <td>14:26</td>
-      <td>14:26</td>
-      <td>14:26</td>
-      <td>14:26</td>
-      <td>14:26</td>
-      <td>14:27</td>
-      <td>14:27</td>
-      <td>14:27</td>
-      <td>14:27</td>
-      <td>14:27</td>
-      <td>14:27</td>
-      <td>14:27</td>
-      <td>14:27</td>
-      <td>14:27</td>
-      <td>14:27</td>
-      <td>14:27</td>
-      <td>14:28</td>
-      <td>14:28</td>
-      <td>14:28</td>
-      <td>14:28</td>
-      <td>14:28</td>
-      <td>14:28</td>
-      <td>14:28</td>
-      <td>14:28</td>
-      <td>14:28</td>
-      <td>14:28</td>
-      <td>14:28</td>
-      <td>14:28</td>
-      <td>14:28</td>
-      <td>14:28</td>
-      <td>14:28</td>
-      <td>14:28</td>
-      <td>14:29</td>
-      <td>14:29</td>
-      <td>14:29</td>
-      <td>14:29</td>
-      <td>14:29</td>
-      <td>14:29</td>
-      <td>14:29</td>
-      <td>14:29</td>
-      <td>14:29</td>
-      <td>14:29</td>
-      <td>14:29</td>
-      <td>14:29</td>
-      <td>14:30</td>
-      <td>14:30</td>
-      <td>14:30</td>
-      <td>14:30</td>
-      <td>14:31</td>
-      <td>14:31</td>
-      <td>14:31</td>
-      <td>14:31</td>
-      <td>14:31</td>
-      <td>14:31</td>
-      <td>14:31</td>
-      <td>14:31</td>
-      <td>14:31</td>
-      <td>14:31</td>
-      <td>14:32</td>
-      <td>14:32</td>
-      <td>14:32</td>
-      <td>14:32</td>
-      <td>14:32</td>
-      <td>14:32</td>
-      <td>14:32</td>
-      <td>14:32</td>
-      <td>14:32</td>
-      <td>14:33</td>
-      <td>14:33</td>
-      <td>14:33</td>
-      <td>14:33</td>
-      <td>14:33</td>
-      <td>14:33</td>
-      <td>14:33</td>
-      <td>14:33</td>
-      <td>14:34</td>
-      <td>14:34</td>
-      <td>14:34</td>
-      <td>14:34</td>
-      <td>14:34</td>
-      <td>14:34</td>
-      <td>14:34</td>
-      <td>14:34</td>
-      <td>14:34</td>
-      <td>14:34</td>
-      <td>14:35</td>
-      <td>14:35</td>
-      <td>14:35</td>
-      <td>14:35</td>
-      <td>14:35</td>
-      <td>14:35</td>
-      <td>14:35</td>
-      <td>14:35</td>
-      <td>14:35</td>
-      <td>14:35</td>
-      <td>14:35</td>
-      <td>14:35</td>
-      <td>14:35</td>
-      <td>14:35</td>
-      <td>14:36</td>
-      <td>14:36</td>
-      <td>14:36</td>
-      <td>14:36</td>
-      <td>14:36</td>
-      <td>14:36</td>
-      <td>14:36</td>
-      <td>14:36</td>
-      <td>14:36</td>
-      <td>14:37</td>
-      <td>14:37</td>
-      <td>14:37</td>
-      <td>14:37</td>
-      <td>14:37</td>
-      <td>14:37</td>
-      <td>14:37</td>
-      <td>14:38</td>
-      <td>14:38</td>
-      <td>14:38</td>
-      <td>14:38</td>
-      <td>14:38</td>
-      <td>14:39</td>
-      <td>14:39</td>
-      <td>14:39</td>
-      <td>14:39</td>
-      <td>14:39</td>
-      <td>14:39</td>
-      <td>14:39</td>
-      <td>14:40</td>
-      <td>14:40</td>
-      <td>14:40</td>
-      <td>14:40</td>
-      <td>14:40</td>
-      <td>14:40</td>
-      <td>14:40</td>
-      <td>14:40</td>
-      <td>14:40</td>
-      <td>14:40</td>
-    </tr>
-    <tr>
-      <td>9</td>
+      <td>7</td>
       <td><a href="https://elma.online/levels/163">Tutor1</a>
       </td>
       <td>5:58:99</td>
@@ -3275,32 +2539,9 @@
       </td>
       <td><strike>23:89</strike>
       </td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
     </tr>
     <tr>
-      <td>10</td>
+      <td>8</td>
       <td><a href="https://elma.online/levels/2599">Rambo101</a>
       </td>
       <td>4:51:76</td>
@@ -3582,32 +2823,9 @@
       <td></td>
       <td></td>
       <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
     </tr>
     <tr>
-      <td>11</td>
+      <td>9</td>
       <td><a href="https://elma.online/levels/483457">CPC100</a>
       </td>
       <td>3:53:29</td>
@@ -3626,29 +2844,6 @@
       <td>18:93</td>
       <td>19:86</td>
       <td>20:59</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
       <td></td>
       <td></td>
       <td></td>
