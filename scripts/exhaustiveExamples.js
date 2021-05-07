@@ -34,8 +34,8 @@ const allTimesFile = "scripts/results/allTimes.json";
 const updateData = async () => {
   const levelIds = [
     163, // Tutor1
-    2, // WarmUp
-    156, // LabPro
+    2, // Warm Up
+    156, // Lab Pro
     359892, // Pob1000
     2599, // Rambo101
     1697, // Pipo001
@@ -44,6 +44,11 @@ const updateData = async () => {
     237824, // WCup601
     371127, // WCup701
     483457, // CPC101
+    371726, // WCup702
+    471405, // WCup802
+    472912, // WCup804
+    475307, // WCup807
+    4, // Flat Track
   ];
   const levelsDataBestTimes = [];
   const levelDataAllTimes = [];
