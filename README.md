@@ -122,6 +122,10 @@ A rule like this could incentivise players to submit levels, but also to think t
 
 How to quickly validate that levels are not old levels, or that submitter is actually the designer of the level? Should there be a penalty if that's confirmed? Should the event be cancelled, removed, filtered out of the ranking?
 
+## Remixed levels
+
+Should the cup allowed remixed levels? This could allow players to do small edits to an ongoing level and re-upload it as a remix.
+
 ## Technical or necessary limitations
 
 Currently the cup would need some considerate manual orchestration. This management will be centralized as opposed to the cup levels on which anyone can collaborate with. This centralized person or group of persons will be the cup admins.
