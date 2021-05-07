@@ -4,11 +4,12 @@ const { writeFile, readFile } = require("./utils/write");
 const levelsRankDouble = require("./levelsRankDouble");
 
 const fetchJson = async (url) => {
+  console.log(`fetching > ${url}`);
   const response = await fetch(url);
   return response.json();
 };
 
-const getPrsFromOnlineLevel = async (levelId, { max } = { max: 300 }) => {
+const getPrsFromOnlineLevel = async (levelId, { max } = { max: 10000 }) => {
   const level = await fetchJson(`https://api.elma.online/api/level/${levelId}`);
   const bestTimes = await fetchJson(
     `https://api.elma.online/api/besttime/${levelId}/${max}/0`
@@ -18,7 +19,10 @@ const getPrsFromOnlineLevel = async (levelId, { max } = { max: 300 }) => {
   return { name: level.LevelName, times, url };
 };
 
-const getAllTimesFromOnlineLevel = async (levelId, { max } = { max: 300 }) => {
+const getAllTimesFromOnlineLevel = async (
+  levelId,
+  { max } = { max: 10000 }
+) => {
   const level = await fetchJson(`https://api.elma.online/api/level/${levelId}`);
   const allTimes = await fetchJson(
     `https://api.elma.online/api/allfinished/${levelId}/`
@@ -28,8 +32,26 @@ const getAllTimesFromOnlineLevel = async (levelId, { max } = { max: 300 }) => {
   return { name: level.LevelName, times, url };
 };
 
-const bestTimesFile = "scripts/results/bestTimes.json";
-const allTimesFile = "scripts/results/allTimes.json";
+const getLevelsFromCup = async (cupId, { max } = { max: 10000 }) => {
+  const cup = await fetchJson(
+    `https://api.elma.online/api/cups/events/${cupId}`
+  );
+
+  const result = [];
+  for (const event of cup) {
+    const data = await getAllTimesFromOnlineLevel(event.LevelIndex, { max });
+    result.push(data);
+  }
+
+  return result;
+};
+
+const basePath = "scripts/results/";
+const bestTimesFile = basePath + "bestTimes.json";
+const allTimesFile = basePath + "allTimes.json";
+const cup32File = basePath + "32cup.json";
+const wcup8File = basePath + "wcup8.json";
+const wcup7File = basePath + "wcup7.json";
 
 const updateData = async () => {
   const levelIds = [
@@ -60,10 +82,8 @@ const updateData = async () => {
   const levelsDataBestTimes = [];
   const levelDataAllTimes = [];
   for (const levelId of levelIds) {
-    const levelWithPrs = await getPrsFromOnlineLevel(levelId, { max: 10000 });
-    const levelWithAllTimes = await getAllTimesFromOnlineLevel(levelId, {
-      max: 10000,
-    });
+    const levelWithPrs = await getPrsFromOnlineLevel(levelId);
+    const levelWithAllTimes = await getAllTimesFromOnlineLevel(levelId);
 
     levelsDataBestTimes.push(levelWithPrs);
     levelDataAllTimes.push(levelWithAllTimes);
@@ -73,33 +93,69 @@ const updateData = async () => {
   writeFile(allTimesFile, JSON.stringify(levelDataAllTimes));
 };
 
+const updateCupsData = async () => {
+  const cups = [
+    { id: 8, name: "32Cup", file: cup32File },
+    { id: 17, name: "WCup8", file: wcup8File },
+    { id: 10, name: "WCup7", file: wcup8File },
+  ];
+
+  for (const cup of cups) {
+    const levelsData = await getLevelsFromCup(cup.id);
+    writeFile(cup.file, JSON.stringify(levelsData));
+  }
+};
+
 const runExample = async () => {
-  const levelsData = await readFile(bestTimesFile);
-  const levelsDataAllTimes = await readFile(allTimesFile);
+  const data = [
+    {
+      title: "Summary with all finishes",
+      description:
+        "This takes into account all times finished from all kuskis. Max. 10.000 results per level. Rank is equal to the sum of all unique non shadow times that are under 2 times the best time.",
+      file: allTimesFile,
+    },
+    {
+      title: "Summary with only PRs",
+      description:
+        "This takes into account only best times (PRs) from each kuskis. Rank is equal to the sum of all unique non shadow best times that are under 2 times the best time.",
+      file: bestTimesFile,
+    },
+    {
+      title: "32Cup levels with all finishes",
+      description: "",
+      file: cup32File,
+    },
+    {
+      title: "WCup8 levels with all finishes",
+      description: "",
+      file: wcup8File,
+    },
+    {
+      title: "WCup7 levels with all finishes",
+      description: "",
+      file: wcup7File,
+    },
+  ];
 
-  const rankedLevels = levelsRankDouble(JSON.parse(levelsData));
-  // const tableResult = levelsRankDouble.printTable(rankedLevels);
-  const summary = levelsRankDouble.printSummary(rankedLevels);
+  let content = "";
+  for (const item of data) {
+    const levelsData = await readFile(item.file);
+    const rankedLevels = levelsRankDouble(JSON.parse(levelsData));
+    const summary = levelsRankDouble.printSummary(rankedLevels);
+    content += `## ${item.title}
+${item.description}
+${prettyPrint(summary)}
+<br/>
 
-  const rankedLevelsAllTimes = levelsRankDouble(JSON.parse(levelsDataAllTimes));
-  // const tableResult = levelsRankDouble.printTable(rankedLevelsAllTimes);
-  const summaryAllTimes = levelsRankDouble.printSummary(rankedLevelsAllTimes);
+`;
+  }
 
-  const content = `
-  ## Summary with all finishes
-  This takes into account all times finished from all kuskis. Max. 10.000 results per level. 
-  Rank is equal to the sum of all unique non shadow times that are under 2 times the best time.
-  ${prettyPrint(summaryAllTimes)}
-  <br/>
-  
-  ## Summary with only PRs
-  This takes into account only best times (PRs) from each kuskis. Rank is equal to the sum of all unique non shadow best times that are under 2 times the best time.
-  ${prettyPrint(summary)}`;
   const result = printResult("Rank double", content, {
     pretty: true,
   });
   writeFile("scripts/results/doubleExhaustive.md", result);
 };
 
-runExample();
+// runExample();
 // updateData();
+updateCupsData();
