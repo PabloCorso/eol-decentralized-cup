@@ -8,8 +8,8 @@
     <tr>
       <th>Top</th>
       <th>Level</th>
-      <th>PRs count</th>
-      <th>Unique PRs</th>
+      <th>Times count</th>
+      <th>Unique times</th>
       <th>Best time</th>
       <th>Rank</th>
       <th>Total sum</th>
@@ -128,6 +128,7 @@
     </tr>
   </tbody>
 </table>
+
   ### Summary with only PRs
   This takes into account only best times (PRs) from each kuskis.
   <table>
@@ -135,8 +136,8 @@
     <tr>
       <th>Top</th>
       <th>Level</th>
-      <th>PRs count</th>
-      <th>Unique PRs</th>
+      <th>Times count</th>
+      <th>Unique times</th>
       <th>Best time</th>
       <th>Rank</th>
       <th>Total sum</th>
@@ -255,6 +256,7 @@
     </tr>
   </tbody>
 </table>
+  
   ### Full times data with only PRs
   <table>
   <thead>

@@ -78,9 +78,11 @@ const runExample = async () => {
   ### Summary with all finishes
   This takes into account all times finished from all kuskis.
   ${prettyPrint(summaryAllTimes)}
+
   ### Summary with only PRs
   This takes into account only best times (PRs) from each kuskis.
   ${prettyPrint(summary)}
+  
   ### Full times data with only PRs
   ${prettyPrint(tableResult)}`;
   const result = printResult("Rank double", content, {

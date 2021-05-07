@@ -82,8 +82,8 @@ const printSummary = (levels) => {
     [
       TableHeader("Top"),
       TableHeader("Level"),
-      TableHeader("PRs count"),
-      TableHeader("Unique PRs"),
+      TableHeader("Times count"),
+      TableHeader("Unique times"),
       TableHeader("Best time"),
       TableHeader("Rank"),
       TableHeader("Total sum"),
