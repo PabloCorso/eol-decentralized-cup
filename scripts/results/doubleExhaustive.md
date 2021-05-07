@@ -12,7 +12,7 @@
     <th>Times count</th>
     <th>Unique times</th>
     <th>Shadow times</th>
-    <th>Times > 2x WR</th>
+    <th>Times > 2x best</th>
     <th>Removed times</th>
     <th>Rank</th>
     <th>Total sum</th>
@@ -240,7 +240,7 @@
     <th>Times count</th>
     <th>Unique times</th>
     <th>Shadow times</th>
-    <th>Times > 2x WR</th>
+    <th>Times > 2x best</th>
     <th>Removed times</th>
     <th>Rank</th>
     <th>Total sum</th>
