@@ -76,7 +76,7 @@ Here the trivial short level gets the lowest rank again. But the longest level i
 
 #### PRs ranking, using best time double with all times.
 
-Aside from favoring the very long levels too much over short or normal levels, there is another issue with the previous approach. Counting only the best times (PRs) for a level ends penalizing in some way the energy put into it by its players. By playing more, they make lower PRs and the level's ranking also decreases. When instead, the ranking should favor levels that people like playing.
+The previous approach might be favoring the very long levels too much over normal and short levels, plus there might be another issue. Counting only the best times (PRs) for a level ends penalizing in some way the energy put into it by its players. By playing more, they make lower PRs and the level's ranking also decreases. When instead, the ranking should favor levels that people like playing more.
 
 Instead of counting only the PRs made, we can count all times made. The more the players play, the more times the level has and the better it ranks. Even though their times might get better over time, they keep summing to the rank of the level. Investing more time into the level means having more chances to have it reach the top X.
 
@@ -84,7 +84,7 @@ Instead of counting only the PRs made, we can count all times made. The more the
 
 The new potential problem is that the number of kuskis that finishes is not directly taken into account anymore in the equation. Previously we had only PRs, 1 kuski 1 time. Now there could be only 1 kuski playing the level, and make hundreds of times. Although multiple kuskis playing level A could easily outpace the number of finishes against a single kuski playing another level B.
 
-Comparison of number if finishes and ranking per average time in level:
+Comparison of number of finishes and ranking per average time in level:
 <table>
   <thead><tr>
     <th>Average time</th>
