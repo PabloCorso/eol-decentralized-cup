@@ -106,7 +106,7 @@ const printSummary = (levels) => {
     rows.push({
       top,
       level: Link({ children: level.name, href: level.url }),
-      wr: bestTime,
+      wr: centisecondsToPr(bestTime),
       times: timesCount,
       unique: uniqueTimes,
       shadow: shadowTimes,

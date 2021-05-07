@@ -33,22 +33,29 @@ const allTimesFile = "scripts/results/allTimes.json";
 
 const updateData = async () => {
   const levelIds = [
-    163, // Tutor1
     2, // Warm Up
+    4, // Flat Track
     156, // Lab Pro
+    163, // Tutor1
+    690, // Smibu80
+    2417, // Uni001
+    116878, // EOL01
+    116880, // EOL02
+    116882, // EOL05
+    116898, // EOL21
     359892, // Pob1000
+    74671, // PobFF003
+    73243, // PobFF001
     2599, // Rambo101
     1697, // Pipo001
-    690, // Smibu80
     331252, // TTC101
+    483457, // CPC101
     237824, // WCup601
     371127, // WCup701
-    483457, // CPC101
     371726, // WCup702
     471405, // WCup802
     472912, // WCup804
     475307, // WCup807
-    4, // Flat Track
   ];
   const levelsDataBestTimes = [];
   const levelDataAllTimes = [];
