@@ -46,12 +46,28 @@ const getLevelsFromCup = async (cupId, { max } = { max: 10000 }) => {
   return result;
 };
 
+const getLevelsFromPack = async (packId, { max } = { max: 10000 }) => {
+  const stats = await fetchJson(
+    `https://api.elma.online/api/levelpack/${packId}/stats/0`
+  );
+
+  const result = [];
+  for (const level of stats.records) {
+    const data = await getAllTimesFromOnlineLevel(level.LevelIndex, { max });
+    result.push(data);
+  }
+
+  return result;
+};
+
 const basePath = "scripts/results/";
 const bestTimesFile = basePath + "bestTimes.json";
 const allTimesFile = basePath + "allTimes.json";
 const cup32File = basePath + "32cup.json";
 const wcup8File = basePath + "wcup8.json";
 const wcup7File = basePath + "wcup7.json";
+const ttc1File = basePath + "ttc1.json";
+const eolFile = basePath + "eol.json";
 
 const updateData = async () => {
   const levelIds = [
@@ -97,12 +113,21 @@ const updateCupsData = async () => {
   const cups = [
     { id: 8, name: "32Cup", file: cup32File },
     { id: 17, name: "WCup8", file: wcup8File },
-    { id: 10, name: "WCup7", file: wcup8File },
+    { id: 10, name: "WCup7", file: wcup7File },
+    { id: 6, name: "TTC1", file: ttc1File },
   ];
 
   for (const cup of cups) {
     const levelsData = await getLevelsFromCup(cup.id);
     writeFile(cup.file, JSON.stringify(levelsData));
+  }
+};
+
+const updateLevelPacksData = async () => {
+  const levelPacks = [{ id: "EOL", file: eolFile }];
+  for (const pack of levelPacks) {
+    const levelsData = await getLevelsFromPack(pack.id);
+    writeFile(pack.file, JSON.stringify(levelsData));
   }
 };
 
@@ -135,6 +160,16 @@ const runExample = async () => {
       description: "",
       file: wcup7File,
     },
+    {
+      title: "TTC1 levels with all finishes",
+      description: "",
+      file: ttc1File,
+    },
+    {
+      title: "EOL levels with all finishes",
+      description: "",
+      file: eolFile,
+    },
   ];
 
   let content = "";
@@ -146,6 +181,7 @@ const runExample = async () => {
 ${item.description}
 ${prettyPrint(summary)}
 <br/>
+<br/>
 
 `;
   }
@@ -156,6 +192,7 @@ ${prettyPrint(summary)}
   writeFile("scripts/results/doubleExhaustive.md", result);
 };
 
-// runExample();
+runExample();
 // updateData();
-updateCupsData();
+// updateCupsData();
+// updateLevelPacksData();
