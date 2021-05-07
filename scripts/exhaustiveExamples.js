@@ -13,19 +13,19 @@ const getPrsFromOnlineLevel = async (levelId, { max } = { max: 300 }) => {
   const bestTimes = await fetchJson(
     `https://api.elma.online/api/besttime/${levelId}/${max}/0`
   );
-  const prs = bestTimes.slice(0, max).map((item) => item.Time);
+  const times = bestTimes.slice(0, max).map((item) => item.Time);
   const url = `https://elma.online/levels/${levelId}`;
-  return { name: level.LevelName, prs, url };
+  return { name: level.LevelName, times, url };
 };
 
 const getAllTimesFromOnlineLevel = async (levelId, { max } = { max: 300 }) => {
   const level = await fetchJson(`https://api.elma.online/api/level/${levelId}`);
-  const times = await fetchJson(
+  const allTimes = await fetchJson(
     `https://api.elma.online/api/allfinished/${levelId}/`
   );
-  const prs = times.slice(0, max).map((item) => item.Time);
+  const times = allTimes.slice(0, max).map((item) => item.Time);
   const url = `https://elma.online/levels/${levelId}`;
-  return { name: level.LevelName, prs, url };
+  return { name: level.LevelName, times, url };
 };
 
 const bestTimesFile = "scripts/results/bestTimes.json";

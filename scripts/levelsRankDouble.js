@@ -15,17 +15,17 @@ const printTable = (levels) => {
 
   const rankedLevels = [...levels].sort(descendingOrderByRank);
 
-  let maxPrsCount = 0;
+  let maxTimesCount = 0;
   for (const level of rankedLevels) {
-    if (level.prs.length > maxPrsCount) {
-      maxPrsCount = level.prs.length;
+    if (level.times.length > maxTimesCount) {
+      maxTimesCount = level.times.length;
     }
   }
 
-  const prTimesHeadings = Array.from({ length: maxPrsCount }).map(
+  const prTimesHeadings = Array.from({ length: maxTimesCount }).map(
     (_, index) => index + 1
   );
-  const prsHeaders = prTimesHeadings.map(TableHeader).join("");
+  const timesHeaders = prTimesHeadings.map(TableHeader).join("");
 
   const headers = TableRow(
     [
@@ -33,7 +33,7 @@ const printTable = (levels) => {
       TableHeader("Level"),
       TableHeader("Rank"),
       TableHeader("Total sum"),
-      ...prsHeaders,
+      ...timesHeaders,
     ].join("")
   );
 
@@ -43,15 +43,15 @@ const printTable = (levels) => {
     const nameData = TableData(Link({ children: level.name, href: level.url }));
 
     let count = 0;
-    const prs = [];
-    while (count < maxPrsCount) {
-      const prData = level.prs[count] || 0;
-      prs.push(prData);
+    const times = [];
+    while (count < maxTimesCount) {
+      const prData = level.times[count] || 0;
+      times.push(prData);
       count += 1;
     }
 
-    const bestTime = prs[0];
-    const prsData = prs
+    const bestTime = times[0];
+    const timesData = times
       .map((pr) => {
         const prText = pr ? centisecondsToPr(pr) : "";
         const isOverDouble = pr > bestTime * 2;
@@ -59,14 +59,14 @@ const printTable = (levels) => {
         return TableData(text);
       })
       .join("");
-    const totalData = TableData(centisecondsToPr(level.prsTotal));
+    const totalData = TableData(centisecondsToPr(level.timesTotal));
     const rankData = TableData(centisecondsToPr(level.rank));
 
     const levelTop = i + 1;
     const topData = TableData(levelTop);
 
     rows.push(
-      TableRow([topData, nameData, rankData, totalData, prsData].join(""))
+      TableRow([topData, nameData, rankData, totalData, timesData].join(""))
     );
   }
 
@@ -97,23 +97,23 @@ const printSummary = (levels) => {
     const level = rankedLevels[i];
 
     const nameData = TableData(Link({ children: level.name, href: level.url }));
-    const totalData = TableData(centisecondsToPr(level.prsTotal));
+    const totalData = TableData(centisecondsToPr(level.timesTotal));
     const rankData = TableData(centisecondsToPr(level.rank));
 
     const levelTop = i + 1;
     const topData = TableData(levelTop);
 
-    const prsCount = level.prs.length;
-    const timesCountData = TableData(prsCount);
+    const timesCount = level.times.length;
+    const timesCountData = TableData(timesCount);
 
-    const bestTime = level.prs[0];
+    const bestTime = level.times[0];
     const bestTimeData = TableData(centisecondsToPr(bestTime));
 
-    const uniqueTimes = level.uniquePrs.length;
+    const uniqueTimes = level.uniqueTimes.length;
     const uniqueTimesData = TableData(uniqueTimes);
-    const shadowTimes = level.prs.filter((pr) => pr > bestTime * 2).length;
+    const shadowTimes = level.times.filter((pr) => pr > bestTime * 2).length;
     const shadowTimesData = TableData(shadowTimes);
-    const removedTimesData = TableData(shadowTimes + prsCount - uniqueTimes);
+    const removedTimesData = TableData(shadowTimes + timesCount - uniqueTimes);
 
     rows.push(
       TableRow(
@@ -135,19 +135,19 @@ const printSummary = (levels) => {
   return Table([TableHead(headers), TableBody(rows.join(""))].join(""));
 };
 
-const getPrsSum = (prs) => {
+const getTimesTotal = (times) => {
   let total = 0;
-  for (const pr of prs) {
+  for (const pr of times) {
     total += pr;
   }
 
   return total;
 };
 
-const calculatePrsRank = ({ prs, bestPr }) => {
-  const lessOrEqualThanDoubleBestPr = (pr) => pr <= bestPr * 2;
-  const filteredPrs = prs.filter(lessOrEqualThanDoubleBestPr);
-  return getPrsSum(filteredPrs);
+const calculateTimesRank = ({ times, bestTime }) => {
+  const lessOrEqualThanDoubleBestPr = (time) => time <= bestTime * 2;
+  const filteredTimes = times.filter(lessOrEqualThanDoubleBestPr);
+  return getTimesTotal(filteredTimes);
 };
 
 const getUniqueValuesFromArray = (values) => {
@@ -161,20 +161,23 @@ const getUniqueValuesFromArray = (values) => {
   return result;
 };
 
-const getUniqueSortedPrs = (prs) => {
-  const orderedPrs = prs.sort((a, b) => a - b);
-  const uniquePrs = getUniqueValuesFromArray(orderedPrs);
-  return uniquePrs;
+const getUniqueSortedTimes = (times) => {
+  const orderedTimes = times.sort((a, b) => a - b);
+  const uniqueTimes = getUniqueValuesFromArray(orderedTimes);
+  return uniqueTimes;
 };
 
 const levelsRankDouble = (levelsData) => {
   const resultLevels = [];
   for (const level of levelsData) {
-    const uniquePrs = getUniqueSortedPrs(level.prs);
-    const prsTotal = getPrsSum(level.prs);
-    const rank = calculatePrsRank({ prs: uniquePrs, bestPr: uniquePrs[0] });
+    const uniqueTimes = getUniqueSortedTimes(level.times);
+    const timesTotal = getTimesTotal(level.times);
+    const rank = calculateTimesRank({
+      times: uniqueTimes,
+      bestTime: uniqueTimes[0],
+    });
 
-    resultLevels.push({ ...level, prsTotal, rank, uniquePrs });
+    resultLevels.push({ ...level, timesTotal, rank, uniqueTimes });
   }
 
   return resultLevels;
