@@ -2,8 +2,10 @@
   
 
   ## Summary with all finishes
-  This takes into account all times finished from all kuskis. Max. 10.000 results per level. 
+  This takes into account all times finished from all kuskis.
   Rank is equal to the sum of all unique non shadow times that are under 2 times the best time.
+  
+  Max. 10.000 results per level. Warm Up would rank higher if we could use all the data from the level, but we are topped at 10.000 and most finishes until 10.000 records are shadow times, resulting in only 29 unique times.
   <table>
   <thead>
     <th>Top</th>
