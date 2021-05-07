@@ -85,8 +85,9 @@ const printSummary = (levels) => {
       TableHeader("Best time"),
       TableHeader("Times count"),
       TableHeader("Unique times"),
-      TableHeader("Times > 2x"),
       TableHeader("Shadow times"),
+      TableHeader("Times > 2xWR"),
+      TableHeader("Removed times"),
       TableHeader("Rank"),
       TableHeader("Total sum"),
     ].join("")
@@ -111,9 +112,14 @@ const printSummary = (levels) => {
 
     const uniqueTimes = level.uniqueTimes.length;
     const uniqueTimesData = TableData(uniqueTimes);
-    const shadowTimes = level.times.filter((pr) => pr > bestTime * 2).length;
+
+    const shadowTimes = timesCount - uniqueTimes;
     const shadowTimesData = TableData(shadowTimes);
-    const removedTimesData = TableData(shadowTimes + timesCount - uniqueTimes);
+
+    const timesTwiceBest = level.times.filter((pr) => pr > bestTime * 2).length;
+    const timesTwiceBestData = TableData(timesTwiceBest);
+
+    const removedTimesData = TableData(timesTwiceBest + shadowTimes);
 
     rows.push(
       TableRow(
@@ -124,6 +130,7 @@ const printSummary = (levels) => {
           timesCountData,
           uniqueTimesData,
           shadowTimesData,
+          timesTwiceBestData,
           removedTimesData,
           rankData,
           totalData,

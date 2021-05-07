@@ -12,8 +12,9 @@
       <th>Best time</th>
       <th>Times count</th>
       <th>Unique times</th>
-      <th>Times > 2x</th>
       <th>Shadow times</th>
+      <th>Times > 2xWR</th>
+      <th>Removed times</th>
       <th>Rank</th>
       <th>Total sum</th>
     </tr>
@@ -26,6 +27,7 @@
       <td>2:09:73</td>
       <td>2168</td>
       <td>1875</td>
+      <td>293</td>
       <td>212</td>
       <td>505</td>
       <td>4837:04:51</td>
@@ -40,6 +42,7 @@
       <td>16</td>
       <td>0</td>
       <td>0</td>
+      <td>0</td>
       <td>780:50:23</td>
       <td>780:50:23</td>
     </tr>
@@ -50,6 +53,7 @@
       <td>21:77</td>
       <td>7336</td>
       <td>920</td>
+      <td>6416</td>
       <td>28</td>
       <td>6444</td>
       <td>417:30:80</td>
@@ -62,6 +66,7 @@
       <td>27:51</td>
       <td>312</td>
       <td>271</td>
+      <td>41</td>
       <td>4</td>
       <td>45</td>
       <td>153:17:29</td>
@@ -76,6 +81,7 @@
       <td>19</td>
       <td>0</td>
       <td>0</td>
+      <td>0</td>
       <td>134:47:94</td>
       <td>134:47:94</td>
     </tr>
@@ -86,6 +92,7 @@
       <td>13:93</td>
       <td>10000</td>
       <td>304</td>
+      <td>9696</td>
       <td>0</td>
       <td>9696</td>
       <td>78:48:70</td>
@@ -98,6 +105,7 @@
       <td>14:10</td>
       <td>2129</td>
       <td>250</td>
+      <td>1879</td>
       <td>3</td>
       <td>1882</td>
       <td>64:59:31</td>
@@ -110,6 +118,7 @@
       <td>03:66</td>
       <td>4830</td>
       <td>210</td>
+      <td>4620</td>
       <td>48</td>
       <td>4668</td>
       <td>12:37:75</td>
@@ -122,6 +131,7 @@
       <td>14:49</td>
       <td>48</td>
       <td>45</td>
+      <td>3</td>
       <td>0</td>
       <td>3</td>
       <td>12:16:45</td>
@@ -136,6 +146,7 @@
       <td>9</td>
       <td>0</td>
       <td>0</td>
+      <td>0</td>
       <td>9:59:19</td>
       <td>9:59:19</td>
     </tr>
@@ -146,6 +157,7 @@
       <td>13:79</td>
       <td>10000</td>
       <td>29</td>
+      <td>9971</td>
       <td>0</td>
       <td>9971</td>
       <td>6:45:70</td>
@@ -165,8 +177,9 @@
       <th>Best time</th>
       <th>Times count</th>
       <th>Unique times</th>
-      <th>Times > 2x</th>
       <th>Shadow times</th>
+      <th>Times > 2xWR</th>
+      <th>Removed times</th>
       <th>Rank</th>
       <th>Total sum</th>
     </tr>
@@ -179,6 +192,7 @@
       <td>2:09:73</td>
       <td>352</td>
       <td>350</td>
+      <td>2</td>
       <td>117</td>
       <td>119</td>
       <td>748:00:80</td>
@@ -193,6 +207,7 @@
       <td>14</td>
       <td>0</td>
       <td>0</td>
+      <td>0</td>
       <td>684:29:21</td>
       <td>684:29:21</td>
     </tr>
@@ -203,6 +218,7 @@
       <td>13:79</td>
       <td>1766</td>
       <td>878</td>
+      <td>888</td>
       <td>179</td>
       <td>1067</td>
       <td>223:33:13</td>
@@ -217,6 +233,7 @@
       <td>14</td>
       <td>0</td>
       <td>0</td>
+      <td>0</td>
       <td>101:08:15</td>
       <td>101:08:15</td>
     </tr>
@@ -227,6 +244,7 @@
       <td>21:77</td>
       <td>153</td>
       <td>132</td>
+      <td>21</td>
       <td>2</td>
       <td>23</td>
       <td>57:09:16</td>
@@ -239,6 +257,7 @@
       <td>13:93</td>
       <td>257</td>
       <td>204</td>
+      <td>53</td>
       <td>3</td>
       <td>56</td>
       <td>56:29:37</td>
@@ -251,6 +270,7 @@
       <td>27:51</td>
       <td>68</td>
       <td>66</td>
+      <td>2</td>
       <td>0</td>
       <td>2</td>
       <td>38:19:20</td>
@@ -263,6 +283,7 @@
       <td>14:10</td>
       <td>62</td>
       <td>47</td>
+      <td>15</td>
       <td>0</td>
       <td>15</td>
       <td>11:42:50</td>
@@ -275,6 +296,7 @@
       <td>03:66</td>
       <td>277</td>
       <td>87</td>
+      <td>190</td>
       <td>4</td>
       <td>194</td>
       <td>5:58:99</td>
@@ -289,6 +311,7 @@
       <td>5</td>
       <td>0</td>
       <td>0</td>
+      <td>0</td>
       <td>4:51:76</td>
       <td>4:51:76</td>
     </tr>
@@ -299,6 +322,7 @@
       <td>14:49</td>
       <td>14</td>
       <td>14</td>
+      <td>0</td>
       <td>0</td>
       <td>0</td>
       <td>3:53:29</td>
