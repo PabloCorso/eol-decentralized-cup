@@ -84,6 +84,28 @@ Instead of counting only the PRs made, we can count all times made. The more the
 
 The new potential problem is that the number of kuskis that finishes is not directly taken into account anymore in the equation. Previously we had only PRs, 1 kuski 1 time. Now there could be only 1 kuski playing the level, and make hundreds of times. Although multiple kuskis playing level A could easily outpace the number of finishes against a single kuski playing another level B.
 
+Comparison of number if finishes and ranking per average time in level:
+<table>
+  <thead><tr>
+    <th>Average time</th>
+    <th># finishes</th>
+    <th>Rank</th>
+  </tr></thead>
+  <tbody>
+    <tr><td>10 sec</td><td>10.0000</td><td>100.000</td></tr>
+    <tr><td>1 min</td><td>1.667</td><td>~100.000</td></tr>
+    <tr><td>2 min</td><td>834</td><td>~100.000</td></tr>
+    <tr><td>3 min</td><td>556</td><td>~100.000</td></tr>
+    <tr><td>5 min</td><td>334</td><td>~100.000</td></tr>
+    <tr><td>10 min</td><td>167</td><td>~100.000</td></tr>
+    <tr><td>20 min</td><td>84</td><td>~100.000</td></tr>
+    <tr><td>30 min</td><td>56</td><td>~100.000</td></tr>
+    <tr><td>1 hour</td><td>28</td><td>~100.000</td></tr>
+  </tbody>
+</table>
+
+10.000 finishes in a 10 seconds level ranks approx. the same as 28 finishes in an 1 hour level.
+
 ## Spam levels
 
 Someone can spam 100 levels in one day. 
