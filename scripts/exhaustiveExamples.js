@@ -79,12 +79,12 @@ const runExample = async () => {
   const content = `
   ### Summary with all finishes
   This takes into account all times finished from all kuskis. Max. 10.000 results per level. 
-  Rank is equal to the sum of all unique non shadow times.
+  Rank is equal to the sum of all unique non shadow times that are under 2 times the best time.
   ${prettyPrint(summaryAllTimes)}
 
   
   ### Summary with only PRs
-  This takes into account only best times (PRs) from each kuskis. Rank is equal to the sum of all unique non shadow best times.
+  This takes into account only best times (PRs) from each kuskis. Rank is equal to the sum of all unique non shadow best times that are under 2 times the best time.
   ${prettyPrint(summary)}
   
 
