@@ -60,7 +60,7 @@ In this example, the `Lvl 3` is the top ranked level even though it only has 1 f
 
 This approach favors longer levels over short ones. The problem is that ff someone were to submit a really long level (like a 60 min level) right before the cup ends, and be the only one to finish it, that kuski will secure a 1st position without competitors in that event.
 
-#### PRs ranking, simpler algorithm.
+#### PRs ranking, using best times double fix with PRs.
 
 Rank levels in a descending order, with the following calculation per level:
 - Sum all unique PRs on the level but substract all PRs that are above 2 times the best time. For example, if the best time is 10 seconds, times above 20 seconds are ignored in the calculation.
@@ -72,7 +72,15 @@ Examples:
 
 Here the trivial short level gets the lowest rank again. But the longest level is not in the first position anymore like in the previous example. Only 1 finish was not enough to win over a half long level with more finishes. This gets closer to fix the problem of favoring too much the longest levels over short ones, but might not solve it.
 
-[Check an exhaustive example here.](/scripts/results/doubleExhaustive.md)
+[Check a more exhaustive example here.](/scripts/results/doubleExhaustive.md)
+
+#### PRs ranking, using best time double with all times.
+
+Aside from favoring the very long levels too much over short or normal levels, there is another issue with the previous approach. Counting only the best times (PRs) for a level ends penalizing in some way the energy put into it by its players. By playing more, they make lower PRs and the level's ranking also decreases. When instead, the ranking should favor levels that people like playing.
+
+Instead of counting only the PRs made, we can count all times made. The more the players play, the more times the level has and the better it ranks. Even though their times might get better over time, they keep summing to the rank of the level. Investing more time into the level means having more chances to have it reach the top X.
+
+[Check an example here.](/scripts/results/doubleExhaustive.md)
 
 ## Spam levels
 
