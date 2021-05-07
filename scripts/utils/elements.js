@@ -12,7 +12,8 @@ const TableData = (children) => `<td>${children}</td>`;
 
 const Strike = (children) => `<strike>${children}</strike>`;
 
-const Link = ({ children, href }) => `<a href="${href}">${children}</a>`;
+const Link = ({ children, href }) =>
+  `<a href="${href}" target="_blank">${children}</a>`;
 
 const DataTable = ({ columns, rows }) => {
   let bodyRows = "";

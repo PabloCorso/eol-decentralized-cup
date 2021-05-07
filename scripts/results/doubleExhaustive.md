@@ -18,7 +18,7 @@ This takes into account all times finished from all kuskis. Max. 10.000 results 
   <tbody>
     <tr>
       <td>1</td>
-      <td><a href="https://elma.online/levels/156">QWQUU035</a>
+      <td><a href="https://elma.online/levels/156" target="_blank">QWQUU035</a>
       </td>
       <td>2:09:73</td>
       <td>2168</td>
@@ -31,7 +31,7 @@ This takes into account all times finished from all kuskis. Max. 10.000 results 
     </tr>
     <tr>
       <td>2</td>
-      <td><a href="https://elma.online/levels/472912">WCup804</a>
+      <td><a href="https://elma.online/levels/472912" target="_blank">WCup804</a>
       </td>
       <td>1:02:26</td>
       <td>2680</td>
@@ -44,7 +44,7 @@ This takes into account all times finished from all kuskis. Max. 10.000 results 
     </tr>
     <tr>
       <td>3</td>
-      <td><a href="https://elma.online/levels/371726">WCup702</a>
+      <td><a href="https://elma.online/levels/371726" target="_blank">WCup702</a>
       </td>
       <td>43:58</td>
       <td>3089</td>
@@ -57,7 +57,7 @@ This takes into account all times finished from all kuskis. Max. 10.000 results 
     </tr>
     <tr>
       <td>4</td>
-      <td><a href="https://elma.online/levels/690">Smibu80</a>
+      <td><a href="https://elma.online/levels/690" target="_blank">Smibu80</a>
       </td>
       <td>42:11:11</td>
       <td>16</td>
@@ -70,7 +70,7 @@ This takes into account all times finished from all kuskis. Max. 10.000 results 
     </tr>
     <tr>
       <td>5</td>
-      <td><a href="https://elma.online/levels/471405">WCup802</a>
+      <td><a href="https://elma.online/levels/471405" target="_blank">WCup802</a>
       </td>
       <td>29:20</td>
       <td>9806</td>
@@ -83,7 +83,7 @@ This takes into account all times finished from all kuskis. Max. 10.000 results 
     </tr>
     <tr>
       <td>6</td>
-      <td><a href="https://elma.online/levels/475307">WCup807</a>
+      <td><a href="https://elma.online/levels/475307" target="_blank">WCup807</a>
       </td>
       <td>19:53</td>
       <td>5943</td>
@@ -96,7 +96,7 @@ This takes into account all times finished from all kuskis. Max. 10.000 results 
     </tr>
     <tr>
       <td>7</td>
-      <td><a href="https://elma.online/levels/116898">EOL21</a>
+      <td><a href="https://elma.online/levels/116898" target="_blank">EOL21</a>
       </td>
       <td>30:99</td>
       <td>1233</td>
@@ -109,7 +109,7 @@ This takes into account all times finished from all kuskis. Max. 10.000 results 
     </tr>
     <tr>
       <td>8</td>
-      <td><a href="https://elma.online/levels/116878">EOL01</a>
+      <td><a href="https://elma.online/levels/116878" target="_blank">EOL01</a>
       </td>
       <td>15:56</td>
       <td>8197</td>
@@ -122,7 +122,7 @@ This takes into account all times finished from all kuskis. Max. 10.000 results 
     </tr>
     <tr>
       <td>9</td>
-      <td><a href="https://elma.online/levels/371127">WCup701</a>
+      <td><a href="https://elma.online/levels/371127" target="_blank">WCup701</a>
       </td>
       <td>21:77</td>
       <td>7336</td>
@@ -135,7 +135,7 @@ This takes into account all times finished from all kuskis. Max. 10.000 results 
     </tr>
     <tr>
       <td>10</td>
-      <td><a href="https://elma.online/levels/116882">EOL05</a>
+      <td><a href="https://elma.online/levels/116882" target="_blank">EOL05</a>
       </td>
       <td>26:90</td>
       <td>1121</td>
@@ -148,7 +148,7 @@ This takes into account all times finished from all kuskis. Max. 10.000 results 
     </tr>
     <tr>
       <td>11</td>
-      <td><a href="https://elma.online/levels/1697">Pipo001</a>
+      <td><a href="https://elma.online/levels/1697" target="_blank">Pipo001</a>
       </td>
       <td>27:51</td>
       <td>312</td>
@@ -161,7 +161,7 @@ This takes into account all times finished from all kuskis. Max. 10.000 results 
     </tr>
     <tr>
       <td>12</td>
-      <td><a href="https://elma.online/levels/73243">PobFF001</a>
+      <td><a href="https://elma.online/levels/73243" target="_blank">PobFF001</a>
       </td>
       <td>5:15:57</td>
       <td>20</td>
@@ -174,7 +174,7 @@ This takes into account all times finished from all kuskis. Max. 10.000 results 
     </tr>
     <tr>
       <td>13</td>
-      <td><a href="https://elma.online/levels/359892">Pob1000</a>
+      <td><a href="https://elma.online/levels/359892" target="_blank">Pob1000</a>
       </td>
       <td>5:58:62</td>
       <td>19</td>
@@ -187,7 +187,7 @@ This takes into account all times finished from all kuskis. Max. 10.000 results 
     </tr>
     <tr>
       <td>14</td>
-      <td><a href="https://elma.online/levels/2417">Uni001</a>
+      <td><a href="https://elma.online/levels/2417" target="_blank">Uni001</a>
       </td>
       <td>12:63</td>
       <td>990</td>
@@ -200,7 +200,7 @@ This takes into account all times finished from all kuskis. Max. 10.000 results 
     </tr>
     <tr>
       <td>15</td>
-      <td><a href="https://elma.online/levels/237824">WCup601</a>
+      <td><a href="https://elma.online/levels/237824" target="_blank">WCup601</a>
       </td>
       <td>13:93</td>
       <td>10000</td>
@@ -213,7 +213,7 @@ This takes into account all times finished from all kuskis. Max. 10.000 results 
     </tr>
     <tr>
       <td>16</td>
-      <td><a href="https://elma.online/levels/116880">EOL03</a>
+      <td><a href="https://elma.online/levels/116880" target="_blank">EOL03</a>
       </td>
       <td>22:40</td>
       <td>151</td>
@@ -226,7 +226,7 @@ This takes into account all times finished from all kuskis. Max. 10.000 results 
     </tr>
     <tr>
       <td>17</td>
-      <td><a href="https://elma.online/levels/331252">TTC101</a>
+      <td><a href="https://elma.online/levels/331252" target="_blank">TTC101</a>
       </td>
       <td>14:10</td>
       <td>2129</td>
@@ -239,7 +239,7 @@ This takes into account all times finished from all kuskis. Max. 10.000 results 
     </tr>
     <tr>
       <td>18</td>
-      <td><a href="https://elma.online/levels/4">QWQUU002</a>
+      <td><a href="https://elma.online/levels/4" target="_blank">QWQUU002</a>
       </td>
       <td>14:64</td>
       <td>10000</td>
@@ -252,7 +252,7 @@ This takes into account all times finished from all kuskis. Max. 10.000 results 
     </tr>
     <tr>
       <td>19</td>
-      <td><a href="https://elma.online/levels/74671">PobFF003</a>
+      <td><a href="https://elma.online/levels/74671" target="_blank">PobFF003</a>
       </td>
       <td>7:00:35</td>
       <td>2</td>
@@ -265,7 +265,7 @@ This takes into account all times finished from all kuskis. Max. 10.000 results 
     </tr>
     <tr>
       <td>20</td>
-      <td><a href="https://elma.online/levels/163">Tutor1</a>
+      <td><a href="https://elma.online/levels/163" target="_blank">Tutor1</a>
       </td>
       <td>03:66</td>
       <td>4830</td>
@@ -278,7 +278,7 @@ This takes into account all times finished from all kuskis. Max. 10.000 results 
     </tr>
     <tr>
       <td>21</td>
-      <td><a href="https://elma.online/levels/483457">CPC100</a>
+      <td><a href="https://elma.online/levels/483457" target="_blank">CPC100</a>
       </td>
       <td>14:49</td>
       <td>48</td>
@@ -291,7 +291,7 @@ This takes into account all times finished from all kuskis. Max. 10.000 results 
     </tr>
     <tr>
       <td>22</td>
-      <td><a href="https://elma.online/levels/2599">Rambo101</a>
+      <td><a href="https://elma.online/levels/2599" target="_blank">Rambo101</a>
       </td>
       <td>49:27</td>
       <td>9</td>
@@ -304,7 +304,7 @@ This takes into account all times finished from all kuskis. Max. 10.000 results 
     </tr>
     <tr>
       <td>23</td>
-      <td><a href="https://elma.online/levels/2">QWQUU001</a>
+      <td><a href="https://elma.online/levels/2" target="_blank">QWQUU001</a>
       </td>
       <td>13:79</td>
       <td>10000</td>
@@ -317,6 +317,7 @@ This takes into account all times finished from all kuskis. Max. 10.000 results 
     </tr>
   </tbody>
 </table>
+<br/>
 <br/>
 
 ## Summary with only PRs
@@ -337,7 +338,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
   <tbody>
     <tr>
       <td>1</td>
-      <td><a href="https://elma.online/levels/156">QWQUU035</a>
+      <td><a href="https://elma.online/levels/156" target="_blank">QWQUU035</a>
       </td>
       <td>2:09:73</td>
       <td>352</td>
@@ -350,7 +351,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>2</td>
-      <td><a href="https://elma.online/levels/690">Smibu80</a>
+      <td><a href="https://elma.online/levels/690" target="_blank">Smibu80</a>
       </td>
       <td>42:11:11</td>
       <td>14</td>
@@ -363,7 +364,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>3</td>
-      <td><a href="https://elma.online/levels/4">QWQUU002</a>
+      <td><a href="https://elma.online/levels/4" target="_blank">QWQUU002</a>
       </td>
       <td>14:64</td>
       <td>1611</td>
@@ -376,7 +377,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>4</td>
-      <td><a href="https://elma.online/levels/2">QWQUU001</a>
+      <td><a href="https://elma.online/levels/2" target="_blank">QWQUU001</a>
       </td>
       <td>13:79</td>
       <td>1766</td>
@@ -389,7 +390,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>5</td>
-      <td><a href="https://elma.online/levels/116878">EOL01</a>
+      <td><a href="https://elma.online/levels/116878" target="_blank">EOL01</a>
       </td>
       <td>15:56</td>
       <td>725</td>
@@ -402,7 +403,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>6</td>
-      <td><a href="https://elma.online/levels/116882">EOL05</a>
+      <td><a href="https://elma.online/levels/116882" target="_blank">EOL05</a>
       </td>
       <td>26:90</td>
       <td>329</td>
@@ -415,7 +416,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>7</td>
-      <td><a href="https://elma.online/levels/472912">WCup804</a>
+      <td><a href="https://elma.online/levels/472912" target="_blank">WCup804</a>
       </td>
       <td>1:02:26</td>
       <td>112</td>
@@ -428,7 +429,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>8</td>
-      <td><a href="https://elma.online/levels/371726">WCup702</a>
+      <td><a href="https://elma.online/levels/371726" target="_blank">WCup702</a>
       </td>
       <td>43:58</td>
       <td>137</td>
@@ -441,7 +442,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>9</td>
-      <td><a href="https://elma.online/levels/116898">EOL21</a>
+      <td><a href="https://elma.online/levels/116898" target="_blank">EOL21</a>
       </td>
       <td>30:99</td>
       <td>191</td>
@@ -454,7 +455,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>10</td>
-      <td><a href="https://elma.online/levels/359892">Pob1000</a>
+      <td><a href="https://elma.online/levels/359892" target="_blank">Pob1000</a>
       </td>
       <td>5:58:62</td>
       <td>14</td>
@@ -467,7 +468,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>11</td>
-      <td><a href="https://elma.online/levels/73243">PobFF001</a>
+      <td><a href="https://elma.online/levels/73243" target="_blank">PobFF001</a>
       </td>
       <td>5:15:57</td>
       <td>13</td>
@@ -480,7 +481,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>12</td>
-      <td><a href="https://elma.online/levels/471405">WCup802</a>
+      <td><a href="https://elma.online/levels/471405" target="_blank">WCup802</a>
       </td>
       <td>29:20</td>
       <td>132</td>
@@ -493,7 +494,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>13</td>
-      <td><a href="https://elma.online/levels/371127">WCup701</a>
+      <td><a href="https://elma.online/levels/371127" target="_blank">WCup701</a>
       </td>
       <td>21:77</td>
       <td>153</td>
@@ -506,7 +507,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>14</td>
-      <td><a href="https://elma.online/levels/237824">WCup601</a>
+      <td><a href="https://elma.online/levels/237824" target="_blank">WCup601</a>
       </td>
       <td>13:93</td>
       <td>257</td>
@@ -519,7 +520,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>15</td>
-      <td><a href="https://elma.online/levels/475307">WCup807</a>
+      <td><a href="https://elma.online/levels/475307" target="_blank">WCup807</a>
       </td>
       <td>19:53</td>
       <td>125</td>
@@ -532,7 +533,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>16</td>
-      <td><a href="https://elma.online/levels/1697">Pipo001</a>
+      <td><a href="https://elma.online/levels/1697" target="_blank">Pipo001</a>
       </td>
       <td>27:51</td>
       <td>68</td>
@@ -545,7 +546,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>17</td>
-      <td><a href="https://elma.online/levels/116880">EOL03</a>
+      <td><a href="https://elma.online/levels/116880" target="_blank">EOL03</a>
       </td>
       <td>22:40</td>
       <td>52</td>
@@ -558,7 +559,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>18</td>
-      <td><a href="https://elma.online/levels/2417">Uni001</a>
+      <td><a href="https://elma.online/levels/2417" target="_blank">Uni001</a>
       </td>
       <td>12:63</td>
       <td>91</td>
@@ -571,7 +572,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>19</td>
-      <td><a href="https://elma.online/levels/74671">PobFF003</a>
+      <td><a href="https://elma.online/levels/74671" target="_blank">PobFF003</a>
       </td>
       <td>7:00:35</td>
       <td>2</td>
@@ -584,7 +585,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>20</td>
-      <td><a href="https://elma.online/levels/331252">TTC101</a>
+      <td><a href="https://elma.online/levels/331252" target="_blank">TTC101</a>
       </td>
       <td>14:10</td>
       <td>62</td>
@@ -597,7 +598,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>21</td>
-      <td><a href="https://elma.online/levels/163">Tutor1</a>
+      <td><a href="https://elma.online/levels/163" target="_blank">Tutor1</a>
       </td>
       <td>03:66</td>
       <td>277</td>
@@ -610,7 +611,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>22</td>
-      <td><a href="https://elma.online/levels/2599">Rambo101</a>
+      <td><a href="https://elma.online/levels/2599" target="_blank">Rambo101</a>
       </td>
       <td>49:27</td>
       <td>5</td>
@@ -623,7 +624,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>23</td>
-      <td><a href="https://elma.online/levels/483457">CPC100</a>
+      <td><a href="https://elma.online/levels/483457" target="_blank">CPC100</a>
       </td>
       <td>14:49</td>
       <td>14</td>
@@ -636,6 +637,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
   </tbody>
 </table>
+<br/>
 <br/>
 
 ## 32Cup levels with all finishes
@@ -656,7 +658,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
   <tbody>
     <tr>
       <td>1</td>
-      <td><a href="https://elma.online/levels/359229">32Cup01</a>
+      <td><a href="https://elma.online/levels/359229" target="_blank">32Cup01</a>
       </td>
       <td>37:44</td>
       <td>322</td>
@@ -669,7 +671,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>2</td>
-      <td><a href="https://elma.online/levels/359243">32Cup15</a>
+      <td><a href="https://elma.online/levels/359243" target="_blank">32Cup15</a>
       </td>
       <td>1:52:94</td>
       <td>68</td>
@@ -682,7 +684,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>3</td>
-      <td><a href="https://elma.online/levels/359232">32Cup04</a>
+      <td><a href="https://elma.online/levels/359232" target="_blank">32Cup04</a>
       </td>
       <td>38:20</td>
       <td>189</td>
@@ -695,7 +697,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>4</td>
-      <td><a href="https://elma.online/levels/359241">32Cup13</a>
+      <td><a href="https://elma.online/levels/359241" target="_blank">32Cup13</a>
       </td>
       <td>2:12:71</td>
       <td>48</td>
@@ -708,7 +710,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>5</td>
-      <td><a href="https://elma.online/levels/359235">32Cup07</a>
+      <td><a href="https://elma.online/levels/359235" target="_blank">32Cup07</a>
       </td>
       <td>38:56</td>
       <td>180</td>
@@ -721,7 +723,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>6</td>
-      <td><a href="https://elma.online/levels/359251">32Cup23</a>
+      <td><a href="https://elma.online/levels/359251" target="_blank">32Cup23</a>
       </td>
       <td>32:92</td>
       <td>215</td>
@@ -734,7 +736,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>7</td>
-      <td><a href="https://elma.online/levels/359230">32Cup02</a>
+      <td><a href="https://elma.online/levels/359230" target="_blank">32Cup02</a>
       </td>
       <td>32:31</td>
       <td>213</td>
@@ -747,7 +749,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>8</td>
-      <td><a href="https://elma.online/levels/359233">32Cup05</a>
+      <td><a href="https://elma.online/levels/359233" target="_blank">32Cup05</a>
       </td>
       <td>35:99</td>
       <td>153</td>
@@ -760,7 +762,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>9</td>
-      <td><a href="https://elma.online/levels/359245">32Cup17</a>
+      <td><a href="https://elma.online/levels/359245" target="_blank">32Cup17</a>
       </td>
       <td>28:42</td>
       <td>749</td>
@@ -773,7 +775,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>10</td>
-      <td><a href="https://elma.online/levels/359231">32Cup03</a>
+      <td><a href="https://elma.online/levels/359231" target="_blank">32Cup03</a>
       </td>
       <td>46:24</td>
       <td>115</td>
@@ -786,7 +788,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>11</td>
-      <td><a href="https://elma.online/levels/359240">32Cup12</a>
+      <td><a href="https://elma.online/levels/359240" target="_blank">32Cup12</a>
       </td>
       <td>28:61</td>
       <td>161</td>
@@ -799,7 +801,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>12</td>
-      <td><a href="https://elma.online/levels/359242">32Cup14</a>
+      <td><a href="https://elma.online/levels/359242" target="_blank">32Cup14</a>
       </td>
       <td>34:78</td>
       <td>145</td>
@@ -812,7 +814,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>13</td>
-      <td><a href="https://elma.online/levels/359239">32Cup11</a>
+      <td><a href="https://elma.online/levels/359239" target="_blank">32Cup11</a>
       </td>
       <td>42:34</td>
       <td>97</td>
@@ -825,7 +827,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>14</td>
-      <td><a href="https://elma.online/levels/359238">32Cup10</a>
+      <td><a href="https://elma.online/levels/359238" target="_blank">32Cup10</a>
       </td>
       <td>1:08:80</td>
       <td>63</td>
@@ -838,7 +840,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>15</td>
-      <td><a href="https://elma.online/levels/359249">32Cup21</a>
+      <td><a href="https://elma.online/levels/359249" target="_blank">32Cup21</a>
       </td>
       <td>32:82</td>
       <td>151</td>
@@ -851,7 +853,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>16</td>
-      <td><a href="https://elma.online/levels/359257">32Cup29</a>
+      <td><a href="https://elma.online/levels/359257" target="_blank">32Cup29</a>
       </td>
       <td>1:12:85</td>
       <td>57</td>
@@ -864,7 +866,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>17</td>
-      <td><a href="https://elma.online/levels/359237">32Cup09</a>
+      <td><a href="https://elma.online/levels/359237" target="_blank">32Cup09</a>
       </td>
       <td>29:63</td>
       <td>149</td>
@@ -877,7 +879,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>18</td>
-      <td><a href="https://elma.online/levels/359253">32Cup25</a>
+      <td><a href="https://elma.online/levels/359253" target="_blank">32Cup25</a>
       </td>
       <td>47:36</td>
       <td>84</td>
@@ -890,7 +892,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>19</td>
-      <td><a href="https://elma.online/levels/359252">32Cup24</a>
+      <td><a href="https://elma.online/levels/359252" target="_blank">32Cup24</a>
       </td>
       <td>40:30</td>
       <td>85</td>
@@ -903,7 +905,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>20</td>
-      <td><a href="https://elma.online/levels/359234">32Cup06</a>
+      <td><a href="https://elma.online/levels/359234" target="_blank">32Cup06</a>
       </td>
       <td>51:67</td>
       <td>74</td>
@@ -916,7 +918,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>21</td>
-      <td><a href="https://elma.online/levels/359236">32Cup08</a>
+      <td><a href="https://elma.online/levels/359236" target="_blank">32Cup08</a>
       </td>
       <td>38:59</td>
       <td>95</td>
@@ -929,7 +931,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>22</td>
-      <td><a href="https://elma.online/levels/359295">32Cup32</a>
+      <td><a href="https://elma.online/levels/359295" target="_blank">32Cup32</a>
       </td>
       <td>31:46</td>
       <td>118</td>
@@ -942,7 +944,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>23</td>
-      <td><a href="https://elma.online/levels/359246">32Cup18</a>
+      <td><a href="https://elma.online/levels/359246" target="_blank">32Cup18</a>
       </td>
       <td>48:92</td>
       <td>73</td>
@@ -955,7 +957,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>24</td>
-      <td><a href="https://elma.online/levels/359248">32Cup20</a>
+      <td><a href="https://elma.online/levels/359248" target="_blank">32Cup20</a>
       </td>
       <td>12:50</td>
       <td>515</td>
@@ -968,7 +970,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>25</td>
-      <td><a href="https://elma.online/levels/359256">32Cup28</a>
+      <td><a href="https://elma.online/levels/359256" target="_blank">32Cup28</a>
       </td>
       <td>45:82</td>
       <td>53</td>
@@ -981,7 +983,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>26</td>
-      <td><a href="https://elma.online/levels/359254">32Cup26</a>
+      <td><a href="https://elma.online/levels/359254" target="_blank">32Cup26</a>
       </td>
       <td>57:14</td>
       <td>42</td>
@@ -994,7 +996,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>27</td>
-      <td><a href="https://elma.online/levels/359258">32Cup30</a>
+      <td><a href="https://elma.online/levels/359258" target="_blank">32Cup30</a>
       </td>
       <td>51:31</td>
       <td>43</td>
@@ -1007,7 +1009,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>28</td>
-      <td><a href="https://elma.online/levels/359244">32Cup16</a>
+      <td><a href="https://elma.online/levels/359244" target="_blank">32Cup16</a>
       </td>
       <td>37:16</td>
       <td>61</td>
@@ -1020,7 +1022,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>29</td>
-      <td><a href="https://elma.online/levels/359255">32Cup27</a>
+      <td><a href="https://elma.online/levels/359255" target="_blank">32Cup27</a>
       </td>
       <td>23:97</td>
       <td>87</td>
@@ -1033,7 +1035,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>30</td>
-      <td><a href="https://elma.online/levels/359247">32Cup19</a>
+      <td><a href="https://elma.online/levels/359247" target="_blank">32Cup19</a>
       </td>
       <td>19:98</td>
       <td>105</td>
@@ -1046,7 +1048,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>31</td>
-      <td><a href="https://elma.online/levels/359259">32Cup31</a>
+      <td><a href="https://elma.online/levels/359259" target="_blank">32Cup31</a>
       </td>
       <td>49:89</td>
       <td>45</td>
@@ -1059,7 +1061,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>32</td>
-      <td><a href="https://elma.online/levels/359250">32Cup22</a>
+      <td><a href="https://elma.online/levels/359250" target="_blank">32Cup22</a>
       </td>
       <td>24:13</td>
       <td>70</td>
@@ -1072,6 +1074,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
   </tbody>
 </table>
+<br/>
 <br/>
 
 ## WCup8 levels with all finishes
@@ -1092,7 +1095,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
   <tbody>
     <tr>
       <td>1</td>
-      <td><a href="https://elma.online/levels/472912">WCup804</a>
+      <td><a href="https://elma.online/levels/472912" target="_blank">WCup804</a>
       </td>
       <td>1:02:26</td>
       <td>2680</td>
@@ -1105,7 +1108,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>2</td>
-      <td><a href="https://elma.online/levels/479721">WCup812</a>
+      <td><a href="https://elma.online/levels/479721" target="_blank">WCup812</a>
       </td>
       <td>1:02:10</td>
       <td>2627</td>
@@ -1118,7 +1121,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>3</td>
-      <td><a href="https://elma.online/levels/473903">WCup806</a>
+      <td><a href="https://elma.online/levels/473903" target="_blank">WCup806</a>
       </td>
       <td>49:25</td>
       <td>1973</td>
@@ -1131,7 +1134,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>4</td>
-      <td><a href="https://elma.online/levels/473318">WCup805</a>
+      <td><a href="https://elma.online/levels/473318" target="_blank">WCup805</a>
       </td>
       <td>46:26</td>
       <td>2808</td>
@@ -1144,7 +1147,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>5</td>
-      <td><a href="https://elma.online/levels/470921">WCup801</a>
+      <td><a href="https://elma.online/levels/470921" target="_blank">WCup801</a>
       </td>
       <td>41:82</td>
       <td>4089</td>
@@ -1157,7 +1160,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>6</td>
-      <td><a href="https://elma.online/levels/475887">WCup808</a>
+      <td><a href="https://elma.online/levels/475887" target="_blank">WCup808</a>
       </td>
       <td>1:53:25</td>
       <td>430</td>
@@ -1170,7 +1173,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>7</td>
-      <td><a href="https://elma.online/levels/471405">WCup802</a>
+      <td><a href="https://elma.online/levels/471405" target="_blank">WCup802</a>
       </td>
       <td>29:20</td>
       <td>9806</td>
@@ -1183,7 +1186,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>8</td>
-      <td><a href="https://elma.online/levels/471817">WCup803</a>
+      <td><a href="https://elma.online/levels/471817" target="_blank">WCup803</a>
       </td>
       <td>43:59</td>
       <td>9093</td>
@@ -1196,7 +1199,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>9</td>
-      <td><a href="https://elma.online/levels/476456">WCup809</a>
+      <td><a href="https://elma.online/levels/476456" target="_blank">WCup809</a>
       </td>
       <td>32:73</td>
       <td>1287</td>
@@ -1209,7 +1212,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>10</td>
-      <td><a href="https://elma.online/levels/475307">WCup807</a>
+      <td><a href="https://elma.online/levels/475307" target="_blank">WCup807</a>
       </td>
       <td>19:53</td>
       <td>5943</td>
@@ -1222,7 +1225,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>11</td>
-      <td><a href="https://elma.online/levels/478035">WCup810</a>
+      <td><a href="https://elma.online/levels/478035" target="_blank">WCup810</a>
       </td>
       <td>9:36:20</td>
       <td>6</td>
@@ -1235,7 +1238,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>12</td>
-      <td><a href="https://elma.online/levels/478807">WCup811</a>
+      <td><a href="https://elma.online/levels/478807" target="_blank">WCup811</a>
       </td>
       <td>11:60</td>
       <td>10000</td>
@@ -1248,6 +1251,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
   </tbody>
 </table>
+<br/>
 <br/>
 
 ## WCup7 levels with all finishes
@@ -1268,7 +1272,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
   <tbody>
     <tr>
       <td>1</td>
-      <td><a href="https://elma.online/levels/372197">WCup703</a>
+      <td><a href="https://elma.online/levels/372197" target="_blank">WCup703</a>
       </td>
       <td>1:01:86</td>
       <td>2800</td>
@@ -1281,7 +1285,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>2</td>
-      <td><a href="https://elma.online/levels/371726">WCup702</a>
+      <td><a href="https://elma.online/levels/371726" target="_blank">WCup702</a>
       </td>
       <td>43:58</td>
       <td>3089</td>
@@ -1294,7 +1298,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>3</td>
-      <td><a href="https://elma.online/levels/371130">WCup715</a>
+      <td><a href="https://elma.online/levels/371130" target="_blank">WCup715</a>
       </td>
       <td>2:26:15</td>
       <td>449</td>
@@ -1307,7 +1311,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>4</td>
-      <td><a href="https://elma.online/levels/374907">WCup707</a>
+      <td><a href="https://elma.online/levels/374907" target="_blank">WCup707</a>
       </td>
       <td>56:71</td>
       <td>1410</td>
@@ -1320,7 +1324,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>5</td>
-      <td><a href="https://elma.online/levels/377165">WCup711</a>
+      <td><a href="https://elma.online/levels/377165" target="_blank">WCup711</a>
       </td>
       <td>47:10</td>
       <td>1108</td>
@@ -1333,7 +1337,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>6</td>
-      <td><a href="https://elma.online/levels/376243">WCup708</a>
+      <td><a href="https://elma.online/levels/376243" target="_blank">WCup708</a>
       </td>
       <td>1:22:49</td>
       <td>543</td>
@@ -1346,7 +1350,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>7</td>
-      <td><a href="https://elma.online/levels/372760">WCup704</a>
+      <td><a href="https://elma.online/levels/372760" target="_blank">WCup704</a>
       </td>
       <td>47:15</td>
       <td>939</td>
@@ -1359,7 +1363,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>8</td>
-      <td><a href="https://elma.online/levels/377517">WCup712</a>
+      <td><a href="https://elma.online/levels/377517" target="_blank">WCup712</a>
       </td>
       <td>58:44</td>
       <td>791</td>
@@ -1372,7 +1376,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>9</td>
-      <td><a href="https://elma.online/levels/374120">WCup706</a>
+      <td><a href="https://elma.online/levels/374120" target="_blank">WCup706</a>
       </td>
       <td>34:62</td>
       <td>1476</td>
@@ -1385,7 +1389,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>10</td>
-      <td><a href="https://elma.online/levels/376749">WCup709</a>
+      <td><a href="https://elma.online/levels/376749" target="_blank">WCup709</a>
       </td>
       <td>28:80</td>
       <td>8867</td>
@@ -1398,7 +1402,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>11</td>
-      <td><a href="https://elma.online/levels/371127">WCup701</a>
+      <td><a href="https://elma.online/levels/371127" target="_blank">WCup701</a>
       </td>
       <td>21:77</td>
       <td>7336</td>
@@ -1411,7 +1415,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>12</td>
-      <td><a href="https://elma.online/levels/376988">WCup710</a>
+      <td><a href="https://elma.online/levels/376988" target="_blank">WCup710</a>
       </td>
       <td>14:91</td>
       <td>4111</td>
@@ -1424,7 +1428,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>13</td>
-      <td><a href="https://elma.online/levels/377914">WCup713</a>
+      <td><a href="https://elma.online/levels/377914" target="_blank">WCup713</a>
       </td>
       <td>18:63</td>
       <td>2117</td>
@@ -1437,7 +1441,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>14</td>
-      <td><a href="https://elma.online/levels/378207">WCup714</a>
+      <td><a href="https://elma.online/levels/378207" target="_blank">WCup714</a>
       </td>
       <td>37:52</td>
       <td>298</td>
@@ -1450,7 +1454,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>15</td>
-      <td><a href="https://elma.online/levels/373474">WCup705</a>
+      <td><a href="https://elma.online/levels/373474" target="_blank">WCup705</a>
       </td>
       <td>4:13:30</td>
       <td>1</td>
@@ -1463,6 +1467,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
   </tbody>
 </table>
+<br/>
 <br/>
 
 ## TTC1 levels with all finishes
@@ -1483,7 +1488,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
   <tbody>
     <tr>
       <td>1</td>
-      <td><a href="https://elma.online/levels/331261">TTC110</a>
+      <td><a href="https://elma.online/levels/331261" target="_blank">TTC110</a>
       </td>
       <td>1:08:39</td>
       <td>365</td>
@@ -1496,7 +1501,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>2</td>
-      <td><a href="https://elma.online/levels/331258">TTC107</a>
+      <td><a href="https://elma.online/levels/331258" target="_blank">TTC107</a>
       </td>
       <td>46:42</td>
       <td>396</td>
@@ -1509,7 +1514,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>3</td>
-      <td><a href="https://elma.online/levels/331259">TTC108</a>
+      <td><a href="https://elma.online/levels/331259" target="_blank">TTC108</a>
       </td>
       <td>51:30</td>
       <td>402</td>
@@ -1522,7 +1527,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>4</td>
-      <td><a href="https://elma.online/levels/331254">TTC103</a>
+      <td><a href="https://elma.online/levels/331254" target="_blank">TTC103</a>
       </td>
       <td>37:79</td>
       <td>497</td>
@@ -1535,7 +1540,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>5</td>
-      <td><a href="https://elma.online/levels/331260">TTC109</a>
+      <td><a href="https://elma.online/levels/331260" target="_blank">TTC109</a>
       </td>
       <td>39:79</td>
       <td>313</td>
@@ -1548,7 +1553,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>6</td>
-      <td><a href="https://elma.online/levels/331255">TTC104</a>
+      <td><a href="https://elma.online/levels/331255" target="_blank">TTC104</a>
       </td>
       <td>24:64</td>
       <td>465</td>
@@ -1561,7 +1566,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>7</td>
-      <td><a href="https://elma.online/levels/331253">TTC102</a>
+      <td><a href="https://elma.online/levels/331253" target="_blank">TTC102</a>
       </td>
       <td>18:62</td>
       <td>494</td>
@@ -1574,7 +1579,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>8</td>
-      <td><a href="https://elma.online/levels/331257">TTC106</a>
+      <td><a href="https://elma.online/levels/331257" target="_blank">TTC106</a>
       </td>
       <td>25:92</td>
       <td>528</td>
@@ -1587,7 +1592,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>9</td>
-      <td><a href="https://elma.online/levels/331256">TTC105</a>
+      <td><a href="https://elma.online/levels/331256" target="_blank">TTC105</a>
       </td>
       <td>11:50</td>
       <td>1384</td>
@@ -1600,7 +1605,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>10</td>
-      <td><a href="https://elma.online/levels/331252">TTC101</a>
+      <td><a href="https://elma.online/levels/331252" target="_blank">TTC101</a>
       </td>
       <td>14:10</td>
       <td>2129</td>
@@ -1613,6 +1618,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
   </tbody>
 </table>
+<br/>
 <br/>
 
 ## EOL levels with all finishes
@@ -1633,7 +1639,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
   <tbody>
     <tr>
       <td>1</td>
-      <td><a href="https://elma.online/levels/116895">EOL18</a>
+      <td><a href="https://elma.online/levels/116895" target="_blank">EOL18</a>
       </td>
       <td>51:29</td>
       <td>743</td>
@@ -1646,7 +1652,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>2</td>
-      <td><a href="https://elma.online/levels/116917">EOL40</a>
+      <td><a href="https://elma.online/levels/116917" target="_blank">EOL40</a>
       </td>
       <td>1:27:39</td>
       <td>355</td>
@@ -1659,7 +1665,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>3</td>
-      <td><a href="https://elma.online/levels/116906">EOL29</a>
+      <td><a href="https://elma.online/levels/116906" target="_blank">EOL29</a>
       </td>
       <td>1:08:96</td>
       <td>470</td>
@@ -1672,7 +1678,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>4</td>
-      <td><a href="https://elma.online/levels/116881">EOL04</a>
+      <td><a href="https://elma.online/levels/116881" target="_blank">EOL04</a>
       </td>
       <td>45:14</td>
       <td>1189</td>
@@ -1685,7 +1691,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>5</td>
-      <td><a href="https://elma.online/levels/116902">EOL25</a>
+      <td><a href="https://elma.online/levels/116902" target="_blank">EOL25</a>
       </td>
       <td>54:36</td>
       <td>593</td>
@@ -1698,7 +1704,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>6</td>
-      <td><a href="https://elma.online/levels/116885">EOL08</a>
+      <td><a href="https://elma.online/levels/116885" target="_blank">EOL08</a>
       </td>
       <td>24:65</td>
       <td>2515</td>
@@ -1711,7 +1717,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>7</td>
-      <td><a href="https://elma.online/levels/116904">EOL27</a>
+      <td><a href="https://elma.online/levels/116904" target="_blank">EOL27</a>
       </td>
       <td>42:60</td>
       <td>1016</td>
@@ -1724,7 +1730,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>8</td>
-      <td><a href="https://elma.online/levels/116911">EOL34</a>
+      <td><a href="https://elma.online/levels/116911" target="_blank">EOL34</a>
       </td>
       <td>1:09:52</td>
       <td>381</td>
@@ -1737,7 +1743,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>9</td>
-      <td><a href="https://elma.online/levels/116884">EOL07</a>
+      <td><a href="https://elma.online/levels/116884" target="_blank">EOL07</a>
       </td>
       <td>26:76</td>
       <td>1884</td>
@@ -1750,7 +1756,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>10</td>
-      <td><a href="https://elma.online/levels/116901">EOL24</a>
+      <td><a href="https://elma.online/levels/116901" target="_blank">EOL24</a>
       </td>
       <td>41:94</td>
       <td>677</td>
@@ -1763,7 +1769,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>11</td>
-      <td><a href="https://elma.online/levels/116891">EOL14</a>
+      <td><a href="https://elma.online/levels/116891" target="_blank">EOL14</a>
       </td>
       <td>31:42</td>
       <td>1024</td>
@@ -1776,7 +1782,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>12</td>
-      <td><a href="https://elma.online/levels/117435">EOL03</a>
+      <td><a href="https://elma.online/levels/117435" target="_blank">EOL03</a>
       </td>
       <td>21:41</td>
       <td>1758</td>
@@ -1789,7 +1795,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>13</td>
-      <td><a href="https://elma.online/levels/116898">EOL21</a>
+      <td><a href="https://elma.online/levels/116898" target="_blank">EOL21</a>
       </td>
       <td>30:99</td>
       <td>1233</td>
@@ -1802,7 +1808,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>14</td>
-      <td><a href="https://elma.online/levels/116879">EOL02</a>
+      <td><a href="https://elma.online/levels/116879" target="_blank">EOL02</a>
       </td>
       <td>14:91</td>
       <td>3310</td>
@@ -1815,7 +1821,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>15</td>
-      <td><a href="https://elma.online/levels/116878">EOL01</a>
+      <td><a href="https://elma.online/levels/116878" target="_blank">EOL01</a>
       </td>
       <td>15:56</td>
       <td>8197</td>
@@ -1828,7 +1834,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>16</td>
-      <td><a href="https://elma.online/levels/116883">EOL06</a>
+      <td><a href="https://elma.online/levels/116883" target="_blank">EOL06</a>
       </td>
       <td>41:84</td>
       <td>565</td>
@@ -1841,7 +1847,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>17</td>
-      <td><a href="https://elma.online/levels/116899">EOL22</a>
+      <td><a href="https://elma.online/levels/116899" target="_blank">EOL22</a>
       </td>
       <td>52:35</td>
       <td>383</td>
@@ -1854,7 +1860,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>18</td>
-      <td><a href="https://elma.online/levels/116882">EOL05</a>
+      <td><a href="https://elma.online/levels/116882" target="_blank">EOL05</a>
       </td>
       <td>26:90</td>
       <td>1121</td>
@@ -1867,7 +1873,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>19</td>
-      <td><a href="https://elma.online/levels/116922">EOL45</a>
+      <td><a href="https://elma.online/levels/116922" target="_blank">EOL45</a>
       </td>
       <td>29:23</td>
       <td>1170</td>
@@ -1880,7 +1886,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>20</td>
-      <td><a href="https://elma.online/levels/116912">EOL35</a>
+      <td><a href="https://elma.online/levels/116912" target="_blank">EOL35</a>
       </td>
       <td>37:18</td>
       <td>636</td>
@@ -1893,7 +1899,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>21</td>
-      <td><a href="https://elma.online/levels/116915">EOL38</a>
+      <td><a href="https://elma.online/levels/116915" target="_blank">EOL38</a>
       </td>
       <td>1:06:86</td>
       <td>317</td>
@@ -1906,7 +1912,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>22</td>
-      <td><a href="https://elma.online/levels/116909">EOL32</a>
+      <td><a href="https://elma.online/levels/116909" target="_blank">EOL32</a>
       </td>
       <td>1:38:42</td>
       <td>186</td>
@@ -1919,7 +1925,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>23</td>
-      <td><a href="https://elma.online/levels/116914">EOL37</a>
+      <td><a href="https://elma.online/levels/116914" target="_blank">EOL37</a>
       </td>
       <td>35:38</td>
       <td>627</td>
@@ -1932,7 +1938,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>24</td>
-      <td><a href="https://elma.online/levels/116892">EOL15</a>
+      <td><a href="https://elma.online/levels/116892" target="_blank">EOL15</a>
       </td>
       <td>37:23</td>
       <td>464</td>
@@ -1945,7 +1951,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>25</td>
-      <td><a href="https://elma.online/levels/116907">EOL30</a>
+      <td><a href="https://elma.online/levels/116907" target="_blank">EOL30</a>
       </td>
       <td>54:13</td>
       <td>338</td>
@@ -1958,7 +1964,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>26</td>
-      <td><a href="https://elma.online/levels/116908">EOL31</a>
+      <td><a href="https://elma.online/levels/116908" target="_blank">EOL31</a>
       </td>
       <td>52:90</td>
       <td>310</td>
@@ -1971,7 +1977,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>27</td>
-      <td><a href="https://elma.online/levels/116903">EOL26</a>
+      <td><a href="https://elma.online/levels/116903" target="_blank">EOL26</a>
       </td>
       <td>55:55</td>
       <td>317</td>
@@ -1984,7 +1990,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>28</td>
-      <td><a href="https://elma.online/levels/116925">EOL48</a>
+      <td><a href="https://elma.online/levels/116925" target="_blank">EOL48</a>
       </td>
       <td>23:62</td>
       <td>874</td>
@@ -1997,7 +2003,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>29</td>
-      <td><a href="https://elma.online/levels/116910">EOL33</a>
+      <td><a href="https://elma.online/levels/116910" target="_blank">EOL33</a>
       </td>
       <td>42:31</td>
       <td>414</td>
@@ -2010,7 +2016,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>30</td>
-      <td><a href="https://elma.online/levels/116926">EOL49</a>
+      <td><a href="https://elma.online/levels/116926" target="_blank">EOL49</a>
       </td>
       <td>1:39:32</td>
       <td>172</td>
@@ -2023,7 +2029,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>31</td>
-      <td><a href="https://elma.online/levels/116929">EOL52</a>
+      <td><a href="https://elma.online/levels/116929" target="_blank">EOL52</a>
       </td>
       <td>19:85</td>
       <td>2065</td>
@@ -2036,7 +2042,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>32</td>
-      <td><a href="https://elma.online/levels/116986">EOL39</a>
+      <td><a href="https://elma.online/levels/116986" target="_blank">EOL39</a>
       </td>
       <td>59:64</td>
       <td>332</td>
@@ -2049,7 +2055,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>33</td>
-      <td><a href="https://elma.online/levels/117436">EOL09</a>
+      <td><a href="https://elma.online/levels/117436" target="_blank">EOL09</a>
       </td>
       <td>16:20</td>
       <td>1982</td>
@@ -2062,7 +2068,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>34</td>
-      <td><a href="https://elma.online/levels/116923">EOL46</a>
+      <td><a href="https://elma.online/levels/116923" target="_blank">EOL46</a>
       </td>
       <td>42:20</td>
       <td>334</td>
@@ -2075,7 +2081,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>35</td>
-      <td><a href="https://elma.online/levels/116928">EOL51</a>
+      <td><a href="https://elma.online/levels/116928" target="_blank">EOL51</a>
       </td>
       <td>32:11</td>
       <td>581</td>
@@ -2088,7 +2094,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>36</td>
-      <td><a href="https://elma.online/levels/116921">EOL44</a>
+      <td><a href="https://elma.online/levels/116921" target="_blank">EOL44</a>
       </td>
       <td>1:39:85</td>
       <td>131</td>
@@ -2101,7 +2107,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>37</td>
-      <td><a href="https://elma.online/levels/116887">EOL10</a>
+      <td><a href="https://elma.online/levels/116887" target="_blank">EOL10</a>
       </td>
       <td>26:78</td>
       <td>1780</td>
@@ -2114,7 +2120,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>38</td>
-      <td><a href="https://elma.online/levels/116905">EOL28</a>
+      <td><a href="https://elma.online/levels/116905" target="_blank">EOL28</a>
       </td>
       <td>33:40</td>
       <td>381</td>
@@ -2127,7 +2133,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>39</td>
-      <td><a href="https://elma.online/levels/116919">EOL42</a>
+      <td><a href="https://elma.online/levels/116919" target="_blank">EOL42</a>
       </td>
       <td>53:26</td>
       <td>209</td>
@@ -2140,7 +2146,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>40</td>
-      <td><a href="https://elma.online/levels/116900">EOL23</a>
+      <td><a href="https://elma.online/levels/116900" target="_blank">EOL23</a>
       </td>
       <td>20:55</td>
       <td>602</td>
@@ -2153,7 +2159,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>41</td>
-      <td><a href="https://elma.online/levels/116934">EOL54</a>
+      <td><a href="https://elma.online/levels/116934" target="_blank">EOL54</a>
       </td>
       <td>1:37:75</td>
       <td>124</td>
@@ -2166,7 +2172,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>42</td>
-      <td><a href="https://elma.online/levels/116924">EOL47</a>
+      <td><a href="https://elma.online/levels/116924" target="_blank">EOL47</a>
       </td>
       <td>27:88</td>
       <td>402</td>
@@ -2179,7 +2185,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>43</td>
-      <td><a href="https://elma.online/levels/116920">EOL43</a>
+      <td><a href="https://elma.online/levels/116920" target="_blank">EOL43</a>
       </td>
       <td>37:18</td>
       <td>282</td>
@@ -2192,7 +2198,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>44</td>
-      <td><a href="https://elma.online/levels/116894">EOL17</a>
+      <td><a href="https://elma.online/levels/116894" target="_blank">EOL17</a>
       </td>
       <td>26:96</td>
       <td>415</td>
@@ -2205,7 +2211,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>45</td>
-      <td><a href="https://elma.online/levels/116889">EOL12</a>
+      <td><a href="https://elma.online/levels/116889" target="_blank">EOL12</a>
       </td>
       <td>23:54</td>
       <td>723</td>
@@ -2218,7 +2224,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>46</td>
-      <td><a href="https://elma.online/levels/116913">EOL36</a>
+      <td><a href="https://elma.online/levels/116913" target="_blank">EOL36</a>
       </td>
       <td>22:68</td>
       <td>521</td>
@@ -2231,7 +2237,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>47</td>
-      <td><a href="https://elma.online/levels/116896">EOL19</a>
+      <td><a href="https://elma.online/levels/116896" target="_blank">EOL19</a>
       </td>
       <td>25:15</td>
       <td>661</td>
@@ -2244,7 +2250,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>48</td>
-      <td><a href="https://elma.online/levels/117437">EOL11</a>
+      <td><a href="https://elma.online/levels/117437" target="_blank">EOL11</a>
       </td>
       <td>19:79</td>
       <td>1073</td>
@@ -2257,7 +2263,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>49</td>
-      <td><a href="https://elma.online/levels/116890">EOL13</a>
+      <td><a href="https://elma.online/levels/116890" target="_blank">EOL13</a>
       </td>
       <td>24:50</td>
       <td>656</td>
@@ -2270,7 +2276,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>50</td>
-      <td><a href="https://elma.online/levels/116930">EOL53</a>
+      <td><a href="https://elma.online/levels/116930" target="_blank">EOL53</a>
       </td>
       <td>1:03:71</td>
       <td>142</td>
@@ -2283,7 +2289,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>51</td>
-      <td><a href="https://elma.online/levels/116918">EOL41</a>
+      <td><a href="https://elma.online/levels/116918" target="_blank">EOL41</a>
       </td>
       <td>19:84</td>
       <td>604</td>
@@ -2296,7 +2302,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>52</td>
-      <td><a href="https://elma.online/levels/116897">EOL20</a>
+      <td><a href="https://elma.online/levels/116897" target="_blank">EOL20</a>
       </td>
       <td>17:26</td>
       <td>558</td>
@@ -2309,7 +2315,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>53</td>
-      <td><a href="https://elma.online/levels/116927">EOL50</a>
+      <td><a href="https://elma.online/levels/116927" target="_blank">EOL50</a>
       </td>
       <td>35:46</td>
       <td>184</td>
@@ -2322,7 +2328,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
     <tr>
       <td>54</td>
-      <td><a href="https://elma.online/levels/116893">EOL16</a>
+      <td><a href="https://elma.online/levels/116893" target="_blank">EOL16</a>
       </td>
       <td>15:40</td>
       <td>534</td>
@@ -2335,6 +2341,7 @@ This takes into account only best times (PRs) from each kuskis. Rank is equal to
     </tr>
   </tbody>
 </table>
+<br/>
 <br/>
 
 
