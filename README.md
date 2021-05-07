@@ -82,7 +82,7 @@ Instead of counting only the PRs made, we can count all times made. The more the
 
 [Check an example here.](/scripts/results/doubleExhaustive.md)
 
-The new potential problem is that the number of kuskis that finishes is not directly taken into account anymore in the equation. Previously we had only PRs, 1 kuski 1 time. Now there could be only 1 kuski playing the level, and make hundreds of times. Although multiple kuskis playing level A could easily outpace the number of finishes against a single kuski playing another level B. 
+The new potential problem is that the number of kuskis that finishes is not directly taken into account anymore in the equation. Previously we had only PRs, 1 kuski 1 time. Now there could be only 1 kuski playing the level, and make hundreds of times. Although multiple kuskis playing level A could easily outpace the number of finishes against a single kuski playing another level B.
 
 ## Spam levels
 
