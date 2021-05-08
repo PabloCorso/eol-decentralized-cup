@@ -109,7 +109,7 @@ const getDataFileLevels = async (dataFile) => {
   return levelIds;
 };
 
-const basePath = "scripts/results/";
+const basePath = "scripts/times/";
 const FileNames = {
   allTimes: (fileName) => `${basePath}${fileName}_all.json`,
   bestTimes: (fileName) => `${basePath}${fileName}_prs.json`,
@@ -154,7 +154,7 @@ const runExample = async () => {
     const allTimes = await readFile(FileNames.allTimes(dataFile.fileName));
 
     const rankedBestTimes = levelsRankDouble(JSON.parse(bestTimes));
-    const rankedAllTimes = levelsRankDouble(JSON.parse(bestTimes));
+    const rankedAllTimes = levelsRankDouble(JSON.parse(allTimes));
 
     const bestTimesSummary = levelsRankDouble.printSummary(rankedBestTimes);
     const allTimesSummary = levelsRankDouble.printSummary(rankedAllTimes);
@@ -187,8 +187,8 @@ ${prettyPrint(allTimesSummary)}
       pretty: true,
     }
   );
-  writeFile("scripts/results/summary_prs.md", resultBestTimes);
-  writeFile("scripts/results/summary_all.md", resultAllTimes);
+  writeFile("scripts/summaries/summary_prs.md", resultBestTimes);
+  writeFile("scripts/summaries/summary_all.md", resultAllTimes);
 };
 
 runExample();
