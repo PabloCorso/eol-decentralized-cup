@@ -4,7 +4,6 @@ const { writeFile, readFile } = require("./utils/write");
 const levelsRankDouble = require("./levelsRankDouble");
 
 const fetchJson = async (url) => {
-  console.log(`fetching > ${url}`);
   const response = await fetch(url);
   return response.json();
 };
@@ -32,167 +31,165 @@ const getAllTimesFromOnlineLevel = async (
   return { name: level.LevelName, times, url };
 };
 
-const getLevelsFromCup = async (cupId, { max } = { max: 10000 }) => {
+const DataType = {
+  Levels: 0,
+  Cup: 1,
+  Pack: 2,
+};
+
+const levelsFileIds = [
+  2, // Warm Up
+  4, // Flat Track
+  156, // Lab Pro
+  163, // Tutor1
+  690, // Smibu80
+  2417, // Uni001
+  116878, // EOL01
+  116880, // EOL02
+  116882, // EOL05
+  116898, // EOL21
+  359892, // Pob1000
+  74671, // PobFF003
+  73243, // PobFF001
+  2599, // Rambo101
+  1697, // Pipo001
+  331252, // TTC101
+  483457, // CPC101
+  237824, // WCup601
+  371127, // WCup701
+  371726, // WCup702
+  471405, // WCup802
+  472912, // WCup804
+  475307, // WCup807
+];
+
+const dataFiles = [
+  {
+    name: "Random levels",
+    fileName: "levels1",
+    type: DataType.Levels,
+    levelIds: levelsFileIds,
+  },
+  { name: "32Cup", fileName: "32Cup", type: DataType.Cup, cupId: 8 },
+  { name: "WCup8", fileName: "wcup8", type: DataType.Cup, cupId: 17 },
+  { name: "WCup7", fileName: "wcup7", type: DataType.Cup, cupId: 10 },
+  { name: "TTC1", fileName: "ttc1File", type: DataType.Cup, cupId: 6 },
+  {
+    name: "EOL level pack",
+    fileName: "eol",
+    type: DataType.Pack,
+    packId: "EOL",
+  },
+];
+
+const getCupLevelIds = async (cupId) => {
   const cup = await fetchJson(
     `https://api.elma.online/api/cups/events/${cupId}`
   );
-
-  const result = [];
-  for (const event of cup) {
-    const data = await getAllTimesFromOnlineLevel(event.LevelIndex, { max });
-    result.push(data);
-  }
-
-  return result;
+  return cup.map((event) => event.LevelIndex);
 };
 
-const getLevelsFromPack = async (packId, { max } = { max: 10000 }) => {
+const getPackLevelIds = async (packId) => {
   const stats = await fetchJson(
     `https://api.elma.online/api/levelpack/${packId}/stats/0`
   );
+  return stats.records.map((record) => record.LevelIndex);
+};
 
-  const result = [];
-  for (const level of stats.records) {
-    const data = await getAllTimesFromOnlineLevel(level.LevelIndex, { max });
-    result.push(data);
+const getDataFileLevels = async (dataFile) => {
+  let levelIds = [];
+  if (dataFile.type === DataType.Levels) {
+    levelIds = dataFile.levelIds;
+  } else if (dataFile.type === DataType.Cup) {
+    levelIds = await getCupLevelIds(dataFile.cupId);
+  } else if (dataFile.type === DataType.Pack) {
+    levelIds = await getPackLevelIds(dataFile.packId);
   }
 
-  return result;
+  return levelIds;
 };
 
 const basePath = "scripts/results/";
-const bestTimesFile = basePath + "bestTimes.json";
-const allTimesFile = basePath + "allTimes.json";
-const cup32File = basePath + "32cup.json";
-const wcup8File = basePath + "wcup8.json";
-const wcup7File = basePath + "wcup7.json";
-const ttc1File = basePath + "ttc1.json";
-const eolFile = basePath + "eol.json";
-
-const updateData = async () => {
-  const levelIds = [
-    2, // Warm Up
-    4, // Flat Track
-    156, // Lab Pro
-    163, // Tutor1
-    690, // Smibu80
-    2417, // Uni001
-    116878, // EOL01
-    116880, // EOL02
-    116882, // EOL05
-    116898, // EOL21
-    359892, // Pob1000
-    74671, // PobFF003
-    73243, // PobFF001
-    2599, // Rambo101
-    1697, // Pipo001
-    331252, // TTC101
-    483457, // CPC101
-    237824, // WCup601
-    371127, // WCup701
-    371726, // WCup702
-    471405, // WCup802
-    472912, // WCup804
-    475307, // WCup807
-  ];
-  const levelsDataBestTimes = [];
-  const levelDataAllTimes = [];
-  for (const levelId of levelIds) {
-    const levelWithPrs = await getPrsFromOnlineLevel(levelId);
-    const levelWithAllTimes = await getAllTimesFromOnlineLevel(levelId);
-
-    levelsDataBestTimes.push(levelWithPrs);
-    levelDataAllTimes.push(levelWithAllTimes);
-  }
-
-  writeFile(bestTimesFile, JSON.stringify(levelsDataBestTimes));
-  writeFile(allTimesFile, JSON.stringify(levelDataAllTimes));
+const FileNames = {
+  allTimes: (fileName) => `${basePath}${fileName}_all.json`,
+  bestTimes: (fileName) => `${basePath}${fileName}_prs.json`,
 };
 
-const updateCupsData = async () => {
-  const cups = [
-    { id: 8, name: "32Cup", file: cup32File },
-    { id: 17, name: "WCup8", file: wcup8File },
-    { id: 10, name: "WCup7", file: wcup7File },
-    { id: 6, name: "TTC1", file: ttc1File },
-  ];
+const updateFiles = async () => {
+  for (const dataFile of dataFiles) {
+    console.log(`updating file > ${dataFile.fileName}\n`);
+    console.log(`getting levels > ${dataFile.name}`);
+    const levelIds = await getDataFileLevels(dataFile);
 
-  for (const cup of cups) {
-    const levelsData = await getLevelsFromCup(cup.id);
-    writeFile(cup.file, JSON.stringify(levelsData));
-  }
-};
+    const bestTimes = [];
+    const allTimes = [];
+    for (const levelId of levelIds) {
+      console.log(`\ngetting best times > ${dataFile.name} > ${levelId}`);
+      const levelWithPrs = await getPrsFromOnlineLevel(levelId);
+      console.log(`\ngetting all times > ${dataFile.name} > ${levelId}`);
+      const levelWithAllTimes = await getAllTimesFromOnlineLevel(levelId);
 
-const updateLevelPacksData = async () => {
-  const levelPacks = [{ id: "EOL", file: eolFile }];
-  for (const pack of levelPacks) {
-    const levelsData = await getLevelsFromPack(pack.id);
-    writeFile(pack.file, JSON.stringify(levelsData));
+      bestTimes.push(levelWithPrs);
+      allTimes.push(levelWithAllTimes);
+    }
+
+    console.log(`\nwritting files > ${dataFile.fileName}`);
+    await writeFile(
+      FileNames.bestTimes(dataFile.fileName),
+      JSON.stringify(bestTimes)
+    );
+    await writeFile(
+      FileNames.allTimes(dataFile.fileName),
+      JSON.stringify(allTimes)
+    );
+    console.log(`\nfinished update > ${dataFile.fileName}\n\n`);
   }
 };
 
 const runExample = async () => {
-  const data = [
-    {
-      title: "Summary with all finishes",
-      description:
-        "This takes into account all times finished from all kuskis. Max. 10.000 results per level. Rank is equal to the sum of all unique non shadow times that are under 2 times the best time.",
-      file: allTimesFile,
-    },
-    {
-      title: "Summary with only PRs",
-      description:
-        "This takes into account only best times (PRs) from each kuskis. Rank is equal to the sum of all unique non shadow best times that are under 2 times the best time.",
-      file: bestTimesFile,
-    },
-    {
-      title: "32Cup levels with all finishes",
-      description: "",
-      file: cup32File,
-    },
-    {
-      title: "WCup8 levels with all finishes",
-      description: "",
-      file: wcup8File,
-    },
-    {
-      title: "WCup7 levels with all finishes",
-      description: "",
-      file: wcup7File,
-    },
-    {
-      title: "TTC1 levels with all finishes",
-      description: "",
-      file: ttc1File,
-    },
-    {
-      title: "EOL levels with all finishes",
-      description: "",
-      file: eolFile,
-    },
-  ];
+  let bestTimesContent = "";
+  let allTimesContent = "";
+  for (const dataFile of dataFiles) {
+    const bestTimes = await readFile(FileNames.bestTimes(dataFile.fileName));
+    const allTimes = await readFile(FileNames.allTimes(dataFile.fileName));
 
-  let content = "";
-  for (const item of data) {
-    const levelsData = await readFile(item.file);
-    const rankedLevels = levelsRankDouble(JSON.parse(levelsData));
-    const summary = levelsRankDouble.printSummary(rankedLevels);
-    content += `## ${item.title}
-${item.description}
-${prettyPrint(summary)}
+    const rankedBestTimes = levelsRankDouble(JSON.parse(bestTimes));
+    const rankedAllTimes = levelsRankDouble(JSON.parse(bestTimes));
+
+    const bestTimesSummary = levelsRankDouble.printSummary(rankedBestTimes);
+    const allTimesSummary = levelsRankDouble.printSummary(rankedAllTimes);
+
+    bestTimesContent += `## ${dataFile.name}
+${prettyPrint(bestTimesSummary)}
+<br/>
+<br/>
+
+`;
+    allTimesContent += `## ${dataFile.name}
+${prettyPrint(allTimesSummary)}
 <br/>
 <br/>
 
 `;
   }
 
-  const result = printResult("Rank double", content, {
-    pretty: true,
-  });
-  writeFile("scripts/results/doubleExhaustive.md", result);
+  const resultBestTimes = printResult(
+    "Rank double - best times",
+    bestTimesContent,
+    {
+      pretty: true,
+    }
+  );
+  const resultAllTimes = printResult(
+    "Rank double - all times",
+    allTimesContent,
+    {
+      pretty: true,
+    }
+  );
+  writeFile("scripts/results/summary_prs.md", resultBestTimes);
+  writeFile("scripts/results/summary_all.md", resultAllTimes);
 };
 
 runExample();
-// updateData();
-// updateCupsData();
-// updateLevelPacksData();
+// updateFiles();

@@ -1,0 +1,2021 @@
+<!-- Rank double - all times -->
+  
+## Random levels
+<table>
+  <thead>
+    <th>Top</th>
+    <th>Level</th>
+    <th>Best time</th>
+    <th>Times count</th>
+    <th>Unique times</th>
+    <th>Shadow times</th>
+    <th>Times > 2x best</th>
+    <th>Removed times</th>
+    <th>Rank</th>
+    <th>Total sum</th>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td><a href="https://elma.online/levels/156" target="_blank">QWQUU035</a>
+      </td>
+      <td>2:09:73</td>
+      <td>353</td>
+      <td>351</td>
+      <td>2</td>
+      <td>118</td>
+      <td>120</td>
+      <td>748:00:80</td>
+      <td>1425:22:75</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td><a href="https://elma.online/levels/690" target="_blank">Smibu80</a>
+      </td>
+      <td>42:11:11</td>
+      <td>14</td>
+      <td>14</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>684:29:21</td>
+      <td>684:29:21</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td><a href="https://elma.online/levels/4" target="_blank">QWQUU002</a>
+      </td>
+      <td>14:64</td>
+      <td>1611</td>
+      <td>974</td>
+      <td>637</td>
+      <td>112</td>
+      <td>749</td>
+      <td>306:33:40</td>
+      <td>595:32:29</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td><a href="https://elma.online/levels/2" target="_blank">QWQUU001</a>
+      </td>
+      <td>13:79</td>
+      <td>1766</td>
+      <td>878</td>
+      <td>888</td>
+      <td>179</td>
+      <td>1067</td>
+      <td>223:33:13</td>
+      <td>575:00:78</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td><a href="https://elma.online/levels/116878" target="_blank">EOL01</a>
+      </td>
+      <td>15:56</td>
+      <td>725</td>
+      <td>551</td>
+      <td>174</td>
+      <td>67</td>
+      <td>241</td>
+      <td>174:55:44</td>
+      <td>275:53:89</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td><a href="https://elma.online/levels/116882" target="_blank">EOL05</a>
+      </td>
+      <td>26:90</td>
+      <td>329</td>
+      <td>305</td>
+      <td>24</td>
+      <td>55</td>
+      <td>79</td>
+      <td>150:03:28</td>
+      <td>229:06:52</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td><a href="https://elma.online/levels/472912" target="_blank">WCup804</a>
+      </td>
+      <td>1:02:26</td>
+      <td>112</td>
+      <td>108</td>
+      <td>4</td>
+      <td>3</td>
+      <td>7</td>
+      <td>126:27:69</td>
+      <td>139:52:54</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td><a href="https://elma.online/levels/371726" target="_blank">WCup702</a>
+      </td>
+      <td>43:58</td>
+      <td>137</td>
+      <td>130</td>
+      <td>7</td>
+      <td>2</td>
+      <td>9</td>
+      <td>113:22:83</td>
+      <td>121:58:70</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td><a href="https://elma.online/levels/116898" target="_blank">EOL21</a>
+      </td>
+      <td>30:99</td>
+      <td>191</td>
+      <td>177</td>
+      <td>14</td>
+      <td>1</td>
+      <td>15</td>
+      <td>111:38:88</td>
+      <td>121:05:44</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td><a href="https://elma.online/levels/359892" target="_blank">Pob1000</a>
+      </td>
+      <td>5:58:62</td>
+      <td>14</td>
+      <td>14</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>101:08:15</td>
+      <td>101:08:15</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td><a href="https://elma.online/levels/73243" target="_blank">PobFF001</a>
+      </td>
+      <td>5:15:57</td>
+      <td>13</td>
+      <td>13</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>94:58:20</td>
+      <td>94:58:20</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td><a href="https://elma.online/levels/471405" target="_blank">WCup802</a>
+      </td>
+      <td>29:20</td>
+      <td>132</td>
+      <td>116</td>
+      <td>16</td>
+      <td>7</td>
+      <td>23</td>
+      <td>61:26:32</td>
+      <td>80:13:83</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td><a href="https://elma.online/levels/371127" target="_blank">WCup701</a>
+      </td>
+      <td>21:77</td>
+      <td>153</td>
+      <td>132</td>
+      <td>21</td>
+      <td>2</td>
+      <td>23</td>
+      <td>57:09:16</td>
+      <td>68:16:12</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td><a href="https://elma.online/levels/237824" target="_blank">WCup601</a>
+      </td>
+      <td>13:93</td>
+      <td>257</td>
+      <td>204</td>
+      <td>53</td>
+      <td>3</td>
+      <td>56</td>
+      <td>56:29:37</td>
+      <td>71:57:80</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td><a href="https://elma.online/levels/475307" target="_blank">WCup807</a>
+      </td>
+      <td>19:53</td>
+      <td>125</td>
+      <td>114</td>
+      <td>11</td>
+      <td>2</td>
+      <td>13</td>
+      <td>43:15:63</td>
+      <td>48:43:32</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td><a href="https://elma.online/levels/1697" target="_blank">Pipo001</a>
+      </td>
+      <td>27:51</td>
+      <td>68</td>
+      <td>66</td>
+      <td>2</td>
+      <td>0</td>
+      <td>2</td>
+      <td>38:19:20</td>
+      <td>39:23:21</td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td><a href="https://elma.online/levels/116880" target="_blank">EOL03</a>
+      </td>
+      <td>22:40</td>
+      <td>52</td>
+      <td>52</td>
+      <td>0</td>
+      <td>5</td>
+      <td>5</td>
+      <td>24:56:62</td>
+      <td>29:05:29</td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td><a href="https://elma.online/levels/2417" target="_blank">Uni001</a>
+      </td>
+      <td>12:63</td>
+      <td>91</td>
+      <td>88</td>
+      <td>3</td>
+      <td>16</td>
+      <td>19</td>
+      <td>19:46:17</td>
+      <td>28:45:57</td>
+    </tr>
+    <tr>
+      <td>19</td>
+      <td><a href="https://elma.online/levels/74671" target="_blank">PobFF003</a>
+      </td>
+      <td>7:00:35</td>
+      <td>2</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>14:41:81</td>
+      <td>14:41:81</td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td><a href="https://elma.online/levels/331252" target="_blank">TTC101</a>
+      </td>
+      <td>14:10</td>
+      <td>62</td>
+      <td>47</td>
+      <td>15</td>
+      <td>0</td>
+      <td>15</td>
+      <td>11:42:50</td>
+      <td>15:19:57</td>
+    </tr>
+    <tr>
+      <td>21</td>
+      <td><a href="https://elma.online/levels/163" target="_blank">Tutor1</a>
+      </td>
+      <td>03:66</td>
+      <td>277</td>
+      <td>87</td>
+      <td>190</td>
+      <td>4</td>
+      <td>194</td>
+      <td>5:58:99</td>
+      <td>19:22:96</td>
+    </tr>
+    <tr>
+      <td>22</td>
+      <td><a href="https://elma.online/levels/2599" target="_blank">Rambo101</a>
+      </td>
+      <td>49:27</td>
+      <td>5</td>
+      <td>5</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>4:51:76</td>
+      <td>4:51:76</td>
+    </tr>
+    <tr>
+      <td>23</td>
+      <td><a href="https://elma.online/levels/483457" target="_blank">CPC100</a>
+      </td>
+      <td>14:49</td>
+      <td>14</td>
+      <td>14</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>3:53:29</td>
+      <td>3:53:29</td>
+    </tr>
+  </tbody>
+</table>
+<br/>
+<br/>
+
+## 32Cup
+<table>
+  <thead>
+    <th>Top</th>
+    <th>Level</th>
+    <th>Best time</th>
+    <th>Times count</th>
+    <th>Unique times</th>
+    <th>Shadow times</th>
+    <th>Times > 2x best</th>
+    <th>Removed times</th>
+    <th>Rank</th>
+    <th>Total sum</th>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td><a href="https://elma.online/levels/359241" target="_blank">32Cup13</a>
+      </td>
+      <td>2:12:71</td>
+      <td>16</td>
+      <td>16</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>48:01:95</td>
+      <td>48:01:95</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td><a href="https://elma.online/levels/359243" target="_blank">32Cup15</a>
+      </td>
+      <td>1:52:94</td>
+      <td>20</td>
+      <td>20</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>46:29:99</td>
+      <td>46:29:99</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td><a href="https://elma.online/levels/359238" target="_blank">32Cup10</a>
+      </td>
+      <td>1:08:80</td>
+      <td>22</td>
+      <td>22</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>32:04:78</td>
+      <td>32:04:78</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td><a href="https://elma.online/levels/359232" target="_blank">32Cup04</a>
+      </td>
+      <td>38:20</td>
+      <td>36</td>
+      <td>36</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>27:37:31</td>
+      <td>27:37:31</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td><a href="https://elma.online/levels/359229" target="_blank">32Cup01</a>
+      </td>
+      <td>37:44</td>
+      <td>37</td>
+      <td>34</td>
+      <td>3</td>
+      <td>2</td>
+      <td>5</td>
+      <td>25:18:97</td>
+      <td>30:42:11</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td><a href="https://elma.online/levels/359235" target="_blank">32Cup07</a>
+      </td>
+      <td>38:56</td>
+      <td>32</td>
+      <td>31</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>24:42:57</td>
+      <td>25:21:13</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td><a href="https://elma.online/levels/359257" target="_blank">32Cup29</a>
+      </td>
+      <td>1:12:85</td>
+      <td>15</td>
+      <td>15</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>24:14:93</td>
+      <td>24:14:93</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td><a href="https://elma.online/levels/359230" target="_blank">32Cup02</a>
+      </td>
+      <td>32:31</td>
+      <td>34</td>
+      <td>34</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>22:05:80</td>
+      <td>22:05:80</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td><a href="https://elma.online/levels/359231" target="_blank">32Cup03</a>
+      </td>
+      <td>46:24</td>
+      <td>22</td>
+      <td>22</td>
+      <td>0</td>
+      <td>2</td>
+      <td>2</td>
+      <td>21:12:76</td>
+      <td>25:46:60</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td><a href="https://elma.online/levels/359251" target="_blank">32Cup23</a>
+      </td>
+      <td>32:92</td>
+      <td>31</td>
+      <td>31</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>19:59:97</td>
+      <td>19:59:97</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td><a href="https://elma.online/levels/359253" target="_blank">32Cup25</a>
+      </td>
+      <td>47:36</td>
+      <td>21</td>
+      <td>20</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>19:42:51</td>
+      <td>20:35:10</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td><a href="https://elma.online/levels/359239" target="_blank">32Cup11</a>
+      </td>
+      <td>42:34</td>
+      <td>21</td>
+      <td>21</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>19:13:75</td>
+      <td>20:45:33</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td><a href="https://elma.online/levels/359245" target="_blank">32Cup17</a>
+      </td>
+      <td>28:42</td>
+      <td>43</td>
+      <td>39</td>
+      <td>4</td>
+      <td>1</td>
+      <td>5</td>
+      <td>18:43:48</td>
+      <td>27:35:49</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td><a href="https://elma.online/levels/359258" target="_blank">32Cup30</a>
+      </td>
+      <td>51:31</td>
+      <td>17</td>
+      <td>17</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>18:23:33</td>
+      <td>18:23:33</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td><a href="https://elma.online/levels/359236" target="_blank">32Cup08</a>
+      </td>
+      <td>38:59</td>
+      <td>20</td>
+      <td>20</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>16:48:60</td>
+      <td>16:48:60</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td><a href="https://elma.online/levels/359240" target="_blank">32Cup12</a>
+      </td>
+      <td>28:61</td>
+      <td>26</td>
+      <td>26</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>16:47:23</td>
+      <td>17:50:48</td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td><a href="https://elma.online/levels/359246" target="_blank">32Cup18</a>
+      </td>
+      <td>48:92</td>
+      <td>17</td>
+      <td>17</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>16:27:12</td>
+      <td>18:10:88</td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td><a href="https://elma.online/levels/359254" target="_blank">32Cup26</a>
+      </td>
+      <td>57:14</td>
+      <td>16</td>
+      <td>16</td>
+      <td>0</td>
+      <td>3</td>
+      <td>3</td>
+      <td>16:17:74</td>
+      <td>22:57:52</td>
+    </tr>
+    <tr>
+      <td>19</td>
+      <td><a href="https://elma.online/levels/359252" target="_blank">32Cup24</a>
+      </td>
+      <td>40:30</td>
+      <td>20</td>
+      <td>20</td>
+      <td>0</td>
+      <td>4</td>
+      <td>4</td>
+      <td>15:27:79</td>
+      <td>24:59:17</td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td><a href="https://elma.online/levels/359237" target="_blank">32Cup09</a>
+      </td>
+      <td>29:63</td>
+      <td>25</td>
+      <td>25</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>15:10:33</td>
+      <td>15:10:33</td>
+    </tr>
+    <tr>
+      <td>21</td>
+      <td><a href="https://elma.online/levels/359256" target="_blank">32Cup28</a>
+      </td>
+      <td>45:82</td>
+      <td>17</td>
+      <td>17</td>
+      <td>0</td>
+      <td>2</td>
+      <td>2</td>
+      <td>15:03:54</td>
+      <td>18:55:29</td>
+    </tr>
+    <tr>
+      <td>22</td>
+      <td><a href="https://elma.online/levels/359234" target="_blank">32Cup06</a>
+      </td>
+      <td>51:67</td>
+      <td>17</td>
+      <td>17</td>
+      <td>0</td>
+      <td>3</td>
+      <td>3</td>
+      <td>14:36:31</td>
+      <td>23:56:41</td>
+    </tr>
+    <tr>
+      <td>23</td>
+      <td><a href="https://elma.online/levels/359295" target="_blank">32Cup32</a>
+      </td>
+      <td>31:46</td>
+      <td>23</td>
+      <td>23</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>14:00:15</td>
+      <td>14:00:15</td>
+    </tr>
+    <tr>
+      <td>24</td>
+      <td><a href="https://elma.online/levels/359233" target="_blank">32Cup05</a>
+      </td>
+      <td>35:99</td>
+      <td>20</td>
+      <td>20</td>
+      <td>0</td>
+      <td>4</td>
+      <td>4</td>
+      <td>12:49:36</td>
+      <td>19:48:18</td>
+    </tr>
+    <tr>
+      <td>25</td>
+      <td><a href="https://elma.online/levels/359244" target="_blank">32Cup16</a>
+      </td>
+      <td>37:16</td>
+      <td>16</td>
+      <td>16</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>12:05:29</td>
+      <td>12:05:29</td>
+    </tr>
+    <tr>
+      <td>26</td>
+      <td><a href="https://elma.online/levels/359242" target="_blank">32Cup14</a>
+      </td>
+      <td>34:78</td>
+      <td>17</td>
+      <td>17</td>
+      <td>0</td>
+      <td>2</td>
+      <td>2</td>
+      <td>11:40:95</td>
+      <td>14:18:62</td>
+    </tr>
+    <tr>
+      <td>27</td>
+      <td><a href="https://elma.online/levels/359249" target="_blank">32Cup21</a>
+      </td>
+      <td>32:82</td>
+      <td>19</td>
+      <td>19</td>
+      <td>0</td>
+      <td>3</td>
+      <td>3</td>
+      <td>11:37:59</td>
+      <td>15:39:41</td>
+    </tr>
+    <tr>
+      <td>28</td>
+      <td><a href="https://elma.online/levels/359250" target="_blank">32Cup22</a>
+      </td>
+      <td>24:13</td>
+      <td>22</td>
+      <td>22</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>10:55:10</td>
+      <td>10:55:10</td>
+    </tr>
+    <tr>
+      <td>29</td>
+      <td><a href="https://elma.online/levels/359259" target="_blank">32Cup31</a>
+      </td>
+      <td>49:89</td>
+      <td>12</td>
+      <td>12</td>
+      <td>0</td>
+      <td>3</td>
+      <td>3</td>
+      <td>10:19:15</td>
+      <td>17:33:28</td>
+    </tr>
+    <tr>
+      <td>30</td>
+      <td><a href="https://elma.online/levels/359248" target="_blank">32Cup20</a>
+      </td>
+      <td>12:50</td>
+      <td>35</td>
+      <td>33</td>
+      <td>2</td>
+      <td>0</td>
+      <td>2</td>
+      <td>7:39:55</td>
+      <td>8:07:63</td>
+    </tr>
+    <tr>
+      <td>31</td>
+      <td><a href="https://elma.online/levels/359255" target="_blank">32Cup27</a>
+      </td>
+      <td>23:97</td>
+      <td>19</td>
+      <td>17</td>
+      <td>2</td>
+      <td>4</td>
+      <td>6</td>
+      <td>6:36:26</td>
+      <td>11:04:60</td>
+    </tr>
+    <tr>
+      <td>32</td>
+      <td><a href="https://elma.online/levels/359247" target="_blank">32Cup19</a>
+      </td>
+      <td>19:98</td>
+      <td>13</td>
+      <td>13</td>
+      <td>0</td>
+      <td>3</td>
+      <td>3</td>
+      <td>5:20:38</td>
+      <td>7:49:80</td>
+    </tr>
+  </tbody>
+</table>
+<br/>
+<br/>
+
+## WCup8
+<table>
+  <thead>
+    <th>Top</th>
+    <th>Level</th>
+    <th>Best time</th>
+    <th>Times count</th>
+    <th>Unique times</th>
+    <th>Shadow times</th>
+    <th>Times > 2x best</th>
+    <th>Removed times</th>
+    <th>Rank</th>
+    <th>Total sum</th>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td><a href="https://elma.online/levels/475887" target="_blank">WCup808</a>
+      </td>
+      <td>1:53:25</td>
+      <td>68</td>
+      <td>68</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>153:51:40</td>
+      <td>158:19:95</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td><a href="https://elma.online/levels/472912" target="_blank">WCup804</a>
+      </td>
+      <td>1:02:26</td>
+      <td>112</td>
+      <td>108</td>
+      <td>4</td>
+      <td>3</td>
+      <td>7</td>
+      <td>126:27:69</td>
+      <td>139:52:54</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td><a href="https://elma.online/levels/479721" target="_blank">WCup812</a>
+      </td>
+      <td>1:02:10</td>
+      <td>112</td>
+      <td>107</td>
+      <td>5</td>
+      <td>0</td>
+      <td>5</td>
+      <td>125:07:68</td>
+      <td>130:40:74</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td><a href="https://elma.online/levels/470921" target="_blank">WCup801</a>
+      </td>
+      <td>41:82</td>
+      <td>137</td>
+      <td>133</td>
+      <td>4</td>
+      <td>4</td>
+      <td>8</td>
+      <td>108:01:47</td>
+      <td>117:19:39</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td><a href="https://elma.online/levels/473318" target="_blank">WCup805</a>
+      </td>
+      <td>46:26</td>
+      <td>118</td>
+      <td>114</td>
+      <td>4</td>
+      <td>0</td>
+      <td>4</td>
+      <td>102:23:69</td>
+      <td>105:50:94</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td><a href="https://elma.online/levels/471817" target="_blank">WCup803</a>
+      </td>
+      <td>43:59</td>
+      <td>135</td>
+      <td>121</td>
+      <td>14</td>
+      <td>0</td>
+      <td>14</td>
+      <td>94:26:76</td>
+      <td>105:09:50</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td><a href="https://elma.online/levels/473903" target="_blank">WCup806</a>
+      </td>
+      <td>49:25</td>
+      <td>102</td>
+      <td>101</td>
+      <td>1</td>
+      <td>11</td>
+      <td>12</td>
+      <td>93:10:73</td>
+      <td>114:14:19</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td><a href="https://elma.online/levels/476456" target="_blank">WCup809</a>
+      </td>
+      <td>32:73</td>
+      <td>102</td>
+      <td>102</td>
+      <td>0</td>
+      <td>2</td>
+      <td>2</td>
+      <td>67:59:36</td>
+      <td>73:38:16</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td><a href="https://elma.online/levels/471405" target="_blank">WCup802</a>
+      </td>
+      <td>29:20</td>
+      <td>132</td>
+      <td>116</td>
+      <td>16</td>
+      <td>7</td>
+      <td>23</td>
+      <td>61:26:32</td>
+      <td>80:13:83</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td><a href="https://elma.online/levels/475307" target="_blank">WCup807</a>
+      </td>
+      <td>19:53</td>
+      <td>125</td>
+      <td>114</td>
+      <td>11</td>
+      <td>2</td>
+      <td>13</td>
+      <td>43:15:63</td>
+      <td>48:43:32</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td><a href="https://elma.online/levels/478035" target="_blank">WCup810</a>
+      </td>
+      <td>9:36:20</td>
+      <td>4</td>
+      <td>4</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>41:33:10</td>
+      <td>41:33:10</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td><a href="https://elma.online/levels/478807" target="_blank">WCup811</a>
+      </td>
+      <td>11:60</td>
+      <td>119</td>
+      <td>96</td>
+      <td>23</td>
+      <td>2</td>
+      <td>25</td>
+      <td>19:26:63</td>
+      <td>24:55:56</td>
+    </tr>
+  </tbody>
+</table>
+<br/>
+<br/>
+
+## WCup7
+<table>
+  <thead>
+    <th>Top</th>
+    <th>Level</th>
+    <th>Best time</th>
+    <th>Times count</th>
+    <th>Unique times</th>
+    <th>Shadow times</th>
+    <th>Times > 2x best</th>
+    <th>Removed times</th>
+    <th>Rank</th>
+    <th>Total sum</th>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td><a href="https://elma.online/levels/371130" target="_blank">WCup715</a>
+      </td>
+      <td>2:26:15</td>
+      <td>80</td>
+      <td>77</td>
+      <td>3</td>
+      <td>1</td>
+      <td>4</td>
+      <td>223:10:29</td>
+      <td>307:42:70</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td><a href="https://elma.online/levels/372197" target="_blank">WCup703</a>
+      </td>
+      <td>1:01:86</td>
+      <td>130</td>
+      <td>128</td>
+      <td>2</td>
+      <td>1</td>
+      <td>3</td>
+      <td>154:44:60</td>
+      <td>159:05:40</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td><a href="https://elma.online/levels/376243" target="_blank">WCup708</a>
+      </td>
+      <td>1:22:49</td>
+      <td>83</td>
+      <td>83</td>
+      <td>0</td>
+      <td>22</td>
+      <td>22</td>
+      <td>122:58:69</td>
+      <td>201:38:93</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td><a href="https://elma.online/levels/371726" target="_blank">WCup702</a>
+      </td>
+      <td>43:58</td>
+      <td>137</td>
+      <td>130</td>
+      <td>7</td>
+      <td>2</td>
+      <td>9</td>
+      <td>113:22:83</td>
+      <td>121:58:70</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td><a href="https://elma.online/levels/374907" target="_blank">WCup707</a>
+      </td>
+      <td>56:71</td>
+      <td>93</td>
+      <td>92</td>
+      <td>1</td>
+      <td>1</td>
+      <td>2</td>
+      <td>100:49:16</td>
+      <td>103:52:17</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td><a href="https://elma.online/levels/372760" target="_blank">WCup704</a>
+      </td>
+      <td>47:15</td>
+      <td>96</td>
+      <td>94</td>
+      <td>2</td>
+      <td>9</td>
+      <td>11</td>
+      <td>88:50:55</td>
+      <td>106:19:60</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td><a href="https://elma.online/levels/377165" target="_blank">WCup711</a>
+      </td>
+      <td>47:10</td>
+      <td>85</td>
+      <td>84</td>
+      <td>1</td>
+      <td>3</td>
+      <td>4</td>
+      <td>85:45:48</td>
+      <td>91:24:33</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td><a href="https://elma.online/levels/377517" target="_blank">WCup712</a>
+      </td>
+      <td>58:44</td>
+      <td>67</td>
+      <td>66</td>
+      <td>1</td>
+      <td>1</td>
+      <td>2</td>
+      <td>75:35:76</td>
+      <td>78:38:97</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td><a href="https://elma.online/levels/374120" target="_blank">WCup706</a>
+      </td>
+      <td>34:62</td>
+      <td>100</td>
+      <td>99</td>
+      <td>1</td>
+      <td>1</td>
+      <td>2</td>
+      <td>72:55:77</td>
+      <td>74:46:11</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td><a href="https://elma.online/levels/376749" target="_blank">WCup709</a>
+      </td>
+      <td>28:80</td>
+      <td>118</td>
+      <td>108</td>
+      <td>10</td>
+      <td>0</td>
+      <td>10</td>
+      <td>57:16:45</td>
+      <td>62:22:48</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td><a href="https://elma.online/levels/371127" target="_blank">WCup701</a>
+      </td>
+      <td>21:77</td>
+      <td>153</td>
+      <td>132</td>
+      <td>21</td>
+      <td>2</td>
+      <td>23</td>
+      <td>57:09:16</td>
+      <td>68:16:12</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td><a href="https://elma.online/levels/378207" target="_blank">WCup714</a>
+      </td>
+      <td>37:52</td>
+      <td>57</td>
+      <td>57</td>
+      <td>0</td>
+      <td>14</td>
+      <td>14</td>
+      <td>36:25:16</td>
+      <td>66:02:81</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td><a href="https://elma.online/levels/377914" target="_blank">WCup713</a>
+      </td>
+      <td>18:63</td>
+      <td>79</td>
+      <td>79</td>
+      <td>0</td>
+      <td>6</td>
+      <td>6</td>
+      <td>28:30:93</td>
+      <td>34:54:98</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td><a href="https://elma.online/levels/376988" target="_blank">WCup710</a>
+      </td>
+      <td>14:91</td>
+      <td>107</td>
+      <td>100</td>
+      <td>7</td>
+      <td>11</td>
+      <td>18</td>
+      <td>28:19:54</td>
+      <td>37:06:33</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td><a href="https://elma.online/levels/373474" target="_blank">WCup705</a>
+      </td>
+      <td>4:13:30</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>4:13:30</td>
+      <td>4:13:30</td>
+    </tr>
+  </tbody>
+</table>
+<br/>
+<br/>
+
+## TTC1
+<table>
+  <thead>
+    <th>Top</th>
+    <th>Level</th>
+    <th>Best time</th>
+    <th>Times count</th>
+    <th>Unique times</th>
+    <th>Shadow times</th>
+    <th>Times > 2x best</th>
+    <th>Removed times</th>
+    <th>Rank</th>
+    <th>Total sum</th>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td><a href="https://elma.online/levels/331261" target="_blank">TTC110</a>
+      </td>
+      <td>1:08:39</td>
+      <td>42</td>
+      <td>42</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>54:47:13</td>
+      <td>54:47:13</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td><a href="https://elma.online/levels/331258" target="_blank">TTC107</a>
+      </td>
+      <td>46:42</td>
+      <td>46</td>
+      <td>46</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>42:58:44</td>
+      <td>42:58:44</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td><a href="https://elma.online/levels/331259" target="_blank">TTC108</a>
+      </td>
+      <td>51:30</td>
+      <td>42</td>
+      <td>41</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>41:28:73</td>
+      <td>42:28:89</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td><a href="https://elma.online/levels/331254" target="_blank">TTC103</a>
+      </td>
+      <td>37:79</td>
+      <td>50</td>
+      <td>50</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>37:25:59</td>
+      <td>37:25:59</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td><a href="https://elma.online/levels/331260" target="_blank">TTC109</a>
+      </td>
+      <td>39:79</td>
+      <td>40</td>
+      <td>39</td>
+      <td>1</td>
+      <td>1</td>
+      <td>2</td>
+      <td>32:47:38</td>
+      <td>35:09:81</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td><a href="https://elma.online/levels/331257" target="_blank">TTC106</a>
+      </td>
+      <td>25:92</td>
+      <td>49</td>
+      <td>47</td>
+      <td>2</td>
+      <td>0</td>
+      <td>2</td>
+      <td>22:35:19</td>
+      <td>23:29:68</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td><a href="https://elma.online/levels/331255" target="_blank">TTC104</a>
+      </td>
+      <td>24:64</td>
+      <td>45</td>
+      <td>45</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>21:33:56</td>
+      <td>21:33:56</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td><a href="https://elma.online/levels/331253" target="_blank">TTC102</a>
+      </td>
+      <td>18:62</td>
+      <td>50</td>
+      <td>49</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>19:17:29</td>
+      <td>19:36:17</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td><a href="https://elma.online/levels/331256" target="_blank">TTC105</a>
+      </td>
+      <td>11:50</td>
+      <td>57</td>
+      <td>55</td>
+      <td>2</td>
+      <td>1</td>
+      <td>3</td>
+      <td>12:11:86</td>
+      <td>13:04:46</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td><a href="https://elma.online/levels/331252" target="_blank">TTC101</a>
+      </td>
+      <td>14:10</td>
+      <td>62</td>
+      <td>47</td>
+      <td>15</td>
+      <td>0</td>
+      <td>15</td>
+      <td>11:42:50</td>
+      <td>15:19:57</td>
+    </tr>
+  </tbody>
+</table>
+<br/>
+<br/>
+
+## EOL level pack
+<table>
+  <thead>
+    <th>Top</th>
+    <th>Level</th>
+    <th>Best time</th>
+    <th>Times count</th>
+    <th>Unique times</th>
+    <th>Shadow times</th>
+    <th>Times > 2x best</th>
+    <th>Removed times</th>
+    <th>Rank</th>
+    <th>Total sum</th>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td><a href="https://elma.online/levels/116895" target="_blank">EOL18</a>
+      </td>
+      <td>51:29</td>
+      <td>179</td>
+      <td>171</td>
+      <td>8</td>
+      <td>6</td>
+      <td>14</td>
+      <td>186:12:62</td>
+      <td>209:00:69</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td><a href="https://elma.online/levels/116917" target="_blank">EOL40</a>
+      </td>
+      <td>1:27:39</td>
+      <td>95</td>
+      <td>95</td>
+      <td>0</td>
+      <td>2</td>
+      <td>2</td>
+      <td>185:46:67</td>
+      <td>191:50:40</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td><a href="https://elma.online/levels/116881" target="_blank">EOL04</a>
+      </td>
+      <td>45:14</td>
+      <td>206</td>
+      <td>199</td>
+      <td>7</td>
+      <td>3</td>
+      <td>10</td>
+      <td>178:26:88</td>
+      <td>190:01:72</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td><a href="https://elma.online/levels/116878" target="_blank">EOL01</a>
+      </td>
+      <td>15:56</td>
+      <td>725</td>
+      <td>551</td>
+      <td>174</td>
+      <td>67</td>
+      <td>241</td>
+      <td>174:55:44</td>
+      <td>275:53:89</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td><a href="https://elma.online/levels/116906" target="_blank">EOL29</a>
+      </td>
+      <td>1:08:96</td>
+      <td>117</td>
+      <td>115</td>
+      <td>2</td>
+      <td>2</td>
+      <td>4</td>
+      <td>171:43:54</td>
+      <td>180:25:13</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td><a href="https://elma.online/levels/116882" target="_blank">EOL05</a>
+      </td>
+      <td>26:90</td>
+      <td>329</td>
+      <td>305</td>
+      <td>24</td>
+      <td>55</td>
+      <td>79</td>
+      <td>150:03:28</td>
+      <td>229:06:52</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td><a href="https://elma.online/levels/116885" target="_blank">EOL08</a>
+      </td>
+      <td>24:65</td>
+      <td>294</td>
+      <td>271</td>
+      <td>23</td>
+      <td>8</td>
+      <td>31</td>
+      <td>144:54:25</td>
+      <td>164:24:46</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td><a href="https://elma.online/levels/116899" target="_blank">EOL22</a>
+      </td>
+      <td>52:35</td>
+      <td>132</td>
+      <td>130</td>
+      <td>2</td>
+      <td>7</td>
+      <td>9</td>
+      <td>143:44:35</td>
+      <td>161:03:14</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td><a href="https://elma.online/levels/116883" target="_blank">EOL06</a>
+      </td>
+      <td>41:84</td>
+      <td>176</td>
+      <td>168</td>
+      <td>8</td>
+      <td>21</td>
+      <td>29</td>
+      <td>140:30:70</td>
+      <td>186:29:56</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td><a href="https://elma.online/levels/116884" target="_blank">EOL07</a>
+      </td>
+      <td>26:76</td>
+      <td>276</td>
+      <td>256</td>
+      <td>20</td>
+      <td>17</td>
+      <td>37</td>
+      <td>139:13:97</td>
+      <td>170:02:46</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td><a href="https://elma.online/levels/116879" target="_blank">EOL02</a>
+      </td>
+      <td>14:91</td>
+      <td>583</td>
+      <td>504</td>
+      <td>79</td>
+      <td>147</td>
+      <td>226</td>
+      <td>136:09:16</td>
+      <td>245:21:49</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td><a href="https://elma.online/levels/116901" target="_blank">EOL24</a>
+      </td>
+      <td>41:94</td>
+      <td>162</td>
+      <td>152</td>
+      <td>10</td>
+      <td>1</td>
+      <td>11</td>
+      <td>134:55:30</td>
+      <td>146:05:61</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td><a href="https://elma.online/levels/116911" target="_blank">EOL34</a>
+      </td>
+      <td>1:09:52</td>
+      <td>88</td>
+      <td>87</td>
+      <td>1</td>
+      <td>1</td>
+      <td>2</td>
+      <td>131:33:57</td>
+      <td>135:44:45</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td><a href="https://elma.online/levels/116902" target="_blank">EOL25</a>
+      </td>
+      <td>54:36</td>
+      <td>123</td>
+      <td>120</td>
+      <td>3</td>
+      <td>8</td>
+      <td>11</td>
+      <td>126:46:87</td>
+      <td>150:25:70</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td><a href="https://elma.online/levels/117435" target="_blank">EOL03</a>
+      </td>
+      <td>21:41</td>
+      <td>334</td>
+      <td>318</td>
+      <td>16</td>
+      <td>88</td>
+      <td>104</td>
+      <td>126:18:59</td>
+      <td>234:38:89</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td><a href="https://elma.online/levels/116909" target="_blank">EOL32</a>
+      </td>
+      <td>1:38:42</td>
+      <td>66</td>
+      <td>66</td>
+      <td>0</td>
+      <td>12</td>
+      <td>12</td>
+      <td>124:30:19</td>
+      <td>178:03:90</td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td><a href="https://elma.online/levels/116891" target="_blank">EOL14</a>
+      </td>
+      <td>31:42</td>
+      <td>205</td>
+      <td>199</td>
+      <td>6</td>
+      <td>27</td>
+      <td>33</td>
+      <td>123:48:27</td>
+      <td>162:57:51</td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td><a href="https://elma.online/levels/116892" target="_blank">EOL15</a>
+      </td>
+      <td>37:23</td>
+      <td>149</td>
+      <td>149</td>
+      <td>0</td>
+      <td>13</td>
+      <td>13</td>
+      <td>121:50:87</td>
+      <td>140:55:64</td>
+    </tr>
+    <tr>
+      <td>19</td>
+      <td><a href="https://elma.online/levels/116904" target="_blank">EOL27</a>
+      </td>
+      <td>42:60</td>
+      <td>154</td>
+      <td>145</td>
+      <td>9</td>
+      <td>0</td>
+      <td>9</td>
+      <td>119:58:83</td>
+      <td>127:00:39</td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td><a href="https://elma.online/levels/116908" target="_blank">EOL31</a>
+      </td>
+      <td>52:90</td>
+      <td>105</td>
+      <td>104</td>
+      <td>1</td>
+      <td>9</td>
+      <td>10</td>
+      <td>116:07:54</td>
+      <td>136:59:10</td>
+    </tr>
+    <tr>
+      <td>21</td>
+      <td><a href="https://elma.online/levels/116903" target="_blank">EOL26</a>
+      </td>
+      <td>55:55</td>
+      <td>115</td>
+      <td>113</td>
+      <td>2</td>
+      <td>21</td>
+      <td>23</td>
+      <td>114:55:83</td>
+      <td>165:37:93</td>
+    </tr>
+    <tr>
+      <td>22</td>
+      <td><a href="https://elma.online/levels/116907" target="_blank">EOL30</a>
+      </td>
+      <td>54:13</td>
+      <td>103</td>
+      <td>103</td>
+      <td>0</td>
+      <td>10</td>
+      <td>10</td>
+      <td>114:19:38</td>
+      <td>136:53:68</td>
+    </tr>
+    <tr>
+      <td>23</td>
+      <td><a href="https://elma.online/levels/116926" target="_blank">EOL49</a>
+      </td>
+      <td>1:39:32</td>
+      <td>58</td>
+      <td>58</td>
+      <td>0</td>
+      <td>6</td>
+      <td>6</td>
+      <td>113:44:26</td>
+      <td>140:07:71</td>
+    </tr>
+    <tr>
+      <td>24</td>
+      <td><a href="https://elma.online/levels/116915" target="_blank">EOL38</a>
+      </td>
+      <td>1:06:86</td>
+      <td>84</td>
+      <td>83</td>
+      <td>1</td>
+      <td>1</td>
+      <td>2</td>
+      <td>113:41:48</td>
+      <td>119:00:86</td>
+    </tr>
+    <tr>
+      <td>25</td>
+      <td><a href="https://elma.online/levels/116898" target="_blank">EOL21</a>
+      </td>
+      <td>30:99</td>
+      <td>191</td>
+      <td>177</td>
+      <td>14</td>
+      <td>1</td>
+      <td>15</td>
+      <td>111:38:88</td>
+      <td>121:05:44</td>
+    </tr>
+    <tr>
+      <td>26</td>
+      <td><a href="https://elma.online/levels/116921" target="_blank">EOL44</a>
+      </td>
+      <td>1:39:85</td>
+      <td>52</td>
+      <td>52</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>104:38:75</td>
+      <td>109:47:50</td>
+    </tr>
+    <tr>
+      <td>27</td>
+      <td><a href="https://elma.online/levels/116912" target="_blank">EOL35</a>
+      </td>
+      <td>37:18</td>
+      <td>131</td>
+      <td>129</td>
+      <td>2</td>
+      <td>3</td>
+      <td>5</td>
+      <td>99:28:84</td>
+      <td>105:08:80</td>
+    </tr>
+    <tr>
+      <td>28</td>
+      <td><a href="https://elma.online/levels/116934" target="_blank">EOL54</a>
+      </td>
+      <td>1:37:75</td>
+      <td>56</td>
+      <td>56</td>
+      <td>0</td>
+      <td>15</td>
+      <td>15</td>
+      <td>99:03:82</td>
+      <td>166:07:44</td>
+    </tr>
+    <tr>
+      <td>29</td>
+      <td><a href="https://elma.online/levels/116887" target="_blank">EOL10</a>
+      </td>
+      <td>26:78</td>
+      <td>198</td>
+      <td>174</td>
+      <td>24</td>
+      <td>2</td>
+      <td>26</td>
+      <td>86:31:53</td>
+      <td>100:04:86</td>
+    </tr>
+    <tr>
+      <td>30</td>
+      <td><a href="https://elma.online/levels/116922" target="_blank">EOL45</a>
+      </td>
+      <td>29:23</td>
+      <td>150</td>
+      <td>144</td>
+      <td>6</td>
+      <td>4</td>
+      <td>10</td>
+      <td>85:18:75</td>
+      <td>96:01:26</td>
+    </tr>
+    <tr>
+      <td>31</td>
+      <td><a href="https://elma.online/levels/116923" target="_blank">EOL46</a>
+      </td>
+      <td>42:20</td>
+      <td>98</td>
+      <td>96</td>
+      <td>2</td>
+      <td>16</td>
+      <td>18</td>
+      <td>84:37:33</td>
+      <td>112:44:20</td>
+    </tr>
+    <tr>
+      <td>32</td>
+      <td><a href="https://elma.online/levels/116914" target="_blank">EOL37</a>
+      </td>
+      <td>35:38</td>
+      <td>129</td>
+      <td>119</td>
+      <td>10</td>
+      <td>5</td>
+      <td>15</td>
+      <td>84:21:22</td>
+      <td>101:09:68</td>
+    </tr>
+    <tr>
+      <td>33</td>
+      <td><a href="https://elma.online/levels/117436" target="_blank">EOL09</a>
+      </td>
+      <td>16:20</td>
+      <td>273</td>
+      <td>245</td>
+      <td>28</td>
+      <td>30</td>
+      <td>58</td>
+      <td>81:09:57</td>
+      <td>114:42:71</td>
+    </tr>
+    <tr>
+      <td>34</td>
+      <td><a href="https://elma.online/levels/116919" target="_blank">EOL42</a>
+      </td>
+      <td>53:26</td>
+      <td>70</td>
+      <td>70</td>
+      <td>0</td>
+      <td>6</td>
+      <td>6</td>
+      <td>81:02:62</td>
+      <td>99:06:41</td>
+    </tr>
+    <tr>
+      <td>35</td>
+      <td><a href="https://elma.online/levels/116910" target="_blank">EOL33</a>
+      </td>
+      <td>42:31</td>
+      <td>100</td>
+      <td>100</td>
+      <td>0</td>
+      <td>18</td>
+      <td>18</td>
+      <td>80:46:73</td>
+      <td>110:57:50</td>
+    </tr>
+    <tr>
+      <td>36</td>
+      <td><a href="https://elma.online/levels/116986" target="_blank">EOL39</a>
+      </td>
+      <td>59:64</td>
+      <td>71</td>
+      <td>71</td>
+      <td>0</td>
+      <td>8</td>
+      <td>8</td>
+      <td>77:49:00</td>
+      <td>96:45:98</td>
+    </tr>
+    <tr>
+      <td>37</td>
+      <td><a href="https://elma.online/levels/116929" target="_blank">EOL52</a>
+      </td>
+      <td>19:85</td>
+      <td>201</td>
+      <td>177</td>
+      <td>24</td>
+      <td>1</td>
+      <td>25</td>
+      <td>74:10:80</td>
+      <td>84:19:88</td>
+    </tr>
+    <tr>
+      <td>38</td>
+      <td><a href="https://elma.online/levels/116900" target="_blank">EOL23</a>
+      </td>
+      <td>20:55</td>
+      <td>174</td>
+      <td>169</td>
+      <td>5</td>
+      <td>24</td>
+      <td>29</td>
+      <td>72:30:66</td>
+      <td>93:55:19</td>
+    </tr>
+    <tr>
+      <td>39</td>
+      <td><a href="https://elma.online/levels/116928" target="_blank">EOL51</a>
+      </td>
+      <td>32:11</td>
+      <td>98</td>
+      <td>98</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>64:27:73</td>
+      <td>64:27:73</td>
+    </tr>
+    <tr>
+      <td>40</td>
+      <td><a href="https://elma.online/levels/116924" target="_blank">EOL47</a>
+      </td>
+      <td>27:88</td>
+      <td>102</td>
+      <td>100</td>
+      <td>2</td>
+      <td>5</td>
+      <td>7</td>
+      <td>61:10:30</td>
+      <td>68:46:90</td>
+    </tr>
+    <tr>
+      <td>41</td>
+      <td><a href="https://elma.online/levels/116925" target="_blank">EOL48</a>
+      </td>
+      <td>23:62</td>
+      <td>127</td>
+      <td>126</td>
+      <td>1</td>
+      <td>22</td>
+      <td>23</td>
+      <td>58:05:29</td>
+      <td>79:56:89</td>
+    </tr>
+    <tr>
+      <td>42</td>
+      <td><a href="https://elma.online/levels/116894" target="_blank">EOL17</a>
+      </td>
+      <td>26:96</td>
+      <td>134</td>
+      <td>133</td>
+      <td>1</td>
+      <td>53</td>
+      <td>54</td>
+      <td>57:46:34</td>
+      <td>123:24:36</td>
+    </tr>
+    <tr>
+      <td>43</td>
+      <td><a href="https://elma.online/levels/116905" target="_blank">EOL28</a>
+      </td>
+      <td>33:40</td>
+      <td>98</td>
+      <td>98</td>
+      <td>0</td>
+      <td>33</td>
+      <td>33</td>
+      <td>54:42:92</td>
+      <td>110:28:82</td>
+    </tr>
+    <tr>
+      <td>44</td>
+      <td><a href="https://elma.online/levels/116920" target="_blank">EOL43</a>
+      </td>
+      <td>37:18</td>
+      <td>78</td>
+      <td>75</td>
+      <td>3</td>
+      <td>17</td>
+      <td>20</td>
+      <td>53:54:64</td>
+      <td>81:28:98</td>
+    </tr>
+    <tr>
+      <td>45</td>
+      <td><a href="https://elma.online/levels/116897" target="_blank">EOL20</a>
+      </td>
+      <td>17:26</td>
+      <td>195</td>
+      <td>186</td>
+      <td>9</td>
+      <td>53</td>
+      <td>62</td>
+      <td>53:47:99</td>
+      <td>100:57:97</td>
+    </tr>
+    <tr>
+      <td>46</td>
+      <td><a href="https://elma.online/levels/116890" target="_blank">EOL13</a>
+      </td>
+      <td>24:50</td>
+      <td>132</td>
+      <td>122</td>
+      <td>10</td>
+      <td>18</td>
+      <td>28</td>
+      <td>52:22:91</td>
+      <td>80:21:15</td>
+    </tr>
+    <tr>
+      <td>47</td>
+      <td><a href="https://elma.online/levels/116889" target="_blank">EOL12</a>
+      </td>
+      <td>23:54</td>
+      <td>171</td>
+      <td>169</td>
+      <td>2</td>
+      <td>79</td>
+      <td>81</td>
+      <td>49:34:90</td>
+      <td>134:06:28</td>
+    </tr>
+    <tr>
+      <td>48</td>
+      <td><a href="https://elma.online/levels/116930" target="_blank">EOL53</a>
+      </td>
+      <td>1:03:71</td>
+      <td>53</td>
+      <td>53</td>
+      <td>0</td>
+      <td>19</td>
+      <td>19</td>
+      <td>48:58:30</td>
+      <td>106:12:13</td>
+    </tr>
+    <tr>
+      <td>49</td>
+      <td><a href="https://elma.online/levels/117437" target="_blank">EOL11</a>
+      </td>
+      <td>19:79</td>
+      <td>128</td>
+      <td>122</td>
+      <td>6</td>
+      <td>9</td>
+      <td>15</td>
+      <td>48:41:39</td>
+      <td>58:51:90</td>
+    </tr>
+    <tr>
+      <td>50</td>
+      <td><a href="https://elma.online/levels/116896" target="_blank">EOL19</a>
+      </td>
+      <td>25:15</td>
+      <td>102</td>
+      <td>100</td>
+      <td>2</td>
+      <td>15</td>
+      <td>17</td>
+      <td>46:55:20</td>
+      <td>70:24:66</td>
+    </tr>
+    <tr>
+      <td>51</td>
+      <td><a href="https://elma.online/levels/116913" target="_blank">EOL36</a>
+      </td>
+      <td>22:68</td>
+      <td>97</td>
+      <td>97</td>
+      <td>0</td>
+      <td>14</td>
+      <td>14</td>
+      <td>46:27:36</td>
+      <td>59:12:54</td>
+    </tr>
+    <tr>
+      <td>52</td>
+      <td><a href="https://elma.online/levels/116918" target="_blank">EOL41</a>
+      </td>
+      <td>19:84</td>
+      <td>112</td>
+      <td>107</td>
+      <td>5</td>
+      <td>2</td>
+      <td>7</td>
+      <td>42:52:13</td>
+      <td>46:13:11</td>
+    </tr>
+    <tr>
+      <td>53</td>
+      <td><a href="https://elma.online/levels/116927" target="_blank">EOL50</a>
+      </td>
+      <td>35:46</td>
+      <td>72</td>
+      <td>72</td>
+      <td>0</td>
+      <td>35</td>
+      <td>35</td>
+      <td>35:35:54</td>
+      <td>98:30:42</td>
+    </tr>
+    <tr>
+      <td>54</td>
+      <td><a href="https://elma.online/levels/116893" target="_blank">EOL16</a>
+      </td>
+      <td>15:40</td>
+      <td>169</td>
+      <td>161</td>
+      <td>8</td>
+      <td>86</td>
+      <td>94</td>
+      <td>31:37:83</td>
+      <td>84:04:37</td>
+    </tr>
+  </tbody>
+</table>
+<br/>
+<br/>
+
+

@@ -6,8 +6,6 @@ const writeFile = async (path, data) => {
   } catch (error) {
     console.log(`write file error > ${error}`);
   }
-
-  console.log(`write file > ${path}`);
 };
 
 const readFile = async (path) => {
