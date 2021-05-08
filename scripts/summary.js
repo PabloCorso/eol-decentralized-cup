@@ -146,49 +146,58 @@ const updateFiles = async () => {
   }
 };
 
-const runExample = async () => {
-  let bestTimesContent = "";
-  let allTimesContent = "";
-  for (const dataFile of dataFiles) {
-    const bestTimes = await readFile(FileNames.bestTimes(dataFile.fileName));
-    const allTimes = await readFile(FileNames.allTimes(dataFile.fileName));
-
-    const rankedBestTimes = levelsRankDouble(JSON.parse(bestTimes));
-    const rankedAllTimes = levelsRankDouble(JSON.parse(allTimes));
-
-    const bestTimesSummary = levelsRankDouble.printSummary(rankedBestTimes);
-    const allTimesSummary = levelsRankDouble.printSummary(rankedAllTimes);
-
-    bestTimesContent += `## ${dataFile.name}
-${prettyPrint(bestTimesSummary)}
+const runSummary = async ({
+  title,
+  data,
+  resultFileName,
+  getDataFileSummary,
+}) => {
+  let content = "";
+  for (const dataFile of data) {
+    const summary = await getDataFileSummary(dataFile);
+    content += `## ${dataFile.name}
+${prettyPrint(summary)}
 <br/>
 <br/>
-
-`;
-    allTimesContent += `## ${dataFile.name}
-${prettyPrint(allTimesSummary)}
-<br/>
-<br/>
-
+  
 `;
   }
 
-  const resultBestTimes = printResult(
-    "Rank double - best times",
-    bestTimesContent,
-    {
-      pretty: true,
-    }
-  );
-  const resultAllTimes = printResult(
-    "Rank double - all times",
-    allTimesContent,
-    {
-      pretty: true,
-    }
-  );
-  writeFile("scripts/summaries/summary_prs.md", resultBestTimes);
-  writeFile("scripts/summaries/summary_all.md", resultAllTimes);
+  const result = printResult(title, content, { pretty: true });
+  writeFile(`scripts/summaries/${resultFileName}`, result);
+};
+
+const runExample = async () => {
+  runSummary({
+    data: dataFiles,
+    resultFileName: "summary_prs.md",
+    title: "Rank best times",
+    getDataFileSummary: async (dataFile) => {
+      const times = await readFile(FileNames.bestTimes(dataFile.fileName));
+      const rankedTimes = levelsRankDouble(JSON.parse(times));
+      return levelsRankDouble.printSummary(rankedTimes);
+    },
+  });
+  runSummary({
+    data: dataFiles,
+    resultFileName: "summary_all.md",
+    title: "Rank all times",
+    getDataFileSummary: async (dataFile) => {
+      const times = await readFile(FileNames.allTimes(dataFile.fileName));
+      const rankedTimes = levelsRankDouble(JSON.parse(times));
+      return levelsRankDouble.printSummary(rankedTimes);
+    },
+  });
+  // runSummary({
+  //   data: dataFiles,
+  //   resultFileName: "summary_comparison.md",
+  //   title: "Rank prs vs all",
+  //   getDataFileSummary: (dataFile) => {
+  //     const times = await readFile(FileNames.allTimes(dataFile.fileName));
+  //     const rankedTimes = levelsRankDouble(times);
+  //     return levelsRankDouble.printSummary(rankedTimes)
+  //   }
+  // });
 };
 
 runExample();

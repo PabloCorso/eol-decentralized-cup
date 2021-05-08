@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node scripts",
-    "exhaustive": "node scripts/exhaustiveExamples.js"
+    "examples": "node scripts/summary.js"
   },
   "repository": {
     "type": "git",

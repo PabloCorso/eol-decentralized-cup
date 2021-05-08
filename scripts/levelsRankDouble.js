@@ -1,14 +1,4 @@
-const {
-  Table,
-  TableHead,
-  TableRow,
-  TableHeader,
-  TableBody,
-  TableData,
-  Strike,
-  Link,
-  DataTable,
-} = require("./utils/elements");
+const { Link, DataTable } = require("./utils/elements");
 const { centisecondsToPr } = require("./utils/pr");
 
 const printSummary = (levels) => {

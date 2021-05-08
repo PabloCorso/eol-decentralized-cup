@@ -1,4 +1,4 @@
-<!-- Rank double - all times -->
+<!-- Rank all times -->
   
 ## Random levels
 <table>
@@ -318,7 +318,7 @@
 </table>
 <br/>
 <br/>
-
+  
 ## 32Cup
 <table>
   <thead>
@@ -754,7 +754,7 @@
 </table>
 <br/>
 <br/>
-
+  
 ## WCup8
 <table>
   <thead>
@@ -930,7 +930,7 @@
 </table>
 <br/>
 <br/>
-
+  
 ## WCup7
 <table>
   <thead>
@@ -1145,7 +1145,7 @@
 </table>
 <br/>
 <br/>
-
+  
 ## TTC1
 <table>
   <thead>
@@ -1295,7 +1295,7 @@
 </table>
 <br/>
 <br/>
-
+  
 ## EOL level pack
 <table>
   <thead>
@@ -2017,5 +2017,5 @@
 </table>
 <br/>
 <br/>
-
+  
 
