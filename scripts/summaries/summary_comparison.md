@@ -3,197 +3,197 @@
 ## Random levels
 <table>
   <thead>
+    <th>Level</th>
+    <th>Best time</th>
     <th>Top (prs)</th>
-    <th>Level (prs)</th>
     <th>Rank (prs)</th>
     <th>Top (all)</th>
-    <th>Level (all)</th>
     <th>Rank (all)</th>
   </thead>
   <tbody>
     <tr>
-      <td>1</td>
-      <td>QWQUU035</td>
-      <td>748:00:80</td>
-      <td>1</td>
-      <td>QWQUU035</td>
-      <td>4837:04:51</td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td>WCup804</td>
-      <td>126:27:69</td>
-      <td>2</td>
-      <td>WCup804</td>
-      <td>1712:31:83</td>
-    </tr>
-    <tr>
-      <td>3</td>
-      <td>WCup702</td>
-      <td>113:22:83</td>
-      <td>3</td>
-      <td>WCup702</td>
-      <td>1300:41:65</td>
-    </tr>
-    <tr>
+      <td>QWQUU001</td>
+      <td>13:79</td>
       <td>4</td>
-      <td>Smibu80</td>
-      <td>684:29:21</td>
-      <td>4</td>
-      <td>Smibu80</td>
-      <td>780:50:23</td>
+      <td>223:33:13</td>
+      <td>23</td>
+      <td>6:45:70</td>
     </tr>
     <tr>
-      <td>5</td>
-      <td>WCup802</td>
-      <td>61:26:32</td>
-      <td>5</td>
-      <td>WCup802</td>
-      <td>779:20:54</td>
-    </tr>
-    <tr>
-      <td>6</td>
-      <td>WCup807</td>
-      <td>43:15:63</td>
-      <td>6</td>
-      <td>WCup807</td>
-      <td>452:20:97</td>
-    </tr>
-    <tr>
-      <td>7</td>
-      <td>EOL21</td>
-      <td>111:38:88</td>
-      <td>7</td>
-      <td>EOL21</td>
-      <td>438:28:52</td>
-    </tr>
-    <tr>
-      <td>8</td>
-      <td>EOL01</td>
-      <td>174:55:44</td>
-      <td>8</td>
-      <td>EOL01</td>
-      <td>437:10:62</td>
-    </tr>
-    <tr>
-      <td>9</td>
-      <td>WCup701</td>
-      <td>57:09:16</td>
-      <td>9</td>
-      <td>WCup701</td>
-      <td>417:30:80</td>
-    </tr>
-    <tr>
-      <td>10</td>
-      <td>EOL05</td>
-      <td>150:03:28</td>
-      <td>10</td>
-      <td>EOL05</td>
-      <td>407:12:96</td>
-    </tr>
-    <tr>
-      <td>11</td>
-      <td>Pipo001</td>
-      <td>38:19:20</td>
-      <td>11</td>
-      <td>Pipo001</td>
-      <td>153:17:29</td>
-    </tr>
-    <tr>
-      <td>12</td>
-      <td>PobFF001</td>
-      <td>94:58:20</td>
-      <td>12</td>
-      <td>PobFF001</td>
-      <td>135:33:95</td>
-    </tr>
-    <tr>
-      <td>13</td>
-      <td>Pob1000</td>
-      <td>101:08:15</td>
-      <td>13</td>
-      <td>Pob1000</td>
-      <td>134:47:94</td>
-    </tr>
-    <tr>
-      <td>14</td>
-      <td>Uni001</td>
-      <td>19:46:17</td>
-      <td>14</td>
-      <td>Uni001</td>
-      <td>90:20:40</td>
-    </tr>
-    <tr>
-      <td>15</td>
-      <td>WCup601</td>
-      <td>56:29:37</td>
-      <td>15</td>
-      <td>WCup601</td>
-      <td>78:48:70</td>
-    </tr>
-    <tr>
-      <td>16</td>
-      <td>EOL03</td>
-      <td>24:56:62</td>
-      <td>16</td>
-      <td>EOL03</td>
-      <td>72:49:29</td>
-    </tr>
-    <tr>
-      <td>17</td>
-      <td>TTC101</td>
-      <td>11:42:50</td>
-      <td>17</td>
-      <td>TTC101</td>
-      <td>64:59:31</td>
-    </tr>
-    <tr>
-      <td>18</td>
       <td>QWQUU002</td>
+      <td>14:64</td>
+      <td>3</td>
       <td>306:33:40</td>
       <td>18</td>
-      <td>QWQUU002</td>
       <td>50:10:80</td>
     </tr>
     <tr>
-      <td>19</td>
-      <td>PobFF003</td>
-      <td>14:41:81</td>
-      <td>19</td>
-      <td>PobFF003</td>
-      <td>14:41:81</td>
+      <td>QWQUU035</td>
+      <td>2:09:73</td>
+      <td>1</td>
+      <td>748:00:80</td>
+      <td>1</td>
+      <td>4837:04:51</td>
     </tr>
     <tr>
-      <td>20</td>
       <td>Tutor1</td>
+      <td>03:66</td>
+      <td>21</td>
       <td>5:58:99</td>
       <td>20</td>
-      <td>Tutor1</td>
       <td>12:37:75</td>
     </tr>
     <tr>
-      <td>21</td>
-      <td>CPC100</td>
-      <td>3:53:29</td>
-      <td>21</td>
-      <td>CPC100</td>
-      <td>12:16:45</td>
+      <td>Smibu80</td>
+      <td>42:11:11</td>
+      <td>2</td>
+      <td>684:29:21</td>
+      <td>4</td>
+      <td>780:50:23</td>
     </tr>
     <tr>
-      <td>22</td>
+      <td>Uni001</td>
+      <td>12:63</td>
+      <td>18</td>
+      <td>19:46:17</td>
+      <td>14</td>
+      <td>90:20:40</td>
+    </tr>
+    <tr>
+      <td>EOL01</td>
+      <td>15:56</td>
+      <td>5</td>
+      <td>174:55:44</td>
+      <td>8</td>
+      <td>437:10:62</td>
+    </tr>
+    <tr>
+      <td>EOL03</td>
+      <td>22:40</td>
+      <td>17</td>
+      <td>24:56:62</td>
+      <td>16</td>
+      <td>72:49:29</td>
+    </tr>
+    <tr>
+      <td>EOL05</td>
+      <td>26:90</td>
+      <td>6</td>
+      <td>150:03:28</td>
+      <td>10</td>
+      <td>407:12:96</td>
+    </tr>
+    <tr>
+      <td>EOL21</td>
+      <td>30:99</td>
+      <td>9</td>
+      <td>111:38:88</td>
+      <td>7</td>
+      <td>438:28:52</td>
+    </tr>
+    <tr>
+      <td>Pob1000</td>
+      <td>5:58:62</td>
+      <td>10</td>
+      <td>101:08:15</td>
+      <td>13</td>
+      <td>134:47:94</td>
+    </tr>
+    <tr>
+      <td>PobFF003</td>
+      <td>7:00:35</td>
+      <td>19</td>
+      <td>14:41:81</td>
+      <td>19</td>
+      <td>14:41:81</td>
+    </tr>
+    <tr>
+      <td>PobFF001</td>
+      <td>5:15:57</td>
+      <td>11</td>
+      <td>94:58:20</td>
+      <td>12</td>
+      <td>135:33:95</td>
+    </tr>
+    <tr>
       <td>Rambo101</td>
+      <td>49:27</td>
+      <td>22</td>
       <td>4:51:76</td>
       <td>22</td>
-      <td>Rambo101</td>
       <td>9:59:19</td>
     </tr>
     <tr>
+      <td>Pipo001</td>
+      <td>27:51</td>
+      <td>16</td>
+      <td>38:19:20</td>
+      <td>11</td>
+      <td>153:17:29</td>
+    </tr>
+    <tr>
+      <td>TTC101</td>
+      <td>14:10</td>
+      <td>20</td>
+      <td>11:42:50</td>
+      <td>17</td>
+      <td>64:59:31</td>
+    </tr>
+    <tr>
+      <td>CPC100</td>
+      <td>14:49</td>
       <td>23</td>
-      <td>QWQUU001</td>
-      <td>223:33:13</td>
-      <td>23</td>
-      <td>QWQUU001</td>
-      <td>6:45:70</td>
+      <td>3:53:29</td>
+      <td>21</td>
+      <td>12:16:45</td>
+    </tr>
+    <tr>
+      <td>WCup601</td>
+      <td>13:93</td>
+      <td>14</td>
+      <td>56:29:37</td>
+      <td>15</td>
+      <td>78:48:70</td>
+    </tr>
+    <tr>
+      <td>WCup701</td>
+      <td>21:77</td>
+      <td>13</td>
+      <td>57:09:16</td>
+      <td>9</td>
+      <td>417:30:80</td>
+    </tr>
+    <tr>
+      <td>WCup702</td>
+      <td>43:58</td>
+      <td>8</td>
+      <td>113:22:83</td>
+      <td>3</td>
+      <td>1300:41:65</td>
+    </tr>
+    <tr>
+      <td>WCup802</td>
+      <td>29:20</td>
+      <td>12</td>
+      <td>61:26:32</td>
+      <td>5</td>
+      <td>779:20:54</td>
+    </tr>
+    <tr>
+      <td>WCup804</td>
+      <td>1:02:26</td>
+      <td>7</td>
+      <td>126:27:69</td>
+      <td>2</td>
+      <td>1712:31:83</td>
+    </tr>
+    <tr>
+      <td>WCup807</td>
+      <td>19:53</td>
+      <td>15</td>
+      <td>43:15:63</td>
+      <td>6</td>
+      <td>452:20:97</td>
     </tr>
   </tbody>
 </table>
@@ -203,269 +203,269 @@
 ## 32Cup
 <table>
   <thead>
+    <th>Level</th>
+    <th>Best time</th>
     <th>Top (prs)</th>
-    <th>Level (prs)</th>
     <th>Rank (prs)</th>
     <th>Top (all)</th>
-    <th>Level (all)</th>
     <th>Rank (all)</th>
   </thead>
   <tbody>
     <tr>
-      <td>1</td>
       <td>32Cup01</td>
+      <td>37:44</td>
+      <td>5</td>
       <td>25:18:97</td>
       <td>1</td>
-      <td>32Cup01</td>
       <td>190:47:81</td>
     </tr>
     <tr>
-      <td>2</td>
-      <td>32Cup15</td>
-      <td>46:29:99</td>
-      <td>2</td>
-      <td>32Cup15</td>
-      <td>148:00:20</td>
-    </tr>
-    <tr>
-      <td>3</td>
-      <td>32Cup04</td>
-      <td>27:37:31</td>
-      <td>3</td>
-      <td>32Cup04</td>
-      <td>127:50:58</td>
-    </tr>
-    <tr>
-      <td>4</td>
-      <td>32Cup13</td>
-      <td>48:01:95</td>
-      <td>4</td>
-      <td>32Cup13</td>
-      <td>126:51:53</td>
-    </tr>
-    <tr>
-      <td>5</td>
-      <td>32Cup07</td>
-      <td>24:42:57</td>
-      <td>5</td>
-      <td>32Cup07</td>
-      <td>122:28:20</td>
-    </tr>
-    <tr>
-      <td>6</td>
-      <td>32Cup23</td>
-      <td>19:59:97</td>
-      <td>6</td>
-      <td>32Cup23</td>
-      <td>121:14:52</td>
-    </tr>
-    <tr>
-      <td>7</td>
       <td>32Cup02</td>
+      <td>32:31</td>
+      <td>8</td>
       <td>22:05:80</td>
       <td>7</td>
-      <td>32Cup02</td>
       <td>115:32:65</td>
     </tr>
     <tr>
-      <td>8</td>
-      <td>32Cup05</td>
-      <td>12:49:36</td>
-      <td>8</td>
-      <td>32Cup05</td>
-      <td>105:50:90</td>
-    </tr>
-    <tr>
-      <td>9</td>
-      <td>32Cup17</td>
-      <td>18:43:48</td>
-      <td>9</td>
-      <td>32Cup17</td>
-      <td>101:56:30</td>
-    </tr>
-    <tr>
-      <td>10</td>
       <td>32Cup03</td>
+      <td>46:24</td>
+      <td>9</td>
       <td>21:12:76</td>
       <td>10</td>
-      <td>32Cup03</td>
       <td>101:20:87</td>
     </tr>
     <tr>
-      <td>11</td>
-      <td>32Cup12</td>
-      <td>16:47:23</td>
-      <td>11</td>
-      <td>32Cup12</td>
-      <td>98:48:43</td>
+      <td>32Cup04</td>
+      <td>38:20</td>
+      <td>4</td>
+      <td>27:37:31</td>
+      <td>3</td>
+      <td>127:50:58</td>
     </tr>
     <tr>
-      <td>12</td>
-      <td>32Cup14</td>
-      <td>11:40:95</td>
-      <td>12</td>
-      <td>32Cup14</td>
-      <td>88:04:16</td>
+      <td>32Cup05</td>
+      <td>35:99</td>
+      <td>24</td>
+      <td>12:49:36</td>
+      <td>8</td>
+      <td>105:50:90</td>
     </tr>
     <tr>
-      <td>13</td>
-      <td>32Cup11</td>
-      <td>19:13:75</td>
-      <td>13</td>
-      <td>32Cup11</td>
-      <td>87:59:53</td>
-    </tr>
-    <tr>
-      <td>14</td>
-      <td>32Cup10</td>
-      <td>32:04:78</td>
-      <td>14</td>
-      <td>32Cup10</td>
-      <td>86:45:12</td>
-    </tr>
-    <tr>
-      <td>15</td>
-      <td>32Cup21</td>
-      <td>11:37:59</td>
-      <td>15</td>
-      <td>32Cup21</td>
-      <td>83:37:58</td>
-    </tr>
-    <tr>
-      <td>16</td>
-      <td>32Cup29</td>
-      <td>24:14:93</td>
-      <td>16</td>
-      <td>32Cup29</td>
-      <td>81:50:50</td>
-    </tr>
-    <tr>
-      <td>17</td>
-      <td>32Cup09</td>
-      <td>15:10:33</td>
-      <td>17</td>
-      <td>32Cup09</td>
-      <td>80:19:70</td>
-    </tr>
-    <tr>
-      <td>18</td>
-      <td>32Cup25</td>
-      <td>19:42:51</td>
-      <td>18</td>
-      <td>32Cup25</td>
-      <td>73:11:84</td>
-    </tr>
-    <tr>
-      <td>19</td>
-      <td>32Cup24</td>
-      <td>15:27:79</td>
-      <td>19</td>
-      <td>32Cup24</td>
-      <td>66:17:61</td>
-    </tr>
-    <tr>
-      <td>20</td>
       <td>32Cup06</td>
+      <td>51:67</td>
+      <td>22</td>
       <td>14:36:31</td>
       <td>20</td>
-      <td>32Cup06</td>
       <td>66:17:31</td>
     </tr>
     <tr>
-      <td>21</td>
+      <td>32Cup07</td>
+      <td>38:56</td>
+      <td>6</td>
+      <td>24:42:57</td>
+      <td>5</td>
+      <td>122:28:20</td>
+    </tr>
+    <tr>
       <td>32Cup08</td>
+      <td>38:59</td>
+      <td>15</td>
       <td>16:48:60</td>
       <td>21</td>
-      <td>32Cup08</td>
       <td>66:07:42</td>
     </tr>
     <tr>
-      <td>22</td>
-      <td>32Cup32</td>
-      <td>14:00:15</td>
-      <td>22</td>
-      <td>32Cup32</td>
-      <td>66:00:60</td>
+      <td>32Cup09</td>
+      <td>29:63</td>
+      <td>20</td>
+      <td>15:10:33</td>
+      <td>17</td>
+      <td>80:19:70</td>
     </tr>
     <tr>
-      <td>23</td>
-      <td>32Cup18</td>
-      <td>16:27:12</td>
-      <td>23</td>
-      <td>32Cup18</td>
-      <td>65:28:25</td>
+      <td>32Cup10</td>
+      <td>1:08:80</td>
+      <td>3</td>
+      <td>32:04:78</td>
+      <td>14</td>
+      <td>86:45:12</td>
     </tr>
     <tr>
-      <td>24</td>
-      <td>32Cup20</td>
-      <td>7:39:55</td>
-      <td>24</td>
-      <td>32Cup20</td>
-      <td>53:31:12</td>
+      <td>32Cup11</td>
+      <td>42:34</td>
+      <td>12</td>
+      <td>19:13:75</td>
+      <td>13</td>
+      <td>87:59:53</td>
     </tr>
     <tr>
-      <td>25</td>
-      <td>32Cup28</td>
-      <td>15:03:54</td>
-      <td>25</td>
-      <td>32Cup28</td>
-      <td>50:45:81</td>
+      <td>32Cup12</td>
+      <td>28:61</td>
+      <td>16</td>
+      <td>16:47:23</td>
+      <td>11</td>
+      <td>98:48:43</td>
     </tr>
     <tr>
+      <td>32Cup13</td>
+      <td>2:12:71</td>
+      <td>1</td>
+      <td>48:01:95</td>
+      <td>4</td>
+      <td>126:51:53</td>
+    </tr>
+    <tr>
+      <td>32Cup14</td>
+      <td>34:78</td>
       <td>26</td>
-      <td>32Cup26</td>
-      <td>16:17:74</td>
-      <td>26</td>
-      <td>32Cup26</td>
-      <td>50:29:84</td>
+      <td>11:40:95</td>
+      <td>12</td>
+      <td>88:04:16</td>
     </tr>
     <tr>
-      <td>27</td>
-      <td>32Cup30</td>
-      <td>18:23:33</td>
-      <td>27</td>
-      <td>32Cup30</td>
-      <td>45:20:60</td>
+      <td>32Cup15</td>
+      <td>1:52:94</td>
+      <td>2</td>
+      <td>46:29:99</td>
+      <td>2</td>
+      <td>148:00:20</td>
     </tr>
     <tr>
-      <td>28</td>
       <td>32Cup16</td>
+      <td>37:16</td>
+      <td>25</td>
       <td>12:05:29</td>
       <td>28</td>
-      <td>32Cup16</td>
       <td>41:37:80</td>
     </tr>
     <tr>
-      <td>29</td>
-      <td>32Cup27</td>
-      <td>6:36:26</td>
-      <td>29</td>
-      <td>32Cup27</td>
-      <td>40:44:25</td>
+      <td>32Cup17</td>
+      <td>28:42</td>
+      <td>13</td>
+      <td>18:43:48</td>
+      <td>9</td>
+      <td>101:56:30</td>
     </tr>
     <tr>
-      <td>30</td>
+      <td>32Cup18</td>
+      <td>48:92</td>
+      <td>17</td>
+      <td>16:27:12</td>
+      <td>23</td>
+      <td>65:28:25</td>
+    </tr>
+    <tr>
       <td>32Cup19</td>
+      <td>19:98</td>
+      <td>32</td>
       <td>5:20:38</td>
       <td>30</td>
-      <td>32Cup19</td>
       <td>36:36:69</td>
     </tr>
     <tr>
+      <td>32Cup20</td>
+      <td>12:50</td>
+      <td>30</td>
+      <td>7:39:55</td>
+      <td>24</td>
+      <td>53:31:12</td>
+    </tr>
+    <tr>
+      <td>32Cup21</td>
+      <td>32:82</td>
+      <td>27</td>
+      <td>11:37:59</td>
+      <td>15</td>
+      <td>83:37:58</td>
+    </tr>
+    <tr>
+      <td>32Cup22</td>
+      <td>24:13</td>
+      <td>28</td>
+      <td>10:55:10</td>
+      <td>32</td>
+      <td>31:35:60</td>
+    </tr>
+    <tr>
+      <td>32Cup23</td>
+      <td>32:92</td>
+      <td>10</td>
+      <td>19:59:97</td>
+      <td>6</td>
+      <td>121:14:52</td>
+    </tr>
+    <tr>
+      <td>32Cup24</td>
+      <td>40:30</td>
+      <td>19</td>
+      <td>15:27:79</td>
+      <td>19</td>
+      <td>66:17:61</td>
+    </tr>
+    <tr>
+      <td>32Cup25</td>
+      <td>47:36</td>
+      <td>11</td>
+      <td>19:42:51</td>
+      <td>18</td>
+      <td>73:11:84</td>
+    </tr>
+    <tr>
+      <td>32Cup26</td>
+      <td>57:14</td>
+      <td>18</td>
+      <td>16:17:74</td>
+      <td>26</td>
+      <td>50:29:84</td>
+    </tr>
+    <tr>
+      <td>32Cup27</td>
+      <td>23:97</td>
       <td>31</td>
+      <td>6:36:26</td>
+      <td>29</td>
+      <td>40:44:25</td>
+    </tr>
+    <tr>
+      <td>32Cup28</td>
+      <td>45:82</td>
+      <td>21</td>
+      <td>15:03:54</td>
+      <td>25</td>
+      <td>50:45:81</td>
+    </tr>
+    <tr>
+      <td>32Cup29</td>
+      <td>1:12:85</td>
+      <td>7</td>
+      <td>24:14:93</td>
+      <td>16</td>
+      <td>81:50:50</td>
+    </tr>
+    <tr>
+      <td>32Cup30</td>
+      <td>51:31</td>
+      <td>14</td>
+      <td>18:23:33</td>
+      <td>27</td>
+      <td>45:20:60</td>
+    </tr>
+    <tr>
       <td>32Cup31</td>
+      <td>49:89</td>
+      <td>29</td>
       <td>10:19:15</td>
       <td>31</td>
-      <td>32Cup31</td>
       <td>34:30:92</td>
     </tr>
     <tr>
-      <td>32</td>
-      <td>32Cup22</td>
-      <td>10:55:10</td>
-      <td>32</td>
-      <td>32Cup22</td>
-      <td>31:35:60</td>
+      <td>32Cup32</td>
+      <td>31:46</td>
+      <td>23</td>
+      <td>14:00:15</td>
+      <td>22</td>
+      <td>66:00:60</td>
     </tr>
   </tbody>
 </table>
@@ -475,109 +475,109 @@
 ## WCup8
 <table>
   <thead>
+    <th>Level</th>
+    <th>Best time</th>
     <th>Top (prs)</th>
-    <th>Level (prs)</th>
     <th>Rank (prs)</th>
     <th>Top (all)</th>
-    <th>Level (all)</th>
     <th>Rank (all)</th>
   </thead>
   <tbody>
     <tr>
-      <td>1</td>
-      <td>WCup804</td>
-      <td>126:27:69</td>
-      <td>1</td>
-      <td>WCup804</td>
-      <td>1712:31:83</td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td>WCup812</td>
-      <td>125:07:68</td>
-      <td>2</td>
-      <td>WCup812</td>
-      <td>1442:30:13</td>
-    </tr>
-    <tr>
-      <td>3</td>
-      <td>WCup806</td>
-      <td>93:10:73</td>
-      <td>3</td>
-      <td>WCup806</td>
-      <td>1384:42:16</td>
-    </tr>
-    <tr>
-      <td>4</td>
-      <td>WCup805</td>
-      <td>102:23:69</td>
-      <td>4</td>
-      <td>WCup805</td>
-      <td>1280:22:65</td>
-    </tr>
-    <tr>
-      <td>5</td>
       <td>WCup801</td>
+      <td>41:82</td>
+      <td>4</td>
       <td>108:01:47</td>
       <td>5</td>
-      <td>WCup801</td>
       <td>1221:45:71</td>
     </tr>
     <tr>
-      <td>6</td>
-      <td>WCup808</td>
-      <td>153:51:40</td>
-      <td>6</td>
-      <td>WCup808</td>
-      <td>938:25:43</td>
-    </tr>
-    <tr>
-      <td>7</td>
       <td>WCup802</td>
+      <td>29:20</td>
+      <td>9</td>
       <td>61:26:32</td>
       <td>7</td>
-      <td>WCup802</td>
       <td>779:20:54</td>
     </tr>
     <tr>
-      <td>8</td>
       <td>WCup803</td>
+      <td>43:59</td>
+      <td>6</td>
       <td>94:26:76</td>
       <td>8</td>
-      <td>WCup803</td>
       <td>725:29:36</td>
     </tr>
     <tr>
-      <td>9</td>
-      <td>WCup809</td>
-      <td>67:59:36</td>
-      <td>9</td>
-      <td>WCup809</td>
-      <td>573:54:83</td>
+      <td>WCup804</td>
+      <td>1:02:26</td>
+      <td>2</td>
+      <td>126:27:69</td>
+      <td>1</td>
+      <td>1712:31:83</td>
     </tr>
     <tr>
-      <td>10</td>
+      <td>WCup805</td>
+      <td>46:26</td>
+      <td>5</td>
+      <td>102:23:69</td>
+      <td>4</td>
+      <td>1280:22:65</td>
+    </tr>
+    <tr>
+      <td>WCup806</td>
+      <td>49:25</td>
+      <td>7</td>
+      <td>93:10:73</td>
+      <td>3</td>
+      <td>1384:42:16</td>
+    </tr>
+    <tr>
       <td>WCup807</td>
+      <td>19:53</td>
+      <td>10</td>
       <td>43:15:63</td>
       <td>10</td>
-      <td>WCup807</td>
       <td>452:20:97</td>
     </tr>
     <tr>
-      <td>11</td>
+      <td>WCup808</td>
+      <td>1:53:25</td>
+      <td>1</td>
+      <td>153:51:40</td>
+      <td>6</td>
+      <td>938:25:43</td>
+    </tr>
+    <tr>
+      <td>WCup809</td>
+      <td>32:73</td>
+      <td>8</td>
+      <td>67:59:36</td>
+      <td>9</td>
+      <td>573:54:83</td>
+    </tr>
+    <tr>
       <td>WCup810</td>
+      <td>9:36:20</td>
+      <td>11</td>
       <td>41:33:10</td>
       <td>11</td>
-      <td>WCup810</td>
       <td>65:27:61</td>
     </tr>
     <tr>
-      <td>12</td>
       <td>WCup811</td>
+      <td>11:60</td>
+      <td>12</td>
       <td>19:26:63</td>
       <td>12</td>
-      <td>WCup811</td>
       <td>17:09:66</td>
+    </tr>
+    <tr>
+      <td>WCup812</td>
+      <td>1:02:10</td>
+      <td>3</td>
+      <td>125:07:68</td>
+      <td>2</td>
+      <td>1442:30:13</td>
     </tr>
   </tbody>
 </table>
@@ -587,133 +587,133 @@
 ## WCup7
 <table>
   <thead>
+    <th>Level</th>
+    <th>Best time</th>
     <th>Top (prs)</th>
-    <th>Level (prs)</th>
     <th>Rank (prs)</th>
     <th>Top (all)</th>
-    <th>Level (all)</th>
     <th>Rank (all)</th>
   </thead>
   <tbody>
     <tr>
-      <td>1</td>
-      <td>WCup703</td>
-      <td>154:44:60</td>
-      <td>1</td>
-      <td>WCup703</td>
-      <td>1788:14:31</td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td>WCup702</td>
-      <td>113:22:83</td>
-      <td>2</td>
-      <td>WCup702</td>
-      <td>1300:41:65</td>
-    </tr>
-    <tr>
-      <td>3</td>
-      <td>WCup715</td>
-      <td>223:10:29</td>
-      <td>3</td>
-      <td>WCup715</td>
-      <td>1253:14:44</td>
-    </tr>
-    <tr>
-      <td>4</td>
-      <td>WCup707</td>
-      <td>100:49:16</td>
-      <td>4</td>
-      <td>WCup707</td>
-      <td>1112:38:50</td>
-    </tr>
-    <tr>
-      <td>5</td>
-      <td>WCup711</td>
-      <td>85:45:48</td>
-      <td>5</td>
-      <td>WCup711</td>
-      <td>941:36:58</td>
-    </tr>
-    <tr>
-      <td>6</td>
-      <td>WCup708</td>
-      <td>122:58:69</td>
-      <td>6</td>
-      <td>WCup708</td>
-      <td>886:50:26</td>
-    </tr>
-    <tr>
-      <td>7</td>
-      <td>WCup704</td>
-      <td>88:50:55</td>
-      <td>7</td>
-      <td>WCup704</td>
-      <td>790:07:43</td>
-    </tr>
-    <tr>
-      <td>8</td>
-      <td>WCup712</td>
-      <td>75:35:76</td>
-      <td>8</td>
-      <td>WCup712</td>
-      <td>745:31:60</td>
-    </tr>
-    <tr>
-      <td>9</td>
-      <td>WCup706</td>
-      <td>72:55:77</td>
-      <td>9</td>
-      <td>WCup706</td>
-      <td>724:30:85</td>
-    </tr>
-    <tr>
-      <td>10</td>
-      <td>WCup709</td>
-      <td>57:16:45</td>
-      <td>10</td>
-      <td>WCup709</td>
-      <td>478:11:00</td>
-    </tr>
-    <tr>
-      <td>11</td>
       <td>WCup701</td>
+      <td>21:77</td>
+      <td>11</td>
       <td>57:09:16</td>
       <td>11</td>
-      <td>WCup701</td>
       <td>417:30:80</td>
     </tr>
     <tr>
-      <td>12</td>
+      <td>WCup702</td>
+      <td>43:58</td>
+      <td>4</td>
+      <td>113:22:83</td>
+      <td>2</td>
+      <td>1300:41:65</td>
+    </tr>
+    <tr>
+      <td>WCup703</td>
+      <td>1:01:86</td>
+      <td>2</td>
+      <td>154:44:60</td>
+      <td>1</td>
+      <td>1788:14:31</td>
+    </tr>
+    <tr>
+      <td>WCup704</td>
+      <td>47:15</td>
+      <td>6</td>
+      <td>88:50:55</td>
+      <td>7</td>
+      <td>790:07:43</td>
+    </tr>
+    <tr>
+      <td>WCup705</td>
+      <td>4:13:30</td>
+      <td>15</td>
+      <td>4:13:30</td>
+      <td>15</td>
+      <td>4:13:30</td>
+    </tr>
+    <tr>
+      <td>WCup706</td>
+      <td>34:62</td>
+      <td>9</td>
+      <td>72:55:77</td>
+      <td>9</td>
+      <td>724:30:85</td>
+    </tr>
+    <tr>
+      <td>WCup707</td>
+      <td>56:71</td>
+      <td>5</td>
+      <td>100:49:16</td>
+      <td>4</td>
+      <td>1112:38:50</td>
+    </tr>
+    <tr>
+      <td>WCup708</td>
+      <td>1:22:49</td>
+      <td>3</td>
+      <td>122:58:69</td>
+      <td>6</td>
+      <td>886:50:26</td>
+    </tr>
+    <tr>
+      <td>WCup709</td>
+      <td>28:80</td>
+      <td>10</td>
+      <td>57:16:45</td>
+      <td>10</td>
+      <td>478:11:00</td>
+    </tr>
+    <tr>
       <td>WCup710</td>
+      <td>14:91</td>
+      <td>14</td>
       <td>28:19:54</td>
       <td>12</td>
-      <td>WCup710</td>
       <td>375:48:65</td>
     </tr>
     <tr>
-      <td>13</td>
+      <td>WCup711</td>
+      <td>47:10</td>
+      <td>7</td>
+      <td>85:45:48</td>
+      <td>5</td>
+      <td>941:36:58</td>
+    </tr>
+    <tr>
+      <td>WCup712</td>
+      <td>58:44</td>
+      <td>8</td>
+      <td>75:35:76</td>
+      <td>8</td>
+      <td>745:31:60</td>
+    </tr>
+    <tr>
       <td>WCup713</td>
+      <td>18:63</td>
+      <td>13</td>
       <td>28:30:93</td>
       <td>13</td>
-      <td>WCup713</td>
       <td>332:58:14</td>
     </tr>
     <tr>
-      <td>14</td>
       <td>WCup714</td>
+      <td>37:52</td>
+      <td>12</td>
       <td>36:25:16</td>
       <td>14</td>
-      <td>WCup714</td>
       <td>169:47:61</td>
     </tr>
     <tr>
-      <td>15</td>
-      <td>WCup705</td>
-      <td>4:13:30</td>
-      <td>15</td>
-      <td>WCup705</td>
-      <td>4:13:30</td>
+      <td>WCup715</td>
+      <td>2:26:15</td>
+      <td>1</td>
+      <td>223:10:29</td>
+      <td>3</td>
+      <td>1253:14:44</td>
     </tr>
   </tbody>
 </table>
@@ -723,93 +723,93 @@
 ## TTC1
 <table>
   <thead>
+    <th>Level</th>
+    <th>Best time</th>
     <th>Top (prs)</th>
-    <th>Level (prs)</th>
     <th>Rank (prs)</th>
     <th>Top (all)</th>
-    <th>Level (all)</th>
     <th>Rank (all)</th>
   </thead>
   <tbody>
     <tr>
-      <td>1</td>
-      <td>TTC110</td>
-      <td>54:47:13</td>
-      <td>1</td>
-      <td>TTC110</td>
-      <td>414:12:72</td>
+      <td>TTC101</td>
+      <td>14:10</td>
+      <td>10</td>
+      <td>11:42:50</td>
+      <td>10</td>
+      <td>64:59:31</td>
     </tr>
     <tr>
-      <td>2</td>
-      <td>TTC107</td>
-      <td>42:58:44</td>
-      <td>2</td>
-      <td>TTC107</td>
-      <td>331:14:16</td>
-    </tr>
-    <tr>
-      <td>3</td>
-      <td>TTC108</td>
-      <td>41:28:73</td>
-      <td>3</td>
-      <td>TTC108</td>
-      <td>331:11:91</td>
-    </tr>
-    <tr>
-      <td>4</td>
-      <td>TTC103</td>
-      <td>37:25:59</td>
-      <td>4</td>
-      <td>TTC103</td>
-      <td>301:08:11</td>
-    </tr>
-    <tr>
-      <td>5</td>
-      <td>TTC109</td>
-      <td>32:47:38</td>
-      <td>5</td>
-      <td>TTC109</td>
-      <td>241:51:29</td>
-    </tr>
-    <tr>
-      <td>6</td>
-      <td>TTC104</td>
-      <td>21:33:56</td>
-      <td>6</td>
-      <td>TTC104</td>
-      <td>173:17:40</td>
-    </tr>
-    <tr>
-      <td>7</td>
       <td>TTC102</td>
+      <td>18:62</td>
+      <td>8</td>
       <td>19:17:29</td>
       <td>7</td>
-      <td>TTC102</td>
       <td>149:03:81</td>
     </tr>
     <tr>
-      <td>8</td>
-      <td>TTC106</td>
-      <td>22:35:19</td>
-      <td>8</td>
-      <td>TTC106</td>
-      <td>143:16:27</td>
+      <td>TTC103</td>
+      <td>37:79</td>
+      <td>4</td>
+      <td>37:25:59</td>
+      <td>4</td>
+      <td>301:08:11</td>
     </tr>
     <tr>
-      <td>9</td>
+      <td>TTC104</td>
+      <td>24:64</td>
+      <td>7</td>
+      <td>21:33:56</td>
+      <td>6</td>
+      <td>173:17:40</td>
+    </tr>
+    <tr>
       <td>TTC105</td>
+      <td>11:50</td>
+      <td>9</td>
       <td>12:11:86</td>
       <td>9</td>
-      <td>TTC105</td>
       <td>107:22:80</td>
     </tr>
     <tr>
-      <td>10</td>
-      <td>TTC101</td>
-      <td>11:42:50</td>
-      <td>10</td>
-      <td>TTC101</td>
-      <td>64:59:31</td>
+      <td>TTC106</td>
+      <td>25:92</td>
+      <td>6</td>
+      <td>22:35:19</td>
+      <td>8</td>
+      <td>143:16:27</td>
+    </tr>
+    <tr>
+      <td>TTC107</td>
+      <td>46:42</td>
+      <td>2</td>
+      <td>42:58:44</td>
+      <td>2</td>
+      <td>331:14:16</td>
+    </tr>
+    <tr>
+      <td>TTC108</td>
+      <td>51:30</td>
+      <td>3</td>
+      <td>41:28:73</td>
+      <td>3</td>
+      <td>331:11:91</td>
+    </tr>
+    <tr>
+      <td>TTC109</td>
+      <td>39:79</td>
+      <td>5</td>
+      <td>32:47:38</td>
+      <td>5</td>
+      <td>241:51:29</td>
+    </tr>
+    <tr>
+      <td>TTC110</td>
+      <td>1:08:39</td>
+      <td>1</td>
+      <td>54:47:13</td>
+      <td>1</td>
+      <td>414:12:72</td>
     </tr>
   </tbody>
 </table>
@@ -819,445 +819,445 @@
 ## EOL level pack
 <table>
   <thead>
+    <th>Level</th>
+    <th>Best time</th>
     <th>Top (prs)</th>
-    <th>Level (prs)</th>
     <th>Rank (prs)</th>
     <th>Top (all)</th>
-    <th>Level (all)</th>
     <th>Rank (all)</th>
   </thead>
   <tbody>
     <tr>
-      <td>1</td>
-      <td>EOL18</td>
-      <td>186:12:62</td>
-      <td>1</td>
-      <td>EOL18</td>
-      <td>690:11:33</td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td>EOL40</td>
-      <td>185:46:67</td>
-      <td>2</td>
-      <td>EOL40</td>
-      <td>624:43:18</td>
-    </tr>
-    <tr>
-      <td>3</td>
-      <td>EOL29</td>
-      <td>171:43:54</td>
-      <td>3</td>
-      <td>EOL29</td>
-      <td>612:45:75</td>
-    </tr>
-    <tr>
-      <td>4</td>
-      <td>EOL04</td>
-      <td>178:26:88</td>
-      <td>4</td>
-      <td>EOL04</td>
-      <td>594:01:93</td>
-    </tr>
-    <tr>
-      <td>5</td>
-      <td>EOL25</td>
-      <td>126:46:87</td>
-      <td>5</td>
-      <td>EOL25</td>
-      <td>542:24:56</td>
-    </tr>
-    <tr>
-      <td>6</td>
-      <td>EOL08</td>
-      <td>144:54:25</td>
-      <td>6</td>
-      <td>EOL08</td>
-      <td>540:45:96</td>
-    </tr>
-    <tr>
-      <td>7</td>
-      <td>EOL27</td>
-      <td>119:58:83</td>
-      <td>7</td>
-      <td>EOL27</td>
-      <td>523:44:46</td>
-    </tr>
-    <tr>
-      <td>8</td>
-      <td>EOL34</td>
-      <td>131:33:57</td>
-      <td>8</td>
-      <td>EOL34</td>
-      <td>519:36:57</td>
-    </tr>
-    <tr>
-      <td>9</td>
-      <td>EOL07</td>
-      <td>139:13:97</td>
-      <td>9</td>
-      <td>EOL07</td>
-      <td>501:25:91</td>
-    </tr>
-    <tr>
-      <td>10</td>
-      <td>EOL24</td>
-      <td>134:55:30</td>
-      <td>10</td>
-      <td>EOL24</td>
-      <td>480:12:41</td>
-    </tr>
-    <tr>
-      <td>11</td>
-      <td>EOL14</td>
-      <td>123:48:27</td>
-      <td>11</td>
-      <td>EOL14</td>
-      <td>473:17:50</td>
-    </tr>
-    <tr>
-      <td>12</td>
-      <td>EOL03</td>
-      <td>126:18:59</td>
-      <td>12</td>
-      <td>EOL03</td>
-      <td>455:01:19</td>
-    </tr>
-    <tr>
-      <td>13</td>
-      <td>EOL21</td>
-      <td>111:38:88</td>
-      <td>13</td>
-      <td>EOL21</td>
-      <td>438:28:52</td>
-    </tr>
-    <tr>
-      <td>14</td>
-      <td>EOL02</td>
-      <td>136:09:16</td>
-      <td>14</td>
-      <td>EOL02</td>
-      <td>437:59:14</td>
-    </tr>
-    <tr>
-      <td>15</td>
       <td>EOL01</td>
+      <td>15:56</td>
+      <td>4</td>
       <td>174:55:44</td>
       <td>15</td>
-      <td>EOL01</td>
       <td>437:10:62</td>
     </tr>
     <tr>
-      <td>16</td>
-      <td>EOL06</td>
-      <td>140:30:70</td>
-      <td>16</td>
-      <td>EOL06</td>
-      <td>425:00:81</td>
+      <td>EOL02</td>
+      <td>14:91</td>
+      <td>11</td>
+      <td>136:09:16</td>
+      <td>14</td>
+      <td>437:59:14</td>
     </tr>
     <tr>
-      <td>17</td>
-      <td>EOL22</td>
-      <td>143:44:35</td>
-      <td>17</td>
-      <td>EOL22</td>
-      <td>409:22:47</td>
+      <td>EOL03</td>
+      <td>21:41</td>
+      <td>15</td>
+      <td>126:18:59</td>
+      <td>12</td>
+      <td>455:01:19</td>
     </tr>
     <tr>
-      <td>18</td>
+      <td>EOL04</td>
+      <td>45:14</td>
+      <td>3</td>
+      <td>178:26:88</td>
+      <td>4</td>
+      <td>594:01:93</td>
+    </tr>
+    <tr>
       <td>EOL05</td>
+      <td>26:90</td>
+      <td>6</td>
       <td>150:03:28</td>
       <td>18</td>
-      <td>EOL05</td>
       <td>407:12:96</td>
     </tr>
     <tr>
-      <td>19</td>
-      <td>EOL45</td>
-      <td>85:18:75</td>
-      <td>19</td>
-      <td>EOL45</td>
-      <td>405:43:29</td>
+      <td>EOL06</td>
+      <td>41:84</td>
+      <td>9</td>
+      <td>140:30:70</td>
+      <td>16</td>
+      <td>425:00:81</td>
     </tr>
     <tr>
-      <td>20</td>
-      <td>EOL35</td>
-      <td>99:28:84</td>
-      <td>20</td>
-      <td>EOL35</td>
-      <td>402:18:35</td>
+      <td>EOL07</td>
+      <td>26:76</td>
+      <td>10</td>
+      <td>139:13:97</td>
+      <td>9</td>
+      <td>501:25:91</td>
     </tr>
     <tr>
-      <td>21</td>
-      <td>EOL38</td>
-      <td>113:41:48</td>
-      <td>21</td>
-      <td>EOL38</td>
-      <td>380:50:24</td>
+      <td>EOL08</td>
+      <td>24:65</td>
+      <td>7</td>
+      <td>144:54:25</td>
+      <td>6</td>
+      <td>540:45:96</td>
     </tr>
     <tr>
-      <td>22</td>
-      <td>EOL32</td>
-      <td>124:30:19</td>
-      <td>22</td>
-      <td>EOL32</td>
-      <td>362:25:90</td>
-    </tr>
-    <tr>
-      <td>23</td>
-      <td>EOL37</td>
-      <td>84:21:22</td>
-      <td>23</td>
-      <td>EOL37</td>
-      <td>361:35:56</td>
-    </tr>
-    <tr>
-      <td>24</td>
-      <td>EOL15</td>
-      <td>121:50:87</td>
-      <td>24</td>
-      <td>EOL15</td>
-      <td>351:31:98</td>
-    </tr>
-    <tr>
-      <td>25</td>
-      <td>EOL30</td>
-      <td>114:19:38</td>
-      <td>25</td>
-      <td>EOL30</td>
-      <td>346:35:88</td>
-    </tr>
-    <tr>
-      <td>26</td>
-      <td>EOL31</td>
-      <td>116:07:54</td>
-      <td>26</td>
-      <td>EOL31</td>
-      <td>333:09:66</td>
-    </tr>
-    <tr>
-      <td>27</td>
-      <td>EOL26</td>
-      <td>114:55:83</td>
-      <td>27</td>
-      <td>EOL26</td>
-      <td>331:58:61</td>
-    </tr>
-    <tr>
-      <td>28</td>
-      <td>EOL48</td>
-      <td>58:05:29</td>
-      <td>28</td>
-      <td>EOL48</td>
-      <td>331:51:92</td>
-    </tr>
-    <tr>
-      <td>29</td>
-      <td>EOL33</td>
-      <td>80:46:73</td>
-      <td>29</td>
-      <td>EOL33</td>
-      <td>329:19:84</td>
-    </tr>
-    <tr>
-      <td>30</td>
-      <td>EOL49</td>
-      <td>113:44:26</td>
-      <td>30</td>
-      <td>EOL49</td>
-      <td>327:43:53</td>
-    </tr>
-    <tr>
-      <td>31</td>
-      <td>EOL52</td>
-      <td>74:10:80</td>
-      <td>31</td>
-      <td>EOL52</td>
-      <td>324:56:42</td>
-    </tr>
-    <tr>
-      <td>32</td>
-      <td>EOL39</td>
-      <td>77:49:00</td>
-      <td>32</td>
-      <td>EOL39</td>
-      <td>323:02:62</td>
-    </tr>
-    <tr>
-      <td>33</td>
       <td>EOL09</td>
+      <td>16:20</td>
+      <td>33</td>
       <td>81:09:57</td>
       <td>33</td>
-      <td>EOL09</td>
       <td>322:59:70</td>
     </tr>
     <tr>
-      <td>34</td>
-      <td>EOL46</td>
-      <td>84:37:33</td>
-      <td>34</td>
-      <td>EOL46</td>
-      <td>301:48:66</td>
-    </tr>
-    <tr>
-      <td>35</td>
-      <td>EOL51</td>
-      <td>64:27:73</td>
-      <td>35</td>
-      <td>EOL51</td>
-      <td>285:17:61</td>
-    </tr>
-    <tr>
-      <td>36</td>
-      <td>EOL44</td>
-      <td>104:38:75</td>
-      <td>36</td>
-      <td>EOL44</td>
-      <td>264:05:45</td>
-    </tr>
-    <tr>
-      <td>37</td>
       <td>EOL10</td>
+      <td>26:78</td>
+      <td>29</td>
       <td>86:31:53</td>
       <td>37</td>
-      <td>EOL10</td>
       <td>259:26:92</td>
     </tr>
     <tr>
-      <td>38</td>
-      <td>EOL28</td>
-      <td>54:42:92</td>
-      <td>38</td>
-      <td>EOL28</td>
-      <td>239:16:85</td>
-    </tr>
-    <tr>
-      <td>39</td>
-      <td>EOL42</td>
-      <td>81:02:62</td>
-      <td>39</td>
-      <td>EOL42</td>
-      <td>230:12:88</td>
-    </tr>
-    <tr>
-      <td>40</td>
-      <td>EOL23</td>
-      <td>72:30:66</td>
-      <td>40</td>
-      <td>EOL23</td>
-      <td>219:32:50</td>
-    </tr>
-    <tr>
-      <td>41</td>
-      <td>EOL54</td>
-      <td>99:03:82</td>
-      <td>41</td>
-      <td>EOL54</td>
-      <td>215:29:25</td>
-    </tr>
-    <tr>
-      <td>42</td>
-      <td>EOL47</td>
-      <td>61:10:30</td>
-      <td>42</td>
-      <td>EOL47</td>
-      <td>210:09:23</td>
-    </tr>
-    <tr>
-      <td>43</td>
-      <td>EOL43</td>
-      <td>53:54:64</td>
-      <td>43</td>
-      <td>EOL43</td>
-      <td>205:01:49</td>
-    </tr>
-    <tr>
-      <td>44</td>
-      <td>EOL17</td>
-      <td>57:46:34</td>
-      <td>44</td>
-      <td>EOL17</td>
-      <td>204:12:60</td>
-    </tr>
-    <tr>
-      <td>45</td>
-      <td>EOL12</td>
-      <td>49:34:90</td>
-      <td>45</td>
-      <td>EOL12</td>
-      <td>198:21:13</td>
-    </tr>
-    <tr>
-      <td>46</td>
-      <td>EOL36</td>
-      <td>46:27:36</td>
-      <td>46</td>
-      <td>EOL36</td>
-      <td>198:08:17</td>
-    </tr>
-    <tr>
-      <td>47</td>
-      <td>EOL19</td>
-      <td>46:55:20</td>
-      <td>47</td>
-      <td>EOL19</td>
-      <td>192:10:83</td>
-    </tr>
-    <tr>
-      <td>48</td>
       <td>EOL11</td>
+      <td>19:79</td>
+      <td>49</td>
       <td>48:41:39</td>
       <td>48</td>
-      <td>EOL11</td>
       <td>186:35:52</td>
     </tr>
     <tr>
-      <td>49</td>
+      <td>EOL12</td>
+      <td>23:54</td>
+      <td>47</td>
+      <td>49:34:90</td>
+      <td>45</td>
+      <td>198:21:13</td>
+    </tr>
+    <tr>
       <td>EOL13</td>
+      <td>24:50</td>
+      <td>46</td>
       <td>52:22:91</td>
       <td>49</td>
-      <td>EOL13</td>
       <td>184:54:30</td>
     </tr>
     <tr>
-      <td>50</td>
-      <td>EOL53</td>
-      <td>48:58:30</td>
-      <td>50</td>
-      <td>EOL53</td>
-      <td>168:02:70</td>
+      <td>EOL14</td>
+      <td>31:42</td>
+      <td>17</td>
+      <td>123:48:27</td>
+      <td>11</td>
+      <td>473:17:50</td>
     </tr>
     <tr>
-      <td>51</td>
-      <td>EOL41</td>
-      <td>42:52:13</td>
-      <td>51</td>
-      <td>EOL41</td>
-      <td>161:54:40</td>
+      <td>EOL15</td>
+      <td>37:23</td>
+      <td>18</td>
+      <td>121:50:87</td>
+      <td>24</td>
+      <td>351:31:98</td>
     </tr>
     <tr>
-      <td>52</td>
+      <td>EOL16</td>
+      <td>15:40</td>
+      <td>54</td>
+      <td>31:37:83</td>
+      <td>54</td>
+      <td>84:17:83</td>
+    </tr>
+    <tr>
+      <td>EOL17</td>
+      <td>26:96</td>
+      <td>42</td>
+      <td>57:46:34</td>
+      <td>44</td>
+      <td>204:12:60</td>
+    </tr>
+    <tr>
+      <td>EOL18</td>
+      <td>51:29</td>
+      <td>1</td>
+      <td>186:12:62</td>
+      <td>1</td>
+      <td>690:11:33</td>
+    </tr>
+    <tr>
+      <td>EOL19</td>
+      <td>25:15</td>
+      <td>50</td>
+      <td>46:55:20</td>
+      <td>47</td>
+      <td>192:10:83</td>
+    </tr>
+    <tr>
       <td>EOL20</td>
+      <td>17:26</td>
+      <td>45</td>
       <td>53:47:99</td>
       <td>52</td>
-      <td>EOL20</td>
       <td>140:56:13</td>
     </tr>
     <tr>
-      <td>53</td>
+      <td>EOL21</td>
+      <td>30:99</td>
+      <td>25</td>
+      <td>111:38:88</td>
+      <td>13</td>
+      <td>438:28:52</td>
+    </tr>
+    <tr>
+      <td>EOL22</td>
+      <td>52:35</td>
+      <td>8</td>
+      <td>143:44:35</td>
+      <td>17</td>
+      <td>409:22:47</td>
+    </tr>
+    <tr>
+      <td>EOL23</td>
+      <td>20:55</td>
+      <td>38</td>
+      <td>72:30:66</td>
+      <td>40</td>
+      <td>219:32:50</td>
+    </tr>
+    <tr>
+      <td>EOL24</td>
+      <td>41:94</td>
+      <td>12</td>
+      <td>134:55:30</td>
+      <td>10</td>
+      <td>480:12:41</td>
+    </tr>
+    <tr>
+      <td>EOL25</td>
+      <td>54:36</td>
+      <td>14</td>
+      <td>126:46:87</td>
+      <td>5</td>
+      <td>542:24:56</td>
+    </tr>
+    <tr>
+      <td>EOL26</td>
+      <td>55:55</td>
+      <td>21</td>
+      <td>114:55:83</td>
+      <td>27</td>
+      <td>331:58:61</td>
+    </tr>
+    <tr>
+      <td>EOL27</td>
+      <td>42:60</td>
+      <td>19</td>
+      <td>119:58:83</td>
+      <td>7</td>
+      <td>523:44:46</td>
+    </tr>
+    <tr>
+      <td>EOL28</td>
+      <td>33:40</td>
+      <td>43</td>
+      <td>54:42:92</td>
+      <td>38</td>
+      <td>239:16:85</td>
+    </tr>
+    <tr>
+      <td>EOL29</td>
+      <td>1:08:96</td>
+      <td>5</td>
+      <td>171:43:54</td>
+      <td>3</td>
+      <td>612:45:75</td>
+    </tr>
+    <tr>
+      <td>EOL30</td>
+      <td>54:13</td>
+      <td>22</td>
+      <td>114:19:38</td>
+      <td>25</td>
+      <td>346:35:88</td>
+    </tr>
+    <tr>
+      <td>EOL31</td>
+      <td>52:90</td>
+      <td>20</td>
+      <td>116:07:54</td>
+      <td>26</td>
+      <td>333:09:66</td>
+    </tr>
+    <tr>
+      <td>EOL32</td>
+      <td>1:38:42</td>
+      <td>16</td>
+      <td>124:30:19</td>
+      <td>22</td>
+      <td>362:25:90</td>
+    </tr>
+    <tr>
+      <td>EOL33</td>
+      <td>42:31</td>
+      <td>35</td>
+      <td>80:46:73</td>
+      <td>29</td>
+      <td>329:19:84</td>
+    </tr>
+    <tr>
+      <td>EOL34</td>
+      <td>1:09:52</td>
+      <td>13</td>
+      <td>131:33:57</td>
+      <td>8</td>
+      <td>519:36:57</td>
+    </tr>
+    <tr>
+      <td>EOL35</td>
+      <td>37:18</td>
+      <td>27</td>
+      <td>99:28:84</td>
+      <td>20</td>
+      <td>402:18:35</td>
+    </tr>
+    <tr>
+      <td>EOL36</td>
+      <td>22:68</td>
+      <td>51</td>
+      <td>46:27:36</td>
+      <td>46</td>
+      <td>198:08:17</td>
+    </tr>
+    <tr>
+      <td>EOL37</td>
+      <td>35:38</td>
+      <td>32</td>
+      <td>84:21:22</td>
+      <td>23</td>
+      <td>361:35:56</td>
+    </tr>
+    <tr>
+      <td>EOL38</td>
+      <td>1:06:86</td>
+      <td>24</td>
+      <td>113:41:48</td>
+      <td>21</td>
+      <td>380:50:24</td>
+    </tr>
+    <tr>
+      <td>EOL39</td>
+      <td>59:64</td>
+      <td>36</td>
+      <td>77:49:00</td>
+      <td>32</td>
+      <td>323:02:62</td>
+    </tr>
+    <tr>
+      <td>EOL40</td>
+      <td>1:27:39</td>
+      <td>2</td>
+      <td>185:46:67</td>
+      <td>2</td>
+      <td>624:43:18</td>
+    </tr>
+    <tr>
+      <td>EOL41</td>
+      <td>19:84</td>
+      <td>52</td>
+      <td>42:52:13</td>
+      <td>51</td>
+      <td>161:54:40</td>
+    </tr>
+    <tr>
+      <td>EOL42</td>
+      <td>53:26</td>
+      <td>34</td>
+      <td>81:02:62</td>
+      <td>39</td>
+      <td>230:12:88</td>
+    </tr>
+    <tr>
+      <td>EOL43</td>
+      <td>37:18</td>
+      <td>44</td>
+      <td>53:54:64</td>
+      <td>43</td>
+      <td>205:01:49</td>
+    </tr>
+    <tr>
+      <td>EOL44</td>
+      <td>1:39:85</td>
+      <td>26</td>
+      <td>104:38:75</td>
+      <td>36</td>
+      <td>264:05:45</td>
+    </tr>
+    <tr>
+      <td>EOL45</td>
+      <td>29:23</td>
+      <td>30</td>
+      <td>85:18:75</td>
+      <td>19</td>
+      <td>405:43:29</td>
+    </tr>
+    <tr>
+      <td>EOL46</td>
+      <td>42:20</td>
+      <td>31</td>
+      <td>84:37:33</td>
+      <td>34</td>
+      <td>301:48:66</td>
+    </tr>
+    <tr>
+      <td>EOL47</td>
+      <td>27:88</td>
+      <td>40</td>
+      <td>61:10:30</td>
+      <td>42</td>
+      <td>210:09:23</td>
+    </tr>
+    <tr>
+      <td>EOL48</td>
+      <td>23:62</td>
+      <td>41</td>
+      <td>58:05:29</td>
+      <td>28</td>
+      <td>331:51:92</td>
+    </tr>
+    <tr>
+      <td>EOL49</td>
+      <td>1:39:32</td>
+      <td>23</td>
+      <td>113:44:26</td>
+      <td>30</td>
+      <td>327:43:53</td>
+    </tr>
+    <tr>
       <td>EOL50</td>
+      <td>35:46</td>
+      <td>53</td>
       <td>35:35:54</td>
       <td>53</td>
-      <td>EOL50</td>
       <td>87:15:90</td>
     </tr>
     <tr>
-      <td>54</td>
-      <td>EOL16</td>
-      <td>31:37:83</td>
-      <td>54</td>
-      <td>EOL16</td>
-      <td>84:17:83</td>
+      <td>EOL51</td>
+      <td>32:11</td>
+      <td>39</td>
+      <td>64:27:73</td>
+      <td>35</td>
+      <td>285:17:61</td>
+    </tr>
+    <tr>
+      <td>EOL52</td>
+      <td>19:85</td>
+      <td>37</td>
+      <td>74:10:80</td>
+      <td>31</td>
+      <td>324:56:42</td>
+    </tr>
+    <tr>
+      <td>EOL53</td>
+      <td>1:03:71</td>
+      <td>48</td>
+      <td>48:58:30</td>
+      <td>50</td>
+      <td>168:02:70</td>
+    </tr>
+    <tr>
+      <td>EOL54</td>
+      <td>1:37:75</td>
+      <td>28</td>
+      <td>99:03:82</td>
+      <td>41</td>
+      <td>215:29:25</td>
     </tr>
   </tbody>
 </table>

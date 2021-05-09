@@ -198,26 +198,23 @@ const runExample = async () => {
         { name: "all", fileName: FileNames.allTimes(dataFile.fileName) },
       ];
 
-      const levelsByName = {};
-      const levelNames = [];
-      const normalizeRankedLevels = (rankName) => (level) => {
-        levelsByName[level.name] = {
-          ...levelsByName[level.name],
-          name: level.name,
-          [rankName]: { ...level },
-        };
-        if (!levelNames.includes(level.name)) {
-          levelNames.push(level.name);
-        }
-      };
-
+      const levels = [];
       for (const rank of ranks) {
         const times = await readFile(rank.fileName);
         const rankedTimes = levelsRankDouble(JSON.parse(times));
-        rankedTimes.forEach(normalizeRankedLevels(rank.name));
-      }
 
-      const levels = levelNames.map((name) => levelsByName[name]);
+        for (const rankedLevel of rankedTimes) {
+          const level = levels.find((level) => level.name === rankedLevel.name);
+          if (!level) {
+            levels.push({
+              name: rankedLevel.name,
+              [rank.name]: { ...rankedLevel },
+            });
+          } else {
+            level[rank.name] = { ...rankedLevel };
+          }
+        }
+      }
 
       const ranksData = {
         name: dataFile.name,
