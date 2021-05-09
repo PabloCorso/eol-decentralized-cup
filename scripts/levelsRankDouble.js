@@ -1,10 +1,7 @@
 const { Link, DataTable } = require("./utils/elements");
 const { centisecondsToRecord } = require("./utils/record");
 
-const printSummary = (
-  levels,
-  { useUniqueTimes } = { useUniqueTimes: false }
-) => {
+const printSummary = (levels) => {
   const descendingOrderByRank = (a, b) => b.rank - a.rank;
   const rankedLevels = [...levels].sort(descendingOrderByRank);
 
@@ -26,21 +23,18 @@ const printSummary = (
     const level = rankedLevels[i];
 
     const top = i + 1;
-    const timesCount = level.times.length;
     const bestTime = level.times[0];
     const uniqueTimes = level.uniqueTimes.length;
-    const shadowTimes = timesCount - uniqueTimes;
-    const timesTwiceBest = level.times.filter((pr) => pr > bestTime * 2).length;
 
     rows.push({
       top,
       level: Link({ children: level.name, href: level.url }),
       wr: centisecondsToRecord(bestTime),
-      times: timesCount,
+      times: level.timesCount,
       unique: uniqueTimes,
-      shadow: shadowTimes,
-      above2x: timesTwiceBest,
-      removed: useUniqueTimes ? timesTwiceBest + shadowTimes : 0,
+      shadow: level.shadowTimesCount,
+      above2x: level.timesTwiceBestCount,
+      removed: level.removedTimesCount,
       rank: centisecondsToRecord(level.rank),
       total: centisecondsToRecord(level.timesTotal),
     });
@@ -101,10 +95,9 @@ const getTimesTotal = (times) => {
   return total;
 };
 
-const calculateTimesRank = ({ times, bestTime }) => {
-  const lessOrEqualThanDoubleBestPr = (time) => time <= bestTime * 2;
-  const filteredTimes = times.filter(lessOrEqualThanDoubleBestPr);
-  return getTimesTotal(filteredTimes);
+const getTimesLessThanTwiceBest = ({ times, bestTime }) => {
+  const lessOrEqualThanDoubleBestTime = (time) => time <= bestTime * 2;
+  return times.filter(lessOrEqualThanDoubleBestTime);
 };
 
 const getUniqueValuesFromArray = (values) => {
@@ -130,14 +123,31 @@ const levelsRankDouble = (
 ) => {
   const resultLevels = [];
   for (const level of levelsData) {
-    const uniqueTimes = getUniqueSortedTimes(level.times);
     const timesTotal = getTimesTotal(level.times);
-    const rank = calculateTimesRank({
+    const uniqueTimes = getUniqueSortedTimes(level.times);
+    const timesLessThanTwiceBest = getTimesLessThanTwiceBest({
       times: useUniqueTimes ? uniqueTimes : level.times,
       bestTime: uniqueTimes[0],
     });
+    const rank = getTimesTotal(timesLessThanTwiceBest);
 
-    resultLevels.push({ ...level, timesTotal, rank, uniqueTimes });
+    const timesCount = level.times.length;
+    const shadowTimesCount = timesCount - uniqueTimes.length;
+    const timesTwiceBestCount = timesCount - timesLessThanTwiceBest.length;
+    const removedTimesCount = useUniqueTimes
+      ? timesTwiceBestCount + shadowTimesCount
+      : 0;
+
+    resultLevels.push({
+      ...level,
+      timesTotal,
+      rank,
+      uniqueTimes,
+      timesCount,
+      shadowTimesCount,
+      timesTwiceBestCount,
+      removedTimesCount,
+    });
   }
 
   return resultLevels;
