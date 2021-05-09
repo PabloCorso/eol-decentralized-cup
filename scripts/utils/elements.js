@@ -17,6 +17,8 @@ const Link = ({ children, href }) =>
 
 const Bold = (children) => `<b>${children}</b>`;
 
+const Italic = (children) => `<i>${children}</i>`;
+
 const DataTable = ({ columns, rows }) => {
   let bodyRows = "";
   for (let i = 0; i < rows.length; i++) {
@@ -47,5 +49,6 @@ module.exports = {
   Strike,
   Link,
   Bold,
+  Italic,
   DataTable,
 };

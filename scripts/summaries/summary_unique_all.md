@@ -16,7 +16,7 @@
   </thead>
   <tbody>
     <tr>
-      <td><b>1</b>
+      <td><i><b>1</b></i>
       </td>
       <td><a href="https://elma.online/levels/156" target="_blank">QWQUU035</a>
       </td>
@@ -30,7 +30,7 @@
       <td>6771:19:51</td>
     </tr>
     <tr>
-      <td><b>2</b>
+      <td><i><b>2</b></i>
       </td>
       <td><a href="https://elma.online/levels/472912" target="_blank">WCup804</a>
       </td>
@@ -44,7 +44,7 @@
       <td>3917:28:52</td>
     </tr>
     <tr>
-      <td><b>3</b>
+      <td><i><b>3</b></i>
       </td>
       <td><a href="https://elma.online/levels/371726" target="_blank">WCup702</a>
       </td>
@@ -58,7 +58,7 @@
       <td>2705:56:24</td>
     </tr>
     <tr>
-      <td><b>4</b>
+      <td><i><b>4</b></i>
       </td>
       <td><a href="https://elma.online/levels/690" target="_blank">Smibu80</a>
       </td>
@@ -72,7 +72,7 @@
       <td>780:50:23</td>
     </tr>
     <tr>
-      <td><b>5</b>
+      <td><i><b>5</b></i>
       </td>
       <td><a href="https://elma.online/levels/471405" target="_blank">WCup802</a>
       </td>
@@ -340,7 +340,7 @@
   </thead>
   <tbody>
     <tr>
-      <td><b>1</b>
+      <td><i><b>1</b></i>
       </td>
       <td><a href="https://elma.online/levels/156" target="_blank">QWQUU035</a>
       </td>
@@ -354,7 +354,7 @@
       <td>6771:19:51</td>
     </tr>
     <tr>
-      <td><b>2</b>
+      <td><i><b>2</b></i>
       </td>
       <td><a href="https://elma.online/levels/51" target="_blank">QWQUU016</a>
       </td>
@@ -368,7 +368,7 @@
       <td>8404:35:84</td>
     </tr>
     <tr>
-      <td><b>3</b>
+      <td><i><b>3</b></i>
       </td>
       <td><a href="https://elma.online/levels/197" target="_blank">QWQUU020</a>
       </td>
@@ -382,7 +382,7 @@
       <td>7665:40:97</td>
     </tr>
     <tr>
-      <td><b>4</b>
+      <td><i><b>4</b></i>
       </td>
       <td><a href="https://elma.online/levels/15" target="_blank">QWQUU009</a>
       </td>
@@ -396,7 +396,7 @@
       <td>10597:00:68</td>
     </tr>
     <tr>
-      <td><b>5</b>
+      <td><i><b>5</b></i>
       </td>
       <td><a href="https://elma.online/levels/412" target="_blank">QWQUU040</a>
       </td>
@@ -1067,7 +1067,7 @@
   </thead>
   <tbody>
     <tr>
-      <td><b>1</b>
+      <td><i><b>1</b></i>
       </td>
       <td><a href="https://elma.online/levels/359229" target="_blank">32Cup01</a>
       </td>
@@ -1081,7 +1081,7 @@
       <td>230:55:55</td>
     </tr>
     <tr>
-      <td><b>2</b>
+      <td><i><b>2</b></i>
       </td>
       <td><a href="https://elma.online/levels/359243" target="_blank">32Cup15</a>
       </td>
@@ -1095,7 +1095,7 @@
       <td>148:00:20</td>
     </tr>
     <tr>
-      <td><b>3</b>
+      <td><i><b>3</b></i>
       </td>
       <td><a href="https://elma.online/levels/359232" target="_blank">32Cup04</a>
       </td>
@@ -1109,7 +1109,7 @@
       <td>137:14:63</td>
     </tr>
     <tr>
-      <td><b>4</b>
+      <td><i><b>4</b></i>
       </td>
       <td><a href="https://elma.online/levels/359241" target="_blank">32Cup13</a>
       </td>
@@ -1123,7 +1123,7 @@
       <td>131:46:28</td>
     </tr>
     <tr>
-      <td><b>5</b>
+      <td><i><b>5</b></i>
       </td>
       <td><a href="https://elma.online/levels/359235" target="_blank">32Cup07</a>
       </td>
@@ -1508,7 +1508,7 @@
   </thead>
   <tbody>
     <tr>
-      <td><b>1</b>
+      <td><i><b>1</b></i>
       </td>
       <td><a href="https://elma.online/levels/472912" target="_blank">WCup804</a>
       </td>
@@ -1522,7 +1522,7 @@
       <td>3917:28:52</td>
     </tr>
     <tr>
-      <td><b>2</b>
+      <td><i><b>2</b></i>
       </td>
       <td><a href="https://elma.online/levels/479721" target="_blank">WCup812</a>
       </td>
@@ -1536,7 +1536,7 @@
       <td>3141:10:21</td>
     </tr>
     <tr>
-      <td><b>3</b>
+      <td><i><b>3</b></i>
       </td>
       <td><a href="https://elma.online/levels/473903" target="_blank">WCup806</a>
       </td>
@@ -1550,7 +1550,7 @@
       <td>2818:42:19</td>
     </tr>
     <tr>
-      <td><b>4</b>
+      <td><i><b>4</b></i>
       </td>
       <td><a href="https://elma.online/levels/473318" target="_blank">WCup805</a>
       </td>
@@ -1564,7 +1564,7 @@
       <td>2653:26:38</td>
     </tr>
     <tr>
-      <td><b>5</b>
+      <td><i><b>5</b></i>
       </td>
       <td><a href="https://elma.online/levels/470921" target="_blank">WCup801</a>
       </td>
@@ -1689,7 +1689,7 @@
   </thead>
   <tbody>
     <tr>
-      <td><b>1</b>
+      <td><i><b>1</b></i>
       </td>
       <td><a href="https://elma.online/levels/372197" target="_blank">WCup703</a>
       </td>
@@ -1703,7 +1703,7 @@
       <td>3335:15:28</td>
     </tr>
     <tr>
-      <td><b>2</b>
+      <td><i><b>2</b></i>
       </td>
       <td><a href="https://elma.online/levels/371726" target="_blank">WCup702</a>
       </td>
@@ -1717,7 +1717,7 @@
       <td>2705:56:24</td>
     </tr>
     <tr>
-      <td><b>3</b>
+      <td><i><b>3</b></i>
       </td>
       <td><a href="https://elma.online/levels/371130" target="_blank">WCup715</a>
       </td>
@@ -1731,7 +1731,7 @@
       <td>1376:53:40</td>
     </tr>
     <tr>
-      <td><b>4</b>
+      <td><i><b>4</b></i>
       </td>
       <td><a href="https://elma.online/levels/374907" target="_blank">WCup707</a>
       </td>
@@ -1745,7 +1745,7 @@
       <td>1561:57:45</td>
     </tr>
     <tr>
-      <td><b>5</b>
+      <td><i><b>5</b></i>
       </td>
       <td><a href="https://elma.online/levels/377165" target="_blank">WCup711</a>
       </td>
@@ -1909,7 +1909,7 @@
   </thead>
   <tbody>
     <tr>
-      <td><b>1</b>
+      <td><i><b>1</b></i>
       </td>
       <td><a href="https://elma.online/levels/331261" target="_blank">TTC110</a>
       </td>
@@ -1923,7 +1923,7 @@
       <td>468:28:86</td>
     </tr>
     <tr>
-      <td><b>2</b>
+      <td><i><b>2</b></i>
       </td>
       <td><a href="https://elma.online/levels/331258" target="_blank">TTC107</a>
       </td>
@@ -1937,7 +1937,7 @@
       <td>361:32:27</td>
     </tr>
     <tr>
-      <td><b>3</b>
+      <td><i><b>3</b></i>
       </td>
       <td><a href="https://elma.online/levels/331259" target="_blank">TTC108</a>
       </td>
@@ -1951,7 +1951,7 @@
       <td>394:14:22</td>
     </tr>
     <tr>
-      <td><b>4</b>
+      <td><i><b>4</b></i>
       </td>
       <td><a href="https://elma.online/levels/331254" target="_blank">TTC103</a>
       </td>
@@ -1965,7 +1965,7 @@
       <td>371:43:15</td>
     </tr>
     <tr>
-      <td><b>5</b>
+      <td><i><b>5</b></i>
       </td>
       <td><a href="https://elma.online/levels/331260" target="_blank">TTC109</a>
       </td>
@@ -2064,7 +2064,7 @@
   </thead>
   <tbody>
     <tr>
-      <td><b>1</b>
+      <td><i><b>1</b></i>
       </td>
       <td><a href="https://elma.online/levels/116895" target="_blank">EOL18</a>
       </td>
@@ -2078,7 +2078,7 @@
       <td>818:31:76</td>
     </tr>
     <tr>
-      <td><b>2</b>
+      <td><i><b>2</b></i>
       </td>
       <td><a href="https://elma.online/levels/116917" target="_blank">EOL40</a>
       </td>
@@ -2092,7 +2092,7 @@
       <td>664:17:50</td>
     </tr>
     <tr>
-      <td><b>3</b>
+      <td><i><b>3</b></i>
       </td>
       <td><a href="https://elma.online/levels/116906" target="_blank">EOL29</a>
       </td>
@@ -2106,7 +2106,7 @@
       <td>663:47:80</td>
     </tr>
     <tr>
-      <td><b>4</b>
+      <td><i><b>4</b></i>
       </td>
       <td><a href="https://elma.online/levels/116881" target="_blank">EOL04</a>
       </td>
@@ -2120,7 +2120,7 @@
       <td>1027:51:59</td>
     </tr>
     <tr>
-      <td><b>5</b>
+      <td><i><b>5</b></i>
       </td>
       <td><a href="https://elma.online/levels/116902" target="_blank">EOL25</a>
       </td>
