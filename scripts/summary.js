@@ -45,7 +45,9 @@ const runExample = async () => {
       const rankedTimes = levelsRankDouble(JSON.parse(times), {
         useUniqueTimes: true,
       });
-      return levelsRankDouble.printSummary(rankedTimes);
+      return levelsRankDouble.printSummary(rankedTimes, {
+        useUniqueTimes: true,
+      });
     },
   });
   runSummary({
@@ -67,7 +69,9 @@ const runExample = async () => {
       const rankedTimes = levelsRankDouble(JSON.parse(times), {
         useUniqueTimes: true,
       });
-      return levelsRankDouble.printSummary(rankedTimes);
+      return levelsRankDouble.printSummary(rankedTimes, {
+        useUniqueTimes: true,
+      });
     },
   });
   runSummary({

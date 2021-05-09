@@ -1,7 +1,10 @@
 const { Link, DataTable } = require("./utils/elements");
 const { centisecondsToRecord } = require("./utils/record");
 
-const printSummary = (levels) => {
+const printSummary = (
+  levels,
+  { useUniqueTimes } = { useUniqueTimes: false }
+) => {
   const descendingOrderByRank = (a, b) => b.rank - a.rank;
   const rankedLevels = [...levels].sort(descendingOrderByRank);
 
@@ -37,7 +40,7 @@ const printSummary = (levels) => {
       unique: uniqueTimes,
       shadow: shadowTimes,
       above2x: timesTwiceBest,
-      removed: timesTwiceBest + shadowTimes,
+      removed: useUniqueTimes ? timesTwiceBest + shadowTimes : 0,
       rank: centisecondsToRecord(level.rank),
       total: centisecondsToRecord(level.timesTotal),
     });
