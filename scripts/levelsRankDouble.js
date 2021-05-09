@@ -121,13 +121,16 @@ const getUniqueSortedTimes = (times) => {
   return uniqueTimes;
 };
 
-const levelsRankDouble = (levelsData) => {
+const levelsRankDouble = (
+  levelsData,
+  { useUniqueTimes } = { useUniqueTimes: false }
+) => {
   const resultLevels = [];
   for (const level of levelsData) {
     const uniqueTimes = getUniqueSortedTimes(level.times);
     const timesTotal = getTimesTotal(level.times);
     const rank = calculateTimesRank({
-      times: uniqueTimes,
+      times: useUniqueTimes ? uniqueTimes : level.times,
       bestTime: uniqueTimes[0],
     });
 
