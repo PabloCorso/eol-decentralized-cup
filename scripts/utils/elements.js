@@ -15,6 +15,8 @@ const Strike = (children) => `<strike>${children}</strike>`;
 const Link = ({ children, href }) =>
   `<a href="${href}" target="_blank">${children}</a>`;
 
+const Bold = (children) => `<b>${children}</b>`;
+
 const DataTable = ({ columns, rows }) => {
   let bodyRows = "";
   for (let i = 0; i < rows.length; i++) {
@@ -44,5 +46,6 @@ module.exports = {
   TableData,
   Strike,
   Link,
+  Bold,
   DataTable,
 };
