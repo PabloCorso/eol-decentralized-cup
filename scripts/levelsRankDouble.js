@@ -1,7 +1,7 @@
 const { Link, Mark, DataTable } = require("./utils/elements");
 const { centisecondsToRecord } = require("./utils/record");
 
-const getTopText = (top) => (top <= 5 ? Mark(`(${top})`) : top);
+const getTopText = (top) => (top <= 5 ? Mark(`${top}*`) : top);
 
 const printSummary = (levels) => {
   const descendingOrderByRank = (a, b) => b.rank - a.rank;
