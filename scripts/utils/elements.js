@@ -21,6 +21,8 @@ const Italic = (children) => `<i>${children}</i>`;
 
 const Underline = (children) => `<u>${children}</u>`;
 
+const Mark = (children) => `<mark>${children}</mark>`;
+
 const DataTable = ({ columns, rows }) => {
   let bodyRows = "";
   for (let i = 0; i < rows.length; i++) {
@@ -53,5 +55,6 @@ module.exports = {
   Bold,
   Italic,
   Underline,
+  Mark,
   DataTable,
 };

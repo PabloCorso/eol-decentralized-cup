@@ -1,5 +1,7 @@
-const { Link, Bold, Underline, DataTable } = require("./utils/elements");
+const { Link, Mark, DataTable } = require("./utils/elements");
 const { centisecondsToRecord } = require("./utils/record");
+
+const getTopText = (top) => (top <= 5 ? Mark(`(${top})`) : top);
 
 const printSummary = (levels) => {
   const descendingOrderByRank = (a, b) => b.rank - a.rank;
@@ -27,7 +29,7 @@ const printSummary = (levels) => {
     const uniqueTimes = level.uniqueTimes.length;
 
     rows.push({
-      top: top <= 5 ? Underline(Bold(top)) : top,
+      top: getTopText(top),
       level: Link({ children: level.name, href: level.url }),
       wr: centisecondsToRecord(bestTime),
       times: level.timesCount,
@@ -77,7 +79,7 @@ const printSummaryComparison = (ranksData, ranks) => {
         orderedLevelsByRank[rank.name].findIndex(
           (lev) => lev.name === level.name
         ) + 1;
-      row[`${rank.name}_top`] = top <= 5 ? Underline(Bold(top)) : top;
+      row[`${rank.name}_top`] = getTopText(top);
       row[`${rank.name}_rank`] = centisecondsToRecord(level[rank.name].rank);
     }
 
