@@ -1,6 +1,6 @@
 const { secondsToCentiseconds, minutesToCentiseconds } = require("./time");
 
-const timePartsToPr = ({ minutes, seconds, centiseconds }) => {
+const timePartsToRecord = ({ minutes, seconds, centiseconds }) => {
   const minutesPart = minutes > 0 ? `${minutes}:` : "";
   const secondsPart = seconds < 10 ? `0${seconds}:` : `${seconds}:`;
   const centisecondsPart =
@@ -8,8 +8,8 @@ const timePartsToPr = ({ minutes, seconds, centiseconds }) => {
   return `${minutesPart}${secondsPart}${centisecondsPart}`;
 };
 
-const prToTimeParts = (pr) => {
-  const split = pr.split(":");
+const recordToTimeParts = (record) => {
+  const split = record.split(":");
   const hasMinutes = split.length >= 3;
   const centiseconds = split[split.length - 1];
   const seconds = split[split.length - 2];
@@ -21,8 +21,8 @@ const prToTimeParts = (pr) => {
   };
 };
 
-const prToCentiseconds = (pr) => {
-  const { minutes, seconds, centiseconds } = prToTimeParts(pr);
+const recordToCentiseconds = (record) => {
+  const { minutes, seconds, centiseconds } = recordToTimeParts(record);
 
   return (
     centiseconds +
@@ -31,14 +31,14 @@ const prToCentiseconds = (pr) => {
   );
 };
 
-const centisecondsToPr = (centiseconds) => {
+const centisecondsToRecord = (centiseconds) => {
   let seconds = Math.floor(centiseconds / 100);
   const remainingCentiseconds = centiseconds - seconds * 100;
 
   const minutes = Math.floor(seconds / 60);
   seconds = seconds - minutes * 60;
 
-  return timePartsToPr({
+  return timePartsToRecord({
     minutes,
     seconds,
     centiseconds: remainingCentiseconds,
@@ -46,8 +46,8 @@ const centisecondsToPr = (centiseconds) => {
 };
 
 module.exports = {
-  prToTimeParts,
-  timePartsToPr,
-  prToCentiseconds,
-  centisecondsToPr,
+  recordToTimeParts,
+  timePartsToRecord,
+  recordToCentiseconds,
+  centisecondsToRecord,
 };

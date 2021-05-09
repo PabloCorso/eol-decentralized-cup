@@ -188,16 +188,45 @@ const runExample = async () => {
       return levelsRankDouble.printSummary(rankedTimes);
     },
   });
-  // runSummary({
-  //   data: dataFiles,
-  //   resultFileName: "summary_comparison.md",
-  //   title: "Rank prs vs all",
-  //   getDataFileSummary: (dataFile) => {
-  //     const times = await readFile(FileNames.allTimes(dataFile.fileName));
-  //     const rankedTimes = levelsRankDouble(times);
-  //     return levelsRankDouble.printSummary(rankedTimes)
-  //   }
-  // });
+  runSummary({
+    data: dataFiles,
+    resultFileName: "summary_comparison.md",
+    title: "Rank prs vs all",
+    getDataFileSummary: async (dataFile) => {
+      const ranks = [
+        { name: "prs", fileName: FileNames.bestTimes(dataFile.fileName) },
+        { name: "all", fileName: FileNames.allTimes(dataFile.fileName) },
+      ];
+
+      const levelsByName = {};
+      const levelNames = [];
+      const normalizeRankedLevels = (rankName) => (level) => {
+        levelsByName[level.name] = {
+          ...levelsByName[level.name],
+          name: level.name,
+          [rankName]: { ...level },
+        };
+        if (!levelNames.includes(level.name)) {
+          levelNames.push(level.name);
+        }
+      };
+
+      for (const rank of ranks) {
+        const times = await readFile(rank.fileName);
+        const rankedTimes = levelsRankDouble(JSON.parse(times));
+        rankedTimes.forEach(normalizeRankedLevels(rank.name));
+      }
+
+      const levels = levelNames.map((name) => levelsByName[name]);
+
+      const ranksData = {
+        name: dataFile.name,
+        levels,
+      };
+
+      return levelsRankDouble.printSummaryComparison(ranksData, ranks);
+    },
+  });
 };
 
 runExample();

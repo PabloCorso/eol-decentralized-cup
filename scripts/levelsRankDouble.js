@@ -1,5 +1,5 @@
 const { Link, DataTable } = require("./utils/elements");
-const { centisecondsToPr } = require("./utils/pr");
+const { centisecondsToRecord } = require("./utils/record");
 
 const printSummary = (levels) => {
   const descendingOrderByRank = (a, b) => b.rank - a.rank;
@@ -32,15 +32,53 @@ const printSummary = (levels) => {
     rows.push({
       top,
       level: Link({ children: level.name, href: level.url }),
-      wr: centisecondsToPr(bestTime),
+      wr: centisecondsToRecord(bestTime),
       times: timesCount,
       unique: uniqueTimes,
       shadow: shadowTimes,
       above2x: timesTwiceBest,
       removed: timesTwiceBest + shadowTimes,
-      rank: centisecondsToPr(level.rank),
-      total: centisecondsToPr(level.timesTotal),
+      rank: centisecondsToRecord(level.rank),
+      total: centisecondsToRecord(level.timesTotal),
     });
+  }
+
+  return DataTable({ columns, rows });
+};
+
+const printSummaryComparison = (ranksData, ranks) => {
+  const columns = [];
+  for (const rank of ranks) {
+    const rankColumns = [
+      { field: `${rank.name}_top`, header: `Top (${rank.name})` },
+      { field: `${rank.name}_level`, header: `Level (${rank.name})` },
+      { field: `${rank.name}_rank`, header: `Rank (${rank.name})` },
+    ];
+    columns.push(...rankColumns);
+  }
+
+  const orderedLevelsByRank = [];
+  for (const rank of ranks) {
+    const descendingOrderByRank = (a, b) =>
+      b[rank.name].rank - a[rank.name].rank;
+    orderedLevelsByRank[rank.name] = ranksData.levels.sort(
+      descendingOrderByRank
+    );
+  }
+
+  const rows = [];
+  for (const level of ranksData.levels) {
+    const row = {};
+    for (const rank of ranks) {
+      const top = orderedLevelsByRank[rank.name].findIndex(
+        (lev) => lev.name === level.name
+      );
+      row[`${rank.name}_top`] = top + 1;
+      row[`${rank.name}_level`] = level.name;
+      row[`${rank.name}_rank`] = centisecondsToRecord(level[rank.name].rank);
+    }
+
+    rows.push(row);
   }
 
   return DataTable({ columns, rows });
@@ -96,3 +134,4 @@ const levelsRankDouble = (levelsData) => {
 
 module.exports = levelsRankDouble;
 module.exports.printSummary = printSummary;
+module.exports.printSummaryComparison = printSummaryComparison;

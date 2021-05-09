@@ -15,6 +15,5 @@ const levelsData = [
 ];
 
 printResult("Rank average", levelsRankAverage(levelsData));
-console.log();
 printResult("Rank double", levelsRankDouble(levelsData));
 // console.log(html.prettyPrint(htmlResult, { indent_size: 2 }));
