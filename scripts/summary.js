@@ -70,6 +70,12 @@ const dataFiles = [
     type: DataType.Levels,
     levelIds: levelsFileIds,
   },
+  {
+    name: "Internals",
+    fileName: "internals",
+    type: DataType.Pack,
+    packId: "Int",
+  },
   { name: "32Cup", fileName: "32Cup", type: DataType.Cup, cupId: 8 },
   { name: "WCup8", fileName: "wcup8", type: DataType.Cup, cupId: 17 },
   { name: "WCup7", fileName: "wcup7", type: DataType.Cup, cupId: 10 },
