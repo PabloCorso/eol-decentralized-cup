@@ -38,14 +38,14 @@ The cup is inspired in decentralized systems in which something is accomplished 
 If there are 100 levels uploaded, no one will be able to hoyla every level.
 
 Possible solutions:
-#### Only top X most finished levels count in the result.
+#### 1. Only top X most finished levels count in the result.
 Rank levels in a descending order by counting the number of kuskis that finished it. This rank should be updated regularly and it should be visible to everyone. Once the cup ends, the ranking freezes and the results are calculated for the top X levels.
 
 A problem with this approach is that it will favor trivial, easy and short levels over complex levels that are harder or longer to finish. This doesn't seem to be straightforward to avoid without manually censoring unwanted types of levels.  
 
 To fix this we could require a minimum number of PRs for the level to start ranking in the list. For example, new levels must obtain 10 finishes by different kuskis to be added to the ranking.
 
-#### Only top X levels count in the result, using PRs ranking.
+#### 2. Only top X levels count in the result, using PRs ranking.
 Rank levels in a descending order, with the following calculation per level:
 - Sum all unique PRs on the level, meaning that shadow PRs count only once. This is to avoid favoring trivial levels where usually many players have the same PRs (e.g. Tutor1.lev).
 - Calculate the average PR and remove all PRs that are over this average. This is to avoid favoring long spam PRs (e.g. someone has a PR of 60 minutes in a 3 seconds level).
@@ -60,7 +60,7 @@ In this example, the `Lvl 3` is the top ranked level even though it only has 1 f
 
 This approach favors longer levels over short ones. The problem is that ff someone were to submit a really long level (like a 60 min level) right before the cup ends, and be the only one to finish it, that kuski will secure a 1st position without competitors in that event.
 
-#### PRs ranking, using best times double fix with PRs.
+#### 3. PRs ranking, using best times double fix with PRs.
 
 Rank levels in a descending order, with the following calculation per level:
 - Sum all unique PRs on the level but substract all PRs that are above 2 times the best time. For example, if the best time is 10 seconds, times above 20 seconds are ignored in the calculation.
@@ -76,7 +76,7 @@ Examples:
 - [Count all PRs](/scripts/summaries/summary_prs.md)
 - [Count unique PRs](/scripts/summaries/summary_unique_prs.md)
 
-#### PRs ranking, using best time double with all times.
+#### 4. PRs ranking, using best time double fix with all times instead of PRs.
 
 The previous approach might be favoring the very long levels too much over normal and short levels, plus there might be another issue. Counting only the best times (PRs) for a level ends penalizing in some way the energy put into it by its players. By playing more, they make lower PRs and the level's ranking also decreases. When instead, the ranking should favor levels that people like playing more.
 
@@ -87,6 +87,8 @@ Examples:
 - [Count unique all times](/scripts/summaries/summary_unique_all.md)
 
 The new potential problem is that the number of kuskis that finishes is not directly taken into account anymore in the equation. Previously we had only PRs, 1 kuski 1 time. Now there could be only 1 kuski playing the level, and make hundreds of times. Although multiple kuskis playing level A could easily outpace the number of finishes against a single kuski playing another level B.
+
+There is still another potential issue (spotted by Lousku), being that this ranking incentivises players to finish their rides even if the rides are not really good, just to make another record for the level. 
 
 Comparison of number of finishes and ranking per average time in level:
 <table>
