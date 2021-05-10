@@ -76,6 +76,7 @@ This gets closer to fix the problem of favoring too much the longest levels over
 Examples: 
 - [Count all PRs](/scripts/summaries/summary_prs.md)
 - [Count unique PRs](/scripts/summaries/summary_unique_prs.md)
+- [Compare both](/scripts/summaries/summary_comparison_prs.md)
 
 #### 4. Levels ranking with all times, ignoring times above 2x best time.
 
@@ -86,6 +87,7 @@ Instead of counting only the PRs made, we can count all times made. The more the
 Examples:
 - [Count all times](/scripts/summaries/summary_all.md)
 - [Count unique all times](/scripts/summaries/summary_unique_all.md)
+- [Compare both](/scripts/summaries/summary_comparison_all.md)
 
 The new potential problem is that the number of kuskis that finishes is not directly taken into account anymore in the equation. Previously we had only PRs, 1 kuski 1 time. Now there could be only 1 kuski playing the level, making hundreds of times. Although multiple kuskis playing level A could easily outpace the number of finishes against a single kuski playing another level B.
 
@@ -113,7 +115,7 @@ Comparison of number of finishes and ranking per average time in level:
 
 10.000 finishes in a 10 seconds level ranks approx. the same as 28 finishes in an 1 hour level.
 
-[Comparison exmaples of the last 3 approaches](/scripts/summaries/summary_comparison.md), counting PRs only or counting all times finished (plus counting shadow times or not).
+[Comparison exmaples of PRs vs all times](/scripts/summaries/summary_comparison.md), counting PRs only or counting all times finished (plus counting shadow times or not).
 
 
 ## Spam levels
