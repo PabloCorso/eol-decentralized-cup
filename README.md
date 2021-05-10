@@ -12,6 +12,7 @@ The cup is inspired in decentralized systems in which something is accomplished 
     1. Submitted levels are first validated. Basic valid criteria:
         1. Levels must be new and valid to EOL.
         2. The level must be finishable, but cannot be finishable in 0 seconds.
+        3. And levels cannot be a remixed version of another level in the cup.
     2. Once a level is validated it is added as a new ongoing event.
         1. Events can be added at any moment and all have the same deadline as the cup.
         2. Level designers can (and probably should) play their own levels.
