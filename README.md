@@ -72,7 +72,9 @@ Examples:
 
 Here the trivial short level gets the lowest rank again. But the longest level is not in the first position anymore like in the previous example. Only 1 finish was not enough to win over a half long level with more finishes. This gets closer to fix the problem of favoring too much the longest levels over short ones, but might not solve it.
 
-[Check a more exhaustive example here.](/scripts/results/doubleExhaustive.md)
+Examples: 
+- [Count all PRs](/scripts/summaries/summary_prs.md)
+- [Count unique PRs](/scripts/summaries/summary_unique_prs.md)
 
 #### PRs ranking, using best time double with all times.
 
@@ -80,7 +82,9 @@ The previous approach might be favoring the very long levels too much over norma
 
 Instead of counting only the PRs made, we can count all times made. The more the players play, the more times the level has and the better it ranks. Even though their times might get better over time, they keep summing to the rank of the level. Investing more time into the level means having more chances to have it reach the top X.
 
-[Check an example here.](/scripts/results/doubleExhaustive.md)
+Examples:
+- [Count all times](/scripts/summaries/summary_all.md)
+- [Count unique all times](/scripts/summaries/summary_unique_all.md)
 
 The new potential problem is that the number of kuskis that finishes is not directly taken into account anymore in the equation. Previously we had only PRs, 1 kuski 1 time. Now there could be only 1 kuski playing the level, and make hundreds of times. Although multiple kuskis playing level A could easily outpace the number of finishes against a single kuski playing another level B.
 
