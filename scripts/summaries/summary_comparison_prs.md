@@ -1,5 +1,7 @@
 <!-- Rank comparison PRs vs unique PRs -->
   
+# Rank comparison PRs vs unique PRs
+  
 ## Random levels
 <table>
   <thead>

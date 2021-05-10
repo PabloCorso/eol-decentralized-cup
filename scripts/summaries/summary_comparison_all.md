@@ -1,5 +1,7 @@
 <!-- Rank comparison all times vs all unique times -->
   
+# Rank comparison all times vs all unique times
+  
 ## Random levels
 <table>
   <thead>

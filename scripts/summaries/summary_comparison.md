@@ -1,5 +1,7 @@
 <!-- Rank comparison PRs vs all times -->
   
+# Rank comparison PRs vs all times
+  
 ## Random levels
 <table>
   <thead>

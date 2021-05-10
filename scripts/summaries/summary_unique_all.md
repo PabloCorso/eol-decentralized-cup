@@ -1,5 +1,7 @@
 <!-- Rank all times -->
   
+# Rank all times
+  
 ## Random levels
 <table>
   <thead>

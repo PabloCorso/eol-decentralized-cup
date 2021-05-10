@@ -10,7 +10,9 @@ const runSummary = async ({
   resultFileName,
   getDataFileSummary,
 }) => {
-  let content = "";
+  let content = `# ${title}
+  
+`;
   for (const dataFile of data) {
     const summary = await getDataFileSummary(dataFile);
     content += `## ${dataFile.name}
