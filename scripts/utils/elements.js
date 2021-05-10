@@ -23,6 +23,9 @@ const Underline = (children) => `<u>${children}</u>`;
 
 const Mark = (children) => `<mark>${children}</mark>`;
 
+const Span = ({ children, title } = { children, title: "" }) =>
+  `<span title="${title}">${children}</span>`;
+
 const DataTable = ({ columns, rows }) => {
   let bodyRows = "";
   for (let i = 0; i < rows.length; i++) {
@@ -56,5 +59,6 @@ module.exports = {
   Italic,
   Underline,
   Mark,
+  Span,
   DataTable,
 };

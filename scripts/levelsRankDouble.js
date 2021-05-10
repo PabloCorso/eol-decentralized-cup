@@ -1,7 +1,13 @@
-const { Link, Mark, DataTable } = require("./utils/elements");
+const { Link, Mark, Span, DataTable } = require("./utils/elements");
 const { centisecondsToRecord } = require("./utils/record");
 
 const getTopText = (top) => (top <= 5 ? Mark(`${top}*`) : top);
+
+const getCountWithPercentage = (count, totalCount) => {
+  const percentage = (count / totalCount) * 100;
+  const fixedPercentage = percentage.toFixed(0);
+  return `${count} (${fixedPercentage}%)`;
+};
 
 const printSummary = (levels) => {
   const descendingOrderByRank = (a, b) => b.rank - a.rank;
@@ -20,20 +26,35 @@ const printSummary = (levels) => {
     { field: "total", header: "Total sum" },
   ];
 
+  let totalTimesCount = 0;
+  let totalUniqueTimesCount = 0;
+  for (const level of rankedLevels) {
+    totalTimesCount += level.timesCount;
+    totalUniqueTimesCount += level.uniqueTimes.length;
+  }
+
   const rows = [];
   for (let i = 0; i < rankedLevels.length; i++) {
     const level = rankedLevels[i];
 
     const top = i + 1;
     const bestTime = level.times[0];
-    const uniqueTimes = level.uniqueTimes.length;
+
+    const timesCount = getCountWithPercentage(
+      level.timesCount,
+      totalTimesCount
+    );
+    const uniqueTimesCount = getCountWithPercentage(
+      level.uniqueTimes.length,
+      totalUniqueTimesCount
+    );
 
     rows.push({
       top: getTopText(top),
       level: Link({ children: level.name, href: level.url }),
       wr: centisecondsToRecord(bestTime),
-      times: level.timesCount,
-      unique: uniqueTimes,
+      times: timesCount,
+      unique: uniqueTimesCount,
       shadow: level.shadowTimesCount,
       above2x: level.timesTwiceBestCount,
       removed: level.removedTimesCount,
