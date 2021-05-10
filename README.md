@@ -42,13 +42,11 @@ Possible solutions:
 #### 1. Only top X most finished levels count in the result.
 Rank levels in a descending order by counting the number of kuskis that finished it. This rank should be updated regularly and it should be visible to everyone. Once the cup ends, the ranking freezes and the results are calculated for the top X levels.
 
-A problem with this approach is that it will favor trivial, easy and short levels over complex levels that are harder or longer to finish. This doesn't seem to be straightforward to avoid without manually censoring unwanted types of levels.  
-
-To fix this we could require a minimum number of PRs for the level to start ranking in the list. For example, new levels must obtain 10 finishes by different kuskis to be added to the ranking.
+A problem with this approach is that it will favor trivial, easy and short levels over complex levels that are harder or longer to finish. Short easy levels will cerntanly get more finishers than hard or long levels. This doesn't seem to be straightforward to avoid without manually censoring unwanted types of levels. 
 
 #### 2. Only top X levels count in the result, using PRs ranking.
 Rank levels in a descending order, with the following calculation per level:
-- Sum all unique PRs on the level, meaning that shadow PRs count only once. This is to avoid favoring trivial levels where usually many players have the same PRs (e.g. Tutor1.lev).
+- Sum all unique PRs on the level, meaning that shadow PRs don't count. This is to avoid favoring trivial levels where usually many players have the same PRs (e.g. Tutor1.lev).
 - Calculate the average PR and remove all PRs that are over this average. This is to avoid favoring long spam PRs (e.g. someone has a PR of 60 minutes in a 3 seconds level).
 - Calculate the level total rank by summing all the remaining PRs.
 
@@ -59,25 +57,27 @@ Example:
 
 In this example, the `Lvl 3` is the top ranked level even though it only has 1 finish (1 PR). The `Lvl 1` is last in 3rd position, even though it is the level with most PRs including the longest PR by far. This is because the shadow PRs are not counted in the calculations, plus the long spam PR is finally ignored since it's above the average.
 
-This approach favors longer levels over short ones. The problem is that ff someone were to submit a really long level (like a 60 min level) right before the cup ends, and be the only one to finish it, that kuski will secure a 1st position without competitors in that event.
+This approach favors longer levels over short ones. The problem is that if someone were to submit a really long level (like a 60 min level) right before the cup ends, and be the only one to finish it, that kuski will secure a 1st position without competitors in that event.
 
-#### 3. PRs ranking, using best times double fix with PRs.
+#### 3. Levels ranking with PRs, ignoring times above 2x best time.
 
 Rank levels in a descending order, with the following calculation per level:
-- Sum all unique PRs on the level but substract all PRs that are above 2 times the best time. For example, if the best time is 10 seconds, times above 20 seconds are ignored in the calculation.
+- Sum all unique PRs on the level but substract all PRs that are above 2 times the best time. For example, if the best time is 10 seconds, times above 20 seconds are ignored in the calculation. This is again, to ignore long spam finishes.
 - Rank by descending order and take only the top X levels for the result.
 
 Examples:
 
 <table><thead><tr><th>Level</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>Total</th><th>Rank</th><th>Top</th></tr></thead><tbody><tr><td>Lvl 1</td><td>3:50</td><td>3:60</td><td>3:90</td><td>3:90</td><td>3:90</td><td><strike>60:59:59</strike></td><td>61:10:59</td><td>11:00</td><td>3</td></tr><tr><td>Lvl 2</td><td>10:00</td><td>10:50</td><td>11:00</td><td></td><td></td><td></td><td>31:50</td><td>31:50</td><td>1</td></tr><tr><td>Lvl 3</td><td>21:00</td><td></td><td></td><td></td><td></td><td></td><td>21:00</td><td>21:00</td><td>2</td></tr></tbody></table>
 
-Here the trivial short level gets the lowest rank again. But the longest level is not in the first position anymore like in the previous example. Only 1 finish was not enough to win over a half long level with more finishes. This gets closer to fix the problem of favoring too much the longest levels over short ones, but might not solve it.
+Here the trivial short level gets the lowest rank again. But the longest level is not in the first position anymore like in the previous example. Only 1 finish was not enough to win over a half long level with more finishes. 
+
+This gets closer to fix the problem of favoring too much the longest levels over short ones, but might not solve it entirely. At the end of the cup, short and long levels might get rougly the same amount of finishers, and longer levels will certanly have an advantage on the ranking.
 
 Examples: 
 - [Count all PRs](/scripts/summaries/summary_prs.md)
 - [Count unique PRs](/scripts/summaries/summary_unique_prs.md)
 
-#### 4. PRs ranking, using best time double fix with all times instead of PRs.
+#### 4. Levels ranking with all times, ignoring times above 2x best time.
 
 The previous approach might be favoring the very long levels too much over normal and short levels, plus there might be another issue. Counting only the best times (PRs) for a level ends penalizing in some way the energy put into it by its players. By playing more, they make lower PRs and the level's ranking also decreases. When instead, the ranking should favor levels that people like playing more.
 
@@ -87,9 +87,9 @@ Examples:
 - [Count all times](/scripts/summaries/summary_all.md)
 - [Count unique all times](/scripts/summaries/summary_unique_all.md)
 
-The new potential problem is that the number of kuskis that finishes is not directly taken into account anymore in the equation. Previously we had only PRs, 1 kuski 1 time. Now there could be only 1 kuski playing the level, and make hundreds of times. Although multiple kuskis playing level A could easily outpace the number of finishes against a single kuski playing another level B.
+The new potential problem is that the number of kuskis that finishes is not directly taken into account anymore in the equation. Previously we had only PRs, 1 kuski 1 time. Now there could be only 1 kuski playing the level, making hundreds of times. Although multiple kuskis playing level A could easily outpace the number of finishes against a single kuski playing another level B.
 
-There is still another potential issue (spotted by Lousku), being that this ranking incentivises players to finish their rides even if the rides are not really good, just to make another record for the level. 
+There is still another potential issue (spotted by Lousku), being that this ranking incentivises players to finish their rides even if the rides are not really good from the start, just to make another record for the level. 
 
 Comparison of number of finishes and ranking per average time in level:
 <table>
