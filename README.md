@@ -119,19 +119,19 @@ Someone can spam 100 levels in one day.
 
 Possible solutions:
 #### Limit the amount of levels a player can upload to the cup.
-#### Limit the number of levels a player can upload per week.
+#### Limit the number of levels a player can upload per day or week.
 #### Upload fee.
-Players start with 50 points, uploading a level to the cup costs 25 points.
+Players start with X points (let's say 50), and uploading a level to the cup costs 25 points.
 If your level ends up in the top X, you get 50 points for it (double the investment). 
 A rule like this could incentivise players to submit levels, but also to think twice before submitting.
 
 ## Levels manual validation
 
-How to quickly validate that levels are not old levels, or that submitter is actually the designer of the level? Should there be a penalty if that's confirmed? Should the event be cancelled, removed, filtered out of the ranking?
+How to quickly validate that levels are not old levels, or that the submitter is actually the designer of the level? Should there be a penalty if this rule is broken by someone? Should the event be cancelled, removed, filtered out of the ranking?
 
 ## Remixed levels
 
-Should the cup allowed remixed levels? This could allow players to do small edits to an ongoing level and re-upload it as a remix.
+Should the cup allowed remixed levels? This could allow players to do small edits to an ongoing level and re-upload it as a remix, so the answer is probably not.
 
 ## Technical or necessary limitations
 
@@ -139,11 +139,10 @@ Currently the cup would need some considerate manual orchestration. This managem
 
 The cup must be managed by the admins in elma.online and/or somewhere else. The duration must be set from the beginning.
 
-The levels ranking should be visible to everyone all the time and updated regularly by the admins.
+The levels ranking should be visible to everyone all the time and updated regularly by the admins, shared at elma.online, a dedicated website and/or Discord?
 
 As in a normal cup:
 - Only freshly new levels are accepted, this must be validated manually.
-- Accepted levels must be manually renamed in sequential order by an admin and uploaded to the cup.
-- Levels must be hidden at EOL.
-- Only PRs finished online are counted into the result.
-- Optionally the cup could require uploading PR replays. This could be annoying to the players depending on how things play out.
+- Accepted levels must be manually renamed in sequential order by an admin and uploaded to the cup as a new event with the same deadline as the cup's deadline.
+- Levels and times must be hidden at EOL.
+- Optionally the cup could require uploading replays. This could be annoying to the players depending on how things play out.
