@@ -176,8 +176,8 @@ const printSummaryCompatibleComparison = (ranksData, ranks) => {
     const row = {
       level: levelNameLink,
       wr: bestTime,
-      times: level.timesCount,
-      times_percentage: percentage(level.timesCount, totalTimesCount),
+      times: levelInfo.timesCount,
+      times_percentage: percentage(levelInfo.timesCount, totalTimesCount),
       unique: uniqueTimesCount,
       unique_percentage: percentage(uniqueTimesCount, totalUniqueTimesCount),
     };
