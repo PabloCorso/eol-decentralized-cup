@@ -113,6 +113,9 @@ Comparison of number of finishes and ranking per average time in level:
 
 10.000 finishes in a 10 seconds level ranks approx. the same as 28 finishes in an 1 hour level.
 
+[Comparison exmaples of the last 3 approaches](/scripts/summaries/summary_comparison.md), counting PRs only or counting all times finished (plus counting shadow times or not).
+
+
 ## Spam levels
 
 Someone can spam 100 levels in one day. 
