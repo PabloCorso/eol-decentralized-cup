@@ -46,16 +46,29 @@ const printSummary = (levels) => {
 };
 
 const printSummaryComparison = (ranksData, ranks) => {
-  const columns = [
-    { field: "level", header: "Level" },
-    { field: "wr", header: "Best time" },
+  const shouldAddLevelInfoColumns = (index) => index % 2 === 0;
+  const getLevelInfoColumns = (index) => [
+    {
+      field: `level_${index}`,
+      header: "Level",
+    },
+    {
+      field: `wr_${index}`,
+      header: "Best time",
+    },
   ];
-  for (const rank of ranks) {
-    const rankColumns = [
+
+  const columns = [];
+  for (let i = 0; i < ranks.length; i++) {
+    const rank = ranks[i];
+    if (shouldAddLevelInfoColumns(i)) {
+      columns.push(...getLevelInfoColumns(i));
+    }
+
+    columns.push(
       { field: `${rank.name}_top`, header: `Top (${rank.name})` },
-      { field: `${rank.name}_rank`, header: `Rank (${rank.name})` },
-    ];
-    columns.push(...rankColumns);
+      { field: `${rank.name}_rank`, header: `Rank (${rank.name})` }
+    );
   }
 
   const orderedLevelsByRank = {};
@@ -70,17 +83,24 @@ const printSummaryComparison = (ranksData, ranks) => {
 
   const rows = [];
   for (const level of ranksData.levels) {
+    const bestTime = centisecondsToRecord(level.prs.uniqueTimes[0]);
     const row = {
       level: level.name,
-      wr: centisecondsToRecord(level.prs.uniqueTimes[0]),
+      wr: bestTime,
     };
-    for (const rank of ranks) {
+    for (let i = 0; i < ranks.length; i++) {
+      const rank = ranks[i];
       const top =
         orderedLevelsByRank[rank.name].findIndex(
           (lev) => lev.name === level.name
         ) + 1;
       row[`${rank.name}_top`] = getTopText(top);
       row[`${rank.name}_rank`] = centisecondsToRecord(level[rank.name].rank);
+      if (shouldAddLevelInfoColumns(i)) {
+        const levelInfoColumns = getLevelInfoColumns(i);
+        row[levelInfoColumns[0].field] = level.name;
+        row[levelInfoColumns[1].field] = bestTime;
+      }
     }
 
     rows.push(row);
