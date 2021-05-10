@@ -84,23 +84,25 @@ const printSummaryComparison = (ranksData, ranks) => {
   const rows = [];
   for (const level of ranksData.levels) {
     const bestTime = centisecondsToRecord(level.prs.uniqueTimes[0]);
-    const row = {
-      level: level.name,
-      wr: bestTime,
-    };
+
+    const row = {};
     for (let i = 0; i < ranks.length; i++) {
       const rank = ranks[i];
+      if (shouldAddLevelInfoColumns(i)) {
+        const levelInfoColumns = getLevelInfoColumns(i);
+        row[levelInfoColumns[0].field] = Link({
+          children: level.name,
+          href: level[rank.name].url,
+        });
+        row[levelInfoColumns[1].field] = bestTime;
+      }
+
       const top =
         orderedLevelsByRank[rank.name].findIndex(
           (lev) => lev.name === level.name
         ) + 1;
       row[`${rank.name}_top`] = getTopText(top);
       row[`${rank.name}_rank`] = centisecondsToRecord(level[rank.name].rank);
-      if (shouldAddLevelInfoColumns(i)) {
-        const levelInfoColumns = getLevelInfoColumns(i);
-        row[levelInfoColumns[0].field] = level.name;
-        row[levelInfoColumns[1].field] = bestTime;
-      }
     }
 
     rows.push(row);
