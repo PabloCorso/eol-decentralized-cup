@@ -9,12 +9,6 @@ const percentage = (count, total) => {
   return `(${fixedPercentage}%)`;
 };
 
-const getCountWithPercentage = (count, totalCount) => {
-  const percentage = (count / totalCount) * 100;
-  const fixedPercentage = percentage.toFixed(0);
-  return `${count} (${fixedPercentage}%)`;
-};
-
 const printSummary = (levels) => {
   const descendingOrderByRank = (a, b) => b.rank - a.rank;
   const rankedLevels = [...levels].sort(descendingOrderByRank);
@@ -134,6 +128,75 @@ const printSummaryComparison = (ranksData, ranks) => {
   return DataTable({ columns, rows });
 };
 
+const printSummaryCompatibleComparison = (ranksData, ranks) => {
+  const columns = [
+    { field: `level`, header: "Level" },
+    { field: `wr`, header: "Best time" },
+    { field: "times", header: "Times count" },
+    { field: "times_percentage", header: "" },
+    { field: "unique", header: "Unique times" },
+    { field: "unique_percentage", header: "" },
+  ];
+  for (let i = 0; i < ranks.length; i++) {
+    const rank = ranks[i];
+    columns.push(
+      { field: `${rank.name}_top`, header: `Top (${rank.name})` },
+      { field: `${rank.name}_rank`, header: `Rank (${rank.name})` }
+    );
+  }
+
+  const orderedLevelsByRank = {};
+  for (const rank of ranks) {
+    const levelsToSort = ranksData.levels.map((level) => ({
+      name: level.name,
+      rank: level[rank.name].rank,
+    }));
+    const descendingOrderByRank = (a, b) => b.rank - a.rank;
+    orderedLevelsByRank[rank.name] = levelsToSort.sort(descendingOrderByRank);
+  }
+
+  let totalTimesCount = 0;
+  let totalUniqueTimesCount = 0;
+  for (const level of ranksData.levels) {
+    const levelInfo = level[ranks[0].name];
+    totalTimesCount += levelInfo.timesCount;
+    totalUniqueTimesCount += levelInfo.uniqueTimes.length;
+  }
+
+  const rows = [];
+  for (const level of ranksData.levels) {
+    const levelInfo = level[ranks[0].name];
+    const bestTime = centisecondsToRecord(levelInfo.uniqueTimes[0]);
+    const levelNameLink = Link({
+      children: level.name,
+      href: levelInfo.url,
+    });
+    const uniqueTimesCount = levelInfo.uniqueTimes.length;
+
+    const row = {
+      level: levelNameLink,
+      wr: bestTime,
+      times: level.timesCount,
+      times_percentage: percentage(level.timesCount, totalTimesCount),
+      unique: uniqueTimesCount,
+      unique_percentage: percentage(uniqueTimesCount, totalUniqueTimesCount),
+    };
+    for (let i = 0; i < ranks.length; i++) {
+      const rank = ranks[i];
+      const top =
+        orderedLevelsByRank[rank.name].findIndex(
+          (lev) => lev.name === level.name
+        ) + 1;
+      row[`${rank.name}_top`] = getTopText(top);
+      row[`${rank.name}_rank`] = centisecondsToRecord(level[rank.name].rank);
+    }
+
+    rows.push(row);
+  }
+
+  return DataTable({ columns, rows });
+};
+
 const getTimesTotal = (times) => {
   let total = 0;
   for (const pr of times) {
@@ -204,3 +267,4 @@ const levelsRankDouble = (
 module.exports = levelsRankDouble;
 module.exports.printSummary = printSummary;
 module.exports.printSummaryComparison = printSummaryComparison;
+module.exports.printSummaryCompatibleComparison = printSummaryCompatibleComparison;

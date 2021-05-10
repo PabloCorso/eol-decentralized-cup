@@ -25,6 +25,28 @@ ${prettyPrint(summary)}
   writeFile(`scripts/summaries/${resultFileName}`, result);
 };
 
+const getLevelsWithRanks = async (ranks) => {
+  const levels = [];
+  for (const rank of ranks) {
+    const times = await readFile(rank.fileName);
+    const rankedTimes = levelsRankDouble(JSON.parse(times), rank.options);
+
+    for (const rankedLevel of rankedTimes) {
+      const level = levels.find((level) => level.name === rankedLevel.name);
+      if (!level) {
+        levels.push({
+          name: rankedLevel.name,
+          [rank.name]: { ...rankedLevel },
+        });
+      } else {
+        level[rank.name] = { ...rankedLevel };
+      }
+    }
+  }
+
+  return levels;
+};
+
 const runExample = async () => {
   runSummary({
     data: dataFiles,
@@ -73,7 +95,7 @@ const runExample = async () => {
   runSummary({
     data: dataFiles,
     resultFileName: "summary_comparison.md",
-    title: "Rank prs vs all",
+    title: "Rank comparison PRs vs all times",
     getDataFileSummary: async (dataFile) => {
       const ranks = [
         { name: "prs", fileName: FileNames.bestTimes(dataFile.fileName) },
@@ -94,30 +116,66 @@ const runExample = async () => {
         },
       ];
 
-      const levels = [];
-      for (const rank of ranks) {
-        const times = await readFile(rank.fileName);
-        const rankedTimes = levelsRankDouble(JSON.parse(times), rank.options);
-
-        for (const rankedLevel of rankedTimes) {
-          const level = levels.find((level) => level.name === rankedLevel.name);
-          if (!level) {
-            levels.push({
-              name: rankedLevel.name,
-              [rank.name]: { ...rankedLevel },
-            });
-          } else {
-            level[rank.name] = { ...rankedLevel };
-          }
-        }
-      }
-
       const ranksData = {
         name: dataFile.name,
-        levels,
+        levels: await getLevelsWithRanks(ranks),
       };
 
       return levelsRankDouble.printSummaryComparison(ranksData, ranks);
+    },
+  });
+  runSummary({
+    data: dataFiles,
+    resultFileName: "summary_comparison_all.md",
+    title: "Rank comparison all times vs all unique times",
+    getDataFileSummary: async (dataFile) => {
+      const ranks = [
+        { name: "all", fileName: FileNames.allTimes(dataFile.fileName) },
+        {
+          name: "unique_all",
+          fileName: FileNames.allTimes(dataFile.fileName),
+          options: {
+            useUniqueTimes: true,
+          },
+        },
+      ];
+
+      const ranksData = {
+        name: dataFile.name,
+        levels: await getLevelsWithRanks(ranks),
+      };
+
+      return levelsRankDouble.printSummaryCompatibleComparison(
+        ranksData,
+        ranks
+      );
+    },
+  });
+  runSummary({
+    data: dataFiles,
+    resultFileName: "summary_comparison_prs.md",
+    title: "Rank comparison PRs vs unique PRs",
+    getDataFileSummary: async (dataFile) => {
+      const ranks = [
+        { name: "prs", fileName: FileNames.bestTimes(dataFile.fileName) },
+        {
+          name: "unique_prs",
+          fileName: FileNames.bestTimes(dataFile.fileName),
+          options: {
+            useUniqueTimes: true,
+          },
+        },
+      ];
+
+      const ranksData = {
+        name: dataFile.name,
+        levels: await getLevelsWithRanks(ranks),
+      };
+
+      return levelsRankDouble.printSummaryCompatibleComparison(
+        ranksData,
+        ranks
+      );
     },
   });
 };
