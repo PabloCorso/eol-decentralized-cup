@@ -25,14 +25,17 @@ const printSummary = (levels) => {
     { field: "above2x", header: "Times > 2x best" },
     { field: "removed", header: "Removed times" },
     { field: "rank", header: "Rank" },
+    { field: "rank_percentage", header: "" },
     { field: "total", header: "Total sum" },
   ];
 
   let totalTimesCount = 0;
   let totalUniqueTimesCount = 0;
+  let totalRank = 0;
   for (const level of rankedLevels) {
     totalTimesCount += level.timesCount;
     totalUniqueTimesCount += level.uniqueTimes.length;
+    totalRank += level.rank;
   }
 
   const rows = [];
@@ -55,6 +58,7 @@ const printSummary = (levels) => {
       above2x: level.timesTwiceBestCount,
       removed: level.removedTimesCount,
       rank: centisecondsToRecord(level.rank),
+      rank_percentage: percentage(level.rank, totalRank),
       total: centisecondsToRecord(level.timesTotal),
     });
   }
