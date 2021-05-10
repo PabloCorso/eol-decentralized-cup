@@ -7,7 +7,9 @@
     <th>Level</th>
     <th>Best time</th>
     <th>Times count</th>
+    <th></th>
     <th>Unique times</th>
+    <th></th>
     <th>Shadow times</th>
     <th>Times > 2x best</th>
     <th>Removed times</th>
@@ -22,8 +24,10 @@
       <td><a href="https://elma.online/levels/156" target="_blank">QWQUU035</a>
       </td>
       <td>2:09:73</td>
-      <td>353 (5%)</td>
-      <td>351 (8%)</td>
+      <td>353</td>
+      <td>(5%)</td>
+      <td>351</td>
+      <td>(8%)</td>
       <td>2</td>
       <td>119</td>
       <td>121</td>
@@ -37,8 +41,10 @@
       <td><a href="https://elma.online/levels/690" target="_blank">Smibu80</a>
       </td>
       <td>42:11:11</td>
-      <td>14 (0%)</td>
-      <td>14 (0%)</td>
+      <td>14</td>
+      <td>(0%)</td>
+      <td>14</td>
+      <td>(0%)</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -52,8 +58,10 @@
       <td><a href="https://elma.online/levels/4" target="_blank">QWQUU002</a>
       </td>
       <td>14:64</td>
-      <td>1611 (25%)</td>
-      <td>974 (22%)</td>
+      <td>1611</td>
+      <td>(25%)</td>
+      <td>974</td>
+      <td>(22%)</td>
       <td>637</td>
       <td>747</td>
       <td>1384</td>
@@ -67,8 +75,10 @@
       <td><a href="https://elma.online/levels/2" target="_blank">QWQUU001</a>
       </td>
       <td>13:79</td>
-      <td>1766 (27%)</td>
-      <td>878 (20%)</td>
+      <td>1766</td>
+      <td>(27%)</td>
+      <td>878</td>
+      <td>(20%)</td>
       <td>888</td>
       <td>1054</td>
       <td>1942</td>
@@ -82,8 +92,10 @@
       <td><a href="https://elma.online/levels/116878" target="_blank">EOL01</a>
       </td>
       <td>15:56</td>
-      <td>725 (11%)</td>
-      <td>551 (12%)</td>
+      <td>725</td>
+      <td>(11%)</td>
+      <td>551</td>
+      <td>(12%)</td>
       <td>174</td>
       <td>239</td>
       <td>413</td>
@@ -95,8 +107,10 @@
       <td><a href="https://elma.online/levels/116882" target="_blank">EOL05</a>
       </td>
       <td>26:90</td>
-      <td>329 (5%)</td>
-      <td>305 (7%)</td>
+      <td>329</td>
+      <td>(5%)</td>
+      <td>305</td>
+      <td>(7%)</td>
       <td>24</td>
       <td>79</td>
       <td>103</td>
@@ -108,8 +122,10 @@
       <td><a href="https://elma.online/levels/472912" target="_blank">WCup804</a>
       </td>
       <td>1:02:26</td>
-      <td>112 (2%)</td>
-      <td>108 (2%)</td>
+      <td>112</td>
+      <td>(2%)</td>
+      <td>108</td>
+      <td>(2%)</td>
       <td>4</td>
       <td>7</td>
       <td>11</td>
@@ -121,8 +137,10 @@
       <td><a href="https://elma.online/levels/371726" target="_blank">WCup702</a>
       </td>
       <td>43:58</td>
-      <td>137 (2%)</td>
-      <td>130 (3%)</td>
+      <td>137</td>
+      <td>(2%)</td>
+      <td>130</td>
+      <td>(3%)</td>
       <td>7</td>
       <td>9</td>
       <td>16</td>
@@ -134,8 +152,10 @@
       <td><a href="https://elma.online/levels/116898" target="_blank">EOL21</a>
       </td>
       <td>30:99</td>
-      <td>191 (3%)</td>
-      <td>177 (4%)</td>
+      <td>191</td>
+      <td>(3%)</td>
+      <td>177</td>
+      <td>(4%)</td>
       <td>14</td>
       <td>15</td>
       <td>29</td>
@@ -147,8 +167,10 @@
       <td><a href="https://elma.online/levels/359892" target="_blank">Pob1000</a>
       </td>
       <td>5:58:62</td>
-      <td>14 (0%)</td>
-      <td>14 (0%)</td>
+      <td>14</td>
+      <td>(0%)</td>
+      <td>14</td>
+      <td>(0%)</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -160,8 +182,10 @@
       <td><a href="https://elma.online/levels/73243" target="_blank">PobFF001</a>
       </td>
       <td>5:15:57</td>
-      <td>13 (0%)</td>
-      <td>13 (0%)</td>
+      <td>13</td>
+      <td>(0%)</td>
+      <td>13</td>
+      <td>(0%)</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -173,8 +197,10 @@
       <td><a href="https://elma.online/levels/471405" target="_blank">WCup802</a>
       </td>
       <td>29:20</td>
-      <td>132 (2%)</td>
-      <td>116 (3%)</td>
+      <td>132</td>
+      <td>(2%)</td>
+      <td>116</td>
+      <td>(3%)</td>
       <td>16</td>
       <td>23</td>
       <td>39</td>
@@ -186,8 +212,10 @@
       <td><a href="https://elma.online/levels/371127" target="_blank">WCup701</a>
       </td>
       <td>21:77</td>
-      <td>153 (2%)</td>
-      <td>132 (3%)</td>
+      <td>153</td>
+      <td>(2%)</td>
+      <td>132</td>
+      <td>(3%)</td>
       <td>21</td>
       <td>23</td>
       <td>44</td>
@@ -199,8 +227,10 @@
       <td><a href="https://elma.online/levels/237824" target="_blank">WCup601</a>
       </td>
       <td>13:93</td>
-      <td>257 (4%)</td>
-      <td>204 (5%)</td>
+      <td>257</td>
+      <td>(4%)</td>
+      <td>204</td>
+      <td>(5%)</td>
       <td>53</td>
       <td>56</td>
       <td>109</td>
@@ -212,8 +242,10 @@
       <td><a href="https://elma.online/levels/475307" target="_blank">WCup807</a>
       </td>
       <td>19:53</td>
-      <td>125 (2%)</td>
-      <td>114 (3%)</td>
+      <td>125</td>
+      <td>(2%)</td>
+      <td>114</td>
+      <td>(3%)</td>
       <td>11</td>
       <td>13</td>
       <td>24</td>
@@ -225,8 +257,10 @@
       <td><a href="https://elma.online/levels/1697" target="_blank">Pipo001</a>
       </td>
       <td>27:51</td>
-      <td>68 (1%)</td>
-      <td>66 (1%)</td>
+      <td>68</td>
+      <td>(1%)</td>
+      <td>66</td>
+      <td>(1%)</td>
       <td>2</td>
       <td>2</td>
       <td>4</td>
@@ -238,8 +272,10 @@
       <td><a href="https://elma.online/levels/116880" target="_blank">EOL03</a>
       </td>
       <td>22:40</td>
-      <td>52 (1%)</td>
-      <td>52 (1%)</td>
+      <td>52</td>
+      <td>(1%)</td>
+      <td>52</td>
+      <td>(1%)</td>
       <td>0</td>
       <td>5</td>
       <td>5</td>
@@ -251,8 +287,10 @@
       <td><a href="https://elma.online/levels/2417" target="_blank">Uni001</a>
       </td>
       <td>12:63</td>
-      <td>91 (1%)</td>
-      <td>88 (2%)</td>
+      <td>91</td>
+      <td>(1%)</td>
+      <td>88</td>
+      <td>(2%)</td>
       <td>3</td>
       <td>19</td>
       <td>22</td>
@@ -264,8 +302,10 @@
       <td><a href="https://elma.online/levels/74671" target="_blank">PobFF003</a>
       </td>
       <td>7:00:35</td>
-      <td>2 (0%)</td>
-      <td>2 (0%)</td>
+      <td>2</td>
+      <td>(0%)</td>
+      <td>2</td>
+      <td>(0%)</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -277,8 +317,10 @@
       <td><a href="https://elma.online/levels/331252" target="_blank">TTC101</a>
       </td>
       <td>14:10</td>
-      <td>62 (1%)</td>
-      <td>47 (1%)</td>
+      <td>62</td>
+      <td>(1%)</td>
+      <td>47</td>
+      <td>(1%)</td>
       <td>15</td>
       <td>15</td>
       <td>30</td>
@@ -290,8 +332,10 @@
       <td><a href="https://elma.online/levels/163" target="_blank">Tutor1</a>
       </td>
       <td>03:66</td>
-      <td>277 (4%)</td>
-      <td>87 (2%)</td>
+      <td>277</td>
+      <td>(4%)</td>
+      <td>87</td>
+      <td>(2%)</td>
       <td>190</td>
       <td>194</td>
       <td>384</td>
@@ -303,8 +347,10 @@
       <td><a href="https://elma.online/levels/2599" target="_blank">Rambo101</a>
       </td>
       <td>49:27</td>
-      <td>5 (0%)</td>
-      <td>5 (0%)</td>
+      <td>5</td>
+      <td>(0%)</td>
+      <td>5</td>
+      <td>(0%)</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -316,8 +362,10 @@
       <td><a href="https://elma.online/levels/483457" target="_blank">CPC100</a>
       </td>
       <td>14:49</td>
-      <td>14 (0%)</td>
-      <td>14 (0%)</td>
+      <td>14</td>
+      <td>(0%)</td>
+      <td>14</td>
+      <td>(0%)</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -336,7 +384,9 @@
     <th>Level</th>
     <th>Best time</th>
     <th>Times count</th>
+    <th></th>
     <th>Unique times</th>
+    <th></th>
     <th>Shadow times</th>
     <th>Times > 2x best</th>
     <th>Removed times</th>
@@ -351,8 +401,10 @@
       <td><a href="https://elma.online/levels/51" target="_blank">QWQUU016</a>
       </td>
       <td>1:22:41</td>
-      <td>610 (2%)</td>
-      <td>587 (2%)</td>
+      <td>610</td>
+      <td>(2%)</td>
+      <td>587</td>
+      <td>(2%)</td>
       <td>23</td>
       <td>133</td>
       <td>156</td>
@@ -366,8 +418,10 @@
       <td><a href="https://elma.online/levels/156" target="_blank">QWQUU035</a>
       </td>
       <td>2:09:73</td>
-      <td>353 (1%)</td>
-      <td>351 (1%)</td>
+      <td>353</td>
+      <td>(1%)</td>
+      <td>351</td>
+      <td>(1%)</td>
       <td>2</td>
       <td>119</td>
       <td>121</td>
@@ -381,8 +435,10 @@
       <td><a href="https://elma.online/levels/197" target="_blank">QWQUU020</a>
       </td>
       <td>56:46</td>
-      <td>617 (2%)</td>
-      <td>577 (2%)</td>
+      <td>617</td>
+      <td>(2%)</td>
+      <td>577</td>
+      <td>(2%)</td>
       <td>40</td>
       <td>86</td>
       <td>126</td>
@@ -396,8 +452,10 @@
       <td><a href="https://elma.online/levels/165" target="_blank">QWQUU017</a>
       </td>
       <td>52:36</td>
-      <td>696 (2%)</td>
-      <td>647 (2%)</td>
+      <td>696</td>
+      <td>(2%)</td>
+      <td>647</td>
+      <td>(2%)</td>
       <td>49</td>
       <td>128</td>
       <td>177</td>
@@ -411,8 +469,10 @@
       <td><a href="https://elma.online/levels/412" target="_blank">QWQUU040</a>
       </td>
       <td>1:19:54</td>
-      <td>425 (1%)</td>
-      <td>406 (1%)</td>
+      <td>425</td>
+      <td>(1%)</td>
+      <td>406</td>
+      <td>(1%)</td>
       <td>19</td>
       <td>42</td>
       <td>61</td>
@@ -424,8 +484,10 @@
       <td><a href="https://elma.online/levels/71" target="_blank">QWQUU015</a>
       </td>
       <td>46:63</td>
-      <td>761 (2%)</td>
-      <td>701 (2%)</td>
+      <td>761</td>
+      <td>(2%)</td>
+      <td>701</td>
+      <td>(2%)</td>
       <td>60</td>
       <td>258</td>
       <td>318</td>
@@ -437,8 +499,10 @@
       <td><a href="https://elma.online/levels/6" target="_blank">QWQUU004</a>
       </td>
       <td>28:86</td>
-      <td>1237 (3%)</td>
-      <td>1013 (3%)</td>
+      <td>1237</td>
+      <td>(3%)</td>
+      <td>1013</td>
+      <td>(3%)</td>
       <td>224</td>
       <td>379</td>
       <td>603</td>
@@ -450,8 +514,10 @@
       <td><a href="https://elma.online/levels/57" target="_blank">QWQUU018</a>
       </td>
       <td>44:12</td>
-      <td>755 (2%)</td>
-      <td>638 (2%)</td>
+      <td>755</td>
+      <td>(2%)</td>
+      <td>638</td>
+      <td>(2%)</td>
       <td>117</td>
       <td>125</td>
       <td>242</td>
@@ -463,8 +529,10 @@
       <td><a href="https://elma.online/levels/15" target="_blank">QWQUU009</a>
       </td>
       <td>48:86</td>
-      <td>776 (2%)</td>
-      <td>737 (2%)</td>
+      <td>776</td>
+      <td>(2%)</td>
+      <td>737</td>
+      <td>(2%)</td>
       <td>39</td>
       <td>337</td>
       <td>376</td>
@@ -476,8 +544,10 @@
       <td><a href="https://elma.online/levels/357" target="_blank">QWQUU036</a>
       </td>
       <td>56:43</td>
-      <td>459 (1%)</td>
-      <td>444 (1%)</td>
+      <td>459</td>
+      <td>(1%)</td>
+      <td>444</td>
+      <td>(1%)</td>
       <td>15</td>
       <td>59</td>
       <td>74</td>
@@ -489,8 +559,10 @@
       <td><a href="https://elma.online/levels/198" target="_blank">QWQUU028</a>
       </td>
       <td>46:19</td>
-      <td>556 (2%)</td>
-      <td>528 (2%)</td>
+      <td>556</td>
+      <td>(2%)</td>
+      <td>528</td>
+      <td>(2%)</td>
       <td>28</td>
       <td>92</td>
       <td>120</td>
@@ -502,8 +574,10 @@
       <td><a href="https://elma.online/levels/18" target="_blank">QWQUU031</a>
       </td>
       <td>1:08:65</td>
-      <td>435 (1%)</td>
-      <td>426 (1%)</td>
+      <td>435</td>
+      <td>(1%)</td>
+      <td>426</td>
+      <td>(1%)</td>
       <td>9</td>
       <td>142</td>
       <td>151</td>
@@ -515,8 +589,10 @@
       <td><a href="https://elma.online/levels/107" target="_blank">QWQUU022</a>
       </td>
       <td>38:55</td>
-      <td>664 (2%)</td>
-      <td>590 (2%)</td>
+      <td>664</td>
+      <td>(2%)</td>
+      <td>590</td>
+      <td>(2%)</td>
       <td>74</td>
       <td>96</td>
       <td>170</td>
@@ -528,8 +604,10 @@
       <td><a href="https://elma.online/levels/415" target="_blank">QWQUU043</a>
       </td>
       <td>55:17</td>
-      <td>430 (1%)</td>
-      <td>414 (1%)</td>
+      <td>430</td>
+      <td>(1%)</td>
+      <td>414</td>
+      <td>(1%)</td>
       <td>16</td>
       <td>72</td>
       <td>88</td>
@@ -541,8 +619,10 @@
       <td><a href="https://elma.online/levels/45" target="_blank">QWQUU037</a>
       </td>
       <td>52:69</td>
-      <td>439 (1%)</td>
-      <td>424 (1%)</td>
+      <td>439</td>
+      <td>(1%)</td>
+      <td>424</td>
+      <td>(1%)</td>
       <td>15</td>
       <td>119</td>
       <td>134</td>
@@ -554,8 +634,10 @@
       <td><a href="https://elma.online/levels/7" target="_blank">QWQUU005</a>
       </td>
       <td>19:76</td>
-      <td>1319 (4%)</td>
-      <td>936 (3%)</td>
+      <td>1319</td>
+      <td>(4%)</td>
+      <td>936</td>
+      <td>(3%)</td>
       <td>383</td>
       <td>472</td>
       <td>855</td>
@@ -567,8 +649,10 @@
       <td><a href="https://elma.online/levels/416" target="_blank">QWQUU042</a>
       </td>
       <td>46:85</td>
-      <td>447 (1%)</td>
-      <td>426 (1%)</td>
+      <td>447</td>
+      <td>(1%)</td>
+      <td>426</td>
+      <td>(1%)</td>
       <td>21</td>
       <td>80</td>
       <td>101</td>
@@ -580,8 +664,10 @@
       <td><a href="https://elma.online/levels/131" target="_blank">QWQUU034</a>
       </td>
       <td>36:17</td>
-      <td>559 (2%)</td>
-      <td>485 (2%)</td>
+      <td>559</td>
+      <td>(2%)</td>
+      <td>485</td>
+      <td>(2%)</td>
       <td>74</td>
       <td>86</td>
       <td>160</td>
@@ -593,8 +679,10 @@
       <td><a href="https://elma.online/levels/164" target="_blank">QWQUU032</a>
       </td>
       <td>42:20</td>
-      <td>576 (2%)</td>
-      <td>453 (1%)</td>
+      <td>576</td>
+      <td>(2%)</td>
+      <td>453</td>
+      <td>(1%)</td>
       <td>123</td>
       <td>128</td>
       <td>251</td>
@@ -606,8 +694,10 @@
       <td><a href="https://elma.online/levels/24" target="_blank">QWQUU041</a>
       </td>
       <td>37:93</td>
-      <td>483 (1%)</td>
-      <td>445 (1%)</td>
+      <td>483</td>
+      <td>(1%)</td>
+      <td>445</td>
+      <td>(1%)</td>
       <td>38</td>
       <td>80</td>
       <td>118</td>
@@ -619,8 +709,10 @@
       <td><a href="https://elma.online/levels/78" target="_blank">QWQUU011</a>
       </td>
       <td>22:15</td>
-      <td>842 (2%)</td>
-      <td>718 (2%)</td>
+      <td>842</td>
+      <td>(2%)</td>
+      <td>718</td>
+      <td>(2%)</td>
       <td>124</td>
       <td>249</td>
       <td>373</td>
@@ -632,8 +724,10 @@
       <td><a href="https://elma.online/levels/109" target="_blank">QWQUU012</a>
       </td>
       <td>20:62</td>
-      <td>883 (2%)</td>
-      <td>724 (2%)</td>
+      <td>883</td>
+      <td>(2%)</td>
+      <td>724</td>
+      <td>(2%)</td>
       <td>159</td>
       <td>211</td>
       <td>370</td>
@@ -645,8 +739,10 @@
       <td><a href="https://elma.online/levels/408" target="_blank">QWQUU039</a>
       </td>
       <td>38:36</td>
-      <td>459 (1%)</td>
-      <td>434 (1%)</td>
+      <td>459</td>
+      <td>(1%)</td>
+      <td>434</td>
+      <td>(1%)</td>
       <td>25</td>
       <td>102</td>
       <td>127</td>
@@ -658,8 +754,10 @@
       <td><a href="https://elma.online/levels/257" target="_blank">QWQUU050</a>
       </td>
       <td>49:67</td>
-      <td>389 (1%)</td>
-      <td>380 (1%)</td>
+      <td>389</td>
+      <td>(1%)</td>
+      <td>380</td>
+      <td>(1%)</td>
       <td>9</td>
       <td>113</td>
       <td>122</td>
@@ -671,8 +769,10 @@
       <td><a href="https://elma.online/levels/98" target="_blank">QWQUU023</a>
       </td>
       <td>35:27</td>
-      <td>569 (2%)</td>
-      <td>542 (2%)</td>
+      <td>569</td>
+      <td>(2%)</td>
+      <td>542</td>
+      <td>(2%)</td>
       <td>27</td>
       <td>229</td>
       <td>256</td>
@@ -684,8 +784,10 @@
       <td><a href="https://elma.online/levels/128" target="_blank">QWQUU019</a>
       </td>
       <td>35:46</td>
-      <td>675 (2%)</td>
-      <td>638 (2%)</td>
+      <td>675</td>
+      <td>(2%)</td>
+      <td>638</td>
+      <td>(2%)</td>
       <td>37</td>
       <td>280</td>
       <td>317</td>
@@ -697,8 +799,10 @@
       <td><a href="https://elma.online/levels/4" target="_blank">QWQUU002</a>
       </td>
       <td>14:64</td>
-      <td>1611 (5%)</td>
-      <td>974 (3%)</td>
+      <td>1611</td>
+      <td>(5%)</td>
+      <td>974</td>
+      <td>(3%)</td>
       <td>637</td>
       <td>747</td>
       <td>1384</td>
@@ -710,8 +814,10 @@
       <td><a href="https://elma.online/levels/8" target="_blank">QWQUU006</a>
       </td>
       <td>29:91</td>
-      <td>926 (3%)</td>
-      <td>882 (3%)</td>
+      <td>926</td>
+      <td>(3%)</td>
+      <td>882</td>
+      <td>(3%)</td>
       <td>44</td>
       <td>518</td>
       <td>562</td>
@@ -723,8 +829,10 @@
       <td><a href="https://elma.online/levels/9" target="_blank">QWQUU007</a>
       </td>
       <td>25:91</td>
-      <td>850 (2%)</td>
-      <td>759 (2%)</td>
+      <td>850</td>
+      <td>(2%)</td>
+      <td>759</td>
+      <td>(2%)</td>
       <td>91</td>
       <td>411</td>
       <td>502</td>
@@ -736,8 +844,10 @@
       <td><a href="https://elma.online/levels/5" target="_blank">QWQUU003</a>
       </td>
       <td>17:47</td>
-      <td>1428 (4%)</td>
-      <td>1145 (4%)</td>
+      <td>1428</td>
+      <td>(4%)</td>
+      <td>1145</td>
+      <td>(4%)</td>
       <td>283</td>
       <td>728</td>
       <td>1011</td>
@@ -749,8 +859,10 @@
       <td><a href="https://elma.online/levels/31" target="_blank">QWQUU029</a>
       </td>
       <td>40:97</td>
-      <td>544 (2%)</td>
-      <td>530 (2%)</td>
+      <td>544</td>
+      <td>(2%)</td>
+      <td>530</td>
+      <td>(2%)</td>
       <td>14</td>
       <td>256</td>
       <td>270</td>
@@ -762,8 +874,10 @@
       <td><a href="https://elma.online/levels/16" target="_blank">QWQUU030</a>
       </td>
       <td>28:00</td>
-      <td>663 (2%)</td>
-      <td>475 (2%)</td>
+      <td>663</td>
+      <td>(2%)</td>
+      <td>475</td>
+      <td>(2%)</td>
       <td>188</td>
       <td>198</td>
       <td>386</td>
@@ -775,8 +889,10 @@
       <td><a href="https://elma.online/levels/175" target="_blank">QWQUU025</a>
       </td>
       <td>24:20</td>
-      <td>653 (2%)</td>
-      <td>576 (2%)</td>
+      <td>653</td>
+      <td>(2%)</td>
+      <td>576</td>
+      <td>(2%)</td>
       <td>77</td>
       <td>142</td>
       <td>219</td>
@@ -788,8 +904,10 @@
       <td><a href="https://elma.online/levels/38" target="_blank">QWQUU027</a>
       </td>
       <td>32:92</td>
-      <td>547 (2%)</td>
-      <td>518 (2%)</td>
+      <td>547</td>
+      <td>(2%)</td>
+      <td>518</td>
+      <td>(2%)</td>
       <td>29</td>
       <td>215</td>
       <td>244</td>
@@ -801,8 +919,10 @@
       <td><a href="https://elma.online/levels/17" target="_blank">QWQUU054</a>
       </td>
       <td>1:12:89</td>
-      <td>263 (1%)</td>
-      <td>259 (1%)</td>
+      <td>263</td>
+      <td>(1%)</td>
+      <td>259</td>
+      <td>(1%)</td>
       <td>4</td>
       <td>123</td>
       <td>127</td>
@@ -814,8 +934,10 @@
       <td><a href="https://elma.online/levels/52" target="_blank">QWQUU049</a>
       </td>
       <td>37:66</td>
-      <td>382 (1%)</td>
-      <td>373 (1%)</td>
+      <td>382</td>
+      <td>(1%)</td>
+      <td>373</td>
+      <td>(1%)</td>
       <td>9</td>
       <td>94</td>
       <td>103</td>
@@ -827,8 +949,10 @@
       <td><a href="https://elma.online/levels/33" target="_blank">QWQUU046</a>
       </td>
       <td>51:37</td>
-      <td>377 (1%)</td>
-      <td>375 (1%)</td>
+      <td>377</td>
+      <td>(1%)</td>
+      <td>375</td>
+      <td>(1%)</td>
       <td>2</td>
       <td>196</td>
       <td>198</td>
@@ -840,8 +964,10 @@
       <td><a href="https://elma.online/levels/29" target="_blank">QWQUU045</a>
       </td>
       <td>32:23</td>
-      <td>486 (1%)</td>
-      <td>362 (1%)</td>
+      <td>486</td>
+      <td>(1%)</td>
+      <td>362</td>
+      <td>(1%)</td>
       <td>124</td>
       <td>129</td>
       <td>253</td>
@@ -853,8 +979,10 @@
       <td><a href="https://elma.online/levels/2" target="_blank">QWQUU001</a>
       </td>
       <td>13:79</td>
-      <td>1766 (5%)</td>
-      <td>879 (3%)</td>
+      <td>1766</td>
+      <td>(5%)</td>
+      <td>879</td>
+      <td>(3%)</td>
       <td>887</td>
       <td>1053</td>
       <td>1940</td>
@@ -866,8 +994,10 @@
       <td><a href="https://elma.online/levels/10" target="_blank">QWQUU008</a>
       </td>
       <td>20:37</td>
-      <td>925 (3%)</td>
-      <td>818 (3%)</td>
+      <td>925</td>
+      <td>(3%)</td>
+      <td>818</td>
+      <td>(3%)</td>
       <td>107</td>
       <td>432</td>
       <td>539</td>
@@ -879,8 +1009,10 @@
       <td><a href="https://elma.online/levels/219" target="_blank">QWQUU014</a>
       </td>
       <td>17:56</td>
-      <td>869 (2%)</td>
-      <td>650 (2%)</td>
+      <td>869</td>
+      <td>(2%)</td>
+      <td>650</td>
+      <td>(2%)</td>
       <td>219</td>
       <td>322</td>
       <td>541</td>
@@ -892,8 +1024,10 @@
       <td><a href="https://elma.online/levels/21" target="_blank">QWQUU048</a>
       </td>
       <td>41:76</td>
-      <td>398 (1%)</td>
-      <td>387 (1%)</td>
+      <td>398</td>
+      <td>(1%)</td>
+      <td>387</td>
+      <td>(1%)</td>
       <td>11</td>
       <td>199</td>
       <td>210</td>
@@ -905,8 +1039,10 @@
       <td><a href="https://elma.online/levels/100" target="_blank">QWQUU024</a>
       </td>
       <td>39:21</td>
-      <td>592 (2%)</td>
-      <td>575 (2%)</td>
+      <td>592</td>
+      <td>(2%)</td>
+      <td>575</td>
+      <td>(2%)</td>
       <td>17</td>
       <td>399</td>
       <td>416</td>
@@ -918,8 +1054,10 @@
       <td><a href="https://elma.online/levels/133" target="_blank">QWQUU052</a>
       </td>
       <td>24:15</td>
-      <td>421 (1%)</td>
-      <td>382 (1%)</td>
+      <td>421</td>
+      <td>(1%)</td>
+      <td>382</td>
+      <td>(1%)</td>
       <td>39</td>
       <td>113</td>
       <td>152</td>
@@ -931,8 +1069,10 @@
       <td><a href="https://elma.online/levels/135" target="_blank">QWQUU051</a>
       </td>
       <td>38:73</td>
-      <td>330 (1%)</td>
-      <td>320 (1%)</td>
+      <td>330</td>
+      <td>(1%)</td>
+      <td>320</td>
+      <td>(1%)</td>
       <td>10</td>
       <td>155</td>
       <td>165</td>
@@ -944,8 +1084,10 @@
       <td><a href="https://elma.online/levels/192" target="_blank">QWQUU026</a>
       </td>
       <td>21:53</td>
-      <td>622 (2%)</td>
-      <td>577 (2%)</td>
+      <td>622</td>
+      <td>(2%)</td>
+      <td>577</td>
+      <td>(2%)</td>
       <td>45</td>
       <td>318</td>
       <td>363</td>
@@ -957,8 +1099,10 @@
       <td><a href="https://elma.online/levels/66" target="_blank">qwquu033</a>
       </td>
       <td>52:54</td>
-      <td>395 (1%)</td>
-      <td>389 (1%)</td>
+      <td>395</td>
+      <td>(1%)</td>
+      <td>389</td>
+      <td>(1%)</td>
       <td>6</td>
       <td>274</td>
       <td>280</td>
@@ -970,8 +1114,10 @@
       <td><a href="https://elma.online/levels/139" target="_blank">QWQUU013</a>
       </td>
       <td>13:79</td>
-      <td>878 (2%)</td>
-      <td>752 (2%)</td>
+      <td>878</td>
+      <td>(2%)</td>
+      <td>752</td>
+      <td>(2%)</td>
       <td>126</td>
       <td>456</td>
       <td>582</td>
@@ -983,8 +1129,10 @@
       <td><a href="https://elma.online/levels/13" target="_blank">QWQUU038</a>
       </td>
       <td>27:92</td>
-      <td>421 (1%)</td>
-      <td>388 (1%)</td>
+      <td>421</td>
+      <td>(1%)</td>
+      <td>388</td>
+      <td>(1%)</td>
       <td>33</td>
       <td>193</td>
       <td>226</td>
@@ -996,8 +1144,10 @@
       <td><a href="https://elma.online/levels/413" target="_blank">QWQUU053</a>
       </td>
       <td>16:39</td>
-      <td>438 (1%)</td>
-      <td>366 (1%)</td>
+      <td>438</td>
+      <td>(1%)</td>
+      <td>366</td>
+      <td>(1%)</td>
       <td>72</td>
       <td>109</td>
       <td>181</td>
@@ -1009,8 +1159,10 @@
       <td><a href="https://elma.online/levels/43" target="_blank">QWQUU021</a>
       </td>
       <td>14:31</td>
-      <td>711 (2%)</td>
-      <td>586 (2%)</td>
+      <td>711</td>
+      <td>(2%)</td>
+      <td>586</td>
+      <td>(2%)</td>
       <td>125</td>
       <td>405</td>
       <td>530</td>
@@ -1022,8 +1174,10 @@
       <td><a href="https://elma.online/levels/59" target="_blank">QWQUU010</a>
       </td>
       <td>10:50</td>
-      <td>899 (3%)</td>
-      <td>798 (3%)</td>
+      <td>899</td>
+      <td>(3%)</td>
+      <td>798</td>
+      <td>(3%)</td>
       <td>101</td>
       <td>692</td>
       <td>793</td>
@@ -1035,8 +1189,10 @@
       <td><a href="https://elma.online/levels/46" target="_blank">QWQUU047</a>
       </td>
       <td>19:13</td>
-      <td>394 (1%)</td>
-      <td>368 (1%)</td>
+      <td>394</td>
+      <td>(1%)</td>
+      <td>368</td>
+      <td>(1%)</td>
       <td>26</td>
       <td>287</td>
       <td>313</td>
@@ -1048,8 +1204,10 @@
       <td><a href="https://elma.online/levels/95" target="_blank">QWQUU044</a>
       </td>
       <td>11:37</td>
-      <td>484 (1%)</td>
-      <td>391 (1%)</td>
+      <td>484</td>
+      <td>(1%)</td>
+      <td>391</td>
+      <td>(1%)</td>
       <td>93</td>
       <td>381</td>
       <td>474</td>
@@ -1068,7 +1226,9 @@
     <th>Level</th>
     <th>Best time</th>
     <th>Times count</th>
+    <th></th>
     <th>Unique times</th>
+    <th></th>
     <th>Shadow times</th>
     <th>Times > 2x best</th>
     <th>Removed times</th>
@@ -1083,8 +1243,10 @@
       <td><a href="https://elma.online/levels/359241" target="_blank">32Cup13</a>
       </td>
       <td>2:12:71</td>
-      <td>16 (2%)</td>
-      <td>16 (2%)</td>
+      <td>16</td>
+      <td>(2%)</td>
+      <td>16</td>
+      <td>(2%)</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -1098,8 +1260,10 @@
       <td><a href="https://elma.online/levels/359243" target="_blank">32Cup15</a>
       </td>
       <td>1:52:94</td>
-      <td>20 (3%)</td>
-      <td>20 (3%)</td>
+      <td>20</td>
+      <td>(3%)</td>
+      <td>20</td>
+      <td>(3%)</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -1113,8 +1277,10 @@
       <td><a href="https://elma.online/levels/359238" target="_blank">32Cup10</a>
       </td>
       <td>1:08:80</td>
-      <td>22 (3%)</td>
-      <td>22 (3%)</td>
+      <td>22</td>
+      <td>(3%)</td>
+      <td>22</td>
+      <td>(3%)</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -1128,8 +1294,10 @@
       <td><a href="https://elma.online/levels/359232" target="_blank">32Cup04</a>
       </td>
       <td>38:20</td>
-      <td>36 (5%)</td>
-      <td>36 (5%)</td>
+      <td>36</td>
+      <td>(5%)</td>
+      <td>36</td>
+      <td>(5%)</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -1143,8 +1311,10 @@
       <td><a href="https://elma.online/levels/359229" target="_blank">32Cup01</a>
       </td>
       <td>37:44</td>
-      <td>37 (5%)</td>
-      <td>34 (5%)</td>
+      <td>37</td>
+      <td>(5%)</td>
+      <td>34</td>
+      <td>(5%)</td>
       <td>3</td>
       <td>5</td>
       <td>8</td>
@@ -1156,8 +1326,10 @@
       <td><a href="https://elma.online/levels/359235" target="_blank">32Cup07</a>
       </td>
       <td>38:56</td>
-      <td>32 (4%)</td>
-      <td>31 (4%)</td>
+      <td>32</td>
+      <td>(4%)</td>
+      <td>31</td>
+      <td>(4%)</td>
       <td>1</td>
       <td>1</td>
       <td>2</td>
@@ -1169,8 +1341,10 @@
       <td><a href="https://elma.online/levels/359257" target="_blank">32Cup29</a>
       </td>
       <td>1:12:85</td>
-      <td>15 (2%)</td>
-      <td>15 (2%)</td>
+      <td>15</td>
+      <td>(2%)</td>
+      <td>15</td>
+      <td>(2%)</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -1182,8 +1356,10 @@
       <td><a href="https://elma.online/levels/359230" target="_blank">32Cup02</a>
       </td>
       <td>32:31</td>
-      <td>34 (5%)</td>
-      <td>34 (5%)</td>
+      <td>34</td>
+      <td>(5%)</td>
+      <td>34</td>
+      <td>(5%)</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -1195,8 +1371,10 @@
       <td><a href="https://elma.online/levels/359231" target="_blank">32Cup03</a>
       </td>
       <td>46:24</td>
-      <td>22 (3%)</td>
-      <td>22 (3%)</td>
+      <td>22</td>
+      <td>(3%)</td>
+      <td>22</td>
+      <td>(3%)</td>
       <td>0</td>
       <td>2</td>
       <td>2</td>
@@ -1208,8 +1386,10 @@
       <td><a href="https://elma.online/levels/359251" target="_blank">32Cup23</a>
       </td>
       <td>32:92</td>
-      <td>31 (4%)</td>
-      <td>31 (4%)</td>
+      <td>31</td>
+      <td>(4%)</td>
+      <td>31</td>
+      <td>(4%)</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -1221,8 +1401,10 @@
       <td><a href="https://elma.online/levels/359253" target="_blank">32Cup25</a>
       </td>
       <td>47:36</td>
-      <td>21 (3%)</td>
-      <td>20 (3%)</td>
+      <td>21</td>
+      <td>(3%)</td>
+      <td>20</td>
+      <td>(3%)</td>
       <td>1</td>
       <td>1</td>
       <td>2</td>
@@ -1234,8 +1416,10 @@
       <td><a href="https://elma.online/levels/359239" target="_blank">32Cup11</a>
       </td>
       <td>42:34</td>
-      <td>21 (3%)</td>
-      <td>21 (3%)</td>
+      <td>21</td>
+      <td>(3%)</td>
+      <td>21</td>
+      <td>(3%)</td>
       <td>0</td>
       <td>1</td>
       <td>1</td>
@@ -1247,8 +1431,10 @@
       <td><a href="https://elma.online/levels/359245" target="_blank">32Cup17</a>
       </td>
       <td>28:42</td>
-      <td>43 (6%)</td>
-      <td>39 (6%)</td>
+      <td>43</td>
+      <td>(6%)</td>
+      <td>39</td>
+      <td>(6%)</td>
       <td>4</td>
       <td>5</td>
       <td>9</td>
@@ -1260,8 +1446,10 @@
       <td><a href="https://elma.online/levels/359258" target="_blank">32Cup30</a>
       </td>
       <td>51:31</td>
-      <td>17 (2%)</td>
-      <td>17 (2%)</td>
+      <td>17</td>
+      <td>(2%)</td>
+      <td>17</td>
+      <td>(2%)</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -1273,8 +1461,10 @@
       <td><a href="https://elma.online/levels/359236" target="_blank">32Cup08</a>
       </td>
       <td>38:59</td>
-      <td>20 (3%)</td>
-      <td>20 (3%)</td>
+      <td>20</td>
+      <td>(3%)</td>
+      <td>20</td>
+      <td>(3%)</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -1286,8 +1476,10 @@
       <td><a href="https://elma.online/levels/359240" target="_blank">32Cup12</a>
       </td>
       <td>28:61</td>
-      <td>26 (4%)</td>
-      <td>26 (4%)</td>
+      <td>26</td>
+      <td>(4%)</td>
+      <td>26</td>
+      <td>(4%)</td>
       <td>0</td>
       <td>1</td>
       <td>1</td>
@@ -1299,8 +1491,10 @@
       <td><a href="https://elma.online/levels/359246" target="_blank">32Cup18</a>
       </td>
       <td>48:92</td>
-      <td>17 (2%)</td>
-      <td>17 (2%)</td>
+      <td>17</td>
+      <td>(2%)</td>
+      <td>17</td>
+      <td>(2%)</td>
       <td>0</td>
       <td>1</td>
       <td>1</td>
@@ -1312,8 +1506,10 @@
       <td><a href="https://elma.online/levels/359254" target="_blank">32Cup26</a>
       </td>
       <td>57:14</td>
-      <td>16 (2%)</td>
-      <td>16 (2%)</td>
+      <td>16</td>
+      <td>(2%)</td>
+      <td>16</td>
+      <td>(2%)</td>
       <td>0</td>
       <td>3</td>
       <td>3</td>
@@ -1325,8 +1521,10 @@
       <td><a href="https://elma.online/levels/359252" target="_blank">32Cup24</a>
       </td>
       <td>40:30</td>
-      <td>20 (3%)</td>
-      <td>20 (3%)</td>
+      <td>20</td>
+      <td>(3%)</td>
+      <td>20</td>
+      <td>(3%)</td>
       <td>0</td>
       <td>4</td>
       <td>4</td>
@@ -1338,8 +1536,10 @@
       <td><a href="https://elma.online/levels/359237" target="_blank">32Cup09</a>
       </td>
       <td>29:63</td>
-      <td>25 (3%)</td>
-      <td>25 (4%)</td>
+      <td>25</td>
+      <td>(3%)</td>
+      <td>25</td>
+      <td>(4%)</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -1351,8 +1551,10 @@
       <td><a href="https://elma.online/levels/359256" target="_blank">32Cup28</a>
       </td>
       <td>45:82</td>
-      <td>17 (2%)</td>
-      <td>17 (2%)</td>
+      <td>17</td>
+      <td>(2%)</td>
+      <td>17</td>
+      <td>(2%)</td>
       <td>0</td>
       <td>2</td>
       <td>2</td>
@@ -1364,8 +1566,10 @@
       <td><a href="https://elma.online/levels/359234" target="_blank">32Cup06</a>
       </td>
       <td>51:67</td>
-      <td>17 (2%)</td>
-      <td>17 (2%)</td>
+      <td>17</td>
+      <td>(2%)</td>
+      <td>17</td>
+      <td>(2%)</td>
       <td>0</td>
       <td>3</td>
       <td>3</td>
@@ -1377,8 +1581,10 @@
       <td><a href="https://elma.online/levels/359295" target="_blank">32Cup32</a>
       </td>
       <td>31:46</td>
-      <td>23 (3%)</td>
-      <td>23 (3%)</td>
+      <td>23</td>
+      <td>(3%)</td>
+      <td>23</td>
+      <td>(3%)</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -1390,8 +1596,10 @@
       <td><a href="https://elma.online/levels/359233" target="_blank">32Cup05</a>
       </td>
       <td>35:99</td>
-      <td>20 (3%)</td>
-      <td>20 (3%)</td>
+      <td>20</td>
+      <td>(3%)</td>
+      <td>20</td>
+      <td>(3%)</td>
       <td>0</td>
       <td>4</td>
       <td>4</td>
@@ -1403,8 +1611,10 @@
       <td><a href="https://elma.online/levels/359244" target="_blank">32Cup16</a>
       </td>
       <td>37:16</td>
-      <td>16 (2%)</td>
-      <td>16 (2%)</td>
+      <td>16</td>
+      <td>(2%)</td>
+      <td>16</td>
+      <td>(2%)</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -1416,8 +1626,10 @@
       <td><a href="https://elma.online/levels/359242" target="_blank">32Cup14</a>
       </td>
       <td>34:78</td>
-      <td>17 (2%)</td>
-      <td>17 (2%)</td>
+      <td>17</td>
+      <td>(2%)</td>
+      <td>17</td>
+      <td>(2%)</td>
       <td>0</td>
       <td>2</td>
       <td>2</td>
@@ -1429,8 +1641,10 @@
       <td><a href="https://elma.online/levels/359249" target="_blank">32Cup21</a>
       </td>
       <td>32:82</td>
-      <td>19 (3%)</td>
-      <td>19 (3%)</td>
+      <td>19</td>
+      <td>(3%)</td>
+      <td>19</td>
+      <td>(3%)</td>
       <td>0</td>
       <td>3</td>
       <td>3</td>
@@ -1442,8 +1656,10 @@
       <td><a href="https://elma.online/levels/359250" target="_blank">32Cup22</a>
       </td>
       <td>24:13</td>
-      <td>22 (3%)</td>
-      <td>22 (3%)</td>
+      <td>22</td>
+      <td>(3%)</td>
+      <td>22</td>
+      <td>(3%)</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -1455,8 +1671,10 @@
       <td><a href="https://elma.online/levels/359259" target="_blank">32Cup31</a>
       </td>
       <td>49:89</td>
-      <td>12 (2%)</td>
-      <td>12 (2%)</td>
+      <td>12</td>
+      <td>(2%)</td>
+      <td>12</td>
+      <td>(2%)</td>
       <td>0</td>
       <td>3</td>
       <td>3</td>
@@ -1468,8 +1686,10 @@
       <td><a href="https://elma.online/levels/359248" target="_blank">32Cup20</a>
       </td>
       <td>12:50</td>
-      <td>35 (5%)</td>
-      <td>33 (5%)</td>
+      <td>35</td>
+      <td>(5%)</td>
+      <td>33</td>
+      <td>(5%)</td>
       <td>2</td>
       <td>2</td>
       <td>4</td>
@@ -1481,8 +1701,10 @@
       <td><a href="https://elma.online/levels/359255" target="_blank">32Cup27</a>
       </td>
       <td>23:97</td>
-      <td>19 (3%)</td>
-      <td>17 (2%)</td>
+      <td>19</td>
+      <td>(3%)</td>
+      <td>17</td>
+      <td>(2%)</td>
       <td>2</td>
       <td>6</td>
       <td>8</td>
@@ -1494,8 +1716,10 @@
       <td><a href="https://elma.online/levels/359247" target="_blank">32Cup19</a>
       </td>
       <td>19:98</td>
-      <td>13 (2%)</td>
-      <td>13 (2%)</td>
+      <td>13</td>
+      <td>(2%)</td>
+      <td>13</td>
+      <td>(2%)</td>
       <td>0</td>
       <td>3</td>
       <td>3</td>
@@ -1514,7 +1738,9 @@
     <th>Level</th>
     <th>Best time</th>
     <th>Times count</th>
+    <th></th>
     <th>Unique times</th>
+    <th></th>
     <th>Shadow times</th>
     <th>Times > 2x best</th>
     <th>Removed times</th>
@@ -1529,8 +1755,10 @@
       <td><a href="https://elma.online/levels/475887" target="_blank">WCup808</a>
       </td>
       <td>1:53:25</td>
-      <td>68 (5%)</td>
-      <td>68 (6%)</td>
+      <td>68</td>
+      <td>(5%)</td>
+      <td>68</td>
+      <td>(6%)</td>
       <td>0</td>
       <td>1</td>
       <td>1</td>
@@ -1544,8 +1772,10 @@
       <td><a href="https://elma.online/levels/472912" target="_blank">WCup804</a>
       </td>
       <td>1:02:26</td>
-      <td>112 (9%)</td>
-      <td>108 (9%)</td>
+      <td>112</td>
+      <td>(9%)</td>
+      <td>108</td>
+      <td>(9%)</td>
       <td>4</td>
       <td>7</td>
       <td>11</td>
@@ -1559,8 +1789,10 @@
       <td><a href="https://elma.online/levels/479721" target="_blank">WCup812</a>
       </td>
       <td>1:02:10</td>
-      <td>112 (9%)</td>
-      <td>107 (9%)</td>
+      <td>112</td>
+      <td>(9%)</td>
+      <td>107</td>
+      <td>(9%)</td>
       <td>5</td>
       <td>5</td>
       <td>10</td>
@@ -1574,8 +1806,10 @@
       <td><a href="https://elma.online/levels/470921" target="_blank">WCup801</a>
       </td>
       <td>41:82</td>
-      <td>137 (11%)</td>
-      <td>133 (11%)</td>
+      <td>137</td>
+      <td>(11%)</td>
+      <td>133</td>
+      <td>(11%)</td>
       <td>4</td>
       <td>8</td>
       <td>12</td>
@@ -1589,8 +1823,10 @@
       <td><a href="https://elma.online/levels/473318" target="_blank">WCup805</a>
       </td>
       <td>46:26</td>
-      <td>118 (9%)</td>
-      <td>114 (10%)</td>
+      <td>118</td>
+      <td>(9%)</td>
+      <td>114</td>
+      <td>(10%)</td>
       <td>4</td>
       <td>4</td>
       <td>8</td>
@@ -1602,8 +1838,10 @@
       <td><a href="https://elma.online/levels/471817" target="_blank">WCup803</a>
       </td>
       <td>43:59</td>
-      <td>135 (11%)</td>
-      <td>121 (10%)</td>
+      <td>135</td>
+      <td>(11%)</td>
+      <td>121</td>
+      <td>(10%)</td>
       <td>14</td>
       <td>14</td>
       <td>28</td>
@@ -1615,8 +1853,10 @@
       <td><a href="https://elma.online/levels/473903" target="_blank">WCup806</a>
       </td>
       <td>49:25</td>
-      <td>102 (8%)</td>
-      <td>101 (9%)</td>
+      <td>102</td>
+      <td>(8%)</td>
+      <td>101</td>
+      <td>(9%)</td>
       <td>1</td>
       <td>12</td>
       <td>13</td>
@@ -1628,8 +1868,10 @@
       <td><a href="https://elma.online/levels/476456" target="_blank">WCup809</a>
       </td>
       <td>32:73</td>
-      <td>102 (8%)</td>
-      <td>102 (9%)</td>
+      <td>102</td>
+      <td>(8%)</td>
+      <td>102</td>
+      <td>(9%)</td>
       <td>0</td>
       <td>2</td>
       <td>2</td>
@@ -1641,8 +1883,10 @@
       <td><a href="https://elma.online/levels/471405" target="_blank">WCup802</a>
       </td>
       <td>29:20</td>
-      <td>132 (10%)</td>
-      <td>116 (10%)</td>
+      <td>132</td>
+      <td>(10%)</td>
+      <td>116</td>
+      <td>(10%)</td>
       <td>16</td>
       <td>23</td>
       <td>39</td>
@@ -1654,8 +1898,10 @@
       <td><a href="https://elma.online/levels/475307" target="_blank">WCup807</a>
       </td>
       <td>19:53</td>
-      <td>125 (10%)</td>
-      <td>114 (10%)</td>
+      <td>125</td>
+      <td>(10%)</td>
+      <td>114</td>
+      <td>(10%)</td>
       <td>11</td>
       <td>13</td>
       <td>24</td>
@@ -1667,8 +1913,10 @@
       <td><a href="https://elma.online/levels/478035" target="_blank">WCup810</a>
       </td>
       <td>9:36:20</td>
-      <td>4 (0%)</td>
-      <td>4 (0%)</td>
+      <td>4</td>
+      <td>(0%)</td>
+      <td>4</td>
+      <td>(0%)</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -1680,8 +1928,10 @@
       <td><a href="https://elma.online/levels/478807" target="_blank">WCup811</a>
       </td>
       <td>11:60</td>
-      <td>119 (9%)</td>
-      <td>96 (8%)</td>
+      <td>119</td>
+      <td>(9%)</td>
+      <td>96</td>
+      <td>(8%)</td>
       <td>23</td>
       <td>25</td>
       <td>48</td>
@@ -1700,7 +1950,9 @@
     <th>Level</th>
     <th>Best time</th>
     <th>Times count</th>
+    <th></th>
     <th>Unique times</th>
+    <th></th>
     <th>Shadow times</th>
     <th>Times > 2x best</th>
     <th>Removed times</th>
@@ -1715,8 +1967,10 @@
       <td><a href="https://elma.online/levels/371130" target="_blank">WCup715</a>
       </td>
       <td>2:26:15</td>
-      <td>80 (6%)</td>
-      <td>77 (6%)</td>
+      <td>80</td>
+      <td>(6%)</td>
+      <td>77</td>
+      <td>(6%)</td>
       <td>3</td>
       <td>4</td>
       <td>7</td>
@@ -1730,8 +1984,10 @@
       <td><a href="https://elma.online/levels/372197" target="_blank">WCup703</a>
       </td>
       <td>1:01:86</td>
-      <td>130 (9%)</td>
-      <td>128 (10%)</td>
+      <td>130</td>
+      <td>(9%)</td>
+      <td>128</td>
+      <td>(10%)</td>
       <td>2</td>
       <td>3</td>
       <td>5</td>
@@ -1745,8 +2001,10 @@
       <td><a href="https://elma.online/levels/376243" target="_blank">WCup708</a>
       </td>
       <td>1:22:49</td>
-      <td>83 (6%)</td>
-      <td>83 (6%)</td>
+      <td>83</td>
+      <td>(6%)</td>
+      <td>83</td>
+      <td>(6%)</td>
       <td>0</td>
       <td>22</td>
       <td>22</td>
@@ -1760,8 +2018,10 @@
       <td><a href="https://elma.online/levels/371726" target="_blank">WCup702</a>
       </td>
       <td>43:58</td>
-      <td>137 (10%)</td>
-      <td>130 (10%)</td>
+      <td>137</td>
+      <td>(10%)</td>
+      <td>130</td>
+      <td>(10%)</td>
       <td>7</td>
       <td>9</td>
       <td>16</td>
@@ -1775,8 +2035,10 @@
       <td><a href="https://elma.online/levels/374907" target="_blank">WCup707</a>
       </td>
       <td>56:71</td>
-      <td>93 (7%)</td>
-      <td>92 (7%)</td>
+      <td>93</td>
+      <td>(7%)</td>
+      <td>92</td>
+      <td>(7%)</td>
       <td>1</td>
       <td>2</td>
       <td>3</td>
@@ -1788,8 +2050,10 @@
       <td><a href="https://elma.online/levels/372760" target="_blank">WCup704</a>
       </td>
       <td>47:15</td>
-      <td>96 (7%)</td>
-      <td>94 (7%)</td>
+      <td>96</td>
+      <td>(7%)</td>
+      <td>94</td>
+      <td>(7%)</td>
       <td>2</td>
       <td>11</td>
       <td>13</td>
@@ -1801,8 +2065,10 @@
       <td><a href="https://elma.online/levels/377165" target="_blank">WCup711</a>
       </td>
       <td>47:10</td>
-      <td>85 (6%)</td>
-      <td>84 (6%)</td>
+      <td>85</td>
+      <td>(6%)</td>
+      <td>84</td>
+      <td>(6%)</td>
       <td>1</td>
       <td>4</td>
       <td>5</td>
@@ -1814,8 +2080,10 @@
       <td><a href="https://elma.online/levels/377517" target="_blank">WCup712</a>
       </td>
       <td>58:44</td>
-      <td>67 (5%)</td>
-      <td>66 (5%)</td>
+      <td>67</td>
+      <td>(5%)</td>
+      <td>66</td>
+      <td>(5%)</td>
       <td>1</td>
       <td>2</td>
       <td>3</td>
@@ -1827,8 +2095,10 @@
       <td><a href="https://elma.online/levels/374120" target="_blank">WCup706</a>
       </td>
       <td>34:62</td>
-      <td>100 (7%)</td>
-      <td>99 (7%)</td>
+      <td>100</td>
+      <td>(7%)</td>
+      <td>99</td>
+      <td>(7%)</td>
       <td>1</td>
       <td>2</td>
       <td>3</td>
@@ -1840,8 +2110,10 @@
       <td><a href="https://elma.online/levels/376749" target="_blank">WCup709</a>
       </td>
       <td>28:80</td>
-      <td>118 (9%)</td>
-      <td>108 (8%)</td>
+      <td>118</td>
+      <td>(9%)</td>
+      <td>108</td>
+      <td>(8%)</td>
       <td>10</td>
       <td>10</td>
       <td>20</td>
@@ -1853,8 +2125,10 @@
       <td><a href="https://elma.online/levels/371127" target="_blank">WCup701</a>
       </td>
       <td>21:77</td>
-      <td>153 (11%)</td>
-      <td>132 (10%)</td>
+      <td>153</td>
+      <td>(11%)</td>
+      <td>132</td>
+      <td>(10%)</td>
       <td>21</td>
       <td>23</td>
       <td>44</td>
@@ -1866,8 +2140,10 @@
       <td><a href="https://elma.online/levels/378207" target="_blank">WCup714</a>
       </td>
       <td>37:52</td>
-      <td>57 (4%)</td>
-      <td>57 (4%)</td>
+      <td>57</td>
+      <td>(4%)</td>
+      <td>57</td>
+      <td>(4%)</td>
       <td>0</td>
       <td>14</td>
       <td>14</td>
@@ -1879,8 +2155,10 @@
       <td><a href="https://elma.online/levels/377914" target="_blank">WCup713</a>
       </td>
       <td>18:63</td>
-      <td>79 (6%)</td>
-      <td>79 (6%)</td>
+      <td>79</td>
+      <td>(6%)</td>
+      <td>79</td>
+      <td>(6%)</td>
       <td>0</td>
       <td>6</td>
       <td>6</td>
@@ -1892,8 +2170,10 @@
       <td><a href="https://elma.online/levels/376988" target="_blank">WCup710</a>
       </td>
       <td>14:91</td>
-      <td>107 (8%)</td>
-      <td>100 (8%)</td>
+      <td>107</td>
+      <td>(8%)</td>
+      <td>100</td>
+      <td>(8%)</td>
       <td>7</td>
       <td>18</td>
       <td>25</td>
@@ -1905,8 +2185,10 @@
       <td><a href="https://elma.online/levels/373474" target="_blank">WCup705</a>
       </td>
       <td>4:13:30</td>
-      <td>1 (0%)</td>
-      <td>1 (0%)</td>
+      <td>1</td>
+      <td>(0%)</td>
+      <td>1</td>
+      <td>(0%)</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -1925,7 +2207,9 @@
     <th>Level</th>
     <th>Best time</th>
     <th>Times count</th>
+    <th></th>
     <th>Unique times</th>
+    <th></th>
     <th>Shadow times</th>
     <th>Times > 2x best</th>
     <th>Removed times</th>
@@ -1940,8 +2224,10 @@
       <td><a href="https://elma.online/levels/331261" target="_blank">TTC110</a>
       </td>
       <td>1:08:39</td>
-      <td>42 (9%)</td>
-      <td>42 (9%)</td>
+      <td>42</td>
+      <td>(9%)</td>
+      <td>42</td>
+      <td>(9%)</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -1955,8 +2241,10 @@
       <td><a href="https://elma.online/levels/331258" target="_blank">TTC107</a>
       </td>
       <td>46:42</td>
-      <td>46 (10%)</td>
-      <td>46 (10%)</td>
+      <td>46</td>
+      <td>(10%)</td>
+      <td>46</td>
+      <td>(10%)</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -1970,8 +2258,10 @@
       <td><a href="https://elma.online/levels/331259" target="_blank">TTC108</a>
       </td>
       <td>51:30</td>
-      <td>42 (9%)</td>
-      <td>41 (9%)</td>
+      <td>42</td>
+      <td>(9%)</td>
+      <td>41</td>
+      <td>(9%)</td>
       <td>1</td>
       <td>1</td>
       <td>2</td>
@@ -1985,8 +2275,10 @@
       <td><a href="https://elma.online/levels/331254" target="_blank">TTC103</a>
       </td>
       <td>37:79</td>
-      <td>50 (10%)</td>
-      <td>50 (11%)</td>
+      <td>50</td>
+      <td>(10%)</td>
+      <td>50</td>
+      <td>(11%)</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -2000,8 +2292,10 @@
       <td><a href="https://elma.online/levels/331260" target="_blank">TTC109</a>
       </td>
       <td>39:79</td>
-      <td>40 (8%)</td>
-      <td>39 (8%)</td>
+      <td>40</td>
+      <td>(8%)</td>
+      <td>39</td>
+      <td>(8%)</td>
       <td>1</td>
       <td>2</td>
       <td>3</td>
@@ -2013,8 +2307,10 @@
       <td><a href="https://elma.online/levels/331257" target="_blank">TTC106</a>
       </td>
       <td>25:92</td>
-      <td>49 (10%)</td>
-      <td>47 (10%)</td>
+      <td>49</td>
+      <td>(10%)</td>
+      <td>47</td>
+      <td>(10%)</td>
       <td>2</td>
       <td>2</td>
       <td>4</td>
@@ -2026,8 +2322,10 @@
       <td><a href="https://elma.online/levels/331255" target="_blank">TTC104</a>
       </td>
       <td>24:64</td>
-      <td>45 (9%)</td>
-      <td>45 (10%)</td>
+      <td>45</td>
+      <td>(9%)</td>
+      <td>45</td>
+      <td>(10%)</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -2039,8 +2337,10 @@
       <td><a href="https://elma.online/levels/331253" target="_blank">TTC102</a>
       </td>
       <td>18:62</td>
-      <td>50 (10%)</td>
-      <td>49 (11%)</td>
+      <td>50</td>
+      <td>(10%)</td>
+      <td>49</td>
+      <td>(11%)</td>
       <td>1</td>
       <td>1</td>
       <td>2</td>
@@ -2052,8 +2352,10 @@
       <td><a href="https://elma.online/levels/331256" target="_blank">TTC105</a>
       </td>
       <td>11:50</td>
-      <td>57 (12%)</td>
-      <td>55 (12%)</td>
+      <td>57</td>
+      <td>(12%)</td>
+      <td>55</td>
+      <td>(12%)</td>
       <td>2</td>
       <td>3</td>
       <td>5</td>
@@ -2065,8 +2367,10 @@
       <td><a href="https://elma.online/levels/331252" target="_blank">TTC101</a>
       </td>
       <td>14:10</td>
-      <td>62 (13%)</td>
-      <td>47 (10%)</td>
+      <td>62</td>
+      <td>(13%)</td>
+      <td>47</td>
+      <td>(10%)</td>
       <td>15</td>
       <td>15</td>
       <td>30</td>
@@ -2085,7 +2389,9 @@
     <th>Level</th>
     <th>Best time</th>
     <th>Times count</th>
+    <th></th>
     <th>Unique times</th>
+    <th></th>
     <th>Shadow times</th>
     <th>Times > 2x best</th>
     <th>Removed times</th>
@@ -2100,8 +2406,10 @@
       <td><a href="https://elma.online/levels/116895" target="_blank">EOL18</a>
       </td>
       <td>51:29</td>
-      <td>179 (2%)</td>
-      <td>171 (2%)</td>
+      <td>179</td>
+      <td>(2%)</td>
+      <td>171</td>
+      <td>(2%)</td>
       <td>8</td>
       <td>14</td>
       <td>22</td>
@@ -2115,8 +2423,10 @@
       <td><a href="https://elma.online/levels/116917" target="_blank">EOL40</a>
       </td>
       <td>1:27:39</td>
-      <td>95 (1%)</td>
-      <td>95 (1%)</td>
+      <td>95</td>
+      <td>(1%)</td>
+      <td>95</td>
+      <td>(1%)</td>
       <td>0</td>
       <td>2</td>
       <td>2</td>
@@ -2130,8 +2440,10 @@
       <td><a href="https://elma.online/levels/116881" target="_blank">EOL04</a>
       </td>
       <td>45:14</td>
-      <td>206 (2%)</td>
-      <td>199 (2%)</td>
+      <td>206</td>
+      <td>(2%)</td>
+      <td>199</td>
+      <td>(2%)</td>
       <td>7</td>
       <td>10</td>
       <td>17</td>
@@ -2145,8 +2457,10 @@
       <td><a href="https://elma.online/levels/116878" target="_blank">EOL01</a>
       </td>
       <td>15:56</td>
-      <td>725 (8%)</td>
-      <td>551 (7%)</td>
+      <td>725</td>
+      <td>(8%)</td>
+      <td>551</td>
+      <td>(7%)</td>
       <td>174</td>
       <td>239</td>
       <td>413</td>
@@ -2160,8 +2474,10 @@
       <td><a href="https://elma.online/levels/116906" target="_blank">EOL29</a>
       </td>
       <td>1:08:96</td>
-      <td>117 (1%)</td>
-      <td>115 (1%)</td>
+      <td>117</td>
+      <td>(1%)</td>
+      <td>115</td>
+      <td>(1%)</td>
       <td>2</td>
       <td>4</td>
       <td>6</td>
@@ -2173,8 +2489,10 @@
       <td><a href="https://elma.online/levels/116882" target="_blank">EOL05</a>
       </td>
       <td>26:90</td>
-      <td>329 (4%)</td>
-      <td>305 (4%)</td>
+      <td>329</td>
+      <td>(4%)</td>
+      <td>305</td>
+      <td>(4%)</td>
       <td>24</td>
       <td>79</td>
       <td>103</td>
@@ -2186,8 +2504,10 @@
       <td><a href="https://elma.online/levels/116885" target="_blank">EOL08</a>
       </td>
       <td>24:65</td>
-      <td>294 (3%)</td>
-      <td>271 (3%)</td>
+      <td>294</td>
+      <td>(3%)</td>
+      <td>271</td>
+      <td>(3%)</td>
       <td>23</td>
       <td>31</td>
       <td>54</td>
@@ -2199,8 +2519,10 @@
       <td><a href="https://elma.online/levels/116899" target="_blank">EOL22</a>
       </td>
       <td>52:35</td>
-      <td>132 (2%)</td>
-      <td>130 (2%)</td>
+      <td>132</td>
+      <td>(2%)</td>
+      <td>130</td>
+      <td>(2%)</td>
       <td>2</td>
       <td>9</td>
       <td>11</td>
@@ -2212,8 +2534,10 @@
       <td><a href="https://elma.online/levels/116883" target="_blank">EOL06</a>
       </td>
       <td>41:84</td>
-      <td>176 (2%)</td>
-      <td>168 (2%)</td>
+      <td>176</td>
+      <td>(2%)</td>
+      <td>168</td>
+      <td>(2%)</td>
       <td>8</td>
       <td>29</td>
       <td>37</td>
@@ -2225,8 +2549,10 @@
       <td><a href="https://elma.online/levels/116884" target="_blank">EOL07</a>
       </td>
       <td>26:76</td>
-      <td>276 (3%)</td>
-      <td>256 (3%)</td>
+      <td>276</td>
+      <td>(3%)</td>
+      <td>256</td>
+      <td>(3%)</td>
       <td>20</td>
       <td>37</td>
       <td>57</td>
@@ -2238,8 +2564,10 @@
       <td><a href="https://elma.online/levels/116879" target="_blank">EOL02</a>
       </td>
       <td>14:91</td>
-      <td>583 (7%)</td>
-      <td>504 (6%)</td>
+      <td>583</td>
+      <td>(7%)</td>
+      <td>504</td>
+      <td>(6%)</td>
       <td>79</td>
       <td>215</td>
       <td>294</td>
@@ -2251,8 +2579,10 @@
       <td><a href="https://elma.online/levels/116901" target="_blank">EOL24</a>
       </td>
       <td>41:94</td>
-      <td>162 (2%)</td>
-      <td>152 (2%)</td>
+      <td>162</td>
+      <td>(2%)</td>
+      <td>152</td>
+      <td>(2%)</td>
       <td>10</td>
       <td>11</td>
       <td>21</td>
@@ -2264,8 +2594,10 @@
       <td><a href="https://elma.online/levels/116911" target="_blank">EOL34</a>
       </td>
       <td>1:09:52</td>
-      <td>88 (1%)</td>
-      <td>87 (1%)</td>
+      <td>88</td>
+      <td>(1%)</td>
+      <td>87</td>
+      <td>(1%)</td>
       <td>1</td>
       <td>2</td>
       <td>3</td>
@@ -2277,8 +2609,10 @@
       <td><a href="https://elma.online/levels/116902" target="_blank">EOL25</a>
       </td>
       <td>54:36</td>
-      <td>123 (1%)</td>
-      <td>120 (1%)</td>
+      <td>123</td>
+      <td>(1%)</td>
+      <td>120</td>
+      <td>(1%)</td>
       <td>3</td>
       <td>11</td>
       <td>14</td>
@@ -2290,8 +2624,10 @@
       <td><a href="https://elma.online/levels/117435" target="_blank">EOL03</a>
       </td>
       <td>21:41</td>
-      <td>334 (4%)</td>
-      <td>318 (4%)</td>
+      <td>334</td>
+      <td>(4%)</td>
+      <td>318</td>
+      <td>(4%)</td>
       <td>16</td>
       <td>104</td>
       <td>120</td>
@@ -2303,8 +2639,10 @@
       <td><a href="https://elma.online/levels/116909" target="_blank">EOL32</a>
       </td>
       <td>1:38:42</td>
-      <td>66 (1%)</td>
-      <td>66 (1%)</td>
+      <td>66</td>
+      <td>(1%)</td>
+      <td>66</td>
+      <td>(1%)</td>
       <td>0</td>
       <td>12</td>
       <td>12</td>
@@ -2316,8 +2654,10 @@
       <td><a href="https://elma.online/levels/116891" target="_blank">EOL14</a>
       </td>
       <td>31:42</td>
-      <td>205 (2%)</td>
-      <td>199 (2%)</td>
+      <td>205</td>
+      <td>(2%)</td>
+      <td>199</td>
+      <td>(2%)</td>
       <td>6</td>
       <td>33</td>
       <td>39</td>
@@ -2329,8 +2669,10 @@
       <td><a href="https://elma.online/levels/116892" target="_blank">EOL15</a>
       </td>
       <td>37:23</td>
-      <td>149 (2%)</td>
-      <td>149 (2%)</td>
+      <td>149</td>
+      <td>(2%)</td>
+      <td>149</td>
+      <td>(2%)</td>
       <td>0</td>
       <td>13</td>
       <td>13</td>
@@ -2342,8 +2684,10 @@
       <td><a href="https://elma.online/levels/116904" target="_blank">EOL27</a>
       </td>
       <td>42:60</td>
-      <td>154 (2%)</td>
-      <td>145 (2%)</td>
+      <td>154</td>
+      <td>(2%)</td>
+      <td>145</td>
+      <td>(2%)</td>
       <td>9</td>
       <td>9</td>
       <td>18</td>
@@ -2355,8 +2699,10 @@
       <td><a href="https://elma.online/levels/116908" target="_blank">EOL31</a>
       </td>
       <td>52:90</td>
-      <td>105 (1%)</td>
-      <td>104 (1%)</td>
+      <td>105</td>
+      <td>(1%)</td>
+      <td>104</td>
+      <td>(1%)</td>
       <td>1</td>
       <td>10</td>
       <td>11</td>
@@ -2368,8 +2714,10 @@
       <td><a href="https://elma.online/levels/116903" target="_blank">EOL26</a>
       </td>
       <td>55:55</td>
-      <td>115 (1%)</td>
-      <td>113 (1%)</td>
+      <td>115</td>
+      <td>(1%)</td>
+      <td>113</td>
+      <td>(1%)</td>
       <td>2</td>
       <td>23</td>
       <td>25</td>
@@ -2381,8 +2729,10 @@
       <td><a href="https://elma.online/levels/116907" target="_blank">EOL30</a>
       </td>
       <td>54:13</td>
-      <td>103 (1%)</td>
-      <td>103 (1%)</td>
+      <td>103</td>
+      <td>(1%)</td>
+      <td>103</td>
+      <td>(1%)</td>
       <td>0</td>
       <td>10</td>
       <td>10</td>
@@ -2394,8 +2744,10 @@
       <td><a href="https://elma.online/levels/116926" target="_blank">EOL49</a>
       </td>
       <td>1:39:32</td>
-      <td>58 (1%)</td>
-      <td>58 (1%)</td>
+      <td>58</td>
+      <td>(1%)</td>
+      <td>58</td>
+      <td>(1%)</td>
       <td>0</td>
       <td>6</td>
       <td>6</td>
@@ -2407,8 +2759,10 @@
       <td><a href="https://elma.online/levels/116915" target="_blank">EOL38</a>
       </td>
       <td>1:06:86</td>
-      <td>84 (1%)</td>
-      <td>83 (1%)</td>
+      <td>84</td>
+      <td>(1%)</td>
+      <td>83</td>
+      <td>(1%)</td>
       <td>1</td>
       <td>2</td>
       <td>3</td>
@@ -2420,8 +2774,10 @@
       <td><a href="https://elma.online/levels/116898" target="_blank">EOL21</a>
       </td>
       <td>30:99</td>
-      <td>191 (2%)</td>
-      <td>177 (2%)</td>
+      <td>191</td>
+      <td>(2%)</td>
+      <td>177</td>
+      <td>(2%)</td>
       <td>14</td>
       <td>15</td>
       <td>29</td>
@@ -2433,8 +2789,10 @@
       <td><a href="https://elma.online/levels/116921" target="_blank">EOL44</a>
       </td>
       <td>1:39:85</td>
-      <td>52 (1%)</td>
-      <td>52 (1%)</td>
+      <td>52</td>
+      <td>(1%)</td>
+      <td>52</td>
+      <td>(1%)</td>
       <td>0</td>
       <td>1</td>
       <td>1</td>
@@ -2446,8 +2804,10 @@
       <td><a href="https://elma.online/levels/116912" target="_blank">EOL35</a>
       </td>
       <td>37:18</td>
-      <td>131 (2%)</td>
-      <td>129 (2%)</td>
+      <td>131</td>
+      <td>(2%)</td>
+      <td>129</td>
+      <td>(2%)</td>
       <td>2</td>
       <td>5</td>
       <td>7</td>
@@ -2459,8 +2819,10 @@
       <td><a href="https://elma.online/levels/116934" target="_blank">EOL54</a>
       </td>
       <td>1:37:75</td>
-      <td>56 (1%)</td>
-      <td>56 (1%)</td>
+      <td>56</td>
+      <td>(1%)</td>
+      <td>56</td>
+      <td>(1%)</td>
       <td>0</td>
       <td>15</td>
       <td>15</td>
@@ -2472,8 +2834,10 @@
       <td><a href="https://elma.online/levels/116887" target="_blank">EOL10</a>
       </td>
       <td>26:78</td>
-      <td>198 (2%)</td>
-      <td>174 (2%)</td>
+      <td>198</td>
+      <td>(2%)</td>
+      <td>174</td>
+      <td>(2%)</td>
       <td>24</td>
       <td>26</td>
       <td>50</td>
@@ -2485,8 +2849,10 @@
       <td><a href="https://elma.online/levels/116922" target="_blank">EOL45</a>
       </td>
       <td>29:23</td>
-      <td>150 (2%)</td>
-      <td>144 (2%)</td>
+      <td>150</td>
+      <td>(2%)</td>
+      <td>144</td>
+      <td>(2%)</td>
       <td>6</td>
       <td>10</td>
       <td>16</td>
@@ -2498,8 +2864,10 @@
       <td><a href="https://elma.online/levels/116923" target="_blank">EOL46</a>
       </td>
       <td>42:20</td>
-      <td>98 (1%)</td>
-      <td>96 (1%)</td>
+      <td>98</td>
+      <td>(1%)</td>
+      <td>96</td>
+      <td>(1%)</td>
       <td>2</td>
       <td>18</td>
       <td>20</td>
@@ -2511,8 +2879,10 @@
       <td><a href="https://elma.online/levels/116914" target="_blank">EOL37</a>
       </td>
       <td>35:38</td>
-      <td>129 (1%)</td>
-      <td>119 (1%)</td>
+      <td>129</td>
+      <td>(1%)</td>
+      <td>119</td>
+      <td>(1%)</td>
       <td>10</td>
       <td>15</td>
       <td>25</td>
@@ -2524,8 +2894,10 @@
       <td><a href="https://elma.online/levels/117436" target="_blank">EOL09</a>
       </td>
       <td>16:20</td>
-      <td>273 (3%)</td>
-      <td>245 (3%)</td>
+      <td>273</td>
+      <td>(3%)</td>
+      <td>245</td>
+      <td>(3%)</td>
       <td>28</td>
       <td>58</td>
       <td>86</td>
@@ -2537,8 +2909,10 @@
       <td><a href="https://elma.online/levels/116919" target="_blank">EOL42</a>
       </td>
       <td>53:26</td>
-      <td>70 (1%)</td>
-      <td>70 (1%)</td>
+      <td>70</td>
+      <td>(1%)</td>
+      <td>70</td>
+      <td>(1%)</td>
       <td>0</td>
       <td>6</td>
       <td>6</td>
@@ -2550,8 +2924,10 @@
       <td><a href="https://elma.online/levels/116910" target="_blank">EOL33</a>
       </td>
       <td>42:31</td>
-      <td>100 (1%)</td>
-      <td>100 (1%)</td>
+      <td>100</td>
+      <td>(1%)</td>
+      <td>100</td>
+      <td>(1%)</td>
       <td>0</td>
       <td>18</td>
       <td>18</td>
@@ -2563,8 +2939,10 @@
       <td><a href="https://elma.online/levels/116986" target="_blank">EOL39</a>
       </td>
       <td>59:64</td>
-      <td>71 (1%)</td>
-      <td>71 (1%)</td>
+      <td>71</td>
+      <td>(1%)</td>
+      <td>71</td>
+      <td>(1%)</td>
       <td>0</td>
       <td>8</td>
       <td>8</td>
@@ -2576,8 +2954,10 @@
       <td><a href="https://elma.online/levels/116929" target="_blank">EOL52</a>
       </td>
       <td>19:85</td>
-      <td>201 (2%)</td>
-      <td>177 (2%)</td>
+      <td>201</td>
+      <td>(2%)</td>
+      <td>177</td>
+      <td>(2%)</td>
       <td>24</td>
       <td>25</td>
       <td>49</td>
@@ -2589,8 +2969,10 @@
       <td><a href="https://elma.online/levels/116900" target="_blank">EOL23</a>
       </td>
       <td>20:55</td>
-      <td>174 (2%)</td>
-      <td>169 (2%)</td>
+      <td>174</td>
+      <td>(2%)</td>
+      <td>169</td>
+      <td>(2%)</td>
       <td>5</td>
       <td>29</td>
       <td>34</td>
@@ -2602,8 +2984,10 @@
       <td><a href="https://elma.online/levels/116928" target="_blank">EOL51</a>
       </td>
       <td>32:11</td>
-      <td>98 (1%)</td>
-      <td>98 (1%)</td>
+      <td>98</td>
+      <td>(1%)</td>
+      <td>98</td>
+      <td>(1%)</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -2615,8 +2999,10 @@
       <td><a href="https://elma.online/levels/116924" target="_blank">EOL47</a>
       </td>
       <td>27:88</td>
-      <td>102 (1%)</td>
-      <td>100 (1%)</td>
+      <td>102</td>
+      <td>(1%)</td>
+      <td>100</td>
+      <td>(1%)</td>
       <td>2</td>
       <td>7</td>
       <td>9</td>
@@ -2628,8 +3014,10 @@
       <td><a href="https://elma.online/levels/116925" target="_blank">EOL48</a>
       </td>
       <td>23:62</td>
-      <td>127 (1%)</td>
-      <td>126 (2%)</td>
+      <td>127</td>
+      <td>(1%)</td>
+      <td>126</td>
+      <td>(2%)</td>
       <td>1</td>
       <td>23</td>
       <td>24</td>
@@ -2641,8 +3029,10 @@
       <td><a href="https://elma.online/levels/116894" target="_blank">EOL17</a>
       </td>
       <td>26:96</td>
-      <td>134 (2%)</td>
-      <td>133 (2%)</td>
+      <td>134</td>
+      <td>(2%)</td>
+      <td>133</td>
+      <td>(2%)</td>
       <td>1</td>
       <td>54</td>
       <td>55</td>
@@ -2654,8 +3044,10 @@
       <td><a href="https://elma.online/levels/116905" target="_blank">EOL28</a>
       </td>
       <td>33:40</td>
-      <td>98 (1%)</td>
-      <td>98 (1%)</td>
+      <td>98</td>
+      <td>(1%)</td>
+      <td>98</td>
+      <td>(1%)</td>
       <td>0</td>
       <td>33</td>
       <td>33</td>
@@ -2667,8 +3059,10 @@
       <td><a href="https://elma.online/levels/116920" target="_blank">EOL43</a>
       </td>
       <td>37:18</td>
-      <td>78 (1%)</td>
-      <td>75 (1%)</td>
+      <td>78</td>
+      <td>(1%)</td>
+      <td>75</td>
+      <td>(1%)</td>
       <td>3</td>
       <td>20</td>
       <td>23</td>
@@ -2680,8 +3074,10 @@
       <td><a href="https://elma.online/levels/116897" target="_blank">EOL20</a>
       </td>
       <td>17:26</td>
-      <td>195 (2%)</td>
-      <td>186 (2%)</td>
+      <td>195</td>
+      <td>(2%)</td>
+      <td>186</td>
+      <td>(2%)</td>
       <td>9</td>
       <td>60</td>
       <td>69</td>
@@ -2693,8 +3089,10 @@
       <td><a href="https://elma.online/levels/116890" target="_blank">EOL13</a>
       </td>
       <td>24:50</td>
-      <td>132 (2%)</td>
-      <td>122 (2%)</td>
+      <td>132</td>
+      <td>(2%)</td>
+      <td>122</td>
+      <td>(2%)</td>
       <td>10</td>
       <td>28</td>
       <td>38</td>
@@ -2706,8 +3104,10 @@
       <td><a href="https://elma.online/levels/116889" target="_blank">EOL12</a>
       </td>
       <td>23:54</td>
-      <td>171 (2%)</td>
-      <td>169 (2%)</td>
+      <td>171</td>
+      <td>(2%)</td>
+      <td>169</td>
+      <td>(2%)</td>
       <td>2</td>
       <td>81</td>
       <td>83</td>
@@ -2719,8 +3119,10 @@
       <td><a href="https://elma.online/levels/116930" target="_blank">EOL53</a>
       </td>
       <td>1:03:71</td>
-      <td>53 (1%)</td>
-      <td>53 (1%)</td>
+      <td>53</td>
+      <td>(1%)</td>
+      <td>53</td>
+      <td>(1%)</td>
       <td>0</td>
       <td>19</td>
       <td>19</td>
@@ -2732,8 +3134,10 @@
       <td><a href="https://elma.online/levels/117437" target="_blank">EOL11</a>
       </td>
       <td>19:79</td>
-      <td>128 (1%)</td>
-      <td>122 (2%)</td>
+      <td>128</td>
+      <td>(1%)</td>
+      <td>122</td>
+      <td>(2%)</td>
       <td>6</td>
       <td>15</td>
       <td>21</td>
@@ -2745,8 +3149,10 @@
       <td><a href="https://elma.online/levels/116896" target="_blank">EOL19</a>
       </td>
       <td>25:15</td>
-      <td>102 (1%)</td>
-      <td>100 (1%)</td>
+      <td>102</td>
+      <td>(1%)</td>
+      <td>100</td>
+      <td>(1%)</td>
       <td>2</td>
       <td>17</td>
       <td>19</td>
@@ -2758,8 +3164,10 @@
       <td><a href="https://elma.online/levels/116913" target="_blank">EOL36</a>
       </td>
       <td>22:68</td>
-      <td>97 (1%)</td>
-      <td>97 (1%)</td>
+      <td>97</td>
+      <td>(1%)</td>
+      <td>97</td>
+      <td>(1%)</td>
       <td>0</td>
       <td>14</td>
       <td>14</td>
@@ -2771,8 +3179,10 @@
       <td><a href="https://elma.online/levels/116918" target="_blank">EOL41</a>
       </td>
       <td>19:84</td>
-      <td>112 (1%)</td>
-      <td>107 (1%)</td>
+      <td>112</td>
+      <td>(1%)</td>
+      <td>107</td>
+      <td>(1%)</td>
       <td>5</td>
       <td>7</td>
       <td>12</td>
@@ -2784,8 +3194,10 @@
       <td><a href="https://elma.online/levels/116927" target="_blank">EOL50</a>
       </td>
       <td>35:46</td>
-      <td>72 (1%)</td>
-      <td>72 (1%)</td>
+      <td>72</td>
+      <td>(1%)</td>
+      <td>72</td>
+      <td>(1%)</td>
       <td>0</td>
       <td>35</td>
       <td>35</td>
@@ -2797,8 +3209,10 @@
       <td><a href="https://elma.online/levels/116893" target="_blank">EOL16</a>
       </td>
       <td>15:40</td>
-      <td>169 (2%)</td>
-      <td>161 (2%)</td>
+      <td>169</td>
+      <td>(2%)</td>
+      <td>161</td>
+      <td>(2%)</td>
       <td>8</td>
       <td>90</td>
       <td>98</td>

@@ -3,6 +3,12 @@ const { centisecondsToRecord } = require("./utils/record");
 
 const getTopText = (top) => (top <= 5 ? Mark(`${top}*`) : top);
 
+const percentage = (count, total) => {
+  const percentage = (count / total) * 100;
+  const fixedPercentage = Math.round(percentage);
+  return `(${fixedPercentage}%)`;
+};
+
 const getCountWithPercentage = (count, totalCount) => {
   const percentage = (count / totalCount) * 100;
   const fixedPercentage = percentage.toFixed(0);
@@ -18,7 +24,9 @@ const printSummary = (levels) => {
     { field: "level", header: "Level" },
     { field: "wr", header: "Best time" },
     { field: "times", header: "Times count" },
+    { field: "times_percentage", header: "" },
     { field: "unique", header: "Unique times" },
+    { field: "unique_percentage", header: "" },
     { field: "shadow", header: "Shadow times" },
     { field: "above2x", header: "Times > 2x best" },
     { field: "removed", header: "Removed times" },
@@ -39,22 +47,16 @@ const printSummary = (levels) => {
 
     const top = i + 1;
     const bestTime = level.times[0];
-
-    const timesCount = getCountWithPercentage(
-      level.timesCount,
-      totalTimesCount
-    );
-    const uniqueTimesCount = getCountWithPercentage(
-      level.uniqueTimes.length,
-      totalUniqueTimesCount
-    );
+    const uniqueTimesCount = level.uniqueTimes.length;
 
     rows.push({
       top: getTopText(top),
       level: Link({ children: level.name, href: level.url }),
       wr: centisecondsToRecord(bestTime),
-      times: timesCount,
+      times: level.timesCount,
+      times_percentage: percentage(level.timesCount, totalTimesCount),
       unique: uniqueTimesCount,
+      unique_percentage: percentage(uniqueTimesCount, totalUniqueTimesCount),
       shadow: level.shadowTimesCount,
       above2x: level.timesTwiceBestCount,
       removed: level.removedTimesCount,
