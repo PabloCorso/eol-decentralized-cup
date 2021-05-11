@@ -53,6 +53,12 @@ const dataFiles = [
     type: DataType.Pack,
     packId: "EOL",
   },
+  {
+    name: "Pipo level pack",
+    fileName: "pipo",
+    type: DataType.Pack,
+    packId: "Pipo",
+  },
 ];
 
 module.exports = { dataFiles, DataType };
