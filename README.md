@@ -3,7 +3,7 @@ A cup in which, for the duration of it, any player can upload any kind of levels
 
 The cup is inspired in decentralized systems in which something is accomplished without a central authority and with as little censorship as possible. In this case, anyone should be able to upload levels to the cup with as little censorship or limitations as possible, although because of technical limitations we certainly would need a central authority to do some minimum validations and managing of the online cup (e.g. manually checking that levels are freshly new).
 
-## Potential rules set example
+## Potential Cup rules and information
 
 1. Start of the cup.
     1. The cup is started with a set deadline (date and time).
@@ -31,6 +31,12 @@ The cup is inspired in decentralized systems in which something is accomplished 
     1. All events finish along the cup deadline and only times finished online are taken into account. 
     2. The levels ranking freezes, and the final top levels are revealed.
     3. For this top levels, the player points are calculated as in normal cups, without any skips.
+
+
+In this example of potential rules there are a few variable to define: 
+- Duration of the cup (e.g. 1 month).
+- How many levels are counted in the results (e.g. only Top 5 most popular levels get into the results).
+- Limit of levels that can be uploaded per player/day/week. (e.g. players can upload up to 2 levels per week).
 
 # Potential issues and solutions
 
