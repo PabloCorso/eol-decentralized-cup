@@ -6,8 +6,8 @@ The cup is inspired in decentralized systems in which something is accomplished 
 ## Potential rules set example
 
 1. Start of the cup.
-    1. The cup is started with a set deadline, date and time.
-    2. Initially there are no events.
+    1. The cup is started with a set deadline (date and time).
+    2. Initially there are no events to play.
 2. Any player can submit levels at any moment, to be added as events to the cup.
     1. Submitted levels are first validated. Basic valid criteria:
         1. Levels must be new and valid to EOL.
@@ -18,9 +18,9 @@ The cup is inspired in decentralized systems in which something is accomplished 
         2. Level designers can (and probably should) play their own levels.
         3. The name follows the usual sequential pattern e.g. "Des1Cxxx.lev" or "D1Cupxxx.lev".
         4. At EOL, times and players are hidden.
-3. Only the 5 top ranked levels will count in the results.
+3. Only the X top ranked levels will count in the results.
     1. Since levels can be added at any moment there could be too many levels to play, so only a small selection will count for the final results.
-    2. This selection is done by first ranking the levels, and once the cup finishes, only the top 5 ranked levels will be taken into account.
+    2. This selection is done by first ranking the levels, and once the cup finishes, only the top ranked levels will be taken into account.
     4. This ranking will be always visible to everyone, so players can decide in which levels to invest their time.
     5. The ranking points for each level is calculated as:
         1. The sum of all finished times, except the times that are above 2 times the best time in the level.
@@ -29,8 +29,8 @@ The cup is inspired in decentralized systems in which something is accomplished 
     7. The levels ranking will ideally be updated every time a new level is added to the cup and every time a player finishes a level.
 4. End of the cup.
     1. All events finish along the cup deadline and only times finished online are taken into account. 
-    2. The levels ranking freezes, and the final top 5 levels are revealed.
-    3. For this top 5 levels, the player points are calculated as in normal cups, without any skips.
+    2. The levels ranking freezes, and the final top levels are revealed.
+    3. For this top levels, the player points are calculated as in normal cups, without any skips.
 
 # Potential issues and solutions
 
