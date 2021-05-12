@@ -1,13 +1,13 @@
 # Decentralized cup
-A cup in which, for the duration of it, any player can upload any kind of levels to it with as minimum limitations as possible.
+A cup in which, for the duration of it, any player can upload any kind of levels to it with as minimum limitations as possible. All events are played simounteneously and they all end at the same time with the cup's deadline. At the end, only the most popular levels will count into the results to crown the winner.
 
 The cup is inspired in decentralized systems in which something is accomplished without a central authority and with as little censorship as possible. In this case, anyone should be able to upload levels to the cup with as little censorship or limitations as possible, although because of technical limitations we certainly would need a central authority to do some minimum validations and managing of the online cup (e.g. manually checking that levels are freshly new).
 
-## Potential rules set example
+## Potential Cup rules and information
 
 1. Start of the cup.
-    1. The cup is started with a set deadline, date and time.
-    2. Initially there are no events.
+    1. The cup is started with a set deadline (date and time).
+    2. Initially there are no events to play.
 2. Any player can submit levels at any moment, to be added as events to the cup.
     1. Submitted levels are first validated. Basic valid criteria:
         1. Levels must be new and valid to EOL.
@@ -18,19 +18,27 @@ The cup is inspired in decentralized systems in which something is accomplished 
         2. Level designers can (and probably should) play their own levels.
         3. The name follows the usual sequential pattern e.g. "Des1Cxxx.lev" or "D1Cupxxx.lev".
         4. At EOL, times and players are hidden.
-3. Only the 5 top ranked levels will count in the results.
+3. Only the X top ranked levels will count in the results.
     1. Since levels can be added at any moment there could be too many levels to play, so only a small selection will count for the final results.
-    2. This selection is done by ranking the levels, once the cup finished, only the top 5 ranked levels will be taken into account.
-    3. The levels ranking will ideally be updated every time a new level is added to the cup and every time a kuksi makes a new PR.
-    4. The ranking will be always visible to everyone, so players can decide in which levels to invest their time.
-    6. The ranking for each level is calculated as:
-        1. The sum of unique finished times, except the times that are above 2 times the best time in the level.
-        2. This ranking is set to avoid favoring trivial or too short levels over complex and posibly more creative levels. Shadow PRs are a sign of trivial levels, like for example [Tutor1](https://elma.online/levels/163). Removing times above 2x the best time from the equation helps filtering possible "spam" or too slow times, for example an 1 hour finish time in a 10 seconds level.
-    7. Levels are ranked in a descending order by their rank number, this rank number is not shared, only their position on the ranking.
+    2. This selection is done by first ranking the levels, and once the cup finishes, only the top ranked levels will be taken into account.
+    4. This ranking will be always visible to everyone, so players can decide in which levels to invest their time.
+    5. The ranking points for each level is calculated as:
+        1. The sum of all finished times, except the times that are above 2 times the best time in the level.
+        2. Removing times above 2x the best time from the equation helps filtering possible "spam" or too slow times, for example an 1 hour finish time in a 10 seconds level.
+    6. Levels are ranked in a descending order by their ranking points. This points are are not shared, only their position on the ranking.
+    7. The levels ranking will ideally be updated every time a new level is added to the cup and every time a player finishes a level.
 4. End of the cup.
     1. All events finish along the cup deadline and only times finished online are taken into account. 
-    2. The levels ranking freezes, and the final top 5 levels are revealed.
-    3. For this top 5 levels, the player points are calculated as in normal cups, without any skips.
+    2. The levels ranking freezes, and the final top levels are revealed.
+    3. For this top levels, the player points are calculated as in normal cups, without any skips.
+
+
+In this example of potential rules there are a few variables to define: 
+- Duration of the cup (e.g. 1 month).
+- How many levels are counted in the results (e.g. only Top 5 most popular levels get into the results).
+- Limit of levels that can be uploaded per player/day/week. (e.g. players can upload up to 5 levels per week, up to 1 per day). Note that people could upload levels without really having to play the cup.
+
+If 10 players contributed with levels for a 1 month cup with 5 levels per week tops each, the cup would have an aprox. maximum of 10 players * 4 weeks * 5 levels = 200 levels.
 
 # Potential issues and solutions
 
