@@ -33,12 +33,12 @@ The cup is inspired in decentralized systems in which something is accomplished 
     3. For this top levels, the player points are calculated as in normal cups, without any skips.
 
 
-In this example of potential rules there are a few variable to define: 
+In this example of potential rules there are a few variables to define: 
 - Duration of the cup (e.g. 1 month).
 - How many levels are counted in the results (e.g. only Top 5 most popular levels get into the results).
 - Limit of levels that can be uploaded per player/day/week. (e.g. players can upload up to 5 levels per week, up to 1 per day). Note that people could upload levels without really having to play the cup.
 
-If 10 players contributed with levels for a 1 month cup with 5 levels per week tops each, the cup would have a aprox. maximum of 10 players * 4 weeks * 5 levels = 200 levels.
+If 10 players contributed with levels for a 1 month cup with 5 levels per week tops each, the cup would have an aprox. maximum of 10 players * 4 weeks * 5 levels = 200 levels.
 
 # Potential issues and solutions
 
