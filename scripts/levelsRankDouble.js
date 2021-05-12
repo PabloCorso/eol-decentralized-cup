@@ -251,7 +251,7 @@ const levelsRankDouble = (
     const timesTwiceBestCount = timesCount - timesLessThanTwiceBest.length;
     const removedTimesCount = useUniqueTimes
       ? timesTwiceBestCount + shadowTimesCount
-      : 0;
+      : timesTwiceBestCount;
 
     resultLevels.push({
       ...level,
@@ -271,4 +271,5 @@ const levelsRankDouble = (
 module.exports = levelsRankDouble;
 module.exports.printSummary = printSummary;
 module.exports.printSummaryComparison = printSummaryComparison;
-module.exports.printSummaryCompatibleComparison = printSummaryCompatibleComparison;
+module.exports.printSummaryCompatibleComparison =
+  printSummaryCompatibleComparison;
