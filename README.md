@@ -1,5 +1,5 @@
 # Decentralized cup
-A cup in which, for the duration of it, any player can upload any kind of levels to it with as minimum limitations as possible. All events are played simounteneously and they all end at the same time with the cup's deadline. At the end, only the most popular levels will count into the results to crown the winner.
+A cup in which, for the duration of it, any player can upload any kind of levels to it with as minimum limitations as possible. All events are played simultaneously and they all end at the same time with the cup's deadline. At the end, only the most popular levels will count into the results to crown the winner.
 
 The cup is inspired in decentralized systems in which something is accomplished without a central authority and with as little censorship as possible. In this case, anyone should be able to upload levels to the cup with as little censorship or limitations as possible, although because of technical limitations we certainly would need a central authority to do some minimum validations and managing of the online cup (e.g. manually checking that levels are freshly new).
 
