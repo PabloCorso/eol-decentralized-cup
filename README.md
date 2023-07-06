@@ -118,7 +118,7 @@ Comparison of number of finishes and ranking per average time in level:
     <th>Rank</th>
   </tr></thead>
   <tbody>
-    <tr><td>10 sec</td><td>10.0000</td><td>100.000</td></tr>
+    <tr><td>10 sec</td><td>10.000</td><td>100.000</td></tr>
     <tr><td>1 min</td><td>1.667</td><td>~100.000</td></tr>
     <tr><td>2 min</td><td>834</td><td>~100.000</td></tr>
     <tr><td>3 min</td><td>556</td><td>~100.000</td></tr>
